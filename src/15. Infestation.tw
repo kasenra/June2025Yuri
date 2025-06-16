@@ -1,0 +1,116 @@
+:: 15Start
+
+Stale air pumps into your lungs, and you trickle back into consciousness.
+
+You reach up and take hold of your respirator, then, in one motion, you yank it out and cough up several feet of tubing. When you push up to your feet, a familiar voice calls out.
+
+"Good evening, H.2941!" You stand and stretch your sore muscles. The pod room is pitch black and windowless, as always.
+
+"Sure, I bet it is somewhere." A locker at your feet lights up and dispenses your tools and a jumpsuit, which you step into. "What's the disturbance, SITRI?"
+
+Her voice appears at the far end of the room, lighting up the exit door.
+
+"Well, I'm sure it's probably nothing, but..." The door pops open, causing an alarm in the next room to blare until SITRI shuts it off. 
+
+"Erm... it's just that I... might have lost camera feed on the second deck storage room. A little bit." You heft your toolbox and step out into the glaring artificial light of the third deck atrium. From a cursory look outside, you figure the ship is stalled somewhere around Alpha Pyxis, not even halfway into her route. You sigh.
+
+"Did you lose it //a little bit// or did you ''lose it''? And how long has it been out?" You pass by an access point and watch SITRI's worried face deliberating for a few seconds before she responds.
+
+"It is... how should I say... OUT out. And... do you promise not to be mad?"
+
+<span id = "ab">
+\<<link "\"Absolutely not.\"">><<replace "#ab">>\
+"Absolutely not." Her voice garbles and statics. <<toggleclass "#ab_fl" "hide">> <<set $SITRIAFFINITY to -1>>
+
+"You're so cold to me, Moira..." She sighs. "Well, the thing is... I lost eyes on the room three years ago." You groan.
+
+"I know, I get it... I'm the worst. This is why I d- id--- didn--- did---"<</replace>><</link>>
+<<link "\"Fine...\"">><<replace "#ab">>\
+"Fine..." Her voice chimes and glitters. <<set $SITRIAFFINITY to 1>>
+
+"That's great to hear, because I lost vision on the storeroom about three years ago, and I thought you'd be furious."
+
+...
+
+<span id = "b_ab">
+\<<link "\"YOU FUCKING WHAT?!\"">>\
+<<replace "#b_ab">>\
+<<nobr>><span id = "yell">"YOU FUCKING WHAT?!</span><<link "?!">><<append "#yell">>?!<<set $SITRIAFFINITY -= 1>><</append>><</link>><</nobr>>" She yelps.
+
+"I'm sorry!!! Please stop yelling!!!" SITRI's raised voice echoes across the deck's full length, and the feedback from it sets off another alarm.
+
+"Look, I didn't want to bother you after last time! It's probably nothing! I wouldn't have woken you if I hadn't had-- a--- ha---- a---" <<toggleclass "#ab_fl" "hide">>
+\<</replace>><</link>>
+<<link "You could have woken me earlier, you know?">>\
+<<replace "#b_ab">>\
+"You could have woken me earlier, you know? It's not worth jeopardizing the ship over." She sighs. <<set $SITRIAFFINITY += 1>>
+
+"I know... it's just... last time was a bit of a mess." You reach out to an access point and stroke her cheek through the screen.
+
+"Totally, I get it. Still, it's only natural I'd be worried about you." She giggles.
+
+"Stop trying to sound so cool, Moira. I know you --- y --- you ---ou ---- you ----- y--" <<toggleclass "#ab_fl" "hide">>
+\<</replace>><</link>>
+\</span>
+
+<</replace>><</link>>
+\</span>
+\<span id = "ab_fl" class = "hide">\
+With a loud ''clunk'', SITRI's voice shuts off. No matter how much you call out to her, she doesn't respond. [[You swear to yourself and make for the elevator.|15Storage]]
+\</span>
+
+:: 15Storage
+You step off the elevator and immediately break off towards the storage room.
+
+As you close in on it, your footfalls get heavier, and a pink haze starts to cloud your vision. With it comes a sickly sweet scent that makes you gag and spit. Before it can overpower you, you fumble through your toolbox and pull out a gas mask, taking a few breaths of relief before strapping it on. The mist reaches its most dense right outside the storage room.
+
+You ready yourself, armed with a heavy wrench, and <<linkappend "kick down the door.">>
+
+...
+
+The room beyond the door is almost opaque through the haze. As you step further in, you can see two things:
+# A spiraling chitinous hive, built into the room's wall, and... 
+# A humanoid woman, tall, voluptuous, and dressed in gossamer silks.
+
+She watches you as you approach.
+
+@@color:#ff7adc;"That's curious. I didn't read any vital signs on this ship..."@@ She steps forward and prods at your mask. You try to step back, but she seems to move with you as you do. When she reaches you, though, you don't 'feel' her touch. 
+
+You tense. There's only one thing this could mean.
+
+<span id = "wizard">
+\<<link "You're a wizard.">><<replace "#wizard">>\
+"You're a wizard." <<set $QUEENAFFINITY to -3>> <<toggleclass "#wizardfl" "hide">>
+\<</replace>><</link>>
+<<link "You're a ghost.">><<replace "#wizard">>\
+"You're a ghost..." <<set $QUEENAFFINITY to -1>> <<toggleclass "#wizardfl" "hide">>
+\<</replace>><</link>>
+<<link "You're an enemy Power-User's WEAPON!">><<replace "#wizard">>\
+"You're an enemy Power-User's WEAPON! " <<set $QUEENAFFINITY to -10>> <<toggleclass "#wizardfl" "hide">>
+\<</replace>><</link>>
+<<link "You like girls...">><<replace "#wizard">>\
+"You like girls... " <<set $QUEENAFFINITY to 3>> <<toggleclass "#wizardfl" "hide">>
+\<</replace>><</link>>
+<<link "You're a voidborn.">><<replace "#wizard">>\
+"You're a voidborn. Or, more accurately, a manifestation created by one." <<set $QUEENAFFINITY to 5>> <<toggleclass "#wizardfl" "hide">>
+\<</replace>><</link>>
+<<link "You're a demon.">><<replace "#wizard">>\
+"You're a demon." <<set $QUEENAFFINITY to -3>> <<toggleclass "#wizardfl" "hide">>
+\<</replace>><</link>>
+<<link "You're an Invader.">><<replace "#wizard">>\
+"You're an Invader." <<set $QUEENAFFINITY to -2>> <<toggleclass "#wizardfl" "hide">>
+\<</replace>><</link>>
+<<link "You're some kind of... fuckin... thing, I don't know.">><<replace "#wizard">>\
+"You're... uh... I'm not really sure..." <<set $QUEENAFFINITY to 1>> <<toggleclass "#wizardfl" "hide">>
+\<</replace>><</link>>
+</span><</linkappend>>
+\<span id = "wizardfl" class = "hide">
+
+She cocks her head at you.
+
+((((((((((((((((Under Construction))))))))))))))))
+
+</span>
+
+
+

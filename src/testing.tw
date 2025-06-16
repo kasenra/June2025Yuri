@@ -9,6 +9,10 @@
 :: StoryTitle
 30 Days of IF Yuri
 
+:: StyleSheet [stylesheet]
+.hide{display : none;}
+
+
 :: 30Days
 <h2>June 2025</h2>
 <table id="calendar" style = "width:100%;text-align:left;vertical-align:top">
@@ -55,13 +59,20 @@
         &#8205; </td>
     </tr>
     <tr>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
+        <td>15:
+        [[Infestation|15Start]]</td>
+        <td>16:
+        Authority</td>
+        <td>17:
+        Quiet Life</td>
+        <td>18:
+        Crowns</td>
+        <td>19:
+        Among Us</td>
+        <td>20:
+        Many</td>
+        <td>21:
+        &#8205; </td>
     </tr>
     <tr>
         <td></td>
