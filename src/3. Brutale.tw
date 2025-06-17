@@ -1,4 +1,4 @@
-:: 3Start
+:: 3Start {"position":"700,375"}
 
 No one from Barracks E talks as they pack up their things. There’s an air of mourning hanging over the whole complex and nauseating you. The few others you pass in the hall seem resolute, more committed than ever to carry out Emil’s wish and deny the gamemasters their satisfaction. You feel a gross sort of pity towards them, throwing away their lives on principle like that. As much as you’d rather avoid a direct confrontation after living so close with them… you must admit that they’re putting a very tempting target on their back.
 
@@ -40,7 +40,7 @@ After a few minutes of silent contemplation, your eyes meet again, and you give 
 
 [[...|3Hike]]
 
-:: 3Hike
+:: 3Hike {"position":"700,475"}
 The hike out of the barracks and heading north is harsh, scaring off most of the weaker contestants. That’s why you’re both to pass your old neighbor, Cyryl, making his way alone. You stick to the shadows, but Kalina doesn’t have your skill, getting spotted in an instant. Cyryl waves her down.
 
 “Wow, Kalina! I thought you left ages before me. It’s so crazy seeing you here.” She panics, looking instinctively towards you and almost giving away your position in the brush. Thankfully, Cyryl doesn’t seem to notice, and he attributes her worry to something else. “Right… it must be uncomfortable talking with just the two of us. It’s weird not having Emil here.”
@@ -56,3 +56,5 @@ When you look up towards Kalina, she’s in a daze, with Cyryl’s blood coating
 “What’s wrong, Miss Lis? Aren’t you going to congratulate me?” 
 
 “I scored us a *point*.” When you don’t respond, she bends down to retrieve the knife you lent her, slurring her words to nobody in particular, “I don’t get what the big deal is,” and “That was so easy,” as she wipes her cheek against her blouse.
+
+[[(Return Home?)|30Days]] <<set $Finished_3 to true>>

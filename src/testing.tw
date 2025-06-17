@@ -1,4 +1,4 @@
-:: StoryData
+:: StoryData {"position":"200,375"}
 {
     "ifid": "CF3227DE-0448-44C3-9B78-EBCAFD5F2AC0",
     "format": "Sugarcube",
@@ -6,14 +6,14 @@
     "zoom": 1
 }
 
-:: StoryTitle
+:: StoryTitle {"position":"100,375"}
 30 Days of IF Yuri
 
-:: StyleSheet [stylesheet]
+:: StyleSheet [stylesheet] {"position":"0,375"}
 .hide{display : none;}
 
 
-:: 30Days
+:: 30Days {"position":"500,200"}
 <h2>June 2025</h2>
 <table id="calendar" style = "width:100%;text-align:left;vertical-align:top">
 
@@ -27,39 +27,39 @@
         <td>Saturday</td>
     </tr>
     <tr> <!-- Week of the 1st -->
-        <td>1:
+        <td>1: <<if $Finished_1>>✓<</if>>
         [[Repairs|1Start]]</td>
-        <td>2:
+        <td>2: <<if $Finished_2>>✓<</if>>
         [[Feeding|2Start]]</td>
-        <td>3:
+        <td>3: <<if $Finished_3>>✓<</if>>
         [[Brutale|3Start]]</td>
-        <td>4:
+        <td>4: <<if $Finished_4>>✓<</if>>
         [[Same Secret|4Start]]</td>
-        <td>5:
+        <td>5: <<if $Finished_5>>✓<</if>>
         [[Redo|5Start]]</td>
-        <td>6:
+        <td>6: <<if $Finished_6>>✓<</if>>
         [[Holding Back|7Start]]</td>
         <td>7:
         &#8205; </td>
     </tr>
     <tr> <!-- Week of the 8th -->
-        <td>8:
+        <td>8: <<if $Finished_8>>✓<</if>>
         [['Coincidence'|8Start]]</td>
-        <td>9:
+        <td>9: <<if $Finished_9>>✓<</if>>
         [[Buried Feelings|9Start]]</td>
-        <td>10:
+        <td>10: <<if $Finished_10>>✓<</if>>
         [[Lady of Faith|10Start]]</td>
-        <td>11:
+        <td>11: <<if $Finished_11>>✓<</if>>
         [[Brave Disciple|11Start]]</td>
-        <td>12:
+        <td>12: <<if $Finished_12>>✓<</if>>
         [['Rivalry'|12Start]]</td>
-        <td>13:
+        <td>13: <<if $Finished_13>>✓<</if>>
         [[Reasons to Fight|dptg]]</td>
         <td>14:
         &#8205; </td>
     </tr>
     <tr>
-        <td>15:
+        <td>15:<<if $Finished_15>>✓<</if>>
         [[Infestation|15Start]]</td>
         <td>16:
         Authority</td>

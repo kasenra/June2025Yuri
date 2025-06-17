@@ -1,4 +1,4 @@
-:: 7Start
+:: 7Start {"position":"1025,275"}
 A maid passes you on the way back to your rooms, whispering as she does: “She awaits you in your chambers, Lady Eir.” You color and respond with only a short nod. The walk to your room is long and quiet, and you spend the whole time thinking about her. When you reach the door, you freeze up.
 
 Is it proper to knock at your own door? This is nothing like your other… conquests. You settle for something in the middle, calling out through the doorway.
@@ -76,4 +76,6 @@ You pull back to a spacey, panting Ixtaro staring up at you, glassy-eyed. There�
 The two of you laugh, and you hold her face in your hand. She leans into it, placing a little kiss of her own on your thumb. A wicked thought pops into your head.
 
 “Why bother? Is anyone in this court brave enough to reproach you, my lady?” And to that, she has no answer.
+
+[[(Return Home?)|30Days]] <<set $Finished_7 to true>>
 <</linkreplace>>

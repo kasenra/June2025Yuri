@@ -1,4 +1,4 @@
-:: 5Start
+:: 5Start {"position":"800,375"}
 “Hello?”
 
 “Ah, Auntie. Yes, I’m well. Yeah, I’m out with Nicoletta again. We should be home soon. Got it, love you too. Bye.” You answer in the same way you always have, then hang up. The menu on your phone flashes for a second before you snap it shut, showing 15:35, February 7th, 1996.
@@ -27,7 +27,7 @@ Nicoletta finally walks back out, with a look of what you interpret to be distre
 
 [[...|5Alley]]
 
-:: 5Alley
+:: 5Alley {"position":"800,475"}
 The cutthrough is barren most of the way, but, when you pass a pair of foreigners, they call out to you.
 
 “Hey, you. You’re de Lupo’s girl, aren’t you?” Nicoletta moves to pull you right past them, but the gruffer one stands past you, chiding her.
@@ -81,3 +81,5 @@ Crowds are starting to gather around the alley, and there’s still a chance you
 You hear the dialtone, and then…
 
 “Hello?”
+
+[[(Return Home?)|30Days]] <<set $Finished_5 to true>>

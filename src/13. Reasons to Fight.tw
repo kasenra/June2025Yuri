@@ -1,4 +1,4 @@
-:: dptg
+:: dptg {"position":"725,175"}
 
 You spot her from across the field: Nasrin of Galandis. Scales black as death, clad in blood-red robes, absolutely dwarfing the few remaining undead she commands. Her eyes meet yours, and a smile flicks to her face as she incants, crossing the massive distance between you and charging.
 
@@ -51,7 +51,7 @@ And, totally out of will to fight, you collapse on top of her. She holds on for 
 [[...|dptg2]]
 <</linkappend>><</linkappend>><</linkreplace>>
 
-:: dptg2
+:: dptg2 {"position":"825,175"}
 
 As you lay together, the noises from the rest of the battlefield fade down, eventually into nothing. Nobody from either side comes to find you.
 
@@ -124,7 +124,7 @@ In that moment, you realize she could, if the whim came to her for even a moment
 In that moment, you decide to fully give yourself over to her, and in the next, she thrusts deep into you. When you cry out, she presses only her thumb against your lips, and you take it happily. You bite and cry into the tough flesh as Nasrin rocks her hips against yours. Your pace accelerates like this, pushing, and biting, and licking, and moaning, and clawing, and sucking, and weeping, and devouring, and, and, and… and… [[and…|dptg3]]
 <</linkappend>><</linkreplace>><</linkappend>><</linkappend>>
 
-:: dptg3
+:: dptg3 {"position":"925,175"}
 
 You stir to the sounds of gulls crying.
 
@@ -148,4 +148,4 @@ You push yourself up to your feet, wrapping tightening the cloak around your sho
 
 “We’ll meet again soon, Renata. I guarantee it.”
 
-[[(Return Home?)|TestMe]]
+[[(Return Home?)|30Days]] <<set $Finished_13 to true>>

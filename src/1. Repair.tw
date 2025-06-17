@@ -1,4 +1,4 @@
-:: 1Start
+:: 1Start {"position":"200,100"}
 Droning noise greets you as you stir and your vision returns in patches. You’re awkwardly draped over an undersized shop bench, and when you attempt to wrench your leg free, you feel the restraints binding you to it. A familiar voice breaks through.
 
 “Do you have to squirm around like this every time? You won’t be much use if I get bumped and weld your proprio module in place.” Your vision adjusts enough to see her. Short, silvery hair with dark roots, and stained with oil… Her pin suggests she’s an Expeditionary Force authorized mechanic, but you can’t quite recognize her. Then, when she sees your confused face, she curses to herself and reaches into your chassis to flip a small switch on your neural board. Once your IFF module finally passes boot, you calm down and smile her way.
@@ -14,3 +14,5 @@ Droning noise greets you as you stir and your vision returns in patches. You’r
 When you flick your wrist towards her, a thin blade glides into your grasp, perfectly angled to press ever-so-slightly into her neck. She stands perfectly still, and you take a moment to admire her slow, careful breathing and the fear buried so deep in her expression. Then, you dislocate a finger to turn the blade to its flat and retract it. Her gaze lingers against yours for a moment, with a bit of color rising into her cheeks.. then she looks back to her work. “Save that for the Others, would you?” A smile creeps across your face.
 
 “Of course, mistress.”
+
+[[(Return Home?)|30Days]] <<set $Finished_1 to true>>

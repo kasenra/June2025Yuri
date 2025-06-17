@@ -1,4 +1,4 @@
-:: 15Start
+:: 15Start {"position":"200,0"}
 
 Stale air pumps into your lungs, and you trickle back into consciousness.
 
@@ -59,7 +59,8 @@ Her voice appears at the far end of the room, lighting up the exit door.
 With a loud ''clunk'', SITRI's voice shuts off. No matter how much you call out to her, she doesn't respond. [[You swear to yourself and make for the elevator.|15Storage]]
 \</span>
 
-:: 15Storage
+:: 15Storage {"position":"100,0"}
+
 You step off the elevator and immediately break off towards the storage room.
 
 As you close in on it, your footfalls get heavier, and a pink haze starts to cloud your vision. With it comes a sickly sweet scent that makes you gag and spit. Before it can overpower you, you fumble through your toolbox and pull out a gas mask, taking a few breaths of relief before strapping it on. The mist reaches its most dense right outside the storage room.
@@ -76,41 +77,264 @@ She watches you as you approach.
 
 @@color:#ff7adc;"That's curious. I didn't read any vital signs on this ship..."@@ She steps forward and prods at your mask. You try to step back, but she seems to move with you as you do. When she reaches you, though, you don't 'feel' her touch. 
 
-You tense. There's only one thing this could mean.
+You tense. There's only one thing this could mean.<<set $QUEENAFFINITY = 0>>
 
 <span id = "wizard">
 \<<link "You're a wizard.">><<replace "#wizard">>\
-"You're a wizard." <<set $QUEENAFFINITY to -3>> <<toggleclass "#wizardfl" "hide">>
+"You're a wizard." She rolls her eyes. <<set $QUEENAFFINITY = -3>> <<removeclass "#wizardfl" "hide">><<redo>>
+
+@@color:#ff7adc;"I'm not sure what backwater planet you come from, but you're off the mark, human."@@
 \<</replace>><</link>>
 <<link "You're a ghost.">><<replace "#wizard">>\
-"You're a ghost..." <<set $QUEENAFFINITY to -1>> <<toggleclass "#wizardfl" "hide">>
+"You're a ghost..." She snickers. <<set $QUEENAFFINITY = -1>> <<removeclass "#wizardfl" "hide">><<redo>>
+
+@@color:#ff7adc;"Do your people still believe in such things? Truly, the situation is more dire than I'd known."@@
 \<</replace>><</link>>
 <<link "You're an enemy Power-User's WEAPON!">><<replace "#wizard">>\
-"You're an enemy Power-User's WEAPON! " <<set $QUEENAFFINITY to -10>> <<toggleclass "#wizardfl" "hide">>
+"You're an enemy Power-User's WEAPON!" She gives you a disgusted look.<<set $QUEENAFFINITY = -10>> <<removeclass "#wizardfl" "hide">><<redo>>
+
+@@color:#ff7adc;"Oh, void... you're not one of those humans that reads books instead of talking to your kind, are you?"@@
 \<</replace>><</link>>
 <<link "You like girls...">><<replace "#wizard">>\
-"You like girls... " <<set $QUEENAFFINITY to 3>> <<toggleclass "#wizardfl" "hide">>
+"You like girls... " She licks her lips. <<set $QUEENAFFINITY = 3>> <<set $v15gay = 1>> <<removeclass "#wizardfl" "hide">><<redo>>
+
+@@color:#ff7adc;"Well, I can't fault you there. That is definitely a weakness of mine..."@@
 \<</replace>><</link>>
 <<link "You're a voidborn.">><<replace "#wizard">>\
-"You're a voidborn. Or, more accurately, a manifestation created by one." <<set $QUEENAFFINITY to 5>> <<toggleclass "#wizardfl" "hide">>
+"You're a voidborn. Or, more accurately, a manifestation created by one." She smiles. <<set $QUEENAFFINITY = 5>>
+
+@@color:#ff7adc;"Good guess, human! How'd you figure that out?"@@ She circles around you, looking you up and down.
+
+<span id="voidguess">\
+<<link "\"You're projecting directly into my brain. With no Gifted on the manifest, there's only one alternative.\"">><<replace "#voidguess">><<removeclass "#wizardfl" "hide">><<redo>>\
+"You're projecting directly into my brain. With no Gifted on the manifest, there's only one option left." She stops and looks intensely at your face.<<set $QUEENAFFINITY += 1>>
+@@color:#ff7adc;"Hmm... I'll give you that much. Cute trick."@@
+\<</replace>><</link>>
+<<link "\"That's a voidant hive. From the looks of it, you must be their queen.\"">><<replace "#voidguess">><<removeclass "#wizardfl" "hide">><<redo>>\
+"That's a voidant hive. From the looks of it, you must be their queen." She chitters. <<set $QUEENAFFINITY += 2>>
+
+@@color:#ff7adc;"Ah, it feels so good for my status to be recognized."@@ You pull what you've prepared out of your toolbox, levelling a can of delouser at her. She bolts upright and raises her hands in surrender. 
+\<</replace>><</link>>
+<<link "\"The word is 'guess'. But, you've confirmed it now.\"">><<replace "#voidguess">><<removeclass "#wizardfl" "hide">><<redo>>\
+"The word is 'guess'. But, you've confirmed it now." She laughs.
+
+@@color:#ff7adc;"How clever..."@@
+\<</replace>><</link>>
+\</span>
 \<</replace>><</link>>
 <<link "You're a demon.">><<replace "#wizard">>\
-"You're a demon." <<set $QUEENAFFINITY to -3>> <<toggleclass "#wizardfl" "hide">>
+"You're a demon." She rolls her eyes. <<set $QUEENAFFINITY = -3>> <<removeclass "#wizardfl" "hide">><<redo>>
+
+@@color:#ff7adc;"I'm not sure what backwater planet you come from, but you're off the mark, human."@@
 \<</replace>><</link>>
 <<link "You're an Invader.">><<replace "#wizard">>\
-"You're an Invader." <<set $QUEENAFFINITY to -2>> <<toggleclass "#wizardfl" "hide">>
+"You're an Invader." She cocks her head. <<set $QUEENAFFINITY = -10>> <<removeclass "#wizardfl" "hide">><<redo>>
+
+@@color:#ff7adc;"Hoh...? That's a curious thing to hear from an actual Invader."@@
 \<</replace>><</link>>
 <<link "You're some kind of... fuckin... thing, I don't know.">><<replace "#wizard">>\
-"You're... uh... I'm not really sure..." <<set $QUEENAFFINITY to 1>> <<toggleclass "#wizardfl" "hide">>
+"You're... uh... I'm not really sure..." She giggles. <<set $QUEENAFFINITY = 1>> <<removeclass "#wizardfl" "hide">><<redo>>
+
+@@color:#ff7adc;"Cute."@@ She draws closer and squeezes your cheek between two fingers.
 \<</replace>><</link>>
 </span><</linkappend>>
 \<span id = "wizardfl" class = "hide">
+\<<do>>
+<<if $QUEENAFFINITY lt 5>>
+@@color:#ff7adc;"If you truly do not know, I must tell you."@@ She sighs. @@color:#ff7adc;"In your Invader tongue, we are 'voidborn'."@@
+\<</if>>
+<<if $QUEENAFFINITY lt 7>>
+@@color:#ff7adc;"I'm the Queen of this hive, and I must be given the proper respect if I'm to interact with an Invader."@@ Your blood runs cold, and you reach into your toolbox, fumbling around until you find it.
 
-She cocks her head at you.
+You raise a can of delouser in her direction, and the queen, sighing, raises her hands in surrender.
+\<</if>><</do>>
 
-((((((((((((((((Under Construction))))))))))))))))
+@@color:#ff7adc;"Of course, this is the treatment I get."@@ She looks at you with a pained expression. @@color:#ff7adc;"Is there no way we can come to an agreement?"@@
 
-</span>
+<span id="deal">\
+<<link "\"What could we possibly have to discuss?\"">><<replace "#deal">>\
+"What could we possibly have to discuss?" The queen forces a pained smile and takes a step back.
 
+"W-well, we don't have any actual quarrel, do we? You can fix your electrical mumbo-jumbo, and we can all keep living. There's no need for us to fight..."
 
+<span id="dealing">\
+<<link "\"You've already damaged several key electronic systems. I don't have anything against you, but your hive is bound to cause some serious damage soon.\"">><<replace "#dealing">>\
+"You've already damaged several key electronic systems. I don't have anything against you, but your hive is bound to cause some serious damage soon." She grumbles and chews on her nails.
 
+"Well, we need to eat..." The queen shoots you an exasperated look. "Maybe you could spare some electronic junk for us to eat?" You scoff.
+
+"That hardly sounds like a deal. We don't have the staff needed to keep you as a pet." She huffs.
+
+"Then what? Do you expect me to ''work''?" The idea hadn't come to you before... but it could work. You're the only human worker on this ship, but maybe a swarm of voidbugs could serve as a substitute... You smile.
+
+<span id= "service">\
+<<link "\"Actually, yes. You can be my apprentice, and help me fix this mess.\"">><<replace "#service">>\
+"Alright. You can be my apprentice, and help me fix this mess." The queen's eyes go wide. <<addclass "#killswitch" "hide">>
+
+"You can't be serious..." When you insist, she deflates.
+
+The two of you work together on a few hours of 'peasant labor' and manage to fix up the storage bay wiring. After the queen flops down out of exhaustion, you pour out a box of defective toy motors from the lower storage bay, and the hive whips back to life to devour them.
+
+[[With a smile, you step off to check up on SITRI|15ComputerCore]]
+\<</replace>><</link>>
+<<link "\"Actually, yes. You can pay me using your body.\"">><<replace "#service">>\
+"Actually, yes. You can pay me using your body." 
+
+The queen stares at you, open mouthed in shock. When you don't budge, she turns to hide her face.
+
+"You don't... That... I just..."
+
+...
+
+She steps back your way, coming in close and whispering.
+
+"I'm not necessarily opposed, but... do you seriously want that?" She shifts around on her feet as she awaits your answer.
+
+<<linkappend "I'm serious.">> <<set $SITRISleepCamOff to 1>><<addclass "#killswitch" "hide">><<set $QUEENAFFINITY += 10>>
+
+...
+
+She giggles.
+
+<<if $v15gay>>\
+"Somehow, I expected this sort of thing from you."
+\<<else>>\
+"Very well. It suits me better than manual labor anyway."
+\<</if>> She leans up, placing a brief, very corporeal, kiss on your cheek.
+
+"We'll do the rest once the kids are asleep, okay?"
+
+[[...|15ComputerCore]]
+\<</linkappend>>
+\<</replace>><</link>>
+\</span>
+\<</replace>><</link>>
+<<link "\"Sorry, but having you here adds a lot of undue risk to my work.\"">><<replace "#dealing">>\
+"Sorry, but having you here adds a lot of undue risk to my work." She sighs.
+
+"You'll wipe my family out because it's ''too hard'' to let us live? The height of human depravity knows no bounds..." Then, she seems to have an idea.
+
+"Well, if we're only causing trouble because of our nest... maybe we could move somewhere else on the ship?"
+
+<span id="relocate">\
+<<link "\"How can I trust that you won't start tearing things up again anyway?\"">><<replace "#relocate">><<set $QUEENAFFINITY += 1>>\
+"How can I trust that you won't start tearing things up again anyway?" Your gazes meet, then she extends a hand.
+
+<span id="shake">\
+<<link "Shake it." >><<replace "#shake">><<set $QUEENAFFINITY += 5>>\
+"Fine..." You reach out and shake her hand. The queen responds with a haughty self-satisfied smile.
+
+"Perfect. I've already moved all my children out from the innermost layer. If you chip away at that, you should be able to fix... whatever it is they might have eaten."
+
+You sigh and get to work rewiring the camera network. A few particularly brave voidants crawl onto you in the process, and you decide it's best to leave them be.
+
+[[Once everything is connected again, you head up to check on SITRI.|15ComputerCore]] <<addclass "#killswitch" "hide">>
+\<</replace>><</link>>
+<<link "\"Are you fucking serious? No, that's not how this works.\"" >><<replace "#shake">><<set $QUEENAFFINITY += 2>><<set $SITRISleepCamOff to 1>>\
+"Are you fucking serious? No, that's not how this works." You swat her hand away, and the queen immediately starts to sniffle.
+
+"You don't even care about my royal honor...? You're the worst..." Real tears drop out of her illusory eyes, and you feel suddenly self aware. The distance between you is hard to measure, so you awkwardly pat her on the head, which she seems to accept.
+
+"S-sorry... I just need more reassurance than that..."
+
+After some more comforting, she pops up with an idea.
+
+"You have stasis pods here, don't you? I heard humans always have them on their ships. ''I'' keep well in the cold, and you can use me as collateral to keep my family in line." She dances around and chitters excitedly. You, on the other hand, suddenly feel quite shy.
+
+"Well, that could work... it's just..." The queen steps closer and cocks her head at you. "Well, I'm the only staff on the ship. So... my cryopod is the only one." She mulls over this information for a second before shrugging.
+
+"Well, you might accidentally roll over and squish me, but I think we could figure something out for that." After a moment, she looks down at her projected form and seems to realize. "I see... That's..."
+
+"Right..."
+
+...
+
+"W-well, it's my best idea. It's not like we'll be in there for long, anyway." You both color, and you bite back a correction that you won't spend long ''conscious'' in the pod together 
+
+The two of you work quickly to rip out and replace the dead lines consumed by the hive, and [[you take your first chance to run away to SITRI's room.|15ComputerCore]] <<addclass "#killswitch" "hide">>
+
+\<</replace>><</link>>
+\</span>
+
+\<</replace>><</link>>
+<<link "\"Unfortunately, I can't have you or your kids on this ship when management comes around.\"">><<replace "#relocate">><<set $QUEENAFFINITY -= 2>>\
+"Unfortunately, I can't have you or your kids on this ship when management comes around." The queen groans.
+
+"Fine... Let us pack up our things, and we'll go quietly to the airlock. No need to keep waving that thing everywhere." You keep the delouser trained on her and her hive, but they don't try anything.
+
+Once the colony forms into a long line, you lead them to the second deck airlock. There, the queen makes a series of rude gestures at you as you make her strange family //someone else's problem//.
+
+When you return to the stockroom, you can easily strip out the dessicated hive and rewire everything they broke.
+
+[[Afterwards, you head off to check on SITRI.|15ComputerCore]] <<addclass "#killswitch" "hide">>
+\<</replace>><</link>>
+\</span>
+\<</replace>><</link>>
+\</span>
+\<</replace>><</link>>
+\</span>
+<span id = "killswitch">
+\<<link "Pull the trigger.">><<replace "#deal">><<removeclass "#spritz" "hide">><<addclass "#killswitch" "hide">><<if document.getElementById("dealing") isnot null>><<addclass "#dealing" "hide">><</if>>\
+\<</replace>><</link>>
+\</span>
+\</span>
+\<span id = "spritz" class = "hide">
+You pull the trigger, flooding the storage room with delouser. The queen coughs and gags, discorporeating as she falls on the floor. Swarms of voidants run from the hive in a futile attempt to escape, and their psychic screams of pain ring in your ears.
+
+...
+
+As the room quiets down, the fog slips away with it, and you can plainly see where the storage room wall bulges around the hive. You get to work ripping it apart and repairing the internal wires.
+
+Once you're done, [[you pack up to go check on SITRI.|15ComputerCore]]
+\</span>
+
+:: 15ComputerCore {"position":"0,0"}
+SITRI's communication module whirs to life, joining the chorus of machinery all around her. You thrum your fingers against the terminal's dark screen until she comes into focus there.
+
+"Mnnmn... Moira...?" She blinks away sleep as you stroke her hair.
+
+"I'm here, I'm here." Touchscreen haptics whir where she nuzzles into your hand. "Any updates while you were out?" She yawns.
+
+"All clear. Looks like the storeroom cams are back, too..." She smiles up at you. "I hope it wasn't too much trouble."
+
+You wave away the thought.
+
+"It was nothing. Just... <<if $QUEENAFFINITY lte -10>>A pain in the ass. Nothing I couldn't handle.<<elseif $QUEENAFFINITY lte -5>>A nuisance. It shouldn't be an issue anymore.<<elseif $QUEENAFFINITY lte 0>>A dicey situation. It's been handled.<<elseif $QUEENAFFINITY lte 5>>A fun little distraction. There's no need to trouble yourself over it.<<else>>Well, I'm sure she'll want to introduce herself.<</if>>" She giggles.
+
+"Then I'll just trust your judgement." She stretches up offscreen before settling down onto your hand. "It's too early to worry about such a trivial thing." You sigh.
+<<if $SITRIAFFINITY gte 0>>
+"I missed you..." SITRI kisses your palm.
+
+"I missed you, too. It's always such a shame seeing you off to bed." There's a somber look in her eyes. "We never get enough time together..."
+
+You lean into the screen and kiss her, leaving a little wet spot on her monitor. She giggles.
+
+"Hey, my projections say we'll be ahead of schedule after our next jump."
+
+"What do you think would happen if... say... a tech error left the ship stranded for a year or two?" A sly look crosses her face, and you laugh.
+
+"Well, it'd be a shame, but... well within margin, I think." And the two of you kiss.
+\<<else>>\
+
+...
+    
+"Hey... SITRI..." She perks up.
+
+"I just wanted to apologize for earlier. Cryosleep makes me moody." SITRI presses a small kiss where your hand touches her screen.
+
+"You think something like that would shake me?" You sigh, but she continues. "Although, you were a little scary... <<if $SITRIAFFINITY lte -1>>Like, seriously scary...<</if>> <<if $SITRIAFFINITY lte -5>>Like, to a degree I've never seen out of you...<</if>> <<if $SITRIAFFINITY lte -10>>Maybe even weirdly so...<</if>> <<if $SITRIAFFINITY lte -20>>You weren't doing that on purpose, were you?<</if>> <<if $SITRIAFFINITY lte -30>>I mean, who would just intentionally yell at their Ship AI like that for no reason?<</if>> <<if $SITRIAFFINITY lte -60>>That'd be weird, is all I'm saying.<</if>>"
+
+"Maybe a kiss would make me feel better?" You snicker, brushing a stray hair from her face.
+
+"Fine." And the two of you kiss, leaving a little smear of wetness on her screen, which you don't dare wipe off.
+\<</if>>
+
+Alarms cry out across the deck, washing the ship in red light. SITRI droops.
+
+"Looks like our time's up." You put your hand to her screen, and you feel hers there with you. Then, you take a step back.
+
+"You'll wake me if anything goes wrong?" She nods. "And you won't wait three years?" SITRI laughs.
+
+"Get to your pod before you see something that destroys your brain, dummy." You blow her a kiss and run off. As you do, you hear her whisper over the PA system.
+
+"Goodnight, my dear." [[And you have the most sound year of sleep in your adult life.|30Days]] <<set $Finished_15 to true>>

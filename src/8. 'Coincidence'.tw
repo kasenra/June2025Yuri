@@ -1,4 +1,4 @@
-:: 8Start
+:: 8Start {"position":"375,475"}
 You groan and lay your head on your desk. It’s currently eleven, and you’ve yet to add anything to what’s shaping up to be your final project at this job. The standards at this company are brutal, and you’re struggling to find a single unturned stone in all of Eugene.
 
 Normally, you’d find a way to slip by, but you pulled an all-nighter festering about your breakup. You’re not particularly sad about missing out on him, but you wasted a lot of time on your two dates with him, and it eats you up a little. Even after all that, it took an entire extra week for it to become clear he was ghosting you! You groan again remembering that much.
@@ -23,7 +23,7 @@ As if on cue, the clock strikes noon and your coworkers start shuffling out of t
 
 [[...|8Fab]]
 
-:: 8Fab
+:: 8Fab {"position":"200,475"}
 
 When you first step foot into ‘Fabricación’, you’re shocked by a few things:
 
@@ -58,3 +58,5 @@ Your coffee arrives a few moments later, as well as a to-go box for Katja, who s
 You shiver, and that strange feeling returns.
 
 You’ve never even mentioned egg salad in front of Katja before.
+
+[[(Return Home?)|30Days]] <<set $Finished_8 to true>>
