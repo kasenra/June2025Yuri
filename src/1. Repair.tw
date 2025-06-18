@@ -16,3 +16,10 @@ When you flick your wrist towards her, a thin blade glides into your grasp, perf
 “Of course, mistress.”
 
 [[(Return Home?)|30Days]] <<set $Finished_1 to true>>
+
+:: 1CW [OOC]
+
+<h3>CONTENT WARNINGS:</h3>
+* Light nonverbal threats of intimate partner violence
+[[I consent.|1Start]]
+[[Take me back.|30Days]]

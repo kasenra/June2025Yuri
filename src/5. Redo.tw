@@ -83,3 +83,10 @@ You hear the dialtone, and then…
 “Hello?”
 
 [[(Return Home?)|30Days]] <<set $Finished_5 to true>>
+
+:: 5CW [OOC]
+
+<h3>CONTENT WARNINGS:</h3>
+* Violent death of a minor
+[[I consent.|5Start]]
+[[Take me back.|30Days]]

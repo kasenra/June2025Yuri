@@ -25,6 +25,8 @@ After a long day of work, this much exertion leaves you panting and aching. You 
 
 “That wasn’t necessary, Miriam.” She takes a breath… then gives a small, nod. “The ALLMOTHER is going to be pissed…”
 
+[[...|12Inside]]
+
 :: 12Inside {"position":"300,375"}
 The two of you provoke many curious stares and teasing whispers as you drag your prisoner to Her chambers. When you enter, you realize you’re unlucky enough to have caught Her on a bad day. Miriam tries to explain her reasoning, but the ALLMOTHER is only more engaged, haranguing and degrading her for at least five minutes in front of Her entire court. 
 
@@ -36,13 +38,14 @@ You understand perfectly.
 
 As you approach, the prisoner’s eyes become crazed, and she lets out a long, muffled wail. She strains against her new bindings as much as she can, to no avail. You reach her side and produce a small-bladed knife.
 
-<<linkreplace "Kill her.">><<linkreplace "...">><</linkreplace>><<linkreplace "Do it...">><</linkreplace>>There is no pleasure on your face as you do it. You thrust the blade into her with a look of quiet melancholy. When she cries out, you do it again. And, again. And, again. And… and… and… and…… and…… and…… and……… and……… and………
+<<linkreplace "Kill her.">><<linkreplace "...">><<linkreplace "Do it...">>
+\There is no pleasure on your face as you do it. You thrust the blade into her with a look of quiet melancholy. When she cries out, you do it again. And, again. And, again. And… and… and… and…… and…… and…… and……… and……… and………
 
 At some point, you fall on top of her (or, has she already become ‘it’?), still bearing down and leaving nothing but an unrecognizable red pulp. At some point, you start weeping. You finally stop, only when you roll to your side and retch. Pure, starved bile burns your throat and sullies the tiles of the court.
 
 …
 
-A hand lingers over your cheek before it reaches down and brushes hair out of your face. Then, you hear Her voice.
+A hand lingers over your shoulder before it reaches down and brushes hair out of your face. Then, you hear Her voice.
 
 “You’ve done well, my child.”
 
@@ -50,3 +53,12 @@ Then, the ALLMOTHER presses a soft, hesitant kiss into your cheek, and a shudder
 
 [[(Return Home?)|30Days]] <<set $Finished_11 to true>>
 <</linkreplace>>
+<</linkreplace>>
+<</linkreplace>>
+:: 11CW [OOC]
+
+<h3>CONTENT WARNINGS:</h3>
+* POV is party to brutal onscreen murder of a helpless party
+* Vomiting
+[[I consent.|11Start]]
+[[Take me back.|30Days]]

@@ -38,3 +38,11 @@ Umi yanks her arm off your chest, and you finally heave a full breath. Your dres
 “I’ve worn this every night, just in case you ever decided to sneak a peek…”
 
 [[(Return Home?)|30Days]] <<set $Finished_12 to true>>
+:: 12CW [OOC]
+
+<h3>CONTENT WARNINGS:</h3>
+* Misogynist Comments
+* Light Sexual Aggression
+* Light Asphyxiation
+[[I consent.|12Start]]
+[[Take me back.|30Days]]

@@ -28,40 +28,40 @@
     </tr>
     <tr> <!-- Week of the 1st -->
         <td>1: <<if $Finished_1>>✓<</if>>
-        [[Repairs|1Start]]</td>
+        [[Repairs|1CW]]</td>
         <td>2: <<if $Finished_2>>✓<</if>>
-        [[Feeding|2Start]]</td>
+        [[Feeding|2CW]]</td>
         <td>3: <<if $Finished_3>>✓<</if>>
-        [[Brutale|3Start]]</td>
+        [[Brutale|3CW]]</td>
         <td>4: <<if $Finished_4>>✓<</if>>
-        [[Same Secret|4Start]]</td>
+        [[Same Secret|4CW]]</td>
         <td>5: <<if $Finished_5>>✓<</if>>
-        [[Redo|5Start]]</td>
-        <td>6: <<if $Finished_6>>✓<</if>>
-        [[Holding Back|7Start]]</td>
+        [[Redo|5CW]]</td>
+        <td>@@color:#ff7575;6: <<if $Finished_7>>✓<</if>>@@
+        [[Holding Back|7CW]]</td>
         <td>7:
         &#8205; </td>
     </tr>
     <tr> <!-- Week of the 8th -->
         <td>8: <<if $Finished_8>>✓<</if>>
-        [['Coincidence'|8Start]]</td>
+        [['Coincidence'|8CW]]</td>
         <td>9: <<if $Finished_9>>✓<</if>>
-        [[Buried Feelings|9Start]]</td>
-        <td>10: <<if $Finished_10>>✓<</if>>
-        [[Lady of Faith|10Start]]</td>
+        [[Buried Feelings|9CW]]</td>
+        <td>@@color:#ff7575;10: <<if $Finished_10>>✓<</if>>@@
+        [[Lady of Faith|10CW]]</td>
         <td>11: <<if $Finished_11>>✓<</if>>
-        [[Brave Disciple|11Start]]</td>
+        [[Brave Disciple|11CW]]</td>
         <td>12: <<if $Finished_12>>✓<</if>>
-        [['Rivalry'|12Start]]</td>
-        <td>13: <<if $Finished_13>>✓<</if>>
-        [[Reasons to Fight|dptg]]</td>
+        [['Rivalry'|12CW]]</td>
+        <td>@@color:#ff7575;13: <<if $Finished_13>>✓<</if>>@@
+        [[Reasons to Fight|13CW]]</td>
         <td>14:
         &#8205; </td>
     </tr>
     <tr>
         <td>15:<<if $Finished_15>>✓<</if>>
-        [[Infestation|15Start]]</td>
-        <td>16:
+        [[Infestation|15CW]]</td>
+        <td>@@color:#ff7575;16:@@
         Authority</td>
         <td>17:
         Quiet Life</td>

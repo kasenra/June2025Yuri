@@ -338,3 +338,12 @@ Alarms cry out across the deck, washing the ship in red light. SITRI droops.
 "Get to your pod before you see something that destroys your brain, dummy." You blow her a kiss and run off. As you do, you hear her whisper over the PA system.
 
 "Goodnight, my dear." [[And you have the most sound year of sleep in your adult life.|30Days]] <<set $Finished_15 to true>>
+
+:: 15CW [OOC]
+
+<h3>CONTENT WARNINGS:</h3>
+* Potential to coerce a tenant into sex
+* You can yell at your girlfriend and hurt her feelings :(
+* Insects crawling on POV
+[[I consent.|15Start]]
+[[Take me back.|30Days]]

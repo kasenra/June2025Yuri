@@ -60,3 +60,11 @@ You shiver, and that strange feeling returns.
 You’ve never even mentioned egg salad in front of Katja before.
 
 [[(Return Home?)|30Days]] <<set $Finished_8 to true>>
+
+:: 8CW [OOC]
+
+<h3>CONTENT WARNINGS:</h3>
+* Stalking
+* Maid cafes
+[[I consent.|8Start]]
+[[Take me back.|30Days]]
