@@ -59,10 +59,10 @@
         &#8205; </td>
     </tr>
     <tr>
-        <td>15:<<if $Finished_15>>✓<</if>>
+        <td>15: <<if $Finished_15>>✓<</if>>
         [[Infestation|15CW]]</td>
-        <td>@@color:#ff7575;16:@@
-        Authority</td>
+        <td>@@color:#ff7575;16: <<if $Finished_16_A and $Finished_16_B>>✓<<elseif $Finished_16_A or $Finished_16_B>>1/2<</if>>@@
+        [[Authority|16CW]]</td>
         <td>17:
         Quiet Life</td>
         <td>18:

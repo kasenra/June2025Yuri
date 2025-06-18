@@ -1,32 +1,177 @@
 :: 16Start
-[Pulling garbage out of ruined corposlop labs in CaPUT]
+\ <<set _Corp to ["Neurocore", "Meta", "Adhoc", "Blitzr", "M-Stack", "RNG-Sus", "Presanguine", "Eletech", "Newnoise", "HardKore"]>>
+\ <<set _Thing to ["Horse", "Chlorine", "Rose", "Vibe", "Memory", "Dance", "Hyperpop", "Police", "Justice", "Punk"]>>
+\ <<set _Doer to ["Repellant", "Perfume", "Toy", "Charger", "App", "Phone", "Sprinkler", "Masticator", "Detector"]>>
+Concrete dust swirls in a cloud around you. You sputter and cough, pulling your rebreather to your face for a deep breath.
 
-[Random Artefact]
+As you dust off and pull yourself up to your feet, Keisha comes into view at the end of the tunnel, and she runs to your side.
 
-[Goons Laughing]
+"What's wrong with you?!" She circles around, checking you over from head to toe. "I left you alone for a minute, and you're already getting into trouble." You doff the mask and exhale, then you laugh.
 
-[Return to surface]
+"It's nothing. I saw some corposcrap I wanted, and I took it. Simple as that." She groans and sweeps the dust off your back.
+
+"You know better than most of us how unstable this shithole is, boss. Don't go taking risks over a..." Keisha glances at the dented box at your feet. "What the hell is that, anyway?" You bend down and lift it up to your chest.
+
+"Not sure..." You shake the box, then Keisha grabs it tight and glares at you. Instead, you look it over while she holds it.
+
+"I thought it was one of those old <<print _Thing.pluck()>> <<print _Doer.pluck()>>s that <<print _Corp.pluck()>> made back in '<<print random(16, 67)>>. But, looking at the whole thing now, it looks more like an old <<print _Corp.pluck()>> model."
+
+At the far end of the tunnel, you spot a crowd of your underlings. They're watching the two of you and whispering between themselves. When they catch you staring, they turn on their heels and leave quick. By the time Keisha checks over her shoulder, they're out of sight.
+
+She shrugs.
+
+"Well, I would have thought it was some <<print _Corp.pluck()>> <<print _Thing.pluck()>> <<print _Doer.pluck()>>, so that goes to show what I know." You laugh and turn back towards the rubble. Before you can prise an old cyberarm from a storage case, she speaks up again.
+
+"Actually, Esi, maybe we should call it a day?" You scrunch your face up at her. "The CPUT'll still be here tomorrow, and you scratched yourself up pretty bad getting that... whatever." She gestures wildly towards the box she's holding.
+
+"Besides, if I can get a cutting crew in here tonight, there'll be plenty new pickings for you." Somehow, she always knows just how to tempt you.
+
+You stomp open the display case and lift the arm free, only to realize it's a plaster display model. It cracks in two when you chuck it against the wall.
+
+"Fine. I should run this to Azumah anyway." You take back your prize, and Keisha freely surrenders it to you.
+
+On your way to the surface, you're able to shake it a few times without her noticing, not that it tells you much.
+
+[[...|16AboveGround]]
 
 :: 16AboveGround
-[Drop relic off with dude]
+After some cajoling, Azumah promises to stay up late and sort through your hall through the night.
 
-[Goon slapass event horizon]
+You leave his tent satisfied with yourself, and Keisha is waiting to greet you. Without a word, she slides two warm pâté and a skewer of suya into your hands. The two of you walk the edge of camp, and you regard her pastries with suspicion.
 
-[Narrowly avoided killing into threats]
+"So... did Omenka and his boys get their flock eating again after all? I thought the last bird flu hit them pretty hard." She gives you a perplexed look, before laughing when she seems to realize.
 
-[Pulled into tent, angrily changing]
+"You thought right." You must have given the food in your hands a strange look, because she continues. "Invasive squirrel. You can hardly tell, though." And she shrugs. "The pies are from me, so all-veg."
 
-[Apology Explaining]
+You give them each a probing sniff, before deciding you're too hungry to be bothered. Keisha watches your reactions with interest, so when you like them both, you try not to show it.
 
-[Going Further split]
+Then, a gaggle of goons pass by, taking up the entire width of the street and chatting amongst themselves. You don't register which, if any, are Scavvers under you, because when they move past you one brave punk reaches out and gives your ass a hard slap.
+
+...
+
+You and Keisha exchange near-instantaneous glances of confusion...
+
+And then you wrench the poor fuck's arm and drop him to the asphalt, following soon after with your boot hard against his sternum. 
+
+He screams, and his buddies scatter in the confusion. You're sure you yell something as well, but you can't remember after. In the next moment you experience, you're crouched over the goon, and your arm is raised high over his throat, brandishing your suya skewer.
+
+When you realize you aren't moving, you look to your side, only to see Keisha holding you by the arm. You glare at her, and she only mouths (in truth, she might have spoken either way she'd be droned out by the blood thrumming in your ears) a single, "Esi..." at you.
+
+You curse and throw the skewer aside, stepping off the goon, who lays shaking in the street. Keisha squats down beside him, and you hear her whisper.
+
+"My boss has just given you a second chance." Then, she reaches to her hip and draws out a well-worn .44, bouncing it loosely in her hand. "Still... it seems wrong to send you off without a warning."
+
+She nestles its barrel into the palm he touched you with, and the goon begins to sob. You look away. Then, you hear a shot crack out and echo through the city, then a scream, then low, awful sobbing.
+
+"Now, I'm going to be very clear with all my boys. If any of us see you anywhere on the Cape, you're dead." She stands and starts moving your way before turning back. "And quit fuckin' crying. Everyone's gonna think you're a creep AND a pussy."
+
+When she reaches your side, Keisha whispers.
+
+"Hey... you okay? If you wanna get away from these-" She turns away, towards where a crowd is forming, and raises her voice, "assholes with nothing better to do-" then back to you, "it shouldn't be far to my tent." You gnash your teeth, which she takes as an answer, [[and she wraps an arm around you to lead you away|16Inside]].
+
+
+:: 16Inside
+The two of you sit in awkward silence, Keisha in the corner wringing her hands, and you laying quiet in her bed.
+
+She steps out for a moment, and returns with a glass of water, meekly placing it on the bedside table. You watch her sit down and stare at nothing with that sullen expression. Then, you take the glass and sip it.
+
+"I had the situation handled, y'know?" She gives you a puzzled look, then she smiles and moves to sit on the bed beside you. She sighs.
+
+"Yeah, you did. Still..." She strokes your cheek. "You're the boss. It's my job to get my hands dirty in your stead." You let out a small, bitter laugh.
+
+She lays down at your side and wraps her arms around you. You settle into her, and you start speaking more than you should.
+
+"It feels like the crew hardly respects my position anymore." You groan and turn to face Keisha.
+
+"I put in so much work to become the boss, all so nobody would fuck with me, and yet..."
+
+...
+
+Keisha grimaces.
+
+"I... might have just realized something." She gets suddenly bashful, inching towards the other side of the bed. "This might be my fault."
+
+"See... it's..." She turns to hide from your staring.
+
+"Last week, I was drinking with the crew for the first time in a while." You shudder at the thought of Keisha trying to keep up with a heavyweight like Azumah. "I don't know how, but you came up in the conversation."
+
+"A bunch of the guys kept insisting there was no way a girl like you could have a cute side." She scoffs at the idea, even now.
+
+"And... when I was trying to explain your appeal to them... I accidentally told them... that... mnnh... mhnm..." Her speech devolves totally into meaningless mumbling.
+
+"You what? What did you tell them?" She mumbles back, and you prod her to no coherent response. 
+
+"Tell me!" She hides her face in her hands and groans.
+
+"You already told me this much, so tell me what you said already!" She shakes her head, and you finally start to see red, towering over her.
+
+"JUST TELL ME!" Then, Keisha breaks.
+
+"I-I TOLD THEM THAT YOU'RE THE BOTTOM WHEN WE DO IT!!" You feel yourself flush all over, but she doesn't stop. "I TOLD THEM THAT YOU MAKE REALLY CUTE NOISES, AND THAT YOU ALWAYS WANNA KISS FOR HOURS AFTER!! I'M SORRY!!" She buries her face in the mattress and cries, and a strange mix of embarrassment and pity washes over you. 
+
+You're not sure if you want to comfort her or strangle her, so instead you put your full weight into punching her bedpost, bloodying your knuckles in the process.
+
+The loud ''THUNK'' seems to pull Keisha out of her stupor, and the pain forces down all the rage burning in your chest. You take a deep breath and try to lead calmly, but the best you can get out is: "Why...?!" followed shortly by "How?!?!" She sits up and sniffles.
+
+"I was like seven drinks deep. We'd been apart so long, and I couldn't stand listening to them trash you. I got way too passionate..." At this point, you sit beside her, and she shakily leans against you.
+
+"The worst part is, it seemed like they felt more kinship with me after. All their body language shifted, and around the camp they kept talking to me like ''I'' was in charge. Any time you pissed one of them off, they'd complain to me as if I was supposed to keep you in line." You grind your teeth.
+
+"Bastards." Keisha nods. Then, she slides down, resting her head gently in your lap. You stroke her hair and massage her scalp while you think, and she seems all too comfortable there.
+
+<<linkreplace "Mull over your options.">>You consider the options before you.
+
+While it may be humiliating for your underlings to think about you in such an inappropriate way, it's not without its perks. Since the goons have taken to viewing Keisha as the macho, powerful shadow boss, you could easily turn that against them. Your showing today has also no doubt reinforced their image of the two of you. There are two real ways you could spin this in your favor.
+
+# If you allow Keisha to 'rule from the shadows' while you hold her leash, she could easily pick up support from rebellious groups and launder your more controversial orders down to them. As much as you'd like to simply take out those who question your authority, they still have a lot to contribute to the gang. Factionalism kills most gangs (and nations, and corps) in the end. It would be embarrassing, but your pride could buy you further control over your underlings.
+# However, if you wanted to rebutt Keisha's assumed power, doing so publicly could spread fear around your base and heighten their respect for you. Wars are destructive, public executions waste manpower, but if someone were to overhear you 'asserting your authority', you'd be back in your place as alpha dog in no time.
+
+Both options require some embarrassing things of you, but, for the unity of the Chapel Street Scavvers, you have to pick one...
+\<<if $Finished_16_A and not $Finished_16_B>>
+\<<removeclass "#pathB" "hide">>
+\<<elseif ( $Finished_16_B and not $Finished_16_A ) or random(1) == 0>>
+\<<removeclass "#pathA" "hide">>
+\<<else>>
+\<<removeclass "#pathB" "hide">>
+\<</if>>
+\<</linkreplace>>
+<span id = "pathA" class = "hide">
+[[ [Sadist] "Pet? There's a new play I'd like to try tonight..."|16Sadist]]
+@@color:#dd6688;==[Voyeur] "I've got a plan, pet, but you might not like it."==@@
+</span>\
+\<span id = "pathB" class = "hide">
+@@color:#dd6688;==[Sadist] "Pet? There's a new play I'd like to try tonight..."==@@
+[[ [Voyeur] "I've got a plan, pet, but you might not like it."|16Voyeur]]
+\</span>
+
+
 :: 16Voyeur
-[Sneaking Off noticeably]
+Keisha holds your hand tight as she pulls you deeper into the CPUT ruins. You pant and cry out "Wait! Where are we going...?" and she only smiles.
 
-[Bent over a rock in the ruins]
+You reach the third sublevel, and you slip on some debris, stumbling straight into her arms. She hugs you tight to her chest.
 
-[blasting rope everywhere on film]
+"It's alright. This is the spot." She leans down and kisses your forehead. @@color:#6f6f6f;You claw down her back, making her whimper ever so slightly. From the second level stairway, a lowranking goon trains his camera on the two of you.@@
 
-[new world order]
+Under a sign labeled "NEW CAPE TOWN MATERIALS LAB", Keisha pulls out a small jewelry box and offers it to you. You open it @@color:#6f6f6f; turned so that your 'guest' can see@@, and inside is a glittering silver choker. You look up to her.
+
+"It's beautiful..." She takes the necklace and gingerly places it around your neck. When she pulls on the cross at its front, a chain extends out, and the choker clamps down into a tight collar. You yelp and cling to her@@color:#6f6f6f;, biting down hard on her collarbone and forcing her to suppress a whimper@@. Your eyes meet, and she pulls you by your chain into a deep kiss.
+
+When she comes up for air, you give your signal, and Keisha pushes you down onto a desk. She lurches forward with you and curls an exploratory pair of fingers into you. You  @@color:#6f6f6f;play at@@ stifling your sudden, desperate moans@@color:#6f6f6f;, and even you're shocked at how real they are@@. Your love @@color:#6f6f6f;and pet dog @@nuzzles her face against yours, and it becomes clear she's drooling for you. @@color:#6f6f6f;Between gasps, you whisper out all the punishments you have planned for her when you get home. She shudders.@@
+
+@@color:#6f6f6f;Outside, dawn is just about to break over the city. You only need to make it a little longer.@@
+
+Then, Keisha catches you off guard by @@color:#6f6f6f;going off script and@@ wrapping a hand around your neck. She's too shy to apply that much pressure, but the new sensation shocks you, and you let out a truly embarrassing moan. You catch a glint of hunger in Keisha's eye, and before you know it, she's undoing her belt and, not long after, sliding inside you. @@color:#6f6f6f;Taking her while she's in control proves to be too much. You cry out again and feel tears forming in your eyes. Just like the absurd gallant persona she's affecting, Keisha bends down and kisses your tears away. The worst part is... it makes your heart flutter...@@
+
+The sounds of early morning at camp arrive to save you. Your voyeur gets scared by voices at his tail and skitters off down a random hallway. Once he's out of earshot, Keisha pulls out and drops to her knees in front of you.
+
+"S-sorry ma'am... I got carried away, just because I wanted it to be believable..." She whimpers and bows her head. You slide across the desk and take her head in your hands.
+
+"Oh, there there. There there, puppy." She leans into your touch and whines. You scratch her cheek and she presses a little kiss into your fingers, smiling up towards you full of pure love. You bring her back to Earth with a swift kick to the stomach.
+
+While she writhes on the ground, you stretch, before dropping down to her level and whispering to her.
+
+"Now, mutt, we're short on time until the first cutting crews arrive." You wrap your hand around her throat. [["\"How about you hurry up and finish what you started?\""|30Days]] <<set $Finished_16_B to true>>
+
 :: 16Sadist
 Metallic scraping echoes through the Scavvers camp as you pull Keisha from your tent into the main square. You've tucked yourself into a corner to avoid an //obviously// public display, but you make sure your voice carries enough that everyone will hear it.
 
@@ -47,7 +192,7 @@ If it's any sign of your public image changing, nobody comes to Keisha's aid as 
 
 You can't do anything but laugh as you pull her into bed beside you.
 
-"Keep quiet, will you? I've had a long day..." She shudders. [[You, meanwhile, have the best night's sleep of your life.|30Days]] 
+"Keep quiet, will you? I've had a long day..." She shudders. [[You, meanwhile, have the best night's sleep of your life.|30Days]] <<set $Finished_16_A to true>>
 
 :: 16CW [OOC]
 
@@ -55,5 +200,7 @@ You can't do anything but laugh as you pull her into bed beside you.
 * Public sexual objectification
 * Significant violence against a sexual partner
 * Sexual harassment / abuse
+* Graphic Gun violence between the deuteragonist and an unnamed character.
+* Choking
 [[I consent.|16Start]]
 [[Take me back.|30Days]]
