@@ -104,11 +104,11 @@ var LZString=function(){var r=String.fromCharCode,o="ABCDEFGHIJKLMNOPQRSTUVWXYZa
 		<div id="init-lacking"><p>Browser lacks capabilities required to play.</p><p>Upgrade or switch to another browser.</p></div>
 		<div id="init-loading"><div>Loading&hellip;</div></div>
 	</div>
-	<!-- UUID://CF3227DE-0448-44C3-9B78-EBCAFD5F2AC0// --><tw-storydata name="30 Days of IF Yuri" startnode="43" creator="Tweego" creator-version="2.1.1+81d1d71" ifid="CF3227DE-0448-44C3-9B78-EBCAFD5F2AC0" zoom="1" format="SugarCube" format-version="2.37.3" options="" hidden><style role="stylesheet" id="twine-user-stylesheet" type="text/twine-css">.hide{display : none;}</style><script role="script" id="twine-user-script" type="text/twine-javascript"></script><tw-passagedata pid="1" name="1Start" tags="" position="200,100" size="100,100">Droning noise greets you as you stir and your vision returns in patches. You’re awkwardly draped over an undersized shop bench, and when you attempt to wrench your leg free, you feel the restraints binding you to it. A familiar voice breaks through.
+	<!-- UUID://CF3227DE-0448-44C3-9B78-EBCAFD5F2AC0// --><tw-storydata name="30 Days of IF Yuri" startnode="44" creator="Tweego" creator-version="2.1.1+81d1d71" ifid="CF3227DE-0448-44C3-9B78-EBCAFD5F2AC0" zoom="1" format="SugarCube" format-version="2.37.3" options="" hidden><style role="stylesheet" id="twine-user-stylesheet" type="text/twine-css">.hide{display : none;}</style><script role="script" id="twine-user-script" type="text/twine-javascript"></script><tw-passagedata pid="1" name="1Start" tags="" position="200,100" size="100,100">Droning noise greets you as you stir and your vision returns in patches. You’re awkwardly draped over an undersized shop bench, and when you attempt to wrench your leg free, you feel the restraints binding you to it. A familiar voice breaks through.
 
 “Do you have to squirm around like this every time? You won’t be much use if I get bumped and weld your proprio module in place.” Your vision adjusts enough to see her. Short, silvery hair with dark roots, and stained with oil… Her pin suggests she’s an Expeditionary Force authorized mechanic, but you can’t quite recognize her. Then, when she sees your confused face, she curses to herself and reaches into your chassis to flip a small switch on your neural board. Once your IFF module finally passes boot, you calm down and smile her way.
 
-“Mistress! I worried so long that something had happened to you.” She scoffs as her fingers get back to work at your power board. You do your best to sit still for her. 
+“Mistress! I worried so long that something had happened to you.” She scoffs as her fingers get back to work at your power board. You do your best to sit still for her.
 
 “I never left, silly girl. I just didn’t want you burning my shop’s power bill on useless parts while you were broken down.” She disconnects a bracket before taking your hand. Your eyes meet, and she gives your palm a soft, two-fingered touch over your wrist’s kinetic interface port. It feels almost shameful opening it for her, but you do so without hesitation. “The weeks since your fight have been quiet, if you were wondering.” She snips off the heading of a dead wire, making you wince.
 
@@ -805,29 +805,167 @@ Alarms cry out across the deck, washing the ship in red light. SITRI droops.
 * You can yell at your girlfriend and hurt her feelings :(
 * Insects crawling on POV
 [[I consent.|15Start]]
-[[Take me back.|30Days]]</tw-passagedata><tw-passagedata pid="20" name="16Start" tags="" position="1225,225" size="100,100">[Pulling garbage out of ruined corposlop labs in CaPUT]
+[[Take me back.|30Days]]</tw-passagedata><tw-passagedata pid="20" name="16Start" tags="" position="1225,225" size="100,100">\ &lt;&lt;set _Corp to [&quot;Neurocore&quot;, &quot;Meta&quot;, &quot;Adhoc&quot;, &quot;Blitzr&quot;, &quot;M-Stack&quot;, &quot;RNG-Sus&quot;, &quot;Presanguine&quot;, &quot;Eletech&quot;, &quot;Newnoise&quot;, &quot;HardKore&quot;]&gt;&gt;
+\ &lt;&lt;set _Thing to [&quot;Horse&quot;, &quot;Chlorine&quot;, &quot;Rose&quot;, &quot;Vibe&quot;, &quot;Memory&quot;, &quot;Dance&quot;, &quot;Hyperpop&quot;, &quot;Police&quot;, &quot;Justice&quot;, &quot;Punk&quot;]&gt;&gt;
+\ &lt;&lt;set _Doer to [&quot;Repellant&quot;, &quot;Perfume&quot;, &quot;Toy&quot;, &quot;Charger&quot;, &quot;App&quot;, &quot;Phone&quot;, &quot;Sprinkler&quot;, &quot;Masticator&quot;, &quot;Detector&quot;]&gt;&gt;
+Concrete dust swirls in a cloud around you. You sputter and cough, pulling your rebreather to your face for a deep breath.
 
-[Random Artefact]
+As you dust off and pull yourself up to your feet, Keisha comes into view at the end of the tunnel, and she runs to your side.
 
-[Goons Laughing]
+&quot;What&#39;s wrong with you?!&quot; She circles around, checking you over from head to toe. &quot;I left you alone for a minute, and you&#39;re already getting into trouble.&quot; You doff the mask and exhale, then you laugh.
 
-[Return to surface]</tw-passagedata><tw-passagedata pid="21" name="16AboveGround" tags="" position="100,350" size="100,100">[Drop relic off with dude]
+&quot;It&#39;s nothing. I saw some corposcrap I wanted, and I took it. Simple as that.&quot; She groans and sweeps the dust off your back.
 
-[Goon slapass event horizon]
+&quot;You know better than most of us how unstable this shithole is, boss. Don&#39;t go taking risks over a...&quot; Keisha glances at the dented box at your feet. &quot;What the hell is that, anyway?&quot; You bend down and lift it up to your chest.
 
-[Narrowly avoided killing into threats]
+&quot;Not sure...&quot; You shake the box, then Keisha grabs it tight and glares at you. Instead, you look it over while she holds it.
 
-[Pulled into tent, angrily changing]
+&quot;I thought it was one of those old &lt;&lt;print _Thing.pluck()&gt;&gt; &lt;&lt;print _Doer.pluck()&gt;&gt;s that &lt;&lt;print _Corp.pluck()&gt;&gt; made back in &#39;&lt;&lt;print random(16, 67)&gt;&gt;. But, looking at the whole thing now, it looks more like an old &lt;&lt;print _Corp.pluck()&gt;&gt; model.&quot;
 
-[Apology Explaining]
+At the far end of the tunnel, you spot a crowd of your underlings. They&#39;re watching the two of you and whispering between themselves. When they catch you staring, they turn on their heels and leave quick. By the time Keisha checks over her shoulder, they&#39;re out of sight.
 
-[Going Further split]</tw-passagedata><tw-passagedata pid="22" name="16Voyeur" tags="" position="225,350" size="100,100">[Sneaking Off noticeably]
+She shrugs.
 
-[Bent over a rock in the ruins]
+&quot;Well, I would have thought it was some &lt;&lt;print _Corp.pluck()&gt;&gt; &lt;&lt;print _Thing.pluck()&gt;&gt; &lt;&lt;print _Doer.pluck()&gt;&gt;, so that goes to show what I know.&quot; You laugh and turn back towards the rubble. Before you can prise an old cyberarm from a storage case, she speaks up again.
 
-[blasting rope everywhere on film]
+&quot;Actually, Esi, maybe we should call it a day?&quot; You scrunch your face up at her. &quot;The CPUT&#39;ll still be here tomorrow, and you scratched yourself up pretty bad getting that... whatever.&quot; She gestures wildly towards the box she&#39;s holding.
 
-[new world order]</tw-passagedata><tw-passagedata pid="23" name="16Sadist" tags="" position="350,350" size="100,100">Metallic scraping echoes through the Scavvers camp as you pull Keisha from your tent into the main square. You&#39;ve tucked yourself into a corner to avoid an //obviously// public display, but you make sure your voice carries enough that everyone will hear it.
+&quot;Besides, if I can get a cutting crew in here tonight, there&#39;ll be plenty new pickings for you.&quot; Somehow, she always knows just how to tempt you.
+
+You stomp open the display case and lift the arm free, only to realize it&#39;s a plaster display model. It cracks in two when you chuck it against the wall.
+
+&quot;Fine. I should run this to Azumah anyway.&quot; You take back your prize, and Keisha freely surrenders it to you.
+
+On your way to the surface, you&#39;re able to shake it a few times without her noticing, not that it tells you much.
+
+[[...|16AboveGround]]</tw-passagedata><tw-passagedata pid="21" name="16AboveGround" tags="" position="100,350" size="100,100">After some cajoling, Azumah promises to stay up late and sort through your hall through the night.
+
+You leave his tent satisfied with yourself, and Keisha is waiting to greet you. Without a word, she slides two warm pâté and a skewer of suya into your hands. The two of you walk the edge of camp, and you regard her pastries with suspicion.
+
+&quot;So... did Omenka and his boys get their flock eating again after all? I thought the last bird flu hit them pretty hard.&quot; She gives you a perplexed look, before laughing when she seems to realize.
+
+&quot;You thought right.&quot; You must have given the food in your hands a strange look, because she continues. &quot;Invasive squirrel. You can hardly tell, though.&quot; And she shrugs. &quot;The pies are from me, so all-veg.&quot;
+
+You give them each a probing sniff, before deciding you&#39;re too hungry to be bothered. Keisha watches your reactions with interest, so when you like them both, you try not to show it.
+
+Then, a gaggle of goons pass by, taking up the entire width of the street and chatting amongst themselves. You don&#39;t register which, if any, are Scavvers under you, because when they move past you one brave punk reaches out and gives your ass a hard slap.
+
+...
+
+You and Keisha exchange near-instantaneous glances of confusion...
+
+And then you wrench the poor fuck&#39;s arm and drop him to the asphalt, following soon after with your boot hard against his sternum. 
+
+He screams, and his buddies scatter in the confusion. You&#39;re sure you yell something as well, but you can&#39;t remember after. In the next moment you experience, you&#39;re crouched over the goon, and your arm is raised high over his throat, brandishing your suya skewer.
+
+When you realize you aren&#39;t moving, you look to your side, only to see Keisha holding you by the arm. You glare at her, and she only mouths (in truth, she might have spoken either way she&#39;d be droned out by the blood thrumming in your ears) a single, &quot;Esi...&quot; at you.
+
+You curse and throw the skewer aside, stepping off the goon, who lays shaking in the street. Keisha squats down beside him, and you hear her whisper.
+
+&quot;My boss has just given you a second chance.&quot; Then, she reaches to her hip and draws out a well-worn .44, bouncing it loosely in her hand. &quot;Still... it seems wrong to send you off without a warning.&quot;
+
+She nestles its barrel into the palm he touched you with, and the goon begins to sob. You look away. Then, you hear a shot crack out and echo through the city, then a scream, then low, awful sobbing.
+
+&quot;Now, I&#39;m going to be very clear with all my boys. If any of us see you anywhere on the Cape, you&#39;re dead.&quot; She stands and starts moving your way before turning back. &quot;And quit fuckin&#39; crying. Everyone&#39;s gonna think you&#39;re a creep AND a pussy.&quot;
+
+When she reaches your side, Keisha whispers.
+
+&quot;Hey... you okay? If you wanna get away from these-&quot; She turns away, towards where a crowd is forming, and raises her voice, &quot;assholes with nothing better to do-&quot; then back to you, &quot;it shouldn&#39;t be far to my tent.&quot; You gnash your teeth, which she takes as an answer, [[and she wraps an arm around you to lead you away|16Inside]].</tw-passagedata><tw-passagedata pid="22" name="16Inside" tags="" position="225,350" size="100,100">The two of you sit in awkward silence, Keisha in the corner wringing her hands, and you laying quiet in her bed.
+
+She steps out for a moment, and returns with a glass of water, meekly placing it on the bedside table. You watch her sit down and stare at nothing with that sullen expression. Then, you take the glass and sip it.
+
+&quot;I had the situation handled, y&#39;know?&quot; She gives you a puzzled look, then she smiles and moves to sit on the bed beside you. She sighs.
+
+&quot;Yeah, you did. Still...&quot; She strokes your cheek. &quot;You&#39;re the boss. It&#39;s my job to get my hands dirty in your stead.&quot; You let out a small, bitter laugh.
+
+She lays down at your side and wraps her arms around you. You settle into her, and you start speaking more than you should.
+
+&quot;It feels like the crew hardly respects my position anymore.&quot; You groan and turn to face Keisha.
+
+&quot;I put in so much work to become the boss, all so nobody would fuck with me, and yet...&quot;
+
+...
+
+Keisha grimaces.
+
+&quot;I... might have just realized something.&quot; She gets suddenly bashful, inching towards the other side of the bed. &quot;This might be my fault.&quot;
+
+&quot;See... it&#39;s...&quot; She turns to hide from your staring.
+
+&quot;Last week, I was drinking with the crew for the first time in a while.&quot; You shudder at the thought of Keisha trying to keep up with a heavyweight like Azumah. &quot;I don&#39;t know how, but you came up in the conversation.&quot;
+
+&quot;A bunch of the guys kept insisting there was no way a girl like you could have a cute side.&quot; She scoffs at the idea, even now.
+
+&quot;And... when I was trying to explain your appeal to them... I accidentally told them... that... mnnh... mhnm...&quot; Her speech devolves totally into meaningless mumbling.
+
+&quot;You what? What did you tell them?&quot; She mumbles back, and you prod her to no coherent response. 
+
+&quot;Tell me!&quot; She hides her face in her hands and groans.
+
+&quot;You already told me this much, so tell me what you said already!&quot; She shakes her head, and you finally start to see red, towering over her.
+
+&quot;JUST TELL ME!&quot; Then, Keisha breaks.
+
+&quot;I-I TOLD THEM THAT YOU&#39;RE THE BOTTOM WHEN WE DO IT!!&quot; You feel yourself flush all over, but she doesn&#39;t stop. &quot;I TOLD THEM THAT YOU MAKE REALLY CUTE NOISES, AND THAT YOU ALWAYS WANNA KISS FOR HOURS AFTER!! I&#39;M SORRY!!&quot; She buries her face in the mattress and cries, and a strange mix of embarrassment and pity washes over you. 
+
+You&#39;re not sure if you want to comfort her or strangle her, so instead you put your full weight into punching her bedpost, bloodying your knuckles in the process.
+
+The loud &#39;&#39;THUNK&#39;&#39; seems to pull Keisha out of her stupor, and the pain forces down all the rage burning in your chest. You take a deep breath and try to lead calmly, but the best you can get out is: &quot;Why...?!&quot; followed shortly by &quot;How?!?!&quot; She sits up and sniffles.
+
+&quot;I was like seven drinks deep. We&#39;d been apart so long, and I couldn&#39;t stand listening to them trash you. I got way too passionate...&quot; At this point, you sit beside her, and she shakily leans against you.
+
+&quot;The worst part is, it seemed like they felt more kinship with me after. All their body language shifted, and around the camp they kept talking to me like &#39;&#39;I&#39;&#39; was in charge. Any time you pissed one of them off, they&#39;d complain to me as if I was supposed to keep you in line.&quot; You grind your teeth.
+
+&quot;Bastards.&quot; Keisha nods. Then, she slides down, resting her head gently in your lap. You stroke her hair and massage her scalp while you think, and she seems all too comfortable there.
+
+&lt;&lt;linkreplace &quot;Mull over your options.&quot;&gt;&gt;You consider the options before you.
+
+While it may be humiliating for your underlings to think about you in such an inappropriate way, it&#39;s not without its perks. Since the goons have taken to viewing Keisha as the macho, powerful shadow boss, you could easily turn that against them. Your showing today has also no doubt reinforced their image of the two of you. There are two real ways you could spin this in your favor.
+
+# If you allow Keisha to &#39;rule from the shadows&#39; while you hold her leash, she could easily pick up support from rebellious groups and launder your more controversial orders down to them. As much as you&#39;d like to simply take out those who question your authority, they still have a lot to contribute to the gang. Factionalism kills most gangs (and nations, and corps) in the end. It would be embarrassing, but your pride could buy you further control over your underlings.
+# However, if you wanted to rebutt Keisha&#39;s assumed power, doing so publicly could spread fear around your base and heighten their respect for you. Wars are destructive, public executions waste manpower, but if someone were to overhear you &#39;asserting your authority&#39;, you&#39;d be back in your place as alpha dog in no time.
+
+Both options require some embarrassing things of you, but, for the unity of the Chapel Street Scavvers, you have to pick one...
+\&lt;&lt;if $Finished_16_A and not $Finished_16_B&gt;&gt;
+\&lt;&lt;removeclass &quot;#pathB&quot; &quot;hide&quot;&gt;&gt;
+\&lt;&lt;elseif ( $Finished_16_B and not $Finished_16_A ) or random(1) == 0&gt;&gt;
+\&lt;&lt;removeclass &quot;#pathA&quot; &quot;hide&quot;&gt;&gt;
+\&lt;&lt;else&gt;&gt;
+\&lt;&lt;removeclass &quot;#pathB&quot; &quot;hide&quot;&gt;&gt;
+\&lt;&lt;/if&gt;&gt;
+\&lt;&lt;/linkreplace&gt;&gt;
+&lt;span id = &quot;pathA&quot; class = &quot;hide&quot;&gt;
+[[ [Sadist] &quot;Pet? There&#39;s a new play I&#39;d like to try tonight...&quot;|16Sadist]]
+@@color:#dd6688;==[Voyeur] &quot;I&#39;ve got a plan, pet, but you might not like it.&quot;==@@
+&lt;/span&gt;\
+\&lt;span id = &quot;pathB&quot; class = &quot;hide&quot;&gt;
+@@color:#dd6688;==[Sadist] &quot;Pet? There&#39;s a new play I&#39;d like to try tonight...&quot;==@@
+[[ [Voyeur] &quot;I&#39;ve got a plan, pet, but you might not like it.&quot;|16Voyeur]]
+\&lt;/span&gt;</tw-passagedata><tw-passagedata pid="23" name="16Voyeur" tags="" position="350,350" size="100,100">Keisha holds your hand tight as she pulls you deeper into the CPUT ruins. You pant and cry out &quot;Wait! Where are we going...?&quot; and she only smiles.
+
+You reach the third sublevel, and you slip on some debris, stumbling straight into her arms. She hugs you tight to her chest.
+
+&quot;It&#39;s alright. This is the spot.&quot; She leans down and kisses your forehead. @@color:#6f6f6f;You claw down her back, making her whimper ever so slightly. From the second level stairway, a lowranking goon trains his camera on the two of you.@@
+
+Under a sign labeled &quot;NEW CAPE TOWN MATERIALS LAB&quot;, Keisha pulls out a small jewelry box and offers it to you. You open it @@color:#6f6f6f; turned so that your &#39;guest&#39; can see@@, and inside is a glittering silver choker. You look up to her.
+
+&quot;It&#39;s beautiful...&quot; She takes the necklace and gingerly places it around your neck. When she pulls on the cross at its front, a chain extends out, and the choker clamps down into a tight collar. You yelp and cling to her@@color:#6f6f6f;, biting down hard on her collarbone and forcing her to suppress a whimper@@. Your eyes meet, and she pulls you by your chain into a deep kiss.
+
+When she comes up for air, you give your signal, and Keisha pushes you down onto a desk. She lurches forward with you and curls an exploratory pair of fingers into you. You  @@color:#6f6f6f;play at@@ stifling your sudden, desperate moans@@color:#6f6f6f;, and even you&#39;re shocked at how real they are@@. Your love @@color:#6f6f6f;and pet dog @@nuzzles her face against yours, and it becomes clear she&#39;s drooling for you. @@color:#6f6f6f;Between gasps, you whisper out all the punishments you have planned for her when you get home. She shudders.@@
+
+@@color:#6f6f6f;Outside, dawn is just about to break over the city. You only need to make it a little longer.@@
+
+Then, Keisha catches you off guard by @@color:#6f6f6f;going off script and@@ wrapping a hand around your neck. She&#39;s too shy to apply that much pressure, but the new sensation shocks you, and you let out a truly embarrassing moan. You catch a glint of hunger in Keisha&#39;s eye, and before you know it, she&#39;s undoing her belt and, not long after, sliding inside you. @@color:#6f6f6f;Taking her while she&#39;s in control proves to be too much. You cry out again and feel tears forming in your eyes. Just like the absurd gallant persona she&#39;s affecting, Keisha bends down and kisses your tears away. The worst part is... it makes your heart flutter...@@
+
+The sounds of early morning at camp arrive to save you. Your voyeur gets scared by voices at his tail and skitters off down a random hallway. Once he&#39;s out of earshot, Keisha pulls out and drops to her knees in front of you.
+
+&quot;S-sorry ma&#39;am... I got carried away, just because I wanted it to be believable...&quot; She whimpers and bows her head. You slide across the desk and take her head in your hands.
+
+&quot;Oh, there there. There there, puppy.&quot; She leans into your touch and whines. You scratch her cheek and she presses a little kiss into your fingers, smiling up towards you full of pure love. You bring her back to Earth with a swift kick to the stomach.
+
+While she writhes on the ground, you stretch, before dropping down to her level and whispering to her.
+
+&quot;Now, mutt, we&#39;re short on time until the first cutting crews arrive.&quot; You wrap your hand around her throat. [[&quot;\&quot;How about you hurry up and finish what you started?\&quot;&quot;|30Days]] &lt;&lt;set $Finished_16_B to true&gt;&gt;</tw-passagedata><tw-passagedata pid="24" name="16Sadist" tags="" position="475,350" size="100,100">Metallic scraping echoes through the Scavvers camp as you pull Keisha from your tent into the main square. You&#39;ve tucked yourself into a corner to avoid an //obviously// public display, but you make sure your voice carries enough that everyone will hear it.
 
 &quot;DID YOU THINK YOU COULD SLIP SOMETHING LIKE THIS PAST ME, PERVERT?!&quot; You kick her in the side, and she screams out through her gag. A shudder runs up your spine, and you kick her again, just to feel the rush a little longer. Before long, heads start poking up around camp.
 
@@ -846,12 +984,14 @@ If it&#39;s any sign of your public image changing, nobody comes to Keisha&#39;s
 
 You can&#39;t do anything but laugh as you pull her into bed beside you.
 
-&quot;Keep quiet, will you? I&#39;ve had a long day...&quot; She shudders. [[You, meanwhile, have the best night&#39;s sleep of your life.|30Days]]</tw-passagedata><tw-passagedata pid="24" name="16CW" tags="OOC" position="475,350" size="100,100">&lt;h3&gt;CONTENT WARNINGS:&lt;/h3&gt;
+&quot;Keep quiet, will you? I&#39;ve had a long day...&quot; She shudders. [[You, meanwhile, have the best night&#39;s sleep of your life.|30Days]] &lt;&lt;set $Finished_16_A to true&gt;&gt;</tw-passagedata><tw-passagedata pid="25" name="16CW" tags="OOC" position="600,350" size="100,100">&lt;h3&gt;CONTENT WARNINGS:&lt;/h3&gt;
 * Public sexual objectification
 * Significant violence against a sexual partner
 * Sexual harassment / abuse
+* Graphic Gun violence between the deuteragonist and an unnamed character.
+* Choking
 [[I consent.|16Start]]
-[[Take me back.|30Days]]</tw-passagedata><tw-passagedata pid="25" name="2Start" tags="" position="600,375" size="100,100">Eleanor grumbles over her writing desk, retreading the same three lines, sighing, and replacing her stationary with a fresh piece. By her fourth in a row, you take her hand to stop her.
+[[Take me back.|30Days]]</tw-passagedata><tw-passagedata pid="26" name="2Start" tags="" position="600,375" size="100,100">Eleanor grumbles over her writing desk, retreading the same three lines, sighing, and replacing her stationary with a fresh piece. By her fourth in a row, you take her hand to stop her.
 
 “What’s bothering you, ma’am?” She’s surprised at your touch, but she quickly slumps back down with a sigh.
 
@@ -917,11 +1057,11 @@ You pull into your lap, keeping her attached to the arm she insists on hugging. 
 
 You put them out of your mind. They couldn’t understand a fraction of the love you have for your mistress.
 
-[[(Return Home?)|30Days]] &lt;&lt;set $Finished_2 to true&gt;&gt;</tw-passagedata><tw-passagedata pid="26" name="2CW" tags="OOC" position="725,350" size="100,100">&lt;h3&gt;CONTENT WARNINGS:&lt;/h3&gt;
+[[(Return Home?)|30Days]] &lt;&lt;set $Finished_2 to true&gt;&gt;</tw-passagedata><tw-passagedata pid="27" name="2CW" tags="OOC" position="850,350" size="100,100">&lt;h3&gt;CONTENT WARNINGS:&lt;/h3&gt;
 * POV character cuts her arm with a knife
 * Intoxicated intimacy (It&#39;s Complicated...)
 [[I consent.|2Start]]
-[[Take me back.|30Days]]</tw-passagedata><tw-passagedata pid="27" name="3Start" tags="" position="700,375" size="100,100">No one from Barracks E talks as they pack up their things. There’s an air of mourning hanging over the whole complex and nauseating you. The few others you pass in the hall seem resolute, more committed than ever to carry out Emil’s wish and deny the gamemasters their satisfaction. You feel a gross sort of pity towards them, throwing away their lives on principle like that. As much as you’d rather avoid a direct confrontation after living so close with them… you must admit that they’re putting a very tempting target on their back.
+[[Take me back.|30Days]]</tw-passagedata><tw-passagedata pid="28" name="3Start" tags="" position="700,375" size="100,100">No one from Barracks E talks as they pack up their things. There’s an air of mourning hanging over the whole complex and nauseating you. The few others you pass in the hall seem resolute, more committed than ever to carry out Emil’s wish and deny the gamemasters their satisfaction. You feel a gross sort of pity towards them, throwing away their lives on principle like that. As much as you’d rather avoid a direct confrontation after living so close with them… you must admit that they’re putting a very tempting target on their back.
 
 You tuck some backup boots into your pack, sighing. Everyone you’ve seen leaving has been paired up with packs filled to bursting with food and water, but you’re used to travelling light and haven’t come off as particularly trustworthy to your peers. Your early scouting missions have given you an edge, though. Noted in your journal are several spots beyond the game’s stated range where your collar hadn’t even threatened to go off. If all goes to plan, you’ll set up camp in the foothills of the Carpathians and wait out the early bloodbath in style. As you’re scrawling in your journal to revise an old route plan, there’s a knock at your door. After a moment’s consideration, you open it, being sure to tuck away your journal.
 
@@ -959,7 +1099,7 @@ After a few minutes of silent contemplation, your eyes meet again, and you give 
 
 “Alright. Then, we should start with some basic ground rules, *Kalina*...”
 
-[[...|3Hike]]</tw-passagedata><tw-passagedata pid="28" name="3Hike" tags="" position="700,475" size="100,100">The hike out of the barracks and heading north is harsh, scaring off most of the weaker contestants. That’s why you’re both to pass your old neighbor, Cyryl, making his way alone. You stick to the shadows, but Kalina doesn’t have your skill, getting spotted in an instant. Cyryl waves her down.
+[[...|3Hike]]</tw-passagedata><tw-passagedata pid="29" name="3Hike" tags="" position="700,475" size="100,100">The hike out of the barracks and heading north is harsh, scaring off most of the weaker contestants. That’s why you’re both to pass your old neighbor, Cyryl, making his way alone. You stick to the shadows, but Kalina doesn’t have your skill, getting spotted in an instant. Cyryl waves her down.
 
 “Wow, Kalina! I thought you left ages before me. It’s so crazy seeing you here.” She panics, looking instinctively towards you and almost giving away your position in the brush. Thankfully, Cyryl doesn’t seem to notice, and he attributes her worry to something else. “Right… it must be uncomfortable talking with just the two of us. It’s weird not having Emil here.”
 
@@ -975,11 +1115,11 @@ When you look up towards Kalina, she’s in a daze, with Cyryl’s blood coating
 
 “I scored us a *point*.” When you don’t respond, she bends down to retrieve the knife you lent her, slurring her words to nobody in particular, “I don’t get what the big deal is,” and “That was so easy,” as she wipes her cheek against her blouse.
 
-[[(Return Home?)|30Days]] &lt;&lt;set $Finished_3 to true&gt;&gt;</tw-passagedata><tw-passagedata pid="29" name="3CW" tags="OOC" position="1100,350" size="100,100">&lt;h3&gt;CONTENT WARNINGS:&lt;/h3&gt;
+[[(Return Home?)|30Days]] &lt;&lt;set $Finished_3 to true&gt;&gt;</tw-passagedata><tw-passagedata pid="30" name="3CW" tags="OOC" position="1225,350" size="100,100">&lt;h3&gt;CONTENT WARNINGS:&lt;/h3&gt;
 * Suggestions of sexual coercion
 * POV is party to onscreen killing
 [[I consent.|3Start]]
-[[Take me back.|30Days]]</tw-passagedata><tw-passagedata pid="30" name="4Start" tags="" position="700,0" size="100,100">You flip idly through a homebound book of poems. It’s been a few weeks since you’ve had to scare any invaders away from your lover’s cabin, and you’re on edge. An old Moraxite rival of yours, Atarakis had been the last to come after rumors of The Huntress, hoping to claim the legendary bounty on her head for mass daemocide.
+[[Take me back.|30Days]]</tw-passagedata><tw-passagedata pid="31" name="4Start" tags="" position="700,0" size="100,100">You flip idly through a homebound book of poems. It’s been a few weeks since you’ve had to scare any invaders away from your lover’s cabin, and you’re on edge. An old Moraxite rival of yours, Atarakis had been the last to come after rumors of The Huntress, hoping to claim the legendary bounty on her head for mass daemocide.
 
 That moniker has followed you around for some time. You’d delight in it, if it didn’t bring threats to all those around you. Not least of all your sweetheart Maeve, who you can hear humming to herself as she works. The two of you have only lived together for a few weeks, so you’ve yet to find a time to explain your sordid second life to her. Each night you make the trip back to her abode, she insists on treating your wounds, always chiding with the same fornlorn look, “You let those city men work you too hard, Clara.” Sometimes, she’ll massage your bruised, calloused hands with hers, pouting the whole time. There was a time when you’d try to sneak in after a particularly brutal fight, but it’s hard to explain more than two or three stitched up füresinos bites.
 
@@ -995,7 +1135,7 @@ The two of you share a quick look of apprehension, before you step off to invest
 
 “Oh don’t pout, little dove. He at least needs a warm meal if you’re sending him out on that road.” The man smiles at that. Against your better judgement, you step aside, and the posessed stranger enters your home.
 
-[[...|4Dinner]]</tw-passagedata><tw-passagedata pid="31" name="4Dinner" tags="" position="800,0" size="100,100">You spend the entire wait staring daggers into your ‘guest’, before Maeve comes to set the table. When she slides a bowl your way, you take one of her hands in yours and lay a gentle kiss on it, all without looking away from him. Maeve sits with the two of you and recites a prayer. If it torments him as you’d hoped, he hides it well. Smelling the feast laid out before him, the beggar appears to grow anxious, bowing his head before his hostess with faux-modesty.
+[[...|4Dinner]]</tw-passagedata><tw-passagedata pid="32" name="4Dinner" tags="" position="800,0" size="100,100">You spend the entire wait staring daggers into your ‘guest’, before Maeve comes to set the table. When she slides a bowl your way, you take one of her hands in yours and lay a gentle kiss on it, all without looking away from him. Maeve sits with the two of you and recites a prayer. If it torments him as you’d hoped, he hides it well. Smelling the feast laid out before him, the beggar appears to grow anxious, bowing his head before his hostess with faux-modesty.
 
 “This is all to generous, sister. I cannot possible accept all this from you. Perhaps some bread crusts would suit me better…” Maeve waves this off, though.
 
@@ -1027,10 +1167,10 @@ As the ‘beggar’ melts to ash, the two of you share a long, wordless gaze of 
 
 “I feel like we have a lot to discuss, dear.” She nods in agreement, and the two of you head back inside.
 
-[[(Return Home?)|30Days]] &lt;&lt;set $Finished_4 to true&gt;&gt;</tw-passagedata><tw-passagedata pid="32" name="4CW" tags="OOC" position="225,475" size="100,100">&lt;h3&gt;CONTENT WARNINGS:&lt;/h3&gt;
+[[(Return Home?)|30Days]] &lt;&lt;set $Finished_4 to true&gt;&gt;</tw-passagedata><tw-passagedata pid="33" name="4CW" tags="OOC" position="350,475" size="100,100">&lt;h3&gt;CONTENT WARNINGS:&lt;/h3&gt;
 * This passage is here for parity, but this one is actually about as &#39;wholesome&#39; as it gets.
 [[I consent.|4Start]]
-[[Take me back.|30Days]]</tw-passagedata><tw-passagedata pid="33" name="5Start" tags="" position="800,375" size="100,100">“Hello?”
+[[Take me back.|30Days]]</tw-passagedata><tw-passagedata pid="34" name="5Start" tags="" position="800,375" size="100,100">“Hello?”
 
 “Ah, Auntie. Yes, I’m well. Yeah, I’m out with Nicoletta again. We should be home soon. Got it, love you too. Bye.” You answer in the same way you always have, then hang up. The menu on your phone flashes for a second before you snap it shut, showing 15:35, February 7th, 1996.
 
@@ -1056,7 +1196,7 @@ Nicoletta finally walks back out, with a look of what you interpret to be distre
 
 “You’ve got nothing to worry about, Ami. I’ll protect you, okay?” You try to stammer out some complaint, but she starts pulling you towards an alleyway.
 
-[[...|5Alley]]</tw-passagedata><tw-passagedata pid="34" name="5Alley" tags="" position="800,475" size="100,100">The cutthrough is barren most of the way, but, when you pass a pair of foreigners, they call out to you.
+[[...|5Alley]]</tw-passagedata><tw-passagedata pid="35" name="5Alley" tags="" position="800,475" size="100,100">The cutthrough is barren most of the way, but, when you pass a pair of foreigners, they call out to you.
 
 “Hey, you. You’re de Lupo’s girl, aren’t you?” Nicoletta moves to pull you right past them, but the gruffer one stands past you, chiding her.
 
@@ -1110,10 +1250,10 @@ You hear the dialtone, and then…
 
 “Hello?”
 
-[[(Return Home?)|30Days]] &lt;&lt;set $Finished_5 to true&gt;&gt;</tw-passagedata><tw-passagedata pid="35" name="5CW" tags="OOC" position="600,475" size="100,100">&lt;h3&gt;CONTENT WARNINGS:&lt;/h3&gt;
+[[(Return Home?)|30Days]] &lt;&lt;set $Finished_5 to true&gt;&gt;</tw-passagedata><tw-passagedata pid="36" name="5CW" tags="OOC" position="725,475" size="100,100">&lt;h3&gt;CONTENT WARNINGS:&lt;/h3&gt;
 * Violent death of a minor
 [[I consent.|5Start]]
-[[Take me back.|30Days]]</tw-passagedata><tw-passagedata pid="36" name="7Start" tags="" position="1025,275" size="100,100">A maid passes you on the way back to your rooms, whispering as she does: “She awaits you in your chambers, Lady Eir.” You color and respond with only a short nod. The walk to your room is long and quiet, and you spend the whole time thinking about her. When you reach the door, you freeze up.
+[[Take me back.|30Days]]</tw-passagedata><tw-passagedata pid="37" name="7Start" tags="" position="1025,275" size="100,100">A maid passes you on the way back to your rooms, whispering as she does: “She awaits you in your chambers, Lady Eir.” You color and respond with only a short nod. The walk to your room is long and quiet, and you spend the whole time thinking about her. When you reach the door, you freeze up.
 
 Is it proper to knock at your own door? This is nothing like your other… conquests. You settle for something in the middle, calling out through the doorway.
 
@@ -1192,13 +1332,13 @@ The two of you laugh, and you hold her face in your hand. She leans into it, pla
 “Why bother? Is anyone in this court brave enough to reproach you, my lady?” And to that, she has no answer.
 
 [[(Return Home?)|30Days]] &lt;&lt;set $Finished_7 to true&gt;&gt;
-&lt;&lt;/linkreplace&gt;&gt;</tw-passagedata><tw-passagedata pid="37" name="7CW" tags="OOC" position="850,475" size="100,100">&lt;h3&gt;CONTENT WARNINGS:&lt;/h3&gt;
+&lt;&lt;/linkreplace&gt;&gt;</tw-passagedata><tw-passagedata pid="38" name="7CW" tags="OOC" position="975,475" size="100,100">&lt;h3&gt;CONTENT WARNINGS:&lt;/h3&gt;
 * Fuck... This passage is here for parity but... have I gone soft?
 * This is just pure fluff...
 * Is arranging a marriage for an 19-20-something noble CWable?
 * Fucking shambles of an anthology...
 [[I consent.|7Start]]
-[[Take me back.|30Days]]</tw-passagedata><tw-passagedata pid="38" name="8Start" tags="" position="375,475" size="100,100">You groan and lay your head on your desk. It’s currently eleven, and you’ve yet to add anything to what’s shaping up to be your final project at this job. The standards at this company are brutal, and you’re struggling to find a single unturned stone in all of Eugene.
+[[Take me back.|30Days]]</tw-passagedata><tw-passagedata pid="39" name="8Start" tags="" position="375,475" size="100,100">You groan and lay your head on your desk. It’s currently eleven, and you’ve yet to add anything to what’s shaping up to be your final project at this job. The standards at this company are brutal, and you’re struggling to find a single unturned stone in all of Eugene.
 
 Normally, you’d find a way to slip by, but you pulled an all-nighter festering about your breakup. You’re not particularly sad about missing out on him, but you wasted a lot of time on your two dates with him, and it eats you up a little. Even after all that, it took an entire extra week for it to become clear he was ghosting you! You groan again remembering that much.
 
@@ -1220,7 +1360,7 @@ The process leaves you on edge, but your outcome is a relatively popular local c
 
 As if on cue, the clock strikes noon and your coworkers start shuffling out of the office for lunch. You typically meal prep for work to save money, but in your stupor this morning you forgot to pack anything. Your emotional brain is still hung up on the creepy questionnaire, but you figure a little industry research couldn’t hurt.
 
-[[...|8Fab]]</tw-passagedata><tw-passagedata pid="39" name="8Fab" tags="" position="200,475" size="100,100">When you first step foot into ‘Fabricación’, you’re shocked by a few things:
+[[...|8Fab]]</tw-passagedata><tw-passagedata pid="40" name="8Fab" tags="" position="200,475" size="100,100">When you first step foot into ‘Fabricación’, you’re shocked by a few things:
 
 	First, the entire cafe is made up in metallic facades, high-traction rubber floors, and proper caution signage, with ambient industrial sound completing the picture of a real factory floor.
 	Second, several waitresses are buzzing around the floor at all times, wearing hi-visibility vests, goggles, and hard hats over full-length maid dresses.
@@ -1254,11 +1394,11 @@ You shiver, and that strange feeling returns.
 
 You’ve never even mentioned egg salad in front of Katja before.
 
-[[(Return Home?)|30Days]] &lt;&lt;set $Finished_8 to true&gt;&gt;</tw-passagedata><tw-passagedata pid="40" name="8CW" tags="OOC" position="1225,475" size="100,100">&lt;h3&gt;CONTENT WARNINGS:&lt;/h3&gt;
+[[(Return Home?)|30Days]] &lt;&lt;set $Finished_8 to true&gt;&gt;</tw-passagedata><tw-passagedata pid="41" name="8CW" tags="OOC" position="100,600" size="100,100">&lt;h3&gt;CONTENT WARNINGS:&lt;/h3&gt;
 * Stalking
 * Maid cafes
 [[I consent.|8Start]]
-[[Take me back.|30Days]]</tw-passagedata><tw-passagedata pid="41" name="9Start" tags="" position="925,325" size="100,100">Today, you’ve succeeded at a strategic play that will be written in history books across the planet. Your rival, Aniceta Viteri, has walked straight into your trap without a clue. She paces around the entryway to your apartment, seeming to remark only on total banalities.
+[[Take me back.|30Days]]</tw-passagedata><tw-passagedata pid="42" name="9Start" tags="" position="925,325" size="100,100">Today, you’ve succeeded at a strategic play that will be written in history books across the planet. Your rival, Aniceta Viteri, has walked straight into your trap without a clue. She paces around the entryway to your apartment, seeming to remark only on total banalities.
 
 “This place has gotten way neater since I was here, Haoran. I’m a little envious” You shrug, rather than give her more information. Instead, she’s drawn over to a shelf covered in awards and honors. “And our challenge cup! I’m honored you’d keep it somewhere so prominent…” She laughs, and you have no choice but to defuse the slight.
 
@@ -1308,11 +1448,11 @@ She inches even closer, sipping and resting her head on your shoulder. When you 
 
 By the time Aniceta’s energy runs out, the two of you finish the entire box in this position, and you end the night on a deeply humiliating note, cradling your rival in your arms.
 
-[[(Return Home?)|30Days]] &lt;&lt;set $Finished_9 to true&gt;&gt;</tw-passagedata><tw-passagedata pid="42" name="9CW" tags="OOC" position="225,600" size="100,100">&lt;h3&gt;CONTENT WARNINGS:&lt;/h3&gt;
+[[(Return Home?)|30Days]] &lt;&lt;set $Finished_9 to true&gt;&gt;</tw-passagedata><tw-passagedata pid="43" name="9CW" tags="OOC" position="350,600" size="100,100">&lt;h3&gt;CONTENT WARNINGS:&lt;/h3&gt;
 * POV drugs someone in an act of sexual coercion
 * Intoxicated Intimacy (Alcohol and the aforementioned)
 [[I consent.|9Start]]
-[[Take me back.|30Days]]</tw-passagedata><tw-passagedata pid="43" name="30Days" tags="" position="500,200" size="100,100">&lt;h2&gt;June 2025&lt;/h2&gt;
+[[Take me back.|30Days]]</tw-passagedata><tw-passagedata pid="44" name="30Days" tags="" position="500,200" size="100,100">&lt;h2&gt;June 2025&lt;/h2&gt;
 &lt;table id=&quot;calendar&quot; style = &quot;width:100%;text-align:left;vertical-align:top&quot;&gt;
 
     &lt;tr&gt;
@@ -1357,10 +1497,10 @@ By the time Aniceta’s energy runs out, the two of you finish the entire box in
         &amp;#8205; &lt;/td&gt;
     &lt;/tr&gt;
     &lt;tr&gt;
-        &lt;td&gt;15:&lt;&lt;if $Finished_15&gt;&gt;✓&lt;&lt;/if&gt;&gt;
+        &lt;td&gt;15: &lt;&lt;if $Finished_15&gt;&gt;✓&lt;&lt;/if&gt;&gt;
         [[Infestation|15CW]]&lt;/td&gt;
-        &lt;td&gt;@@color:#ff7575;16:@@
-        Authority&lt;/td&gt;
+        &lt;td&gt;@@color:#ff7575;16: &lt;&lt;if $Finished_16_A and $Finished_16_B&gt;&gt;✓&lt;&lt;elseif $Finished_16_A or $Finished_16_B&gt;&gt;1/2&lt;&lt;/if&gt;&gt;@@
+        [[Authority|16CW]]&lt;/td&gt;
         &lt;td&gt;17:
         Quiet Life&lt;/td&gt;
         &lt;td&gt;18:
