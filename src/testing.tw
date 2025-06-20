@@ -11,6 +11,12 @@
 
 :: StyleSheet [stylesheet] {"position":"0,375"}
 .hide{display : none;}
+body[data-tags~="OOC"] {background-color: #262656; color: #CCFFCC;}
+.passage[data-tags~="OOC"] .link-internal {color: #D9C063;}
+.passage[data-tags~="OOC"] .link-internal:hover {color: #66CC00;}
+body[data-tags~="OOC"] #ui-bar {background-color: #262656; color: #CCFFCC;}
+body[data-tags~="OOC"] #menu a {color: #D9C063;}
+body[data-tags~="OOC"] #menu a:hover {color: #66CC00;}
 
 
 :: 30Days {"position":"500,200"}
@@ -63,8 +69,8 @@
         [[Infestation|15CW]]</td>
         <td>@@color:#ff7575;16: <<if $Finished_16_A and $Finished_16_B>>✓<<elseif $Finished_16_A or $Finished_16_B>>1/2<</if>>@@
         [[Authority|16CW]]</td>
-        <td>17:
-        Quiet Life</td>
+        <td>17: <<if $Finished_17>>✓<</if>>
+        [[Quiet Life|17CW]]</td>
         <td>18:
         Crowns</td>
         <td>19:
