@@ -7,10 +7,15 @@
 }
 
 :: StoryTitle {"position":"100,375"}
-30 Days of IF Yuri
+The Unity
+
+:: StoryDisplayTitle
+The Unity
+(30 X 30 X30)
 
 :: StyleSheet [stylesheet] {"position":"0,375"}
 .hide{display : none;}
+
 body[data-tags~="OOC"] {background-color: #262656; color: #CCFFCC;}
 .passage[data-tags~="OOC"] .link-internal {color: #D9C063;}
 .passage[data-tags~="OOC"] .link-internal:hover {color: #66CC00;}
@@ -18,11 +23,40 @@ body[data-tags~="OOC"] #ui-bar {background-color: #262656; color: #CCFFCC;}
 body[data-tags~="OOC"] #menu a {color: #D9C063;}
 body[data-tags~="OOC"] #menu a:hover {color: #66CC00;}
 
+body[data-tags~="Blood"] {background-color: #09112a; color: #e27565;}
+.passage[data-tags~="Blood"] .link-internal {color: #bf3144;}
+.passage[data-tags~="Blood"] .link-internal:hover {color: #dab2ac;}
+body[data-tags~="Blood"] #ui-bar {background-color: #09112a; color: #872341;}
+body[data-tags~="Blood"] #menu a {color: #bf3144;}
+body[data-tags~="Blood"] #menu a:hover {color: #dab2ac;}
+
+body[data-tags~="BloodlikeEarth"] {background-color: #2a0921; color: #65e275;}
+.passage[data-tags~="BloodlikeEarth"] .link-internal {color: #44bf31;}
+.passage[data-tags~="BloodlikeEarth"] .link-internal:hover {color: #acdab2;}
+body[data-tags~="BloodlikeEarth"] #ui-bar {background-color: #22092a; color: #418723;}
+body[data-tags~="BloodlikeEarth"] #menu a {color: #44bf31;}
+body[data-tags~="BloodlikeEarth"] #menu a:hover {color: #acdab2;}
+
+body[data-tags~="DownToEarth"] {background-color: #261b15; color: #F0F2BD;}
+.passage[data-tags~="DownToEarth"] .link-internal {color: #CA7842;}
+.passage[data-tags~="DownToEarth"] .link-internal:hover {color: #B2CD9C;}
+body[data-tags~="DownToEarth"] #ui-bar {background-color: #261b15; color: #F0F2BD;}
+body[data-tags~="DownToEarth"] #menu a {color: #CA7842;}
+body[data-tags~="DownToEarth"] #menu a:hover {color: #B2CD9C;}
+
+body[data-tags~="DarkFuture"] {background-color: #222831; color: #EEEEEE;}
+.passage[data-tags~="DarkFuture"] .link-internal {color: #76ABAE;}
+.passage[data-tags~="DarkFuture"] .link-internal:hover {color: #9576ae;}
+body[data-tags~="DarkFuture"] #ui-bar {background-color: #222831; color: #a9cacc;}
+body[data-tags~="DarkFuture"] #menu a {color: #76ABAE;}
+body[data-tags~="DarkFuture"] #menu a:hover {color: #9576ae;}
+
 
 :: 30Days {"position":"500,200"}
-<h2>June 2025</h2>
+<!--<h2>June 2025</h2>-->
 <table id="calendar" style = "width:100%;text-align:left;vertical-align:top">
 
+    <!-- 
     <tr>
         <td>Sunday</td>
         <td>Monday</td>
@@ -31,7 +65,7 @@ body[data-tags~="OOC"] #menu a:hover {color: #66CC00;}
         <td>Thursday</td>
         <td>Friday</td>
         <td>Saturday</td>
-    </tr>
+    </tr>-->
     <tr> <!-- Week of the 1st -->
         <td>1: <<if $Finished_1>>✓<</if>>
         [[Repairs|1CW]]</td>
@@ -45,40 +79,35 @@ body[data-tags~="OOC"] #menu a:hover {color: #66CC00;}
         [[Redo|5CW]]</td>
         <td>@@color:#ff7575;6: <<if $Finished_7>>✓<</if>>@@
         [[Holding Back|7CW]]</td>
-        <td>7:
-        &#8205; </td>
     </tr>
     <tr> <!-- Week of the 8th -->
-        <td>8: <<if $Finished_8>>✓<</if>>
-        [['Coincidence'|8CW]]</td>
-        <td>9: <<if $Finished_9>>✓<</if>>
+        <td>7: <<if $Finished_8>>✓<</if>>
+        [['Coincidence' |8CW]]</td>
+        <td>8: <<if $Finished_9>>✓<</if>>
         [[Buried Feelings|9CW]]</td>
-        <td>@@color:#ff7575;10: <<if $Finished_10>>✓<</if>>@@
+        <td>@@color:#ff7575;9: <<if $Finished_10>>✓<</if>>@@
         [[Lady of Faith|10CW]]</td>
-        <td>11: <<if $Finished_11>>✓<</if>>
+        <td>10: <<if $Finished_11>>✓<</if>>
         [[Brave Disciple|11CW]]</td>
-        <td>12: <<if $Finished_12>>✓<</if>>
-        [['Rivalry'|12CW]]</td>
-        <td>@@color:#ff7575;13: <<if $Finished_13>>✓<</if>>@@
+        <td>11: <<if $Finished_12>>✓<</if>>
+        [[ 'Rivalry' |12CW]]</td>
+        <td>@@color:#ff7575;12: <<if $Finished_13>>✓<</if>>@@
         [[Reasons to Fight|13CW]]</td>
-        <td>14:
-        &#8205; </td>
+
     </tr>
     <tr>
-        <td>15: <<if $Finished_15>>✓<</if>>
+        <td>13: <<if $Finished_15>>✓<</if>>
         [[Infestation|15CW]]</td>
-        <td>@@color:#ff7575;16: <<if $Finished_16_A and $Finished_16_B>>✓<<elseif $Finished_16_A or $Finished_16_B>>1/2<</if>>@@
+        <td>@@color:#ff7575;14: <<if $Finished_16_A and $Finished_16_B>>✓<<elseif $Finished_16_A or $Finished_16_B>>1/2<</if>>@@
         [[Authority|16CW]]</td>
-        <td>17: <<if $Finished_17>>✓<</if>>
+        <td>15: <<if $Finished_17>>✓<</if>>
         [[Quiet Life|17CW]]</td>
+        <td>16: <<if $Finished_18>>✓<</if>>
+        [[Betrothal|18CW]]</td>
+        <td>17:
+        Traitor</td>
         <td>18:
-        Crowns</td>
-        <td>19:
-        Among Us</td>
-        <td>20:
-        Many</td>
-        <td>21:
-        &#8205; </td>
+        Legion</td>
     </tr>
     <tr>
         <td></td>

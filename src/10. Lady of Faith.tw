@@ -1,4 +1,4 @@
-:: 10Start {"position":"200,200"}
+:: 10Start [BloodlikeEarth] {"position":"200,200"}
 “Amen.”
 
 You raise your head halfway through morning prayers to a strange sight. At the other end of the chapel, you see Sister Irene, shivering and whimpering with her face bright red. The Mother Superior seems to follow your gaze to her in the middle of “Confírma hoc, Deus”, and she silently waves for another sister to remove her from the room. Sister Laura quietly peels away from the crowd, to pull Iris away by her arm. The rest of the chapel takes notice soon after, and the awkward air lasts through the end of your prayers.
@@ -19,7 +19,7 @@ You’d heard about a new patient arriving yesterday. There were rumors around t
 
 [[...|10Infirm]]
 
-:: 10Infirm {"position":"100,200"}
+:: 10Infirm [BloodlikeEarth] {"position":"100,200"}
 When you finally reach the infirmary, you get a look at who’s sleeping on the cot, and you gasp aloud. The patient does indeed have a neatly wrapped leg wound and, even under layers of fleece, he appears quite handsome. However, laid out beside his bed is a tabbard embroidered with the Crest of Bourbon, marking him as a French man-at-arms.
 
 Then, woken by your uncouth reaction, the patient stirs and stretches their arms. Seeing this, your heart flutters, and you call out without noticing.
@@ -71,7 +71,7 @@ It’s unclear to you why you’d place so much stake in a random foreigner’s 
 The time for your second prayers comes, and you step out, then into the temple. There, Letizia tries to extract gossip from you, you stonewall her; Irene apologizes and offers to finish out her shift, you insist she get her rest; the Mother Superior offers to switch in another sister for work in the infirmary, and you reassure her that she needen’t waste any of your sisters’ time.
 [[...|10Return]]
 
-:: 10Return {"position":"0,200"}
+:: 10Return [BloodlikeEarth] {"position":"0,200"}
 When you return to the infirmary, you bring Violette back some pottage, bread, wine, and a little sliver of cheese, which Sister Irene graciously snuck out from dinner’s portion. Your patient’s spirits seem lifted by the meal. You could probably write a few more verses while she eats, but instead you just watch her, sighing.
 
 After she wolfs down her meal, Violette gets self-conscious, and you’re all to delighted to tease her about it. But, then… something washes over you again. Like the same fog from before, but much stronger. You lean against the cot to keep yourself upright.
@@ -109,8 +109,6 @@ The two of you sit quietly for a long time, holding hands and staring at the flo
 :: 10CW [OOC]
 
 <h3>CONTENT WARNINGS:</h3>
-* French people?
-* Heat Cycles?
-* Somehow dodging a lot of CWs
+* Sexual Content
 [[I consent.|10Start]]
 [[Take me back.|30Days]]

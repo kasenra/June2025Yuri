@@ -1,4 +1,4 @@
-:: 15Start {"position":"200,0"}
+:: 15Start [DarkFuture] {"position":"200,0"}
 
 Stale air pumps into your lungs, and you trickle back into consciousness.
 
@@ -59,7 +59,7 @@ Her voice appears at the far end of the room, lighting up the exit door.
 With a loud ''clunk'', SITRI's voice shuts off. No matter how much you call out to her, she doesn't respond. [[You swear to yourself and make for the elevator.|15Storage]]
 \</span>
 
-:: 15Storage {"position":"100,0"}
+:: 15Storage [DarkFuture] {"position":"100,0"}
 
 You step off the elevator and immediately break off towards the storage room.
 
@@ -288,7 +288,7 @@ As the room quiets down, the fog slips away with it, and you can plainly see whe
 Once you're done, [[you pack up to go check on SITRI.|15ComputerCore]]
 \</span>
 
-:: 15ComputerCore {"position":"0,0"}
+:: 15ComputerCore [DarkFuture] {"position":"0,0"}
 SITRI's communication module whirs to life, joining the chorus of machinery all around her. You thrum your fingers against the terminal's dark screen until she comes into focus there.
 
 "Mnnmn... Moira...?" She blinks away sleep as you stroke her hair.
@@ -342,7 +342,7 @@ Alarms cry out across the deck, washing the ship in red light. SITRI droops.
 :: 15CW [OOC]
 
 <h3>CONTENT WARNINGS:</h3>
-* Potential to coerce a tenant into sex
+* Potential to coerce an insect into sex
 * You can yell at your girlfriend and hurt her feelings :(
 * Insects crawling on POV
 [[I consent.|15Start]]

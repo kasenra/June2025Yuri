@@ -1,0 +1,149 @@
+:: 18Start [Blood]
+
+The hot, stuffy halls of Castle Enprod have left you faint and dizzy since you first arrived here.
+
+You've done your best to adapt to your place at the queen's side, and she's been kind to you. Still... it's impossible for you to sit still for so long with so many eyes on you at all times. In this place, you're seen as 'exotic' at best and a spy at worst. The undisciplined court at Nox-Mystil is so unlike your home that it feels paralyzing. Even your maids, provided by Clan Fehér, are unreliable and overly friendly with you, to the point you've given up on retraining them.
+
+The queen says your name. You realize you've been locked in a gruesome expression while spaced out, and the diplomat on the far end of your gaze is getting nervous. You apologize and plaster on another faux-smile, which seems to placate them both. A maid steps to your side, and you wave her off as politely as possible.
+
+A herald arrives and kneels.
+
+"Your Majesty Sofia, Lady Cenyu, I am honored in your presence." Sofia smiles, and you try to match her energy.
+
+"And we yours, sir. Rise."
+
+The man identifies himself as a messenger out of Jiacata. From your lessons, you can identify it as a southern county, some three or four days downstream on the Deka-Ehr. But, when the discussions shifts to Claimants' Rights and Heroic Titleage, you're overwhelmed by the information. You feign attention to save face, but the rest of the conversation is a blur to you.
+
+"Perhaps your betrothed would see things differently, your highness..." The herald gestures your way, and Sofia turns to you. There's a slight twitch of frustration about her brow. He clearly expects you to change the queen's mind, but you haven't the slightest clue what they've been discussing this whole time...
+
+<span id="ReactionChoices">
+<<link "\"Do you believe I'll come to your aid if you look desperate enough? You heard her answer.\"">>
+    <<removeclass "#PostJiacata" "hide">>
+    <<replace "#ReactionChoices">>"Do you believe I'll come to your aid if you look desperate enough? You heard her answer." The man sinks, then bows his head in apology. He leaves shortly after. Courtiers around the hall snicker.<</replace>><</link>>
+<<link "\"Queen Sofia has clearly given the matter much thought. I trust in her judgement.\"">>
+    <<removeclass "#PostJiacata" "hide">>
+    <<replace "#ReactionChoices">>"Queen Sofia has clearly given the matter much thought. I trust in her judgement." The man starts to argue, then remembers himself and bows. Thanking the two of you for your patience as he leaves. Sofia stares at you for a while when she thinks you don't notice, and she laugh to herself.<</replace>><</link>>
+<<link "\"I believe the history of the matter goes back before my time.\"">>
+    <<removeclass "#Duty_1" "hide">>
+    <<replace "#ReactionChoices">>"I believe the history of the matter goes back before my time." You direct your appeal towards Sofia, since she tends to favor you. "Could you explain the facts to me, my queen?" She sighs.<</replace>><</link>>
+</span>
+\<span id = "Duty_1" class = "hide">\
+"I suppose that would only be right. All you need to know is this, Cenyu." She raises a finger.
+
+"First, in contrast to laws elsewhere, Heroic Titleage is not passed down in Nox-Mystil, but the land rights granted by it are." Then another.
+
+"Second, our late Count of Jiacata was granted a Heroic Title corresponding to a large plot of land in the county after he drove out a nest of spine devils." And then one more.
+
+"Third, the count adopted a young boy late in life. While his sons by blood inherited the county, he decreed that the land from his Heroic Title should go to that boy." She sighs and gestures towards the Jiacatan herald.
+
+"Unfortunately, the boy is much younger than even you, Cenyu. He's in no state to work nor manage the land, thus the new count asks me to strip him of the rights." The herald looks like he might complain, until Sofia sneers at him. She turns back to you and sighs again.
+
+"Surely you see why it would be wrong to do so. Don't you, Cenyu?" They both give you the same expectant look.
+
+<span id = "Duty_1Choices">
+    \<<link "\"The boy has done nothing wrong. It would be wrong to strip him from his home, especially so soon after the loss of his father.\"">>
+        <<removeclass "#PostJiacata" "hide">>
+        <<replace "#Duty_1Choices">>"The boy has done nothing wrong. It would be wrong to strip him from his home, especially so soon after the loss of his father." Sofia smirks and turns to the herald.
+
+"You heard her. Let the count know that I'll have my agents watching over the boy, in case he gets any ideas." He grimaces, bows, and leaves the hall. Sofia basks in this victory for at least as long as you watch her. Having her value your opinion so highly is nerve-wracking in it's own way... but you're happy to give her a win.
+        \<</replace>>
+    \<</link>>
+    <<link "\"Leaving the boy alone in that estate would be wrong, too. If the count wants the land so badly, he should have to take the boy in as his own.\"">>
+        <<removeclass "#PostJiacata" "hide">>
+        <<replace "#Duty_1Choices">>"Leaving the boy alone in that estate would be wrong, too. If the count wants the land so badly, he should have to take the boy in as his own." Sofia watches you with an intense gaze, as if unsure if you're serious. When it's clear you are, she thinks on it for a moment before nodding and smiling your way. She turns to the herald.
+
+"Pass Princess Cenyu's offer to the count with my approval. When he agrees, let him know who he owes for it." The herald bows, thanks you both, and runs off. Sofia looks over as if to comment to you... but she appears to think better of it and instead just smiles.
+        \<</replace>>
+    \<</link>>
+    <<link "\"Perhaps the count could assign a regent to help the boy manage the land.\"">>
+        <<removeclass "#PostJiacata" "hide">>
+        <<replace "#Duty_1Choices">>"Perhaps the count could assign a regent to help the boy manage the land." Sofia and the herald exchange a look. Then, he nods.
+"If it stops the land lying fallow, I believe that would be amenable to the count." You both look to Sofia, then she nods.
+
+"Rare, but not unprecedented. You have my approval." The herald thanks you both before heading off, then Sofia calls over the chancellor and whispers just loud enough for you to hear. "Make room for Princess Cenyu to join me at next month's council meeting." You blush at her clear praise, but you fear you've created more work for yourself.
+        \<</replace>>
+    \<</link>>
+\</span>
+\</span>
+<span id = "PostJiacata" class = "hide">
+Thankfully, that herald is the last to join you at open court. And, as the gates shut, the entire room relaxes. 
+
+Posturing for the an ocean of scrapers to watch has sapped your energy. It's the most you can do to slouch in your chair and rest your eyes.
+
+While the council regroups during the recess, you watch courtiers flit each and every way through half-wakeness. A maid crosses the floor to the queen's throne, hands her a tray, then curtsies and leaves. In your current state, you don't register it as remarkable. For that reason, you don't notice Sofia's approach until she sits down beside you.
+
+She slides the tray into your lap.
+
+"There's not long left, but you should still eat something." On the tray are two neat custard tarts and a tall glass of water. You nod your thanks to Sofia, and she watches you eat in silence. After you finish, your maid steps in to take away the tray, and the queen dotes on you some more, smoothing out your hair and straightening wrinkles from your dress.
+
+The steady influx of courtiers stops, and an orderly queue is formed. Sofia lingers with you for a few moments, but eventually she stands, smiles to you, and steps over to her throne, where court proceeds as normal. You sigh and do your best to uphold decorum. There are more eyes on you than usual, today.
+
+Hours of meaningless court prattle drag on. Sofia attempts to engage you in the discussion around an upcoming festival, but it's the most you can do to smile and nod appropriately. The court seems to accept this response, but it deflates Sofia. For the rest of the proceedings, she doesn't try to include you, nor does she talk more than strictly necessary. 
+
+As the session comes to an anticlimactic end, Sofia seeks you out. But, before she can reach you, she's pulled aside by her councillors, begging for her opinions on material they'll pester her with the next day anyway. You know better to wait for one of these impromptu meetings, [[so you and your maid head off.|18Hallway]]
+</span>
+:: 18Hallway [Blood]
+
+You're halfway down the hall to your quarters when Sofia reaches you. She's well outpaced her maid, somehow managing a light sprint in her elaborate court dress. When she reaches you, she's flushed red and sweating, and she has to lean on the wall for support.
+
+"C... Cenyu!" She takes a deep breath and wipes the back of her hand across her face. "Sorry, I was worried I'd missed you entirely." Your maid, just as shocked as you, steps off into a servants' room and brings back a glass of water for the queen, who sips it and thanks her. It's a strange sight to behold, and even you have to hold back laughter. Sofia seems to see it on your face, and she smiles.
+
+"Sorry... I'm a bit of a mess today." For the first time today, you find yourself genuinely smiling with her.
+
+"Things have been hectic today, and I wanted to apologize." You open your mouth to appease her, but she continues. "It's important to me that you feel safe here. This is supposed to be your home, after all." Sofia looks down to you with a serious expression, and you feel color rising into your cheeks. The best you can do is to cast your eyes to the floor and nod.
+
+"The culture here must be pretty different from Sh’enceriday. I want to make the adjustment as easy as possible... but it'll always be hard." She speaks as if from experience, brushing hair out of your face as she goes. "If a full day of court is too much for you right now, I understand. There's no need to force yourself for my sake, Cenyu."
+
+The two of you sit in silence while she preens over you. Her touch is shaky and uncertain. When you bring your gaze to meet Sofia's, there's a soft, unspoken sadness in her eyes. It's exactly then that you steel your resolve.
+
+You shake your head.
+
+"No. That won't do." Sofia gives you a perplexed expression, and you take her hands between yours.
+
+"You said this was supposed to be my home, didn't you? That just means it's more important that I don't run." She sighs.
+
+"I understand where you're coming from, but I promise you don't have to push yourself like this."
+
+"You're still young, Cenyu. If you needed time, nobody would fault you for it." Sofia stares down at her hands "If anything, it'd be sensible for you to despise us all."
+
+...
+
+Despite everything, you laugh. Again, Sofia seems shocked by you. Before she can protest though, you squeeze her hands and remind her.
+
+"I told you on my first day. Before I left Svasdi, I let out all my anger by tearing up my rooms there and chewing out any servants I disliked. Have you already forgotten?" At that, she laughs as well.
+
+"How could I? Still, I thought you were just trying to seem mature for your age. Did you actually...?" A new wave of embarrassment washes over you, and you have to nod. Sofia snickers. You try to pout, until she gives up on polite distance entirely and hugs you to her chest. 
+
+She strokes your hair and whispers. "Gods, you're such a good girl Cenyu... How could your brother bear to let you leave?" You scoff.
+
+"It's not like it was just for your sake, anyway..." At this, she looks you over with interest, and you explain. "You might have heard, but both of my older sisters were sent off into awful loveless marriages around my age."
+
+"I believed, if I was getting shipped off to some awful duke or king, it would be better to get out all those ugly feelings upfront, before they could interfere with my new life." You let out a wisftul sigh.
+
+"Although... I guess got quite lucky with you, did I not?" Sofia's face goes bright red, and she turns away to cough.
+
+Once she collects herself, Queen Sofia meets your gaze. Then, she leans down and presses a small, quick kiss into your forehead. You both laugh.
+
+"Thank you, Princess Cenyu. It is... heartening... to hear that." She looses her grip on you, and you step back.
+
+Sofia sighs.
+
+"I believe I'll be late to my meeting with the Knight Commander, now. Still, it's such a shame we can't spend more time chatting like this." In the moment, you have a rather bold idea, and decide to put it forward.
+
+"A-actually... I was supposed to have tea in the gardens with my tutor this afternoon. If you have the time, perhaps you could stop by." Sofia's eyes light up. You can tell from her face that she wants to hug you again, but she holds herself back.
+
+"That sounds wonderful! If there's a war council meeting then, I'll cancel it for you." You groan.
+
+"Please, don't do that. If it comes to it, we can pick a different time and meet, just the two of us." And she laughs.
+
+"Fine. If you're sure." Sofia smiles your way. "We'll talk soon, Cenyu."
+
+"I'm looking forward to it. See you then, my qu..." You cough. "... Sofia."
+
+[[The queen grins at you, and you watch as she disappears down the hall.|30Days]] <<set $Finished_18 to true>>
+:: 18CW [OOC]
+<h3>CONTENT WARNINGS:</h3>
+* Significant Age Gap
+* Elves
+[[I consent.|18Start]]
+[[Take me back.|30Days]]

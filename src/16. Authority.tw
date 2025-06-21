@@ -1,4 +1,4 @@
-:: 16Start
+:: 16Start [DarkFuture]
 \ <<set _Corp to ["Neurocore", "Meta", "Adhoc", "Blitzr", "M-Stack", "RNG-Sus", "Presanguine", "Eletech", "Newnoise", "HardKore"]>>
 \ <<set _Thing to ["Horse", "Chlorine", "Rose", "Vibe", "Memory", "Dance", "Hyperpop", "Police", "Justice", "Punk"]>>
 \ <<set _Doer to ["Repellant", "Perfume", "Toy", "Charger", "App", "Phone", "Sprinkler", "Masticator", "Detector"]>>
@@ -34,7 +34,7 @@ On your way to the surface, you're able to shake it a few times without her noti
 
 [[...|16AboveGround]]
 
-:: 16AboveGround
+:: 16AboveGround [DarkFuture]
 After some cajoling, Azumah promises to stay up late and sort through your hall through the night.
 
 You leave his tent satisfied with yourself, and Keisha is waiting to greet you. Without a word, she slides two warm pâté and a skewer of suya into your hands. The two of you walk the edge of camp, and you regard her pastries with suspicion.
@@ -70,7 +70,7 @@ When she reaches your side, Keisha whispers.
 "Hey... you okay? If you wanna get away from these-" She turns away, towards where a crowd is forming, and raises her voice, "assholes with nothing better to do-" then back to you, "it shouldn't be far to my tent." You gnash your teeth, which she takes as an answer, [[and she wraps an arm around you to lead you away|16Inside]].
 
 
-:: 16Inside
+:: 16Inside [DarkFuture]
 The two of you sit in awkward silence, Keisha in the corner wringing her hands, and you laying quiet in her bed.
 
 She steps out for a moment, and returns with a glass of water, meekly placing it on the bedside table. You watch her sit down and stare at nothing with that sullen expression. Then, you take the glass and sip it.
@@ -145,7 +145,7 @@ Both options require some embarrassing things of you, but, for the unity of the 
 \</span>
 
 
-:: 16Voyeur
+:: 16Voyeur [DarkFuture]
 Keisha holds your hand tight as she pulls you deeper into the CPUT ruins. You pant and cry out "Wait! Where are we going...?" and she only smiles.
 
 You reach the third sublevel, and you slip on some debris, stumbling straight into her arms. She hugs you tight to her chest.
@@ -172,7 +172,7 @@ While she writhes on the ground, you stretch, before dropping down to her level 
 
 "Now, mutt, we're short on time until the first cutting crews arrive." You wrap your hand around her throat. [["\"How about you hurry up and finish what you started?\""|30Days]] <<set $Finished_16_B to true>>
 
-:: 16Sadist
+:: 16Sadist [DarkFuture]
 Metallic scraping echoes through the Scavvers camp as you pull Keisha from your tent into the main square. You've tucked yourself into a corner to avoid an //obviously// public display, but you make sure your voice carries enough that everyone will hear it.
 
 "DID YOU THINK YOU COULD SLIP SOMETHING LIKE THIS PAST ME, PERVERT?!" You kick her in the side, and she screams out through her gag. A shudder runs up your spine, and you kick her again, just to feel the rush a little longer. Before long, heads start poking up around camp.
@@ -197,6 +197,7 @@ You can't do anything but laugh as you pull her into bed beside you.
 :: 16CW [OOC]
 
 <h3>CONTENT WARNINGS:</h3>
+* Sexual Content
 * Public sexual objectification
 * Significant violence against a sexual partner
 * Sexual harassment / abuse
