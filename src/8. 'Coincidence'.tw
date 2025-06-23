@@ -57,7 +57,7 @@ Your coffee arrives a few moments later, as well as a to-go box for Katja, who s
 
 You shiver, and that strange feeling returns.
 
-You’ve never even mentioned egg salad in front of Katja before.
+You’ve never even mentioned egg salad in front of Katja.
 
 [[(Return Home?)|30Days]] <<set $Finished_8 to true>>
 

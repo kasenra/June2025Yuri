@@ -104,7 +104,9 @@ var LZString=function(){var r=String.fromCharCode,o="ABCDEFGHIJKLMNOPQRSTUVWXYZa
 		<div id="init-lacking"><p>Browser lacks capabilities required to play.</p><p>Upgrade or switch to another browser.</p></div>
 		<div id="init-loading"><div>Loading&hellip;</div></div>
 	</div>
-	<!-- UUID://CF3227DE-0448-44C3-9B78-EBCAFD5F2AC0// --><tw-storydata name="The Unity" startnode="55" creator="Tweego" creator-version="2.1.1+81d1d71" ifid="CF3227DE-0448-44C3-9B78-EBCAFD5F2AC0" zoom="1" format="SugarCube" format-version="2.37.3" options="" hidden><style role="stylesheet" id="twine-user-stylesheet" type="text/twine-css">.hide{display : none;}
+	<!-- UUID://CF3227DE-0448-44C3-9B78-EBCAFD5F2AC0// --><tw-storydata name="The Unity" startnode="57" creator="Tweego" creator-version="2.1.1+81d1d71" ifid="CF3227DE-0448-44C3-9B78-EBCAFD5F2AC0" zoom="1" format="SugarCube" format-version="2.37.3" options="" hidden><style role="stylesheet" id="twine-user-stylesheet" type="text/twine-css">.hide{display : none;}
+.macrotypesim textarea {background-color: #222831; color: #EEEEEE; height: 2em}
+
 
 body[data-tags~="OOC"] {background-color: #262656; color: #CCFFCC;}
 .passage[data-tags~="OOC"] .link-internal {color: #D9C063;}
@@ -139,7 +141,174 @@ body[data-tags~="DarkFuture"] {background-color: #222831; color: #EEEEEE;}
 .passage[data-tags~="DarkFuture"] .link-internal:hover {color: #9576ae;}
 body[data-tags~="DarkFuture"] #ui-bar {background-color: #222831; color: #a9cacc;}
 body[data-tags~="DarkFuture"] #menu a {color: #76ABAE;}
-body[data-tags~="DarkFuture"] #menu a:hover {color: #9576ae;}</style><script role="script" id="twine-user-script" type="text/twine-javascript"></script><tw-passagedata pid="1" name="1Start" tags="DarkFuture" position="200,100" size="100,100">Droning noise greets you as you stir and your vision returns in patches. You’re awkwardly draped over an undersized shop bench, and when you attempt to wrench your leg free, you feel the restraints binding you to it. A familiar voice breaks through.
+body[data-tags~="DarkFuture"] #menu a:hover {color: #9576ae;}
+/* Glitchy Text - Start (Credit to HiEv Heavy Industries ) */
+.glitchy {
+  color: white;
+  position: relative;
+}
+.glitchy::before {
+  content: attr(data-text);
+  width: calc(100% + 0.5em);
+  position: absolute;
+  left: -9px;
+  text-shadow: 1px 0 blue;
+  top: -5px;
+  color: #FFD;
+  background: #222831;
+  overflow: hidden;
+  clip-path: polygon(0 0);
+  animation: noise-animY-2 3s infinite linear alternate-reverse;
+  -webkit-animation: noise-animY-2 3s infinite linear alternate-reverse;
+}
+.glitchy::after {
+  content: attr(data-text);
+  width: calc(100% + 0.5em);
+  position: absolute;
+  left: -5px;
+  text-shadow: -1px 0 red;
+  top: -5px;
+  color: #DFF;
+  background: #222831;
+  overflow: hidden;
+  clip-path: polygon(0 0);
+  animation: noise-animY 2s infinite linear alternate-reverse;
+  -webkit-animation: noise-animY 2s infinite linear alternate-reverse;
+}
+@keyframes noise-animY {
+  0% {
+    clip-path: polygon(0 80px, 100% 80px, 100% 16px, 0 16px);
+  }
+  5% {
+    clip-path: polygon(0 94px, 100% 94px, 100% 17px, 0 17px);
+  }
+  10% {
+    clip-path: polygon(0 9px, 100% 9px, 100% 92px, 0 92px);
+  }
+  15.0% {
+    clip-path: polygon(0 37px, 100% 37px, 100% 4px, 0 4px);
+  }
+  20% {
+    clip-path: polygon(0 53px, 100% 53px, 100% 47px, 0 47px);
+  }
+  25% {
+    clip-path: polygon(0 99px, 100% 99px, 100% 69px, 0 69px);
+  }
+  30.0% {
+    clip-path: polygon(0 15px, 100% 15px, 100% 49px, 0 49px);
+  }
+  35% {
+    clip-path: polygon(0 83px, 100% 83px, 100% 81px, 0 81px);
+  }
+  40% {
+    clip-path: polygon(0 55px, 100% 55px, 100% 43px, 0 43px);
+  }
+  45% {
+    clip-path: polygon(0 28px, 100% 28px, 100% 27px, 0 27px);
+  }
+  50% {
+    clip-path: polygon(0 64px, 100% 64px, 100% 28px, 0 28px);
+  }
+  55.0% {
+    clip-path: polygon(0 76px, 100% 76px, 100% 91px, 0 91px);
+  }
+  60.0% {
+    clip-path: polygon(0 29px, 100% 29px, 100% 72px, 0 72px);
+  }
+  65% {
+    clip-path: polygon(0 70px, 100% 70px, 100% 10px, 0 10px);
+  }
+  70% {
+    clip-path: polygon(0 5px, 100% 5px, 100% 84px, 0 84px);
+  }
+  75% {
+    clip-path: polygon(0 46px, 100% 46px, 100% 81px, 0 81px);
+  }
+  80% {
+    clip-path: polygon(0 7px, 100% 7px, 100% 85px, 0 85px);
+  }
+  85.0% {
+    clip-path: polygon(0 17px, 100% 17px, 100% 89px, 0 89px);
+  }
+  90% {
+    clip-path: polygon(0 41px, 100% 41px, 100% 59px, 0 59px);
+  }
+  95% {
+    clip-path: polygon(0 53px, 100% 53px, 100% 90px, 0 90px);
+  }
+  100% {
+    clip-path: polygon(0 10px, 100% 10px, 100% 30px, 0 30px);
+  }
+}
+@keyframes noise-animY-2 {
+  0% {
+    clip-path: polygon(0 84px, 100% 84px, 100% 3px, 0 3px);
+  }
+  5% {
+    clip-path: polygon(0 31px, 100% 31px, 100% 69px, 0 69px);
+  }
+  10% {
+    clip-path: polygon(0 37px, 100% 37px, 100% 33px, 0 33px);
+  }
+  15.0% {
+    clip-path: polygon(0 18px, 100% 18px, 100% 6px, 0 6px);
+  }
+  20% {
+    clip-path: polygon(0 25px, 100% 25px, 100% 87px, 0 87px);
+  }
+  25% {
+    clip-path: polygon(0 100px, 100% 100px, 100% 8px, 0 8px);
+  }
+  30.0% {
+    clip-path: polygon(0 24px, 100% 24px, 100% 87px, 0 87px);
+  }
+  35% {
+    clip-path: polygon(0 39px, 100% 39px, 100% 16px, 0 16px);
+  }
+  40% {
+    clip-path: polygon(0 96px, 100% 96px, 100% 25px, 0 25px);
+  }
+  45% {
+    clip-path: polygon(0 16px, 100% 16px, 100% 100px, 0 100px);
+  }
+  50% {
+    clip-path: polygon(0 92px, 100% 92px, 100% 76px, 0 76px);
+  }
+  55.0% {
+    clip-path: polygon(0 29px, 100% 29px, 100% 40px, 0 40px);
+  }
+  60.0% {
+    clip-path: polygon(0 40px, 100% 40px, 100% 39px, 0 39px);
+  }
+  65% {
+    clip-path: polygon(0 94px, 100% 94px, 100% 44px, 0 44px);
+  }
+  70% {
+    clip-path: polygon(0 2px, 100% 2px, 100% 78px, 0 78px);
+  }
+  75% {
+    clip-path: polygon(0 86px, 100% 86px, 100% 50px, 0 50px);
+  }
+  80% {
+    clip-path: polygon(0 2px, 100% 2px, 100% 46px, 0 46px);
+  }
+  85.0% {
+    clip-path: polygon(0 41px, 100% 41px, 100% 71px, 0 71px);
+  }
+  90% {
+    clip-path: polygon(0 75px, 100% 75px, 100% 15px, 0 15px);
+  }
+  95% {
+    clip-path: polygon(0 41px, 100% 41px, 100% 8px, 0 8px);
+  }
+  100% {
+    clip-path: polygon(0 23px, 100% 23px, 100% 75px, 0 75px);
+  }
+}
+/* Glitchy Text - End */</style><script role="script" id="twine-user-script" type="text/twine-javascript">// type-sim.min.js, for SugarCube 2, by Chapel
+// v2.0.0, 2024-07-22, 336675ff2cabe5f729a5f30d86aa409cc8432726
+;!function(){"use strict";Macro.add("typesim",{tags:null,handler:function(){if(!this.args.length||!this.args[0]||"string"!=typeof this.args[0])return this.error("no text to type out was provided");var t,e=$(document.createElement("span")).addClass("macro"+this.name),n=$(document.createElement("div"));this.payload[0].contents&&this.payload[0].contents.trim()&&(t=this.payload[0].contents),function(t,e,n){if(t&&"string"==typeof t){!e||e instanceof $||(e=$(e));var i=0,s=t.split(""),a=[],o=$(document.createElement("textarea")).addClass("type-sim").on("input.type-sim",(function(){var e=$(this);i=a.push(s[i]),e.val(a.join("")),t.length===a.length&&(e.off("input.type-sim").ariaDisabled(!0),n&&"function"==typeof n&&n(a.join("")),$(document).trigger({type:":type-sim-end",message:a.join("")}))}));e&&e[0]&&e.append(o)}}(this.args[0],e,(function(){n.wiki(t)})),e.append(n).appendTo($(this.output))}})}();
+// end type-sim.min.js</script><tw-passagedata pid="1" name="1Start" tags="DarkFuture" position="200,100" size="100,100">Droning noise greets you as you stir and your vision returns in patches. You’re awkwardly draped over an undersized shop bench, and when you attempt to wrench your leg free, you feel the restraints binding you to it. A familiar voice breaks through.
 
 “Do you have to squirm around like this every time? You won’t be much use if I get bumped and weld your proprio module in place.” Your vision adjusts enough to see her. Short, silvery hair with dark roots, and stained with oil… Her pin suggests she’s an Expeditionary Force authorized mechanic, but you can’t quite recognize her. Then, when she sees your confused face, she curses to herself and reaches into your chassis to flip a small switch on your neural board. Once your IFF module finally passes boot, you calm down and smile her way.
 
@@ -1351,13 +1520,13 @@ They&#39;re identical. Actually, you look a little closer, and they&#39;re //mos
 
 &quot;Could just be a printing error. Those happen all the time.&quot; She takes your free hand in hers and brushes over your nicely manicured nails as she speaks. &quot;Guess it&#39;s all a wash, in the end.&quot;
 
-You&#39;re unconvinced. As far back as you can remember, you&#39;ve never had any siblings, and neither of your parents ever mentioned previous children. The idea that they not only had other children, but had a child //together// doesn&#39;t sit right to you. What reason could they even have to hide something like that? Nadia&#39;s soft kisses into your hand soothe you, and your gaze drifts over to her handsome features. Just looking at her should make it obvious that this is all some big mixup. Still...
+You&#39;re unconvinced. As far back as you can remember, you&#39;ve never had any siblings, and neither of your parents ever mentioned previous children. The idea that they not only had other children, but had a child //together// doesn&#39;t sit right to you. What reason could they even have to hide something like that? Nadia&#39;s soft kisses into your hand soothe you, and your gaze drifts over to her. Just looking at her should make it obvious that this is all some big mixup. Still...
 
 &quot;It doesn&#39;t make any sense...&quot; Unbothered, she bends down from behind you and presses a quick kiss against your cheek. You flip through the other pages of the report. &quot;Even the keys are identical. Those are //my// aunts and uncles...&quot;
 
-&quot;So what?&quot; Nadia drapes herself around you and whispers into your ear. &quot;They probably duplicated your results and mislabeled them.&quot; You sigh.
+&quot;So what?&quot; Nadia drapes herself around you and whispers into your ear. &quot;If they duplicated your results, seems obvious they&#39;d duplicate all of it.&quot; You sigh.
 
-&quot;I would think that, but it bugs me that it&#39;s flipped.&quot; She tosses her report out of your grasp, then slips the same hand up your shirt. You start to complain, until she kisses your neck and sends chills down your spine. You try your best to continue. &quot;A-anyway, the extra person is the bigger issue. How could—&quot;
+&quot;I would agree, but it bugs me that it&#39;s flipped.&quot; She tosses her report out of your grasp, then slips the same hand up your shirt. You start to complain, until she kisses your neck and sends chills down your spine. You try your best to continue. &quot;A-anyway, the extra person is the bigger issue. How could—&quot;
 
 Nadia spins you around her way and kisses deep into you. While you&#39;re focused entirely on her, she pulls you gently by the waist and lays you back down on the couch.
 
@@ -1388,8 +1557,7 @@ Right at the edge of sleep, you see her stand over you, looking intensely over y
 * Incest
 * Sexual Coercion
 [[I consent.|19Start]]
-[[Take me back.|30Days]]
-[[19Explosion]]</tw-passagedata><tw-passagedata pid="36" name="2Start" tags="Blood" position="600,375" size="100,100">Eleanor grumbles over her writing desk, retreading the same three lines, sighing, and replacing her stationary with a fresh piece. By her fourth in a row, you take her hand to stop her.
+[[Take me back.|30Days]]</tw-passagedata><tw-passagedata pid="36" name="2Start" tags="Blood" position="600,375" size="100,100">Eleanor grumbles over her writing desk, retreading the same three lines, sighing, and replacing her stationary with a fresh piece. By her fourth in a row, you take her hand to stop her.
 
 “What’s bothering you, ma’am?” She’s surprised at your touch, but she quickly slumps back down with a sigh.
 
@@ -1459,7 +1627,43 @@ You put them out of your mind. They couldn’t understand a fraction of the love
 * POV character cuts her arm with a knife
 * Intoxicated intimacy (It&#39;s Complicated...)
 [[I consent.|2Start]]
-[[Take me back.|30Days]]</tw-passagedata><tw-passagedata pid="38" name="3Start" tags="BloodlikeEarth" position="700,375" size="100,100">No one from Barracks E talks as they pack up their things. There’s an air of mourning hanging over the whole complex and nauseating you. The few others you pass in the hall seem resolute, more committed than ever to carry out Emil’s wish and deny the gamemasters their satisfaction. You feel a gross sort of pity towards them, throwing away their lives on principle like that. As much as you’d rather avoid a direct confrontation after living so close with them… you must admit that they’re putting a very tempting target on their back.
+[[Take me back.|30Days]]</tw-passagedata><tw-passagedata pid="38" name="20Start" tags="DarkFuture" position="975,475" size="100,100">(chidrone head) [&quot;Neurocore&quot;, &quot;Meta&quot;, &quot;Adhoc&quot;, &quot;Blitzr&quot;, &quot;M-Stack&quot;, &quot;RNG-Sus&quot;, &quot;Presanguine&quot;, &quot;Eletech&quot;, &quot;Newnoise&quot;, &quot;HardKore&quot;]
+You put your boot through the glass of the control room door and carefully snake your hand inside to open the way.
+
+As soon as you do, a factorywide alarm activates, casting the room before you in on-off flashes of red light. You duck through the doorway before a security shutter slams down. In the process, you&#39;ve fully and finally locked yourself in the control room. You put two fingers to the communicator controls on your neck.
+
+&quot;Gods above, please tell me one of you has eyes on the network...&quot;
+
+...
+
+Silence.
+
+&quot;My perfect luck...&quot;
+
+You put in earplugs to quiet the constant, droning klaxon and give yourself mental room to devise a plan. The SETCO control center had a similar layout, with a security terminal hidden within the south wall. When you check here, you&#39;re lucky enough to find it, but it&#39;s been outfitted with a bespoke security grating. You regret the bravado that led you here without any meatspace backup, even moreso when you fumble through your bag and find your oxyacetylene torch steeping in a pool of fulminant. You gag and desperately try to wipe it from your hands, to no effect. On further investigation, you realize the head has leaked through the towel around it, and it&#39;s dripping all over your tools. You curse and lift it out, dropping it onto the control room with a massive //thunk//, before pouring out the thick blue sludge it left behind.
+
+While you&#39;re dealing with this, the massive wingbeat of helicopters overhead draws your attention. If this isn&#39;t a fast and decisive blow to The Order, you&#39;ll become a martyr tonight.
+
+You work in a smooth rhythm, cutting out enough grating to give yourself a sizeable work envelope. Inside the secured panel is an old-school M-Stack terminal in factory-standard M650 kit from the looks of it. You breath a sigh of relief and try to deploy it, only to find its mount has been electrically locked. You punch a hole in the wall, large enough for you to trace the arm back and yank out its control wires. The terminal falls slack, but when you backdrive the arm into a typically-usable state, the terminal flicks on. You thank the stars for Ilse&#39;s guidance on cracking the M-Series as you drill blindly into the case and perfectly pop open the security hatch. The terminal is booted to a login screen, and, when you stick a (weirdly damp) screwdriver through the borehole to bridge the fifth and six pin on the TPM, the operating system freaks the fuck out and loads into an elevated user with the name &lt;span class = &quot;glitchy&quot; data-text=&quot;4I(LO/[.3,,&quot;&gt;&quot;4I(LO/[.3,,&quot;&lt;/span&gt;, and the system immediately loads the control panel. Without a moment&#39;s hesitation, you slam &#39;Disable Alarm&#39; and let the security terminal drop.
+
+The factory wakes around you. When you remove your earplugs, you can make out sirens approaching and surrounding the building, and footsteps on the rooftop. You pick up your prize where you&#39;ve left it, unwrapping it to reveal the pristinely preserved Chidrone head inside. With a swift kiss to its side panel (freezing cold metal leaves an awful film of acidic fulminant onto your lips), you charge towards the control room&#39;s central console.
+
+It whirs to life in your presence. You try your comms, but they&#39;re clearly still being jammed. Without any dirty tricks, all you can do is get in the old foreman&#39;s head. You have one idea.
+
+&lt;span id = &quot;Type1&quot;&gt;\
+&lt;&lt;typesim &quot;Alice4152127&quot;&gt;&gt;&lt;&lt;removeclass &quot;#Type1to2&quot; &quot;Hide&quot;&gt;&gt;&lt;&lt;addclass &quot;#Type1&quot; &quot;Hide&quot;&gt;&gt;&lt;&lt;/typesim&gt;&gt;
+\&lt;/span&gt;
+&lt;span id = &quot;Type1to2&quot; class = &quot;Hide&quot;&gt;
+&#39;One failed login attempt.&#39; You curse.
+
+A memory comes back to you. The Order goon at the SETCO had some famliar posters in his office. It&#39;s a long shot... but without backup and without leveling the factory, it&#39;s the best plan you&#39;re going to get.
+
+&lt;&lt;typesim &quot;uberalles&quot;&gt;&gt;&lt;&lt;removeclass &quot;#Type1to2&quot; &quot;Hide&quot;&gt;&gt;&lt;&lt;addclass &quot;#Type1&quot; &quot;Hide&quot;&gt;&gt;&lt;&lt;/typesim&gt;&gt;
+&lt;/span&gt;</tw-passagedata><tw-passagedata pid="39" name="20CW" tags="OOC" position="1100,475" size="100,100">&lt;h3&gt;CONTENT WARNINGS:&lt;/h3&gt;
+* Graphic Violence
+* Blood, and lots of it
+[[I consent.|20Start]]
+[[Take me back.|30Days]]</tw-passagedata><tw-passagedata pid="40" name="3Start" tags="BloodlikeEarth" position="700,375" size="100,100">No one from Barracks E talks as they pack up their things. There’s an air of mourning hanging over the whole complex and nauseating you. The few others you pass in the hall seem resolute, more committed than ever to carry out Emil’s wish and deny the gamemasters their satisfaction. You feel a gross sort of pity towards them, throwing away their lives on principle like that. As much as you’d rather avoid a direct confrontation after living so close with them… you must admit that they’re putting a very tempting target on their back.
 
 You tuck some backup boots into your pack, sighing. Everyone you’ve seen leaving has been paired up with packs filled to bursting with food and water, but you’re used to travelling light and haven’t come off as particularly trustworthy to your peers. Your early scouting missions have given you an edge, though. Noted in your journal are several spots beyond the game’s stated range where your collar hadn’t even threatened to go off. If all goes to plan, you’ll set up camp in the foothills of the Carpathians and wait out the early bloodbath in style. As you’re scrawling in your journal to revise an old route plan, there’s a knock at your door. After a moment’s consideration, you open it, being sure to tuck away your journal.
 
@@ -1497,7 +1701,7 @@ After a few minutes of silent contemplation, your eyes meet again, and you give 
 
 “Alright. Then, we should start with some basic ground rules, *Kalina*...”
 
-[[...|3Hike]]</tw-passagedata><tw-passagedata pid="39" name="3Hike" tags="BloodlikeEarth" position="700,475" size="100,100">The hike out of the barracks and heading north is harsh, scaring off most of the weaker contestants. That’s why you’re both to pass your old neighbor, Cyryl, making his way alone. You stick to the shadows, but Kalina doesn’t have your skill, getting spotted in an instant. Cyryl waves her down.
+[[...|3Hike]]</tw-passagedata><tw-passagedata pid="41" name="3Hike" tags="BloodlikeEarth" position="700,475" size="100,100">The hike out of the barracks and heading north is harsh, scaring off most of the weaker contestants. That’s why you’re both to pass your old neighbor, Cyryl, making his way alone. You stick to the shadows, but Kalina doesn’t have your skill, getting spotted in an instant. Cyryl waves her down.
 
 “Wow, Kalina! I thought you left ages before me. It’s so crazy seeing you here.” She panics, looking instinctively towards you and almost giving away your position in the brush. Thankfully, Cyryl doesn’t seem to notice, and he attributes her worry to something else. “Right… it must be uncomfortable talking with just the two of us. It’s weird not having Emil here.”
 
@@ -1513,11 +1717,11 @@ When you look up towards Kalina, she’s in a daze, with Cyryl’s blood coating
 
 “I scored us a *point*.” When you don’t respond, she bends down to retrieve the knife you lent her, slurring her words to nobody in particular, “I don’t get what the big deal is,” and “That was so easy,” as she wipes her cheek against her blouse.
 
-[[(Return Home?)|30Days]] &lt;&lt;set $Finished_3 to true&gt;&gt;</tw-passagedata><tw-passagedata pid="40" name="3CW" tags="OOC" position="1225,475" size="100,100">&lt;h3&gt;CONTENT WARNINGS:&lt;/h3&gt;
+[[(Return Home?)|30Days]] &lt;&lt;set $Finished_3 to true&gt;&gt;</tw-passagedata><tw-passagedata pid="42" name="3CW" tags="OOC" position="225,600" size="100,100">&lt;h3&gt;CONTENT WARNINGS:&lt;/h3&gt;
 * Suggestions of sexual coercion
 * POV is party to onscreen killing
 [[I consent.|3Start]]
-[[Take me back.|30Days]]</tw-passagedata><tw-passagedata pid="41" name="4Start" tags="Blood" position="700,0" size="100,100">You flip idly through a homebound book of poems. It’s been a few weeks since you’ve had to scare any invaders away from your lover’s cabin, and you’re on edge. An old Moraxite rival of yours, Atarakis had been the last to come after rumors of The Huntress, hoping to claim the legendary bounty on her head for mass daemocide.
+[[Take me back.|30Days]]</tw-passagedata><tw-passagedata pid="43" name="4Start" tags="Blood" position="700,0" size="100,100">You flip idly through a homebound book of poems. It’s been a few weeks since you’ve had to scare any invaders away from your lover’s cabin, and you’re on edge. An old Moraxite rival of yours, Atarakis had been the last to come after rumors of The Huntress, hoping to claim the legendary bounty on her head for mass daemocide.
 
 That moniker has followed you around for some time. You’d delight in it, if it didn’t bring threats to all those around you. Not least of all your sweetheart Maeve, who you can hear humming to herself as she works. The two of you have only lived together for a few weeks, so you’ve yet to find a time to explain your sordid second life to her. Each night you make the trip back to her abode, she insists on treating your wounds, always chiding with the same fornlorn look, “You let those city men work you too hard, Clara.” Sometimes, she’ll massage your bruised, calloused hands with hers, pouting the whole time. There was a time when you’d try to sneak in after a particularly brutal fight, but it’s hard to explain more than two or three stitched up füresinos bites.
 
@@ -1533,7 +1737,7 @@ The two of you share a quick look of apprehension, before you step off to invest
 
 “Oh don’t pout, little dove. He at least needs a warm meal if you’re sending him out on that road.” The man smiles at that. Against your better judgement, you step aside, and the posessed stranger enters your home.
 
-[[...|4Dinner]]</tw-passagedata><tw-passagedata pid="42" name="4Dinner" tags="Blood" position="800,0" size="100,100">You spend the entire wait staring daggers into your ‘guest’, before Maeve comes to set the table. When she slides a bowl your way, you take one of her hands in yours and lay a gentle kiss on it, all without looking away from him. Maeve sits with the two of you and recites a prayer. If it torments him as you’d hoped, he hides it well. Smelling the feast laid out before him, the beggar appears to grow anxious, bowing his head before his hostess with faux-modesty.
+[[...|4Dinner]]</tw-passagedata><tw-passagedata pid="44" name="4Dinner" tags="Blood" position="800,0" size="100,100">You spend the entire wait staring daggers into your ‘guest’, before Maeve comes to set the table. When she slides a bowl your way, you take one of her hands in yours and lay a gentle kiss on it, all without looking away from him. Maeve sits with the two of you and recites a prayer. If it torments him as you’d hoped, he hides it well. Smelling the feast laid out before him, the beggar appears to grow anxious, bowing his head before his hostess with faux-modesty.
 
 “This is all to generous, sister. I cannot possible accept all this from you. Perhaps some bread crusts would suit me better…” Maeve waves this off, though.
 
@@ -1565,10 +1769,10 @@ As the ‘beggar’ melts to ash, the two of you share a long, wordless gaze of 
 
 “I feel like we have a lot to discuss, dear.” She nods in agreement, and the two of you head back inside.
 
-[[(Return Home?)|30Days]] &lt;&lt;set $Finished_4 to true&gt;&gt;</tw-passagedata><tw-passagedata pid="43" name="4CW" tags="OOC" position="350,600" size="100,100">&lt;h3&gt;CONTENT WARNINGS:&lt;/h3&gt;
+[[(Return Home?)|30Days]] &lt;&lt;set $Finished_4 to true&gt;&gt;</tw-passagedata><tw-passagedata pid="45" name="4CW" tags="OOC" position="600,600" size="100,100">&lt;h3&gt;CONTENT WARNINGS:&lt;/h3&gt;
 * This passage is here for parity, but this one is actually about as &#39;wholesome&#39; as it gets.
 [[I consent.|4Start]]
-[[Take me back.|30Days]]</tw-passagedata><tw-passagedata pid="44" name="5Start" tags="BloodlikeEarth" position="800,375" size="100,100">“Hello?”
+[[Take me back.|30Days]]</tw-passagedata><tw-passagedata pid="46" name="5Start" tags="BloodlikeEarth" position="800,375" size="100,100">“Hello?”
 
 “Ah, Auntie. Yes, I’m well. Yeah, I’m out with Nicoletta again. We should be home soon. Got it, love you too. Bye.” You answer in the same way you always have, then hang up. The menu on your phone flashes for a second before you snap it shut, showing 15:35, February 7th, 1996.
 
@@ -1594,7 +1798,7 @@ Nicoletta finally walks back out, with a look of what you interpret to be distre
 
 “You’ve got nothing to worry about, Ami. I’ll protect you, okay?” You try to stammer out some complaint, but she starts pulling you towards an alleyway.
 
-[[...|5Alley]]</tw-passagedata><tw-passagedata pid="45" name="5Alley" tags="BloodlikeEarth" position="800,475" size="100,100">The cutthrough is barren most of the way, but, when you pass a pair of foreigners, they call out to you.
+[[...|5Alley]]</tw-passagedata><tw-passagedata pid="47" name="5Alley" tags="BloodlikeEarth" position="800,475" size="100,100">The cutthrough is barren most of the way, but, when you pass a pair of foreigners, they call out to you.
 
 “Hey, you. You’re de Lupo’s girl, aren’t you?” Nicoletta moves to pull you right past them, but the gruffer one stands past you, chiding her.
 
@@ -1648,10 +1852,10 @@ You hear the dialtone, and then…
 
 “Hello?”
 
-[[(Return Home?)|30Days]] &lt;&lt;set $Finished_5 to true&gt;&gt;</tw-passagedata><tw-passagedata pid="46" name="5CW" tags="OOC" position="725,600" size="100,100">&lt;h3&gt;CONTENT WARNINGS:&lt;/h3&gt;
+[[(Return Home?)|30Days]] &lt;&lt;set $Finished_5 to true&gt;&gt;</tw-passagedata><tw-passagedata pid="48" name="5CW" tags="OOC" position="975,600" size="100,100">&lt;h3&gt;CONTENT WARNINGS:&lt;/h3&gt;
 * Violent death of a minor
 [[I consent.|5Start]]
-[[Take me back.|30Days]]</tw-passagedata><tw-passagedata pid="47" name="7Start" tags="Blood" position="1025,275" size="100,100">A maid passes you on the way back to your rooms, whispering as she does: “She awaits you in your chambers, Lady Eir.” You color and respond with only a short nod. The walk to your room is long and quiet, and you spend the whole time thinking about her. When you reach the door, you freeze up.
+[[Take me back.|30Days]]</tw-passagedata><tw-passagedata pid="49" name="7Start" tags="Blood" position="1025,275" size="100,100">A maid passes you on the way back to your rooms, whispering as she does: “She awaits you in your chambers, Lady Eir.” You color and respond with only a short nod. The walk to your room is long and quiet, and you spend the whole time thinking about her. When you reach the door, you freeze up.
 
 Is it proper to knock at your own door? This is nothing like your other… conquests. You settle for something in the middle, calling out through the doorway.
 
@@ -1730,10 +1934,10 @@ The two of you laugh, and you hold her face in your hand. She leans into it, pla
 “Why bother? Is anyone in this court brave enough to reproach you, my lady?” And to that, she has no answer.
 
 [[(Return Home?)|30Days]] &lt;&lt;set $Finished_7 to true&gt;&gt;
-&lt;&lt;/linkreplace&gt;&gt;</tw-passagedata><tw-passagedata pid="48" name="7CW" tags="OOC" position="975,600" size="100,100">&lt;h3&gt;CONTENT WARNINGS:&lt;/h3&gt;
+&lt;&lt;/linkreplace&gt;&gt;</tw-passagedata><tw-passagedata pid="50" name="7CW" tags="OOC" position="1225,600" size="100,100">&lt;h3&gt;CONTENT WARNINGS:&lt;/h3&gt;
 * Sexual Content.
 [[I consent.|7Start]]
-[[Take me back.|30Days]]</tw-passagedata><tw-passagedata pid="49" name="8Start" tags="BloodlikeEarth" position="375,475" size="100,100">You groan and lay your head on your desk. It’s currently eleven, and you’ve yet to add anything to what’s shaping up to be your final project at this job. The standards at this company are brutal, and you’re struggling to find a single unturned stone in all of Eugene.
+[[Take me back.|30Days]]</tw-passagedata><tw-passagedata pid="51" name="8Start" tags="BloodlikeEarth" position="375,475" size="100,100">You groan and lay your head on your desk. It’s currently eleven, and you’ve yet to add anything to what’s shaping up to be your final project at this job. The standards at this company are brutal, and you’re struggling to find a single unturned stone in all of Eugene.
 
 Normally, you’d find a way to slip by, but you pulled an all-nighter festering about your breakup. You’re not particularly sad about missing out on him, but you wasted a lot of time on your two dates with him, and it eats you up a little. Even after all that, it took an entire extra week for it to become clear he was ghosting you! You groan again remembering that much.
 
@@ -1755,7 +1959,7 @@ The process leaves you on edge, but your outcome is a relatively popular local c
 
 As if on cue, the clock strikes noon and your coworkers start shuffling out of the office for lunch. You typically meal prep for work to save money, but in your stupor this morning you forgot to pack anything. Your emotional brain is still hung up on the creepy questionnaire, but you figure a little industry research couldn’t hurt.
 
-[[...|8Fab]]</tw-passagedata><tw-passagedata pid="50" name="8Fab" tags="BloodlikeEarth" position="200,475" size="100,100">When you first step foot into ‘Fabricación’, you’re shocked by a few things:
+[[...|8Fab]]</tw-passagedata><tw-passagedata pid="52" name="8Fab" tags="BloodlikeEarth" position="200,475" size="100,100">When you first step foot into ‘Fabricación’, you’re shocked by a few things:
 
 	First, the entire cafe is made up in metallic facades, high-traction rubber floors, and proper caution signage, with ambient industrial sound completing the picture of a real factory floor.
 	Second, several waitresses are buzzing around the floor at all times, wearing hi-visibility vests, goggles, and hard hats over full-length maid dresses.
@@ -1787,13 +1991,13 @@ Your coffee arrives a few moments later, as well as a to-go box for Katja, who s
 
 You shiver, and that strange feeling returns.
 
-You’ve never even mentioned egg salad in front of Katja before.
+You’ve never even mentioned egg salad in front of Katja.
 
-[[(Return Home?)|30Days]] &lt;&lt;set $Finished_8 to true&gt;&gt;</tw-passagedata><tw-passagedata pid="51" name="8CW" tags="OOC" position="100,725" size="100,100">&lt;h3&gt;CONTENT WARNINGS:&lt;/h3&gt;
+[[(Return Home?)|30Days]] &lt;&lt;set $Finished_8 to true&gt;&gt;</tw-passagedata><tw-passagedata pid="53" name="8CW" tags="OOC" position="350,725" size="100,100">&lt;h3&gt;CONTENT WARNINGS:&lt;/h3&gt;
 * Stalking
 * Maid cafes
 [[I consent.|8Start]]
-[[Take me back.|30Days]]</tw-passagedata><tw-passagedata pid="52" name="9Start" tags="BloodlikeEarth" position="925,325" size="100,100">Today, you’ve succeeded at a strategic play that will be written in history books across the planet. Your rival, Aniceta Viteri, has walked straight into your trap without a clue. She paces around the entryway to your apartment, seeming to remark only on total banalities.
+[[Take me back.|30Days]]</tw-passagedata><tw-passagedata pid="54" name="9Start" tags="BloodlikeEarth" position="925,325" size="100,100">Today, you’ve succeeded at a strategic play that will be written in history books across the planet. Your rival, Aniceta Viteri, has walked straight into your trap without a clue. She paces around the entryway to your apartment, seeming to remark only on total banalities.
 
 “This place has gotten way neater since I was here, Haoran. I’m a little envious” You shrug, rather than give her more information. Instead, she’s drawn over to a shelf covered in awards and honors. “And our challenge cup! I’m honored you’d keep it somewhere so prominent…” She laughs, and you have no choice but to defuse the slight.
 
@@ -1843,12 +2047,12 @@ She inches even closer, sipping and resting her head on your shoulder. When you 
 
 By the time Aniceta’s energy runs out, the two of you finish the entire box in this position, and you end the night on a deeply humiliating note, cradling your rival in your arms.
 
-[[(Return Home?)|30Days]] &lt;&lt;set $Finished_9 to true&gt;&gt;</tw-passagedata><tw-passagedata pid="53" name="9CW" tags="OOC" position="350,725" size="100,100">&lt;h3&gt;CONTENT WARNINGS:&lt;/h3&gt;
+[[(Return Home?)|30Days]] &lt;&lt;set $Finished_9 to true&gt;&gt;</tw-passagedata><tw-passagedata pid="55" name="9CW" tags="OOC" position="600,725" size="100,100">&lt;h3&gt;CONTENT WARNINGS:&lt;/h3&gt;
 * POV drugs someone in an act of sexual coercion
 * Intoxicated Intimacy (Alcohol and the aforementioned)
 [[I consent.|9Start]]
-[[Take me back.|30Days]]</tw-passagedata><tw-passagedata pid="54" name="StoryDisplayTitle" tags="" position="475,725" size="100,100">The Unity
-(30 X 30 X30)</tw-passagedata><tw-passagedata pid="55" name="30Days" tags="" position="500,200" size="100,100">&lt;!--&lt;h2&gt;June 2025&lt;/h2&gt;--&gt;
+[[Take me back.|30Days]]</tw-passagedata><tw-passagedata pid="56" name="StoryDisplayTitle" tags="" position="725,725" size="100,100">The Unity
+(30 X 30 X30)</tw-passagedata><tw-passagedata pid="57" name="30Days" tags="" position="500,200" size="100,100">&lt;!--&lt;h2&gt;June 2025&lt;/h2&gt;--&gt;
 \ &lt;&lt;set $checks to 0&gt;&gt;
 &lt;table id=&quot;calendar&quot; style = &quot;width:100%;text-align:left;vertical-align:top&quot;&gt;
 
@@ -1900,10 +2104,10 @@ By the time Aniceta’s energy runs out, the two of you finish the entire box in
         [[Quiet Life|17CW]]&lt;/td&gt;
         &lt;td&gt;16: &lt;&lt;if $Finished_18&gt;&gt;✓&lt;&lt;set $checks += 1&gt;&gt;&lt;&lt;/if&gt;&gt;
         [[Betrothal|18CW]]&lt;/td&gt;
-        &lt;td&gt;17: &lt;&lt;if $Finished_19&gt;&gt;✓&lt;&lt;set $checks += 1&gt;&gt;&lt;&lt;/if&gt;&gt;
+        &lt;td&gt;17:
+        [[Legion|20CW]]&lt;/td&gt;
+        &lt;td&gt;@@color:#ff7575;18: &lt;&lt;if $Finished_19&gt;&gt;✓&lt;&lt;set $checks += 1&gt;&gt;&lt;&lt;/if&gt;&gt;@@
         [[Blood|19CW]]&lt;/td&gt;
-        &lt;td&gt;18:
-        Legion&lt;/td&gt;
     &lt;/tr&gt;
     &lt;tr&gt;
         &lt;td&gt;&lt;/td&gt;
