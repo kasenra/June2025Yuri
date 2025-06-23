@@ -43,6 +43,7 @@ Then, the Chidrone head you've unconsciously been cradling chimes, and its link 
 
 "Sorry, Q.Q..."
 
+<<linkreplace "Kiss her.">>\
 You kiss the top of the head, then you raise it up. In an instant, a hail of gunfire flies through the air, shredding the severed head's armor, chassis, and internals into nothing. There's a pause, and in that pause you shoot up, navigating the control console's menus to "Factorywide Controls". You reach forward and slam "Close Security Shutters", just as the first agent finishes reloading. In a quick burst, three bullets hit you in the shoulder, and you scream.
 
 As you sink back down, you slide across every option in the column. Massive control shutters slam down around every section of the factory, blocking doors, the gate, and the walkways on the factory floor. You hear screams from below as an Order agent is pinned under one of these shutters. Then, in order: every light in the factory shuts off, a deafening warning screeches out over the factories speakers, and ceiling mounted fire extinguishers spray choking gas over the factory floor. There's panic among the Order's assault squad. You, on the other hand, feel... heavy and... slow.
@@ -75,17 +76,17 @@ One-handed, your only option is to sling the tourniquet over your arm, which tak
 
 "W-wait! Where are you going?" She turns back to you as she slots her free arm into an autocannon holstered on her back.
 
-"If I try to transport you in this state, you'll go into hemorrhagic shock before we even get close."
-
-"The Order's got 'peacekeepers' surrounding the factory on all sides. My other units have made quick work of them, but there should still be a few left."
+"If I try to transport you in this state, you'll go into hemorrhagic shock before we even get close. The Order's got 'peacekeepers' surrounding the factory on all sides. My other units have made quick work of them, but there should still be a few left."
 
 "So?! What am I supposed to do?!" QSTOR stands tall and clearly tries to smile your way.
 
 "Sit tight. I'll be back with some blood for you."
 
 [[And with that, she dashes out.|30Days]] <<set $Finished_20 to true>>
+\<</linkreplace>>
 \<</typesim>>
 \<</typesim>>
+
 :: 20CW [OOC]
 <h3>CONTENT WARNINGS:</h3>
 * Graphic Violence
