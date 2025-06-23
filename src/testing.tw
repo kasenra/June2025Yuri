@@ -54,6 +54,7 @@ body[data-tags~="DarkFuture"] #menu a:hover {color: #9576ae;}
 
 :: 30Days {"position":"500,200"}
 <!--<h2>June 2025</h2>-->
+\ <<set $checks to 0>>
 <table id="calendar" style = "width:100%;text-align:left;vertical-align:top">
 
     <!-- 
@@ -67,45 +68,45 @@ body[data-tags~="DarkFuture"] #menu a:hover {color: #9576ae;}
         <td>Saturday</td>
     </tr>-->
     <tr> <!-- Week of the 1st -->
-        <td>1: <<if $Finished_1>>✓<</if>>
+        <td>1: <<if $Finished_1>>✓<<set $checks += 1>><</if>>
         [[Repairs|1CW]]</td>
-        <td>2: <<if $Finished_2>>✓<</if>>
+        <td>2: <<if $Finished_2>>✓<<set $checks += 1>><</if>>
         [[Feeding|2CW]]</td>
-        <td>3: <<if $Finished_3>>✓<</if>>
+        <td>3: <<if $Finished_3>>✓<<set $checks += 1>><</if>>
         [[Brutale|3CW]]</td>
-        <td>4: <<if $Finished_4>>✓<</if>>
+        <td>4: <<if $Finished_4>>✓<<set $checks += 1>><</if>>
         [[Same Secret|4CW]]</td>
-        <td>5: <<if $Finished_5>>✓<</if>>
+        <td>5: <<if $Finished_5>>✓<<set $checks += 1>><</if>>
         [[Redo|5CW]]</td>
-        <td>@@color:#ff7575;6: <<if $Finished_7>>✓<</if>>@@
+        <td>@@color:#ff7575;6: <<if $Finished_7>>✓<<set $checks += 1>><</if>>@@
         [[Holding Back|7CW]]</td>
     </tr>
     <tr> <!-- Week of the 8th -->
-        <td>7: <<if $Finished_8>>✓<</if>>
+        <td>7: <<if $Finished_8>>✓<<set $checks += 1>><</if>>
         [['Coincidence' |8CW]]</td>
-        <td>8: <<if $Finished_9>>✓<</if>>
+        <td>8: <<if $Finished_9>>✓<<set $checks += 1>><</if>>
         [[Buried Feelings|9CW]]</td>
-        <td>@@color:#ff7575;9: <<if $Finished_10>>✓<</if>>@@
+        <td>@@color:#ff7575;9: <<if $Finished_10>>✓<<set $checks += 1>><</if>>@@
         [[Lady of Faith|10CW]]</td>
-        <td>10: <<if $Finished_11>>✓<</if>>
+        <td>10: <<if $Finished_11>>✓<<set $checks += 1>><</if>>
         [[Brave Disciple|11CW]]</td>
-        <td>11: <<if $Finished_12>>✓<</if>>
+        <td>11: <<if $Finished_12>>✓<<set $checks += 1>><</if>>
         [[ 'Rivalry' |12CW]]</td>
-        <td>@@color:#ff7575;12: <<if $Finished_13>>✓<</if>>@@
+        <td>@@color:#ff7575;12: <<if $Finished_13>>✓<<set $checks += 1>><</if>>@@
         [[Reasons to Fight|13CW]]</td>
 
     </tr>
     <tr>
-        <td>13: <<if $Finished_15>>✓<</if>>
+        <td>13: <<if $Finished_15>>✓<<set $checks += 1>><</if>>
         [[Infestation|15CW]]</td>
-        <td>@@color:#ff7575;14: <<if $Finished_16_A and $Finished_16_B>>✓<<elseif $Finished_16_A or $Finished_16_B>>1/2<</if>>@@
+        <td>@@color:#ff7575;14: <<if $Finished_16_A and $Finished_16_B>>✓<<set $checks += 1>><<elseif $Finished_16_A or $Finished_16_B>>1/2<</if>>@@
         [[Authority|16CW]]</td>
-        <td>15: <<if $Finished_17>>✓<</if>>
+        <td>15: <<if $Finished_17>>✓<<set $checks += 1>><</if>>
         [[Quiet Life|17CW]]</td>
-        <td>16: <<if $Finished_18>>✓<</if>>
+        <td>16: <<if $Finished_18>>✓<<set $checks += 1>><</if>>
         [[Betrothal|18CW]]</td>
-        <td>17:
-        Traitor</td>
+        <td>17: <<if $Finished_19>>✓<<set $checks += 1>><</if>>
+        [[Blood|19CW]]</td>
         <td>18:
         Legion</td>
     </tr>
