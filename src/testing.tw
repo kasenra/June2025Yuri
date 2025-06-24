@@ -278,8 +278,10 @@ body[data-tags~="DarkFuture"] #menu a:hover {color: #9576ae;}
         [[Blood|19CW]]</td>
     </tr>
     <tr>
-        <td></td>
-        <td></td>
+        <td>18: <<if $Finished_21>>✓<<set $checks += 1>><</if>>
+        [[Guardian|21CW]]</td>
+        <td>19: <<if $Finished_22>>✓<<set $checks += 1>><</if>>
+        [[Sunrise|22CW]]</td>
         <td></td>
         <td></td>
         <td></td>

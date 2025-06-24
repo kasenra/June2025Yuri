@@ -1,0 +1,18 @@
+:: 22Start
+{not there wakeup, cooking, morning calls, Bayani Hoang? Actual repeating?}
+Sunlight creeps through your window and wakes you up.
+
+You stretch and yawn while you survey the room. Nicoletta is missing from her side of the bed.
+
+<<ctp "sleepin">>\
+<<linkreplace "Sleep in.">><<ctpAdvance "sleepIn">>It's still early, so you decide to rest a little longer. After everything you've been through, falling back asleep isn't hard.<</linkreplace>>
+\<</ctp>>
+
+
+:: 22CW [OOC]
+<h3>WARNING:</h3>
+* This passage relies on context from Passage 5: Redo. Be sure you've read that first.
+<h3>CONTENT WARNINGS:</h3>
+
+[[I consent.|22Start]]
+[[Take me back.|30Days]]

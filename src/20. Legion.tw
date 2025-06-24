@@ -1,8 +1,8 @@
 :: 20Start [DarkFuture]
-(chidrone head) ["Neurocore", "Meta", "Adhoc", "Blitzr", "M-Stack", "RNG-Sus", "Presanguine", "Eletech", "Newnoise", "HardKore"]
+
 You put your boot through the glass of the control room door and carefully snake your hand inside to open the way.
 
-As soon as you do, a factorywide alarm activates, casting the room before you in on-off flashes of red light. You duck through the doorway before a security shutter slams down. In the process, you've fully and finally locked yourself in the control room. You put two fingers to the communicator controls on your neck.
+As soon as you do, a factory-wide alarm activates, casting the room before you in on-off flashes of red light. You duck through the doorway before a security shutter slams down. In the process, you've fully and finally locked yourself in the control room. You put two fingers to the communicator controls on your neck.
 
 "Gods above, please tell me one of you has eyes on the network..."
 
@@ -16,7 +16,7 @@ You put in earplugs to quiet the constant, droning klaxon and give yourself ment
 
 While you're dealing with this, the massive wingbeat of helicopters overhead draws your attention. If this isn't a fast and decisive blow to The Order, you'll become a martyr tonight.
 
-You work in a smooth rhythm, cutting out enough grating to give yourself a sizeable work envelope. Inside the secured panel is an old-school M-Stack terminal in factory-standard M650 kit from the looks of it. You breath a sigh of relief and try to deploy it, only to find its mount has been electrically locked. You punch a hole in the wall, large enough for you to trace the arm back and yank out its control wires. The terminal falls slack, but when you backdrive the arm into a typically-usable state, the terminal flicks on. You thank the stars for Ilse's guidance on cracking the M-Series as you drill blindly into the case and perfectly pop open the security hatch. The terminal is booted to a login screen, and, when you stick a (weirdly damp) screwdriver through the borehole to bridge the fifth and six pin on the TPM, the operating system freaks the fuck out and loads into an elevated user with the name <span class = "glitchy" data-text="4I(LO/[.3,,">"4I(LO/[.3,,"</span>, and the system immediately loads the control panel. Without a moment's hesitation, you slam 'Disable Alarm' and let the security terminal drop.
+You work in a smooth rhythm, cutting out enough grating to give yourself a sizable work envelope. Inside the secured panel is an old-school M-Stack terminal in factory-standard M650 kit from the looks of it. You breathe a sigh of relief and try to deploy it, only to find its mount has been electrically locked. You punch a hole in the wall, large enough for you to trace the arm back and yank out its control wires. The terminal falls slack, but when you backdrive the arm into a typically-usable state, the terminal flicks on. You thank the stars for Ilse's guidance on cracking the M-Series as you drill blindly into the case and perfectly pop open the security hatch. The terminal is booted to a login screen, and, when you stick a (weirdly damp) screwdriver through the borehole to bridge the fifth and six pin on the TPM, the operating system freaks the fuck out and loads into an elevated user with the name <span class = "glitchy" data-text="4I(LO/[.3,,">"4I(LO/[.3,,"</span>, and the system immediately loads the control panel. Without a moment's hesitation, you slam 'Disable Alarm' and let the security terminal drop.
 
 The factory wakes around you. When you remove your earplugs, you can make out sirens approaching and surrounding the building, and footsteps on the rooftop. You pick up your prize where you've left it, unwrapping it to reveal the pristinely preserved Chidrone head inside. With a swift kiss to its side panel (freezing cold metal leaves an awful film of acidic fulminant onto your lips), you charge towards the control room's central console.
 
@@ -27,17 +27,17 @@ It whirs to life in your presence. You try your comms, but they're clearly still
 
 'One failed login attempt.' You curse.
 
-A memory comes back to you. The Order goon at the SETCO office had some famliar posters in his office. It's a long shot... but without backup and without leveling the factory, it's the best plan you're going to get.
+A memory comes back to you. The Order goon at the SETCO office had some familiar posters in his office. It's a long shot... but without backup and without leveling the factory, it's the best plan you're going to get.
 
 <<typesim "uberalles">>
 
-Daybreak. A shell loads up, and a cacophony of machines follows on the floor below you. You flick through the menus as fast as you can under time pressure, until you find find "Flash HUB BIOS." You reach deep up the Chidrone's artificial esophagus and pull out a link cable, which slots into the control console with some forcing and starts a long progress bar.
+Daybreak. A shell loads up, and a cacophony of machines follows on the floor below you. You flick through the menus as fast as you can under time pressure, until you find "Flash HUB BIOS." You reach deep up the Chidrone's artificial esophagus and pull out a link cable, which slots into the control console with some forcing and starts a long progress bar.
 
-Outside, Order agents have begun ramming the factory's reinforced gate. You curse and slam the console. You won't have enough time to take the straightforward route... Instead, you boot up ten shells at a time and fire up all the factory's core systems simultaneously. Metal lurches and screams, welders burn themselves out, and extruders pour out long, avante-garde twists of aluminum pasta, which catch on the rollers and make them scream. The first misshapen pieces of Marauder chassis roll into the assembly line, just as the factory gate topples over. You catch one last glimpse of the factory line as it flooded with hostiles and you duck into cover.
+Outside, Order agents have begun ramming the factory's reinforced gate. You curse and slam the console. You won't have enough time to take the straightforward route... Instead, you boot up ten shells at a time and fire up all the factory's core systems simultaneously. Metal lurches and screams, welders burn themselves out, and extruders pour out long, avante-garde twists of aluminum pasta, which catch on the rollers and make them scream. The first misshapen pieces of Marauder chassis roll into the assembly line, just as the factory gate topples over. You catch one last glimpse of the factory line as it is flooded with hostiles and you duck into cover.
 
 Seconds after you move out of the way, shots ring out, and armor-penetrating rounds explode the window above you into tiny chunks which rain down over you. Adrenaline fully takes over your body. You listen to the agents chattering on the factory floor and figure you have about twenty seconds before they break into the control room. You're unarmed, and the only way in or out leads directly into their waiting hands. It will take at least twice that for the first units to roll off the line. The Order goons on the factory floor have a clear shot if you so much as stand.
 
-Still... if you don't buy QSTOR some time, this will all be for nothing. You'll be a marty for a dead cause, and no chance like this will ever come again. More than anything you've ever known, you know you can ''not'' permit that.
+Still... if you don't buy QSTOR some time, this will all be for nothing. You'll be a martyr for a dead cause, and no chance like this will ever come again. More than anything you've ever known, you know you can ''not'' permit that.
 
 Then, the Chidrone head you've unconsciously been cradling chimes, and its link retracts from the central console. An idea reaches you, but the thought of it churns your stomach. You steel your resolve anyway.
 
@@ -46,17 +46,17 @@ Then, the Chidrone head you've unconsciously been cradling chimes, and its link 
 <<linkreplace "Kiss her.">>\
 You kiss the top of the head, then you raise it up. In an instant, a hail of gunfire flies through the air, shredding the severed head's armor, chassis, and internals into nothing. There's a pause, and in that pause you shoot up, navigating the control console's menus to "Factorywide Controls". You reach forward and slam "Close Security Shutters", just as the first agent finishes reloading. In a quick burst, three bullets hit you in the shoulder, and you scream.
 
-As you sink back down, you slide across every option in the column. Massive control shutters slam down around every section of the factory, blocking doors, the gate, and the walkways on the factory floor. You hear screams from below as an Order agent is pinned under one of these shutters. Then, in order: every light in the factory shuts off, a deafening warning screeches out over the factories speakers, and ceiling mounted fire extinguishers spray choking gas over the factory floor. There's panic among the Order's assault squad. You, on the other hand, feel... heavy and... slow.
+As you sink back down, you slide across every option in the column. Massive control shutters slam down around every section of the factory, blocking doors, the gate, and the walkways on the factory floor. You hear screams from below as an Order agent is pinned under one of these shutters. Then, in order: every light in the factory shuts off, a deafening warning screeches out over the factory's speakers, and ceiling mounted fire extinguishers spray choking gas over the factory floor. There's panic among the Order's assault squad. You, on the other hand, feel... heavy and... slow.
 
-All the sounds across the factory seem to blur together. You know instinctively to press down when you see spurting blood, but even your uninjured arm is having trouble complying. Across the room, you know your bag has supplies that could help your chances, but... you couldn't even reach it in this state. On the factory floor, there's gunfire and voices coming from all sides. It feels distant, now.
+All the sounds across the factory seem to blur together. You know instinctively to press down when you see spurting blood, but even your uninjured arm is having trouble complying. Across the room, you know your bag has supplies that could help your chances, but... you couldn't even reach it in this state. On the factory floor, there's gunfire and voices coming from all sides. It feels distant now.
 
 You let in a long, haggard breath. It was never your plan to die for the cause, but, if it gives her another chance... you can make peace with that.
 
-The noise downstairs has died down, replaced with a din of footfalls towards the control room and the sound a crunching and cutting metal. You let your heavy eyelids drop as the control room security door crumples down into nothing. Something massive crosses the room towards you, then it grabs you by your injured arm and squeezes, sending horrific pain shooting up through your body. Then... it stops. You force open your eyes, only to see a Marauder unit towering over you, mottled with fresh blood and stemming bloodflow into your arm with its oversized gripper hand. It speaks in a deep, synthesized voice you've only heard used for dispersing protestors.
+The noise downstairs has died down, replaced with a din of footfalls towards the control room and the sound of crunching and cutting metal. You let your heavy eyelids drop as the control room security door crumples down into nothing. Something massive crosses the room towards you, then it grabs you by your injured arm and squeezes, sending horrific pain shooting up through your body. Then... it stops. You force open your eyes, only to see a Marauder unit towering over you, mottled with fresh blood and stemming bloodflow into your arm with its oversized gripper hand. It speaks in a deep, synthesized voice you've only heard used for dispersing protestors.
 
 "This is the best I can do for you in this form, Halyna."
 
-Tears rush to your eyes. You go to move, but she properly pins you to the wall. You voice is scratchy and weak.
+Tears rush to your eyes. You go to move, but she properly pins you to the wall. Your voice is scratchy and weak.
 
 "Q.Q... you came back for me..." She slides over your bag, skewered on her blade arm and slicked in a mix of fulminant and blood. It falls open and all your tools, including your first aid kit, fall out.
 

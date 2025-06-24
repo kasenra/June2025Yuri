@@ -24,7 +24,7 @@ She shrugs.
 
 "Actually, Esi, maybe we should call it a day?" You scrunch your face up at her. "The CPUT'll still be here tomorrow, and you scratched yourself up pretty bad getting that... whatever." She gestures wildly towards the box she's holding.
 
-"Besides, if I can get a cutting crew in here tonight, there'll be plenty new pickings for you." Somehow, she always knows just how to tempt you.
+"Besides, if I can get a cutting crew in here tonight, there'll be plenty of new pickings for you." Somehow, she always knows just how to tempt you.
 
 You stomp open the display case and lift the arm free, only to realize it's a plaster display model. It cracks in two when you chuck it against the wall.
 
@@ -124,9 +124,9 @@ The loud ''THUNK'' seems to pull Keisha out of her stupor, and the pain forces d
 While it may be humiliating for your underlings to think about you in such an inappropriate way, it's not without its perks. Since the goons have taken to viewing Keisha as the macho, powerful shadow boss, you could easily turn that against them. Your showing today has also no doubt reinforced their image of the two of you. There are two real ways you could spin this in your favor.
 
 # If you allow Keisha to 'rule from the shadows' while you hold her leash, she could easily pick up support from rebellious groups and launder your more controversial orders down to them. As much as you'd like to simply take out those who question your authority, they still have a lot to contribute to the gang. Factionalism kills most gangs (and nations, and corps) in the end. It would be embarrassing, but your pride could buy you further control over your underlings.
-# However, if you wanted to rebutt Keisha's assumed power, doing so publicly could spread fear around your base and heighten their respect for you. Wars are destructive, public executions waste manpower, but if someone were to overhear you 'asserting your authority', you'd be back in your place as alpha dog in no time.
+# However, if you wanted to rebut Keisha's assumed power, doing so publicly could spread fear around your base and heighten their respect for you. Wars are destructive, public executions waste manpower, but if someone were to overhear you 'asserting your authority', you'd be back in your place as alpha dog in no time.
 
-Both options require some embarrassing things of you, but, for the unity of the Chapel Street Scavvers, you have to pick one...
+Both options require some embarrassing things from you, but, for the unity of the Chapel Street Scavvers, you have to pick one...
 \<<if $Finished_16_A and not $Finished_16_B>>
 \<<removeclass "#pathB" "hide">>
 \<<elseif ( $Finished_16_B and not $Finished_16_A ) or random(1) == 0>>
@@ -150,7 +150,7 @@ Keisha holds your hand tight as she pulls you deeper into the CPUT ruins. You pa
 
 You reach the third sublevel, and you slip on some debris, stumbling straight into her arms. She hugs you tight to her chest.
 
-"It's alright. This is the spot." She leans down and kisses your forehead. @@color:#6f6f6f;You claw down her back, making her whimper ever so slightly. From the second level stairway, a lowranking goon trains his camera on the two of you.@@
+"It's alright. This is the spot." She leans down and kisses your forehead. @@color:#6f6f6f;You claw down her back, making her whimper ever so slightly. From the second level stairway, a low-ranking goon trains his camera on the two of you.@@
 
 Under a sign labeled "NEW CAPE TOWN MATERIALS LAB", Keisha pulls out a small jewelry box and offers it to you. You open it @@color:#6f6f6f; turned so that your 'guest' can see@@, and inside is a glittering silver choker. You look up to her.
 
