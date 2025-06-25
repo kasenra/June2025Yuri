@@ -275,14 +275,15 @@ body[data-tags~="DarkFuture"] #menu a:hover {color: #9576ae;}
         <td>17: <<if $Finished_20>>✓<<set $checks += 1>><</if>>
         [[Legion|20CW]]</td>
         <td>@@color:#ff7575;18: <<if $Finished_19>>✓<<set $checks += 1>><</if>>@@
-        [[Blood|19CW]]</td>
+        [[By Blood|19CW]]</td>
     </tr>
     <tr>
         <td>18: <<if $Finished_21>>✓<<set $checks += 1>><</if>>
         [[Guardian|21CW]]</td>
         <td>19: <<if $Finished_22>>✓<<set $checks += 1>><</if>>
         [[Sunrise|22CW]]</td>
-        <td></td>
+        <td>@@color:#ff7575;20: <<if $Finished_6 == 4>>✓<<elseif $Finished_6 > 0>><<print $Finished_6 / 4>><</if>>@@
+        [[Plasticity|23CW]]</td>
         <td></td>
         <td></td>
         <td></td>

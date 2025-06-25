@@ -1,4 +1,4 @@
-:: 23Start
+:: 23Start [BloodlikeEarth]
 
 "Haaaahhhhh... Sometimes I forget how spoiled you are in winter, Haoran." Aniceta sighs and slips off her windbreaker. "Do you think they'd let me back in if I gave 'em a sob story about living on the farm?" And you laugh.
 
@@ -28,13 +28,160 @@ Aniceta breathes in and out onto your neck, weakly asking "Is it over...?" You l
 
 "T-that..." Windows and times flit through your head, and you try to mathematically center yourself. "If it would make you more comfortable... we can stay like this while we wait for the medicine to take effect." Aniceta smiles and nuzzles into your chest without another word, [[and you stay like that for some time|23Hypnogogia]].
 
-:: 23Hypnogogia
+:: 23Hypnogogia [BloodlikeEarth]
 
+Aniceta's hot breath brushes past your neck. When you look down to her, she's watching you with slow, lethargic blinks. There's a long lag between when your eyes meet and when she turns shy and looks away. When she whispers, her voice is wavering and unsure, as if half-asleep.
+
+"I think it's working..." You nod. As you pull away she tries to cling to you, but you can easily overpower her in this state. Aniceta pouts about it, while you step to your laptop and start a pre-prepared playlist of slow, calming music. You crouch down beside her and try your best to speak in a soft, soothing voice.
+
+"Alright, we're going to be starting with something called 'progressive relaxation'. It might affect you really strongly, or it might not affect you at all. Rather than worrying about that, I just want you to focus on relaxing for me. Do you think you can do that?" She smiles and nods.
+
+"I can..." An unbidden smirk crosses your face.
+
+"Now, it's important that you tell me if anything is bothering you, but if you feel good and would rather not speak, feel free to respond nonverbally. I'll be here watching over you the whole time, so you don't need to worry about anything. Is that okay?" She nods towards you with a glassy expression, and a shiver runs down your spine. "Now, lie down on your back for me."
+
+She does, still tracking you with her eyes. You take her hand, balled up into a fist, between yours. She unfurls it as you do, and you rub small circles into her palm, pressing into her calluses and making her sigh.
+
+"For now, I want you to focus on relieving tension in these parts, and then we'll move inward." As you stroke her hand, you feel it relax under your touch. You smile her way and move to massage her wrist. "You're doing a wonderful job. Just keep focusing on that warm, floaty feeling of pure relaxation." She sighs with a totally blank expression, seeming to sink fully into her mat. Despite having practiced this with a coworker before (for a control sample), the speed at which Aniceta melts for you is shocking. It'd be a problem if the mixture induced //sleep// instead of //hypnosis//, so, as you creep upwards and relax her arms, you jump ahead to a more active step in the protocol.
+
+"As you relax, I want you to think about something you do that makes you feel at peace, and tell me what it is." Her brow narrows a bit, and she seems to think hard about it. You massage her shoulders, letting them relax and sink into the mat. Then, Aniceta speaks.
+
+"Haoran..." You perk up.
+
+"Everything okay?" She nods and smiles.
+
+"I like to do... Haoran."
+
+...
+
+You breathe in... and out... and you sigh.
+
+"Let's stick to activities for now, okay? Things you'll do after a long day to help yourself relax." She thinks a bit longer.
+
+"I like to read..." You sigh. The idea that Aniceta can be normal, too reassures you.
+
+"And what sort of reading soothes you and helps you relax?" This time, she doesn't even take the time to think.
+
+"Old messages... sometimes from my family, but usually from Haoran..." You sigh again, and she continues without you asking. "I like to imagine the two of us are living together again, even that we're married... It's a really warm, healing feeling..." You blush and cut her off there. Even if it is embarrassing... that feeling might be useful for your purposes.
+
+"Then... try to imagine that warmth spreading all across your body. Let everything but my voice and your pure relaxation fade far away." Aniceta sighs, and you watch a shiver creep up her body. There's a soft, far away look in her eyes. When you realize now might be your best chance to implant something in Aniceta's head, you blush. Like it was nothing, she opened up the deepest, subconscious pieces of herself, and you're still not sure what you want to do with them. You've tried brainstorming suggestions to embarrass and degrade Aniceta while proving your superiority, but you never settled on one. So, you'll have to improvise from the suggestions you had prepared.
+
+<span id = "cetachoice">
+<<link "When she's in your home, Aniceta should see herself as your loyal dog.">><<replace "#cetachoice">><<removeclass "#dogend" "hide">><<removeclass "#waker" "hide">><<if ndef $End_6_Dogo>><<set $End_6_Dogo to true>><<set $Finished_6 += 1>><</if>>\
+"There's a feeling of loyalty there, isn't there? I want you to focus on it." She nods sluggishly. "Think about how it feels to be loyal, to be appreciated for being loyal."
+
+Aniceta squirms a bit, and you reconsider starting with something so high-concept. Instead you scratch her behind the ears and pet her head. She jumps at first, but she settles down and leans into it once she's adjusted. You even forget yourself and pet her for longer than you intended before speaking again.
+
+"Doesn't that feel good? You would feel good if the person were so attached to praised you like that?" She nods aggressively, but you stop caressing her. "Not like that. Speak." She fumbles, before calling out.
+
+"Y-yes..." You softly //bap// her on the cheek and she grumbles.
+
+"Not like that. Good, sweet dogs don't talk, do they?"
+
+She seems conflicted for a moment. She tries leaning into your touch, but you don't pet her, as hard as that is. She whines, but, then...
+
+"A-a-arf...! Arf arf..." You immediately scritch her, toying with her hair and kissing the crown of her head. Without any extra training, she lolls her tongue out and enjoys it.
+
+"So cuuuuute!~" You rapidfire kisses on her cheeks as you stroke her hair. She happily, limply takes the affection. You tease her, "Isn't thing great? Don't you wish you could be a cute puppy more often?" She whimpers for a moment, then softly barks. You pet her more.
+
+"Look at you! You're sooooo cute, puppy!" You reach down, pull up Aniceta's shirt, and rub her belly. She seems to love it, but you suddenly become self-aware as you do it.
+
+"A-ahem... That should be enough training. I think I need to wake you up now... puppy." She droops, then she paws at... strokes your hand with hers, and you take it, rubbing small circles into it. "I know, I know... it's not scary, though. We'll just be doing our induction backwards. Think you can manage that, puppy?" She licks your cheek.
+\<</replace>><</link>>
+<<link "When Aniceta gets tired, her oral fixation should grow to absurd levels. ">><<replace "#cetachoice">><<removeclass "#kissend" "hide">><<removeclass "#waker" "hide">><<if ndef $End_6_Suck>><<set $End_6_Suck to true>><<set $Finished_6 += 1>><</if>>\
+"Now, I want you to focus on a specific feeling for me." You hold Aniceta by the chin and trace over her lips with your thumb. She squirms a little from the sensation.
+
+"Right now, your mouth is so empty... it's feeling a little lonely, I think." She doesn't seem totally, so you slip a bit of your thumb past her lips, and she moans. When you pull it out and stroke her lips more, she squirms more strongly.
+
+"There~ You get it now." She whimpers and makes the slightest forceful move to take your thumb into your mouth, which you can push back with only a light pressure against her chin. "You want it bad, don't you? Don't be ashamed, it's totally normal."
+
+You finally spare her the torment, plunging the length of your thumb past her lips. She shakes and cries out if electrocuted, before calming down and idly sucking on your thumb. You stroke her hair and let her enjoy herself.
+
+"That's right... this is totally natural, see? You can hardly move your body, but you still know how to suckle. It's one of the first instincts we use, after all." You lightly pump your thumb in and out of Aniceta's mouth, and she makes a glassy-eyed face of pure bliss, different to anything you've ever seen from her. A shiver runs up your spine, but you can only continue further.
+
+"I-it's hard to suppress these urges, but you can already feel that, can't you?" She nods slightly, digging her teeth into your thumb at each apex. You pet her head with your free hand.
+
+"That's okay, because your body is capable of controlling it entirely on its own. Would you like that?" She pauses for a moment then nods more forcefully, causing you to curse under your breath. You collect yourself and smile at her. "Good. Thankfully, I've already given you the power in this session." She seems to relax at this, slowing down to only lightly licking your thumb. You can't help but admire how low she's fallen for you so quickly. It'd be a shame to totally lock up something this cute, though.
+
+"You'll be safe to go throughout your day, doing everything you need without any fear of these urges returning."
+
+"//''However''//, the more your energy you burn, the harder it will be to keep up this front. After a long day, when you're surrounded by people you trust, you'll be constantly aware of how badly you need your mouth filled." She unconsciously starts sucking on your thumb again.
+
+You pull your hand away from Aniceta, and she immediately grows distressed. You take her hand in yours, massaging it while you soothe her back down.
+
+"It's okay. Don't be scared. I need to wake you up now, okay?" It takes a moment, but she seems to calm back down.
+
+"The process is just how we started in reverse. You can do it." She nods.
+\<</replace>><</link>>
+<<link "Any time she hears your voice, Aniceta should remember to show deference to your greatness and natural talent.">><<replace "#cetachoice">><<removeclass "#praiseend" "hide">><<removeclass "#waker" "hide">><<if ndef $End_6_Submit>><<set $End_6_Submit to true>><<set $Finished_6 += 1>><</if>>\
+"Now, I want you to focus on this voice, the only thing that's important to you right now. You'll feel utterly serene any time you hear it, and that warm filling with flood you all over." You take Aniceta's hand, and she instinctively squeezes yours. When you slide closer to her, she rests her head in your lap.
+
+"Any time you hear my voice, you'll feel that burning admiration take you over. The only way you'll be able to put it out is to project it out in the world." She turns over in your lap, and you stroke her hair, soothing her back down before it can hurt her trance.
+
+"Don't worry. It's not something to be scared about. Letting it overcome you and releasing it will feel fun, light, just as peaceful as you are now." You kiss the back of her hand, and she settles nicely into your lap.
+
+"Tonight has shown that you already have that potential... you just need to embrace it." She nods into your lap.
+
+"That feeling of admiration, like everything about someone might be on a whole different level to you... well, some would consider it a form of love. You don't need to feel any shame about love, do you?" Aniceta trembles under your touch and starts mumbling to herself. You stroke her hair and sigh. Her limit might be drawing near, so this is the most you'll be able to do tonight. You lower her down off your lap, stroking her hair the whole time to keep her from worrying.
+
+"I'm going to be waking you up, now." She seems hesistant, but she calms down from your soothing. "I'll just be reversing the process we used to start."
+\<</replace>><</link>>
+<<link "When Aniceta reminisces about the two of you, she should get embarrasingly turned on.">><<replace "#cetachoice">><<removeclass "#nostalgiaend" "hide">><<removeclass "#waker" "hide">><<if ndef $End_6_Brick>><<set $End_6_Brick to true>><<set $Finished_6 += 1>><</if>>\
+"So... you know that warm, healing feeling." Aniceta nods and sleepily smiles. "Now, I want you to feel the deeper, more intense flames hiding inside it, as they burn you up from the inside." You inch closer to her, lean in and whisper right next to her, making her jump.
+
+"I want you to feel it growing... radiating heat... and so hard to deny." You stroke the crown of he head, and she whimpers. "Up here... taking over your every thought... clouding your judgement and leaving you so whiny and needy." You trail your fingers down, savouring the humilating whines Aniceta lets out from a simple touch. You stop over her chest. "To here... Making your heart beat quicker... Every part of you is so sensitive from the heat." Aniceta cries out, and she starts desperately grinding against the mat, still totally unconscious. You gently hold her back with your free arm, which she doesn't struggle against.
+
+Finally, you slide down between her legs. Aniceta lets out a ragged moan. A feeling of smug superiority washes over you as you notice the slight tent in her pants. You divert around and massage small circles into her thighs, as you whisper, "Oh, oh, oh... it's so intense... Just that burning alone could take you to the edge. It makes you //so// desperate..." You bend closer and place a mocking kiss on her thigh, then... Aniceta hitches, cries out, and settles back down into quiet whimpers, albeit with a small, wet spot mere inches from your face.
+
+...
+
+You sit up beside her and whisper, to yourself as much as her.
+
+"I might have overdone things... I'm going to wake you up, now." Behind that glassy-eyed look, she seems a little disappointed. You take her hand and squeeze it. "It's important that you stay nice and serene for me while you wake. Otherwise, everything that's happened today won't stick." While you're not sure about that last part... it's better than her freaking out after waking up in //this// state.
+
+"I'll start it now. We'll just be reversing the last protocol to slowly ease you back into being a person." And she smiles.
+\<</replace>><</link>>
+</span>
+<span id = "waker" class = "hide">\
+"Now, you're going to start regaining consciousness, and you'll notice feelings in your body again. I'll count down from ten to guide you, and you'll wake up on zero. Do you understand?" Aniceta nods sleepily. You massage her hand as you start your count.
+
+"Ten. Nine." She wiggles a fingertip and shifts around in place.
+
+"Eight. Seven." She wraps her index finger around yours.
+
+"Six. Five" Aniceta turns her head to watch you with long, heavy blinks, and you smile back at her.
+
+"Four. Three." She adjusts and inches closer to you, resting her head on your hand.
+
+"Two. One." Aniceta stretches out her legs and rotates her shoulders.
+
+"Zero." She whispers to you in a sleepy, but cogent voice.
+
+"Hi..." And she nuzzles into your hand, which you turn to hold her cheek. "Did I do good?" And you smirk down towards her.
+
+"You know you did. Don't act innocent so I'll praise you." Aniceta giggles and kisses the palm of your hand.
+\</span>
+\<span id = "dogend" class = "hide">.. then, she licks it. She seems totally shocked by this.
+
+"S-sorry! I must still be out of it... I just feel... fuzzy..." You try to wave it off, and you absentmindedly pet Aniceta's head. This is a mistake, as she then proceeds to brush into your touch and whine. She switches between apologizing and begging as easily as breathing. "Sorry! I don't know what's gotten into me... arf. I mean... uhm..." You cough.
+
+"It's not a big deal. There's no need to apologize. This... treatment... must have affected you, is all." She looks at you wide-eyed. Then, when she blushes, you realize your mistake. Aniceta creeps closer, still shy, but openly nuzzling your hand. Try as you might, you don't have any way to resist something so cute, and you start stroking her head without any hesitation. She loves it (as she was programmed to), and this only reinforces her behavior, causing her to pounce on top of you and lick your face.
+
+You'd normally be indignant over this behavior, but her soft, puppylike charms have taken you by surprise. It's cute for a moment, but Aniceta licking your face from on top of you leads to her licking your neck while pinning you to the floor, leads to her biting your neck, growling, and holding you down... leads to an hour of desperate dryhumping while she begs to 'mate'... leads to... you breaking down and saying yes... or, to be more precise, begging her for it...
+
+You manage to civilize her enough that she agrees to destroy your dignity on her old bed, but you have to make a quick pit stop when you remember [[dogs are too stupid to grab condoms.|30Days]] </span>
+\<span id = "kissend" class = "hide">
+[[(Everything but the puppy ending is unfinished. Gimme a sec.)|30Days]]</span>
+\<span id = "praiseend" class = "hide">
+[[(Everything but the puppy ending is unfinished. Gimme a sec.)|30Days]]</span>
+\<span id = "nostalgiaend" class = "hide">
+[[(Everything but the puppy ending is unfinished. Gimme a sec.)|30Days]]</span>
 :: 23CW [OOC]
 <h3>WARNING:</h3>
 * This passage relies on context from Passage 9: Buried Feelings. Be sure you've read that first.
 <h3>CONTENT WARNINGS:</h3>
-* Hypnosis
+* Graphic Sexual Content
+* (Unethical) Hypnosis
 * Needles
 [[I consent.|23Start]]
 [[Take me back.|30Days]]

@@ -113,7 +113,7 @@ You tense. There's only one thing this could mean.<<set $QUEENAFFINITY = 0>>
 <<link "\"That's a voidant hive. From the looks of it, you must be their queen.\"">><<replace "#voidguess">><<removeclass "#wizardfl" "hide">><<redo>>\
 "That's a voidant hive. From the looks of it, you must be their queen." She chitters. <<set $QUEENAFFINITY += 2>>
 
-@@color:#ff7adc;"Ah, it feels so good for my status to be recognized."@@ You pull what you've prepared out of your toolbox, levelling a can of delouser at her. She bolts upright and raises her hands in surrender. 
+@@color:#ff7adc;"Ah, it feels so good for my status to be recognized."@@ You pull what you've prepared out of your toolbox, leveling a can of delouser at her. She bolts upright and raises her hands in surrender. 
 \<</replace>><</link>>
 <<link "\"The word is 'guess'. But, you've confirmed it now.\"">><<replace "#voidguess">><<removeclass "#wizardfl" "hide">><<redo>>\
 "The word is 'guess'. But, you've confirmed it now." She laughs.
