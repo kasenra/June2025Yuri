@@ -282,7 +282,7 @@ body[data-tags~="DarkFuture"] #menu a:hover {color: #9576ae;}
         [[Guardian|21CW]]</td>
         <td>19: <<if $Finished_22>>✓<<set $checks += 1>><</if>>
         [[Sunrise|22CW]]</td>
-        <td>@@color:#ff7575;20: <<if $Finished_6 == 4>>✓<<elseif $Finished_6 > 0>><<print $Finished_6 / 4>><</if>>@@
+        <td>@@color:#ff7575;20: <<if $Finished_6 == 4>>✓<<elseif $Finished_6 > 0>><<print $Finished_6>>/4<</if>>@@
         [[Plasticity|23CW]]</td>
         <td></td>
         <td></td>
