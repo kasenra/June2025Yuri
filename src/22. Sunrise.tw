@@ -1,18 +1,156 @@
-:: 22Start
-{not there wakeup, cooking, morning calls, Bayani Hoang? Actual repeating?}
+:: 22Start [BloodlikeEarth]
+\<<ctp "Mainloop">>
 Sunlight creeps through your window and wakes you up.
 
-You stretch and yawn while you survey the room. Nicoletta is missing from her side of the bed.
+You stretch and yawn while you survey the room. Nicoletta is missing from her side of the bed, and there's noise coming from the kitchen. You scoop up you phone and roll out of bed. After a long time fighting for it, you've finally arrived at the weekend, so you opt to throw on something comfortable.
 
-<<ctp "sleepin">>\
-<<linkreplace "Sleep in.">><<ctpAdvance "sleepIn">>It's still early, so you decide to rest a little longer. After everything you've been through, falling back asleep isn't hard.<</linkreplace>>
-\<</ctp>>
+<<linkreplace "Step into the kitchen">>You step into the kitchen.<<ctpAdvance "Mainloop">><</linkreplace>>
+<<ctpNext>>
+<span id="td1">Everything surrounding the stove is cast in flickering orange light. In the center of it is a pan containing a blackened mass of char, from which grows a huge, sputtering fire. At the base, your eyes track down, and you see her.
+
+You sprint to Nicoletta's side, yanking her from the fire's grasp and sheltering her with your body. Just then, it flares and spreads up onto the wall. You slide down against the sink, with Nicoletta's head coming to rest in your lap, and you call down to her.
+
+"What the hell are you doing, you idiot?! Wake up!!" You shake her, and it's only then that you notice... the half of her body further from the fire has gone cold. Looking closer, there's a small, round hole in the middle of her forehead. You lift her up and notice the larger exit wound, as well as the thickened, coagulated blood that has wiped off onto your skirt.
+
+You lay Nicoletta down and curse and spit. In a little longer, the flames will spread and cause a scene... you can't be here for that. You sigh.
+
+<<linkreplace "\"RIPITI!\"">>"RIPITI!"
+
+...
+
+When there's no response, you call out again.
+
+"RIPITII! Don't fuck with me right now..." You wait... nothing. The flames have grown and started eating into the timbers of the house. You close Nicoletta's eyes, then you punch the nearest cabinet with enough force to, from your experience, shatter your hand.
+
+"Is this funny to you?!" Tears rush to your eyes, and you stumble away from Nicoletta's body before pulling out your phone with your offhand.
+
+"Don't do this to me now... please..." You break into sobs and stumble to pull out and flip open your phone.
+
+<<linkreplace "Dial Ripiti">>You dial a number you're all to used to by now.
+
+<<timed 2s>>Ringing...<</timed>>
+
+<<timed 4s>>Ringing...<</timed>>
+
+<<timed 6s>>Ringing...<</timed>>
+
+<<timed 8s>>Ringing...<</timed>>
+
+<<timed 10s>>Ringing...<</timed>>
+
+<<timed 12s>>Ringing...<</timed>>
+
+<<timed 14s>>Ringing......<</timed>>
+
+<<timed 16s>>How'd you manage this?<</timed>>
+<</linkreplace>><<timed 12s>><<ctpAdvance "Mainloop">><<replace "#td1">><</replace>><</timed>><</linkreplace>></span><<ctpNext t8n>>\
+...
+
+"Amihan...?" You blink, and Nicoletta is there. She waves you over towards the stove and grins. "I was wondering when you'd be up. C'mon!" You head to her side, and she dishes out fried spam with rice for you, only taking coffee for herself. 
+
+You move to the dining room table in a daze, and she follows, eyeing you as you eat. Each component is terribly oversalted, the spam is badly charred at the edges, but you still smile, which makes her smile as well. Then, staring out into the space behind you, Nicoletta jumps<span id = "td2">.
+
+<<linkreplace "Turn around.">>You whirl around to follow her gaze.
+
+You squint and spot a man you've seen before. A foreigner in a well-tailored suit is standing beyond your back window and staring back at you. You spin towards Nicoletta, grab her hand, and hit the dirt.
+
+<<linkreplace "...">>...
+
+When you open your eyes, you're curled up under the table with Nicoletta across from you. Her breathing is shallow and fast, and a large chunk of debris has pinned down her legs. You gasp, and her eyes flutter open. When her gaze meets yours, Nicoletta smiles.
+
+"Amihan... thank goodness..." She shift slightly, and a trickle of aspirated blood leaks from her mouth. She looks away. "S-sorry... please don't look..." She retches. You try to inch her way, but you can't stop shaking. Nicoletta extends her hand to take yours, and you're wracked with sobs. Your voice is hoarse. 
+
+"I'm so sorry... I-if I was just a little quicker—" She squeezes your hand. 
+
+"Stop it. Don't do that..." Nicoletta pulls your hand up to her cheek. It's cold. "I'm gone, Ami. You have a shot though."
+
+"That's not... I can't!" You push yourself as hard as you can, successfully sliding an inch forward, but slicing your calf on a shard of glass in the process. "Y-you can't ask me to do that... That's cruel even for you."
+
+Nicoletta shakes... and her cold lips awkwardly slide over your palm.
+
+"I'm sorry."
+
+"I love you, Ami... Please..."
+
+"You have to live..."
+<<timed 25s>><<replace "#td2">><<ctpAdvance "Mainloop">><</replace>><</timed>>
+<</linkreplace>><</linkreplace>></span><<ctpNext t8n>>, then pulls out her phone.
+
+"Right, I actually remembered today. It just felt weird to call you while you were asleep." She dials your number, and your phone begins to ring. You blink a few times into empty space before you hear it and pick up.
+
+"Hello?" She hangs up, and you snap your phone shut and stuff it in your pocket. There's an ache behind your eyes that doesn't go away when you press on them. Nicoletta watches you with interest as you blankly devour the rest of your breakfast. When you look her way, she smiles and says nothing. The two of you sit around, Nicoletta sipping her coffee and you staring out into nothing, until she yawns and starts.
+
+"I don't really have any plans today. You?" She raises an eyebrow a way, but you only shake your head. Nicoletta seems to think on it for a moment, then she jumps to her feet with an idea. "It's been a while since we went to the arcade, hasn't it? Maybe I can call up Maria and we can mooch some quarters off her." She grins your way. "Interested?" You swallow.
+
+<span id = "td3"> <<linkreplace "\"Yeah! That sounds fun.\"">>Dim lights, loud overlapping music, sweating, paranoia. Then, a crack over the din and a chorus of screams. You knew without looking, then. Nicoletta flickered out and died in your arms, and no second shot came for you.<<timed 5s>><<replace "#td3">><<ctpAdvance "Mainloop">><</replace>><</timed>><</linkreplace>>
+</span><<ctpNext t8n>>...
+
+"Y-yeah... That sounds fun..." Nicoletta circles around to your side and looks you over. You turn away under her gaze, then she sighs.
+
+"On second thought... we've had an exciting week. Would you mind if we took a day to chill?" You face her with a confused look, but Nicoletta only smiles back at you. You groan.
+
+"I don't get it... Wouldn't you usually get pissed when I went against your whims?" She laughs and steps back into the kitchen, refilling her cup with the last of her coffee.
+
+"You've been acting so meek lately. That alone makes it no fun to bully you." You gulp, and Nicoletta cackles. "See?! Just like that!" She creeps back your way and sits on the table in front of you. "I just know something's up with you, but I can't place it..."
+
+You roll your eyes and attempt to hide your reaction, but she waits, staring you down. When you blush, she snickers.
+
+"Have you fallen for me? Are you terrified of me? Did I piss you off, somehow?" She creeps closer and you lean away from her, only falling back her way when you nearly topple your chair. Her face is inches away from yours, and she's made it clear you have nowhere to hide.
+
+"A-and what makes you so sure it's about you anyway?" Nicoletta knits her brows in an uncharacteristic face of innocent confusion.
+
+"Well, you wouldn't have to hide it from me otherwise, would you?" She blushes and leans down to rest on her hands. "Best friends don't keep secrets from one another." 
+
+Only then do you truly remember that the Nicoletta who stands before you is first and foremost a spoiled, naive girl. These past years have taken their toll on you, but, to Nicoletta, a girl she's known since childhood has become unrecognizable in three days.
+
+You try your best to force a smile for her.
+
+"Sorry..." Nicoletta sinks onto her hands. Seeing her like this twists your heart, and you feel obliged to continue. "I-it's not that I hate you... or even dislike you. You haven't done anything wrong. It's just... complicated." She nods.
+
+"I get it. At least, I assumed as much." Her weak, dejected voice frustrates you. You came back here chasing a dream, fully intent on saving her whatever it took. Yet, somehow, you're still caught up in the same half-measures and angst that ruined things the first time around.
+
+...
+
+You resolve yourself and take Nicoletta's hands in your own.
+
+"No... I'm sorry." You stare dead-on at her surprised face. "There's one thing you were right about."
+
+"I'm in love with you."
+
+Nicoletta stutters and flushes and stares at the table beneath her. You refuse to look away, even as the impulse to do so becomes overwhelming.
+
+"Th-that's not... you don't..." She looks back up to you. "You don't mean that..." You nod.
+
+"Dead serious. You're the most important person in my world, Nicoletta." She starts to cry, but you're in too deep to back out.
+
+"Even if you don't feel the same, I'll fight to protect your happiness no matter what it takes." You let go of Nicoletta's hands. Her face twists into something confused... furious.... then, she leans in and kisses you. You're caught off guard and choke, then you find Nicoletta's rhythm and fall in line just in time for her to pull back and gasp for air.
+
+Your first kiss in this timeline is stilted, messy, and cut short, as befits the two of you. Then, Nicoletta takes in a deep breath and whispers to you.
+
+"Idiot..." She sniffles. "Don't say things like that. I'd never forgive you if you got hurt protecting me." You laugh, and Nicoletta looks shocked.
+
+"Sorry, just..." You settle down and study her. "If I said the same to you, would you stop?" She thinks for a moment... then pouts.
+
+"No way."
+
+This time, you both laugh, and Nicoletta wraps her arms around you. You embrace her in turn, listening to her heartbeat while the morningtime Manila soundscape threatens to drown it out.
+
+"Then, instead of that... can I ask you to trust me with the rest of this mess?"
+
+Nicoletta thinks for a moment... then she nods into your shoulder.
+
+[[And the two of you spend the rest of the day recouperating, making it to the end of the day without any more incidents.|30Days]] <<set $Finished_14 to true>>
 
 
+<</ctp>>
 :: 22CW [OOC]
 <h3>WARNING:</h3>
 * This passage relies on context from Passage 5: Redo. Be sure you've read that first.
 <h3>CONTENT WARNINGS:</h3>
-
+* Sensitive Content
+* Graphic Violence
+* Graphic Death
+* Blood
+* Vomiting
 [[I consent.|22Start]]
 [[Take me back.|30Days]]
