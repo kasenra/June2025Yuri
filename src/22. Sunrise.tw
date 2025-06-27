@@ -1,4 +1,4 @@
-:: 22Start [BloodlikeEarth]
+:: 14Start [BloodlikeEarth]
 \<<ctp "Mainloop">>
 Sunlight creeps through your window and wakes you up.
 
@@ -143,7 +143,7 @@ Nicoletta thinks for a moment... then she nods into your shoulder.
 
 
 <</ctp>>
-:: 22CW [OOC]
+:: 14CW [OOC]
 <h3>WARNING:</h3>
 * This passage relies on context from Passage 5: Redo. Be sure you've read that first.
 <h3>CONTENT WARNINGS:</h3>
@@ -152,5 +152,5 @@ Nicoletta thinks for a moment... then she nods into your shoulder.
 * Graphic Death
 * Blood
 * Vomiting
-[[I consent.|22Start]]
+[[I consent.|14Start]]
 [[Take me back.|30Days]]

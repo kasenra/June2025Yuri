@@ -1,4 +1,4 @@
-:: 23Start [BloodlikeEarth]
+:: 6Start [BloodlikeEarth]
 <<if ndef $Finished_6>> <<set $Finished_6 = 0>> <</if>>
 "Haaaahhhhh... Sometimes I forget how spoiled you are in winter, Haoran." Aniceta sighs and slips off her windbreaker. "Do you think they'd let me back in if I gave 'em a sob story about living on the farm?" And you laugh.
 
@@ -261,12 +261,12 @@ As you settle down, you lean into a brief, chaste kiss with Aniceta. When she re
 
 [["L-love... you..."|30Days]]
 </span>
-:: 23CW [OOC]
+:: 6CW [OOC]
 <h3>WARNING:</h3>
 * This passage relies on context from Passage 9: Buried Feelings. Be sure you've read that first.
 <h3>CONTENT WARNINGS:</h3>
 * Graphic Sexual Content
 * (Unethical) Hypnosis
 * Needles
-[[I consent.|23Start]]
+[[I consent.|6Start]]
 [[Take me back.|30Days]]
