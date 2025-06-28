@@ -278,16 +278,18 @@ body[data-tags~="DarkFuture"] #menu a:hover {color: #9576ae;}
         [[By Blood|19CW]]</td>
     </tr>
     <tr>
-        <td>18: <<if $Finished_21>>✓<<set $checks += 1>><</if>>
+        <td>19: <<if $Finished_21>>✓<<set $checks += 1>><</if>>
         [[Envoy|21CW]]</td>
-        <td>19: <<if $Finished_14>>✓<<set $checks += 1>><</if>>
+        <td>20: <<if $Finished_14>>✓<<set $checks += 1>><</if>>
         [[Sunrise|14CW]]</td>
-        <td>@@color:#ff7575;20: <<if $Finished_6 == 4>>✓<<elseif $Finished_6 > 0>><<print $Finished_6>>/4<</if>>@@
+        <td>@@color:#ff7575;21: <<if $Finished_6 == 4>>✓<<elseif $Finished_6 > 0>><<print $Finished_6>>/4<</if>>@@
         [[Plasticity|6CW]]</td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
+        <td>22: <<if $Finished_26>>✓<<set $checks += 1>><</if>>
+        [[Fair Trade|26CW]]</td>
+        <td>23: <<if $Finished_24>>✓<<set $checks += 1>><</if>>
+        [[Reliance|24CW]]</td>
+        <td>24: <<if $Finished_21>>✓<<set $checks += 1>><</if>>
+        [[Shield|25CW]]</td>
     </tr>
     <tr>
         <td></td>
