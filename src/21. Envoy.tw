@@ -71,9 +71,9 @@ Eleanor collects herself, rights her dress, and stands. You take her hand and pu
 [[You take Eleanor's hand, and she eats very enthusiastically on the way home.|30Days]] <<set $Finished_21 to true>>
 
 :: 21CW [OOC]
-<h3>WARNING:</h3>
+<h3 style="margin-bottom: -20px">WARNING:</h3>
 * This passage relies on context from Passage 2: Feeding. Be sure you've read that first.
-<h3>CONTENT WARNINGS:</h3>
+<h3 style="margin-bottom: -20px">CONTENT WARNINGS:</h3>
 * Blood
 [[I consent.|21Start]]
 [[Take me back.|30Days]]
