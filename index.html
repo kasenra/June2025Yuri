@@ -104,7 +104,7 @@ var LZString=function(){var r=String.fromCharCode,o="ABCDEFGHIJKLMNOPQRSTUVWXYZa
 		<div id="init-lacking"><p>Browser lacks capabilities required to play.</p><p>Upgrade or switch to another browser.</p></div>
 		<div id="init-loading"><div>Loading&hellip;</div></div>
 	</div>
-	<!-- UUID://CF3227DE-0448-44C3-9B78-EBCAFD5F2AC0// --><tw-storydata name="The Unity" startnode="70" creator="Tweego" creator-version="2.1.1+81d1d71" ifid="CF3227DE-0448-44C3-9B78-EBCAFD5F2AC0" zoom="1" format="SugarCube" format-version="2.37.3" options="" hidden><style role="stylesheet" id="twine-user-stylesheet" type="text/twine-css">/* twine-user-stylesheet #1: "click-to-proceed.css" */
+	<!-- UUID://CF3227DE-0448-44C3-9B78-EBCAFD5F2AC0// --><tw-storydata name="The Unity" startnode="75" creator="Tweego" creator-version="2.1.1+81d1d71" ifid="CF3227DE-0448-44C3-9B78-EBCAFD5F2AC0" zoom="1" format="SugarCube" format-version="2.37.3" options="" hidden><style role="stylesheet" id="twine-user-stylesheet" type="text/twine-css">/* twine-user-stylesheet #1: "click-to-proceed.css" */
 .--macro-ctp-hidden {
 	display: none;
 }
@@ -486,7 +486,16 @@ body[data-tags~="DarkFuture"] #menu a:hover {color: #9576ae;}
 // type-sim.min.js, for SugarCube 2, by Chapel
 // v2.0.0, 2024-07-22, 336675ff2cabe5f729a5f30d86aa409cc8432726
 ;!function(){"use strict";Macro.add("typesim",{tags:null,handler:function(){if(!this.args.length||!this.args[0]||"string"!=typeof this.args[0])return this.error("no text to type out was provided");var t,e=$(document.createElement("span")).addClass("macro"+this.name),n=$(document.createElement("div"));this.payload[0].contents&&this.payload[0].contents.trim()&&(t=this.payload[0].contents),function(t,e,n){if(t&&"string"==typeof t){!e||e instanceof $||(e=$(e));var i=0,s=t.split(""),a=[],o=$(document.createElement("textarea")).addClass("type-sim").on("input.type-sim",(function(){var e=$(this);i=a.push(s[i]),e.val(a.join("")),t.length===a.length&&(e.off("input.type-sim").ariaDisabled(!0),n&&"function"==typeof n&&n(a.join("")),$(document).trigger({type:":type-sim-end",message:a.join("")}))}));e&&e[0]&&e.append(o)}}(this.args[0],e,(function(){n.wiki(t)})),e.append(n).appendTo($(this.output))}})}();
-// end type-sim.min.js</script><tw-passagedata pid="1" name="1Start" tags="DarkFuture" position="200,100" size="100,100">Droning noise greets you as you stir and your vision returns in patches. You’re awkwardly draped over an undersized shop bench, and when you attempt to wrench your leg free, you feel the restraints binding you to it. A familiar voice breaks through.
+// end type-sim.min.js
+/* twine-user-script #3: "autosave" */
+Config.saves.maxAutoSaves = 1;
+Config.saves.isAllowed = function (saveType) {
+	if (saveType === Save.Type.Auto) {
+		return tags().includes("autosave");
+	}
+
+	return true;
+};</script><tw-passagedata pid="1" name="1Start" tags="DarkFuture" position="200,100" size="100,100">Droning noise greets you as you stir and your vision returns in patches. You’re awkwardly draped over an undersized shop bench, and when you attempt to wrench your leg free, you feel the restraints binding you to it. A familiar voice breaks through.
 
 “Do you have to squirm around like this every time? You won’t be much use if I get bumped and weld your proprio module in place.” Your vision adjusts enough to see her. Short, silvery hair with dark roots, and stained with oil… Her pin suggests she’s an Expeditionary Force authorized mechanic, but you can’t quite recognize her. Then, when she sees your confused face, she curses to herself and reaches into your chassis to flip a small switch on your neural board. Once your IFF module finally passes boot, you calm down and smile her way.
 
@@ -1646,7 +1655,6 @@ Sofia sighs.
 
 [[The queen grins at you, and you watch as she disappears down the hall.|30Days]] &lt;&lt;set $Finished_18 to true&gt;&gt;</tw-passagedata><tw-passagedata pid="32" name="18CW" tags="OOC" position="225,475" size="100,100">&lt;h3 style=&quot;margin-bottom: -20px&quot;&gt;CONTENT WARNINGS:&lt;/h3&gt;
 * Significant Age Gap
-* Elves
 [[I consent.|18Start]]
 [[Take me back.|30Days]]</tw-passagedata><tw-passagedata pid="33" name="19Start" tags="BloodlikeEarth" position="350,475" size="100,100">When you hear the door latch, you run out into the living room just in time to intercept Nadia. She grins and opens her arms, and you leap into her embrace at full tilt. The two of you twist and sway around, kissing, giggling, and &#39;Hi... Hiiii.... Hi.&#39;—ing. While you lean on her shoulder and rub your face against her suit, she whispers to you.
 
@@ -2383,9 +2391,170 @@ As you settle down, you lean into a brief, chaste kiss with Aniceta. When she re
 * (Unethical) Hypnosis
 * Needles
 [[I consent.|6Start]]
-[[Take me back.|30Days]]</tw-passagedata><tw-passagedata pid="47" name="25Start" tags="Blood" position="850,600" size="100,100">You&#39;re attending the first court of the cool season when it happens.
+[[Take me back.|30Days]]</tw-passagedata><tw-passagedata pid="47" name="24Start" tags="Blood" position="850,600" size="100,100">It all starts from a petty land dispute between two counts near the borders of Nox-Mystil.
 
-As always, you watch Queen Dekane&#39;s side and represent her authority to all the scrapers who come to beg her for judgement. In this specific session, you&#39;re passing the time between visitors admiring the new stylings the season has brought to the courtiers of Serix&#39;ness. According to Itxaro, foreign silks have seen a resurgence the past cool seasons. Your regalia hasn&#39;t changed, but you&#39;re perfectly content to watch your wife flaunt the Maelthuran gown you gifted her (with the queen&#39;s assistance).
+Going into the third hour of debates, Sofia has become haggard and pale. Still, she&#39;s doing everything she can to hear out both parties. The plaintiff is an old ally of your brother&#39;s, currently overseeing a new unincorporated territory. This is your first time meeting face to face, but his incessant, winding speech makes you quick to believe the stories your brother told you about him. Across from him is the Countess of Mencesh, a human woman not much older than Sofia. 
+
+The council is cleanly split between the two sides, so the argument has escalated further and further with no signs of stopping.
+
+&quot;Your Majesty... I suppose you understand your position to the High King as well as anyone here. It&#39;s only for that reason that I believed you would understand the intricacies of my claim.&quot; The count bows shortly and continues, as he is wont to. &quot;While you connect my territory into the High Kingdom, you are not my liege, as the Northern Territories have been decreed only to answer to the high king. Now, these laws—&quot; The countess cuts him off, raising her voice and appealing directly to Sofia.
+
+&quot;Your Majesty, do you //hear// how he speaks to you!?&quot; She glares over at the count. &quot;His respect for our laws is the same as the respect he shows you. His prattles about the high king are clearly threats and must be treated as such!&quot; You look over to the queen. She&#39;s trembling.
+
+You stand and run to Sofia&#39;s side. She can only manage a weak whisper your way.
+
+&quot;C-Cenyu... I&#39;m sorry...&quot;
+
+She collapses and falls forwards. You arrive just in time to catch her, and you sit her up in her chair. Her breaths are shaky and quick, and she&#39;s burning up. You curse under your breath.
+
+The royal physician arrives before you even call for him. He looks over Sofia and confirms that she&#39;s only feverish and weak from exhaustion. You nod... but then, you notice all eyes in the court are on you.
+
+With the queen unavailable, you&#39;re now the highest authority in the room. Your first instinct is to run... but when you look at your betrothed&#39;s pained expression, you know you won&#39;t. You sigh.
+
+...
+
+At your command, a swarm of maids attend to Sofia and transport her to her room. Those still invested in the court&#39;s debate pull in closer as you bid, and you regard them from atop the queen&#39;s throne. The count and countess bow in turn. You push down a perverse smugness at your newfound power over them and settle in to properly judge their case.
+
+&quot;We&#39;ll be abridging this &#39;debate&#39; in the absence of Queen Sofia. Each of you, beginning with the plaintiff, summarize all arguments you wish to be heard before judgement in the span of a few sentences.&quot; They both gulp. Your hope was to mask the fact that you hadn&#39;t been following their argument with cheap intimidation, and it appears to work. The count stands and speaks.
+
+&quot;Yes, Lady Cenyu.&quot; You hold a hand up.
+
+&quot;Count... Ruoziel, was it?&quot; He nods. &quot;I am acting now in my authority as Queen of Nox-Mystil, and you will regard me as such. Treat me no differently than you would Queen Sofia herself.&quot; And you add on, because you can&#39;t resist. &quot;Though I pray you remember that passing allusions to my own brother will do little to intimidate me.&quot; He shivers then nods again.
+
+&quot;Y-yes, your majesty... of course.&quot;
+
+&quot;The Promena Wetlands have recently been purged of rot devils, and they&#39;ve been brought into the fold of the high kingdom. Under the law of Sh&#39;enceriday, new unclaimed territories collect into adjacent unincorporated zones, only being leased into existing county titles when the high king decrees it. As such, the wetlands should rightfully be part of the Northern Territories.&quot; He bows and looks towards the countess. You follow.
+
+&quot;Countess Milena, is this true?&quot; She nods.
+
+&quot;Yes, your majesty. There&#39;s more to it than that, though.&quot;
+
+&quot;The original settlements in Promena were wiped out, but among them were brave men and women from several clan warrens within Mencesh. As such, the crown of Nox-Mystil has always recognized the region as a part of Mencesh.&quot; The count bristles and tenses up, but you watch him push it down to politely add on.
+
+&quot;&#39;&#39;However&#39;&#39;... The crown of Sh&#39;enceriday doesn&#39;t recognize that claim. The laws of the liege supersede the laws of the vassal.&quot; The countess has no retort to this, and she simply sneers his way.
+
+You sigh.
+
+Cases like this came up often when you observed your brother&#39;s court as a child, and they were never pretty. But... There&#39;s one detail in the series of events that irks you still. You turn to the count,
+
+&quot;Count Ruoziel... tell me. Have you brought this information before the high king yet?&quot; He gulps. All eyes fall on him. The count nods. &quot;And how did he find your case?&quot; He stares down at the floor.
+
+&quot;Sp-specious... your majesty...&quot; Something in your glare incites him to continue. &quot;His majesty found that the provisions supporting acquisitions of claimed territories extended to claims recognized by vassals of the realm...&quot; The countess&#39;s mouth falls open. 
+
+You groan.
+
+&quot;So you brought the matter here, hoping Queen Sofia would override his judgement...&quot; He nods.
+
+&quot;I am in no place to sanction you, count, but I must ask that you leave this court.&quot; He bows, and you add on, &quot;And... I will mention this insubordination when I next write to the high king.&quot; Then, the count scampers off. The countess looks up to you, and you nod.
+
+Once the matter is settled, you gather the council and rally them to reorganize the day&#39;s work. You&#39;ll have to fill in for a lot of Sofia&#39;s duties, but you manage to eke out a small break for yourself.
+
+[[Once you&#39;re sure everything will be handled in your absence, you head off to Sofia&#39;s quarters.|24Sof]]</tw-passagedata><tw-passagedata pid="48" name="24Sof" tags="Blood" position="975,600" size="100,100">You slip quietly into Sofia&#39;s bedroomroom, careful to muffle the door behind you.
+
+On the bed, she&#39;s sleeping fitfully. You step closer and kneel at her bedside. Seeing Sofia like this, your heart twists in your chest. She&#39;s curled up and shivering, not far from how you were on your first night in the castle...
+
+You reach across the bed and pull a blanket back over her, and she seems to calm down. Then, as you pull your arm away, she latches onto it.
+
+&quot;M-mother?!&quot; A shiver goes down your spine. She mumbles and rolls towards you. &quot;Is it you...?&quot; Her eyes are open but glazed over. You bend your wrist to stroke her arm as you whisper to her.
+
+&quot;Sofia... it&#39;s just me.&quot; She pants and watches you... and then she seems to calm down. You smile her way, but Sofia still seems uneasy.
+
+&quot;Cenyu... I&#39;m sorry. I must have caused a lot of trouble for everyone... I should be well enough, now.&quot; She tries to lift herself up, but before you can even stop her, her arms give out and drop her back down to the bed. You place a hand on her shoulder.
+
+&quot;There&#39;s no need. I&#39;ve handled it.&quot; She stares at you wide-eyed. &quot;I&#39;m serious! It wasn&#39;t anything remarkable, but court&#39;s handled for the day.&quot; You sigh. &quot;Though, I will have a few committee meetings to attend...&quot;
+
+Sofia shrinks into the bed and stares off into the distance..
+
+&quot;That&#39;s not...&quot; She sighs. &quot;You didn&#39;t have to do all of that for my sake, Cenyu...&quot; She&#39;s trembling.
+
+You resolve yourself and reach out to take her hand. Sofia meets your gaze with an uncertain expression.
+
+&quot;I wanted to do it.&quot; She frowns. &quot;N-not at first... but when I realized it would give me a chance to lessen your burden...&quot;
+
+She shakes her head.
+
+&quot;That&#39;s not something you should have to worry about.&quot; You groan and pull back from her.
+
+&quot;Why do you insist on treating me like a child?!&quot; You&#39;re struck by the sudden urge to lash out, just to get the feeling out... but you hold yourself back. &quot;There&#39;s only scant few years left until I&#39;m to be your &#39;&#39;bride&#39;&#39;! Do you understand that?&quot; She slumps over, but you continue.
+
+&quot;Today is the first day I&#39;ve been the queen to any of those people. Soon, I&#39;ll carry that burden &#39;&#39;every day&#39;&#39;!&quot;
+
+...
+
+You turn to leave... and Sofia calls out to you, teary-eyed.
+
+&quot;W-wait...!&quot;
+
+You sigh and look back towards her. She strains to pull herself to the side of the bed.
+
+&quot;You&#39;re right... I&#39;ve been cruel to you.&quot; She sniffles. &quot;Could you... bear to stay a bit longer?&quot;
+
+With one look at her, you&#39;re sure there&#39;s no way you could leave. You cross the room towards the bed and sit down beside Sofia. She rests her head against your shoulder, and the two of you sit in silence for some time. Then, she whispers.
+
+&quot;You truly wish for me to rely on you...?&quot; You nod, and she sighs. &quot;I&#39;m sorry, Cenyu. I&#39;ve grown too protective of you, haven&#39;t I?&quot;
+
+You shake your head.
+
+&quot;I don&#39;t think it&#39;s necessarily an issue... but I want to protect you too, Sofia.&quot; A little more color rushes to her face... and she nods.
+
+&quot;I would like that...&quot; You giggle, and she shyly slips an arm around you. There&#39;s a brief pause before you lean against her as well. Sofia giggles and whispers into your ear.
+
+&quot;&#39;&#39;Marriage&#39;&#39;... and so soon, too. Doesn&#39;t it feel strange?&quot; A draft flares up the candle on the bedside, and for a short moment you see Sofia&#39;s face shimmering in its light. 
+
+You think to yourself &#39;No, that&#39;s the only thing that&#39;s normal, here,&#39; but you bite it back, lest you set her off.
+
+...
+
+The two of you rest like this for a short while, until Sofia&#39;s illness flares up and forces her to lay back down. You stand at her bedside and whisper her way.
+
+&quot;Sorry... I&#39;m probably not helping by keeping you up. Is there anything you&#39;d like?&quot; She watches you with a shy expression, then she nods.
+
+&quot;Th-there&#39;s something... but it might be a little weird.&quot; When you don&#39;t move, she continues.
+
+&quot;When I was a kid... any time I fell ill, my mother would kneel beside my bed and pray.&quot;
+
+&quot;S-so, I was wondering if... maybe... you could pray for me...?&quot;
+
+You weren&#39;t raised particularly religious, but you&#39;ve had some exposure to old church teachings. Plus, even if you had to make up every step along the way, you&#39;d have a hard time rejecting the sweet, earnest face Sofia is making right now.
+
+&quot;Then... did your clan have a patron god back in the day?&quot; She deflates.
+
+&quot;Sorry... I never got the chance to ask. I just remember her kneeling beside my bed each night and muttering when she thought I&#39;d fallen asleep...&quot; You sigh. There are a few prayers still burned into your memory from Sh&#39;enceriday, and you figure they&#39;re better than nothing.
+
+&quot;Well, House Q&#39;oma was patronized by Inistrae... Would that be good enough?&quot; Sofia&#39;s eyes go wide, then she nods. A trickle of apprehension seeps into you.
+
+Still, you kneel, bow your head, and clasp your hands together. And with a deep breath, you begin.
+
+//&quot;O, Noble Inistrae...&quot;// Almost instantly, you forget how it goes. Still... Sofia is watching you so expectantly that you have to wing it.
+
+//&quot;I-if you can hear us from within The Unity... I beseech you.&quot;//
+
+//&quot;Carry us from hardship, and guide us along the path...&quot;//
+
+//&quot;Bring health and good fortune upon my sweet... future... wife, Sofia.&quot;// She smiles and feverishly mumbles something. You lean in to hear her better.
+
+&quot;And the kids...&quot; Your face goes red. 
+
+You quickly tack on, //&quot;A-and our children, too... if that&#39;s possible, please...&quot;//
+
+//&quot;In your name... It is done.&quot;// A grin spreads across Sofia&#39;s face, and she opens her arms towards you. You don&#39;t budge, but when she seems insistent you slip into bed beside her. She hugs you to her chest and sighs.
+
+&quot;Cenyu... you&#39;re such a sweetheart. I really...&quot; Sofia stops, and you stare up at her. Her fever would explain the flushing, but that humiliating, conflicted expression... you snicker.
+
+&quot;Sofia...&quot; She looks your way, and your gazes meet. Then, you lean up and plant a brief, chaste kiss on her lips. Sofia&#39;s eyes go wide, and she releases her grip on you. While you extricate yourself from her embrace, she mumbles to herself.
+
+&quot;Wh... wha... you... why...? I... That...&quot; You giggle and splay a blanket over her.
+
+&quot;They&#39;ll need me back in court soon. We can talk more when you&#39;re better, okay?&quot;
+
+You take one last, long glance towards Sofia... [[then you step out.|30Days]] &lt;&lt;set $Finished_23 to true&gt;&gt;</tw-passagedata><tw-passagedata pid="49" name="24CW" tags="OOC" position="1100,600" size="100,100">&lt;h3 style=&quot;margin-bottom: -20px&quot;&gt;WARNING:&lt;/h3&gt;
+* This passage relies on context from Passage 16: Betrothal. Be sure you&#39;ve read that first.
+&lt;h3 style=&quot;margin-bottom: -20px&quot;&gt;CONTENT WARNINGS:&lt;/h3&gt;
+* Significant Age Gap
+[[I consent.|24Start]]
+[[Take me back.|30Days]]</tw-passagedata><tw-passagedata pid="50" name="25Start" tags="Blood" position="1225,600" size="100,100">You&#39;re attending the first court of the cool season when it happens.
+
+As always, you watch Queen Dekane&#39;s side and represent her authority to all the scrapers who come to beg her for judgement. In this specific session, you&#39;re passing the time between visitors admiring the new stylings the season has brought to the courtiers of Serix&#39;ness. According to Itxaro, foreign silks have seen a resurgence in the past cool seasons. Your regalia hasn&#39;t changed, but you&#39;re perfectly content to watch your wife flaunt the Maelthuran gown you gifted her (with the queen&#39;s assistance).
 
 When a down-on-their-luck elvish merchant rolls in, begging for a middling investment to export some local teas to his home in Sh&#39;enceriday, you instinctively look back towards Itxaro. The queen humors his pitiful request, he steps forward into a bow... and then there&#39;s a glint of steel. You step forward a split-second too late, weapon drawn to deflect, and his dagger lodges itself in your chest.
 
@@ -2393,7 +2562,7 @@ For a moment the whole court freezes in shock, including the assassin. Then, you
 
 Dekane stares at you in pure terror, but she&#39;s uninjured. Once you&#39;re sure of this, your body finally reacts to the attack, slowing then shutting down, system by system. You try to lower yourself gently to the floor, but as soon as you tell your body to move, it collapses in a heap. The queen, Itxaro, and the remaining court guard rush to your side. There are more overlapping voices than you can count, and you watch Itxaro wailing over you...
 
-[[But all you can hear is the thrumming of blood, and a distant, staticky blur.|25Dekane]]</tw-passagedata><tw-passagedata pid="48" name="25Dekane" tags="Blood" position="975,600" size="100,100">When you come to, there&#39;s a warmth sitting on the bed beside you. On instinct, you sigh and wrap you arm around it, only to be met by an unfamiliar gasp.
+[[But all you can hear is the thrumming of blood, and a distant, staticky blur.|25Dekane]]</tw-passagedata><tw-passagedata pid="51" name="25Dekane" tags="Blood" position="100,725" size="100,100">When you come to, there&#39;s a warmth sitting on the bed beside you. On instinct, you sigh and wrap your arm around it, only to be met by an unfamiliar gasp.
 
 You flutter open your eyes, and there beside you is Queen Dekane. She settles into an undignified face of relief, grinning your way. You mutter a weak apology and move to push yourself away from her, only to be stopped from a surging, blinding pain in your chest. Dekane grips you by the shoulders and holds you still, whispering.
 
@@ -2425,7 +2594,7 @@ The two of you sit in quiet silence for a moment... then your queen takes your h
 
 &quot;Eir... I know things were different back home, but this court is full of people who rely on you... people you need to rely on more, yourself.&quot; Slowly, she leans in closer, dropping her voice to a whisper. &quot;If you won&#39;t do so for your own wellbeing, please... do it for Itxaro and her happiness.&quot;
 
-&quot;And... if you that&#39;s not enough... consider it a direct order from me.&quot;
+&quot;And... if that&#39;s not enough... consider it a direct order from me.&quot;
 
 Then, Dekane stoops down, and she kisses you. You close your eyes on instinct. When her hot breath spills out over your face, they flutter open on their own, and you see her, flushed and panting with a desperate, uncertain look about her.
 
@@ -2435,7 +2604,7 @@ She pulls away on her own, casting shy glances your way between swipes at her cr
 
 &quot;Eir...&quot; She sighs. &quot;I truly hope we understand one another...&quot;
 
-[[And with that, she&#39;s gone.|25Itxaro]]</tw-passagedata><tw-passagedata pid="49" name="25Itxaro" tags="Blood" position="1100,600" size="100,100">An hour after the queen&#39;s departure, your door flies open again. Your eyes meet, and you smile.
+[[And with that, she&#39;s gone.|25Itxaro]]</tw-passagedata><tw-passagedata pid="52" name="25Itxaro" tags="Blood" position="225,725" size="100,100">An hour after the queen&#39;s departure, your door flies open again. Your eyes meet, and you smile.
 
 Then, Itxaro dashes to your side, throws an arm around you, and sobs into your shoulder. You hold her as tight as you can in this state, cooing over her and kissing her forehead. 
 
@@ -2443,7 +2612,7 @@ When she pulls away from you, she props herself up on her arms, grinning as she 
 
 &quot;I-I&#39;m supposed to be mad at you, but... how could I be...?&quot; Itxaro takes your hand and pushes her face into it, rubbing against the warmth and laughing. When you realize you&#39;ve started to cry with her, you also can&#39;t help but laugh.
 
-Then, Itxaro carefully moves you over and slips into bed beside you. She takes your face into her hands and kisses you. When she hovers her face near yours, you move towards your natural rhthym of pressing into Itxaro with hard kisses until she relents. This time, however, she counters. Itxaro pins you with her shoulder and bears down on you with a fury you&#39;ve never seen out of her, all until you&#39;re breathless and dizzy and fully surrender to her. When she finally pulls away, both of you are left panting, and Itxaro grins. She flicks away a trail of saliva between your mouths and wags her finger your way.
+Then, Itxaro carefully moves you over and slips into bed beside you. She takes your face into her hands and kisses you. When she hovers her face near yours, you move towards your natural rhythm of pressing into Itxaro with hard kisses until she relents. This time, however, she counters. Itxaro pins you with her shoulder and bears down on you with a fury you&#39;ve never seen out of her, all until you&#39;re breathless and dizzy and fully surrender to her. When she finally pulls away, both of you are left panting, and Itxaro grins. She flicks away a trail of saliva between your mouths and wags her finger your way.
 
 &quot;The doctor said &#39;no strenuous activity&#39; for you, dear. Looks like I&#39;ll be the one spoiling you for a while...&quot; You flush. Somehow, you feel that you&#39;ve been a bad influence on the pure, gentle-hearted girl you married.
 
@@ -2477,7 +2646,7 @@ Itxaro sighs... then she nods.
 
 &quot;Already handled!&quot; She sighs and pinches your cheek. &quot;Honestly... do you think nobody was gunning for Dekane before you came along?&quot; Your heart sinks.
 
-&quot;There are dozens of men and women out there, working dilligently every day to keep her safe.&quot;
+&quot;There are dozens of men and women out there, working diligently every day to keep her safe.&quot;
 
 &quot;The only thing that puts you apart from them is that the two of you are family, Eir.&quot; Itxaro loosens her steel grip on you, and, as she watches you, a small smile creeps across her face. &quot;So... we&#39;ll be okay... but we&#39;re all worried sick about you.&quot;
 
@@ -2486,7 +2655,7 @@ You sigh and nestle yourself into her embrace. Then, a memory floods back into y
 &quot;Then... that must be why she...&quot; Itxaro perks up.
 
 &quot;Hmm...? Why she did what?&quot; You gulp.
-&lt;&lt;set $Finished_25 to true&gt;&gt;\
+&lt;&lt;set $Finished_24 to true&gt;&gt;\
 &lt;span id = &quot;choices&quot;&gt;\
 
 &lt;&lt;link &quot;\&quot;When she stopped by earlier... Dekane kissed me.\&quot;&quot;&gt;&gt;&lt;&lt;replace &quot;#choices&quot;&gt;&gt;&lt;&lt;ctpAdvance &quot;truth&quot;&gt;&gt;&lt;&lt;/replace&gt;&gt;&lt;&lt;/link&gt;&gt;
@@ -2517,15 +2686,15 @@ She snickers.
 
 &quot;Sorry! Sorry. I&#39;m stressing you too much too soon, aren&#39;t I?&quot; She adjusts and settles snugly into bed. &quot;Let&#39;s just relax for now, shall we? We&#39;ll have plenty of time to talk like this...&quot; Then, Ixtaro sighs and adds on...
 
-&quot;Today was supposed to be my responsiblity, though... so you&#39;ll actually be with Dekane tomorrow.&quot;
+&quot;Today was supposed to be my responsibility, though... so you&#39;ll actually be with Dekane tomorrow.&quot;
 
 [[And, for a reason you can&#39;t quite name... your heart starts racing.|30Days]]
-\&lt;&lt;/ctp&gt;&gt;</tw-passagedata><tw-passagedata pid="50" name="25CW" tags="OOC" position="1225,600" size="100,100">&lt;h3 style=&quot;margin-bottom: -20px&quot;&gt;WARNING:&lt;/h3&gt;
+\&lt;&lt;/ctp&gt;&gt;</tw-passagedata><tw-passagedata pid="53" name="25CW" tags="OOC" position="350,725" size="100,100">&lt;h3 style=&quot;margin-bottom: -20px&quot;&gt;WARNING:&lt;/h3&gt;
 * This passage relies on context from Passage 6: Holding Back. Be sure you&#39;ve read that first.
 &lt;h3 style=&quot;margin-bottom: -20px&quot;&gt;CONTENT WARNINGS:&lt;/h3&gt;
 * Mild Violence
 [[I consent.|25Start]]
-[[Take me back.|30Days]]</tw-passagedata><tw-passagedata pid="51" name="26Start" tags="BloodlikeEarth" position="100,725" size="100,100">There&#39;s a knock at your door, then a few seconds later it opens on its own.
+[[Take me back.|30Days]]</tw-passagedata><tw-passagedata pid="54" name="26Start" tags="BloodlikeEarth" position="475,725" size="100,100">There&#39;s a knock at your door, then a few seconds later it opens on its own.
 
 &quot;Cleaning this place up could do you some good, you know?&quot; Vera sneers down at you, and you roll your eyes.
 
@@ -2617,14 +2786,14 @@ She seems unsure at first, then She settles in, wrapping Her arms around you and
 
 &quot;There there... You didn&#39;t do anything wrong. Everything&#39;s going to be okay.&quot; You tremble and lean into her, and not long after you feel hot tears dripping onto you. &quot;Don&#39;t be afraid... Moth—&quot; Vera rights herself. &quot;//I&#39;m// here, Medina.&quot;
 
-[[The two of them sound nothing alike, but... she doesn&#39;t need to know that.|30Days]] &lt;&lt;set $Finished_26 to true&gt;&gt;</tw-passagedata><tw-passagedata pid="52" name="26CW" tags="OOC" position="225,725" size="100,100">&lt;h3 style=&quot;margin-bottom: -20px&quot;&gt;WARNING:&lt;/h3&gt;
+[[The two of them sound nothing alike, but... she doesn&#39;t need to know that.|30Days]] &lt;&lt;set $Finished_22 to true&gt;&gt;</tw-passagedata><tw-passagedata pid="55" name="26CW" tags="OOC" position="600,725" size="100,100">&lt;h3 style=&quot;margin-bottom: -20px&quot;&gt;WARNING:&lt;/h3&gt;
 * This passage relies on context from Passage 17: Quiet Life. Be sure you&#39;ve read that first.
 &lt;h3 style=&quot;margin-bottom: -20px&quot;&gt;CONTENT WARNINGS:&lt;/h3&gt;
 * Significant Age Gap
 * Mentions of Child Sexual Abuse
 * Serious, serious downer shit
 [[I consent.|26Start]]
-[[Take me back.|30Days]]</tw-passagedata><tw-passagedata pid="53" name="3Start" tags="BloodlikeEarth" position="700,375" size="100,100">No one from Barracks E talks as they pack up their things. There’s an air of mourning hanging over the whole complex and nauseating you. The few others you pass in the hall seem resolute, more committed than ever to carry out Emil’s wish and deny the gamemasters their satisfaction. You feel a gross sort of pity towards them, throwing away their lives on principle like that. As much as you’d rather avoid a direct confrontation after living so close with them… you must admit that they’re putting a very tempting target on their back.
+[[Take me back.|30Days]]</tw-passagedata><tw-passagedata pid="56" name="3Start" tags="BloodlikeEarth" position="700,375" size="100,100">No one from Barracks E talks as they pack up their things. There’s an air of mourning hanging over the whole complex and nauseating you. The few others you pass in the hall seem resolute, more committed than ever to carry out Emil’s wish and deny the gamemasters their satisfaction. You feel a gross sort of pity towards them, throwing away their lives on principle like that. As much as you’d rather avoid a direct confrontation after living so close with them… you must admit that they’re putting a very tempting target on their back.
 
 You tuck some backup boots into your pack, sighing. Everyone you’ve seen leaving has been paired up with packs filled to bursting with food and water, but you’re used to traveling light and haven’t come off as particularly trustworthy to your peers. Your early scouting missions have given you an edge, though. Noted in your journal are several spots beyond the game’s stated range where your collar hadn’t even threatened to go off. If all goes to plan, you’ll set up camp in the foothills of the Carpathians and wait out the early bloodbath in style. As you’re scrawling in your journal to revise an old route plan, there’s a knock at your door. After a moment’s consideration, you open it, being sure to tuck away your journal.
 
@@ -2662,7 +2831,7 @@ After a few minutes of silent contemplation, your eyes meet again, and you give 
 
 “Alright. Then, we should start with some basic ground rules, *Kalina*...”
 
-[[...|3Hike]]</tw-passagedata><tw-passagedata pid="54" name="3Hike" tags="BloodlikeEarth" position="700,475" size="100,100">The hike out of the barracks and heading north is harsh, scaring off most of the weaker contestants. That’s why you’re both to pass your old neighbor, Cyryl, making his way alone. You stick to the shadows, but Kalina doesn’t have your skill, getting spotted in an instant. Cyryl waves her down.
+[[...|3Hike]]</tw-passagedata><tw-passagedata pid="57" name="3Hike" tags="BloodlikeEarth" position="700,475" size="100,100">The hike out of the barracks and heading north is harsh, scaring off most of the weaker contestants. That’s why you’re both to pass your old neighbor, Cyryl, making his way alone. You stick to the shadows, but Kalina doesn’t have your skill, getting spotted in an instant. Cyryl waves her down.
 
 “Wow, Kalina! I thought you left ages before me. It’s so crazy seeing you here.” She panics, looking instinctively towards you and almost giving away your position in the brush. Thankfully, Cyryl doesn’t seem to notice, and he attributes her worry to something else. “Right... It must be uncomfortable talking with just the two of us. It’s weird not having Emil here.”
 
@@ -2678,11 +2847,11 @@ When you look up towards Kalina, she’s in a daze, with Cyryl’s blood coating
 
 “I scored us a *point*.” When you don’t respond, she bends down to retrieve the knife you lent her, slurring her words to nobody in particular, “I don’t get what the big deal is,” and “That was so easy,” as she wipes her cheek against her blouse.
 
-[[(Return Home?)|30Days]] &lt;&lt;set $Finished_3 to true&gt;&gt;</tw-passagedata><tw-passagedata pid="55" name="3CW" tags="OOC" position="600,725" size="100,100">&lt;h3 style=&quot;margin-bottom: -20px&quot;&gt;CONTENT WARNINGS:&lt;/h3&gt;
+[[(Return Home?)|30Days]] &lt;&lt;set $Finished_3 to true&gt;&gt;</tw-passagedata><tw-passagedata pid="58" name="3CW" tags="OOC" position="975,725" size="100,100">&lt;h3 style=&quot;margin-bottom: -20px&quot;&gt;CONTENT WARNINGS:&lt;/h3&gt;
 * Suggestions of sexual coercion
 * POV is party to onscreen killing
 [[I consent.|3Start]]
-[[Take me back.|30Days]]</tw-passagedata><tw-passagedata pid="56" name="4Start" tags="Blood" position="700,0" size="100,100">You flip idly through a homebound book of poems. It’s been a few weeks since you’ve had to scare any invaders away from your lover’s cabin, and you’re on edge. An old Moraxite rival of yours, Atarakis had been the last to come after rumors of The Huntress, hoping to claim the legendary bounty on her head for mass daemocide.
+[[Take me back.|30Days]]</tw-passagedata><tw-passagedata pid="59" name="4Start" tags="Blood" position="700,0" size="100,100">You flip idly through a homebound book of poems. It’s been a few weeks since you’ve had to scare any invaders away from your lover’s cabin, and you’re on edge. An old Moraxite rival of yours, Atarakis had been the last to come after rumors of The Huntress, hoping to claim the legendary bounty on her head for mass daemocide.
 
 That moniker has followed you around for some time. You’d delight in it, if it didn’t bring threats to all those around you. Not least of all your sweetheart Maeve, who you can hear humming to herself as she works. The two of you have only lived together for a few weeks, so you’ve yet to find a time to explain your sordid second life to her. Each night you make the trip back to her abode, she insists on treating your wounds, always chiding with the same forlorn look, “You let those city men work you too hard, Clara.” Sometimes, she’ll massage your bruised, calloused hands with hers, pouting the whole time. There was a time when you’d try to sneak in after a particularly brutal fight, but it’s hard to explain more than two or three stitched up füresinos bites.
 
@@ -2698,7 +2867,7 @@ The two of you share a quick look of apprehension, before you step off to invest
 
 “Oh don’t pout, little dove. He at least needs a warm meal if you’re sending him out on that road.” The man smiles at that. Against your better judgement, you step aside, and the posessed stranger enters your home.
 
-[[...|4Dinner]]</tw-passagedata><tw-passagedata pid="57" name="4Dinner" tags="Blood" position="800,0" size="100,100">You spend the entire wait staring daggers into your ‘guest’, before Maeve comes to set the table. When she slides a bowl your way, you take one of her hands in yours and lay a gentle kiss on it, all without looking away from him. Maeve sits with the two of you and recites a prayer. If it torments him as you’d hoped, he hides it well. Smelling the feast laid out before him, the beggar appears to grow anxious, bowing his head before his hostess with faux-modesty.
+[[...|4Dinner]]</tw-passagedata><tw-passagedata pid="60" name="4Dinner" tags="Blood" position="800,0" size="100,100">You spend the entire wait staring daggers into your ‘guest’, before Maeve comes to set the table. When she slides a bowl your way, you take one of her hands in yours and lay a gentle kiss on it, all without looking away from him. Maeve sits with the two of you and recites a prayer. If it torments him as you’d hoped, he hides it well. Smelling the feast laid out before him, the beggar appears to grow anxious, bowing his head before his hostess with faux-modesty.
 
 “This is all to generous, sister. I cannot possible accept all this from you. Perhaps some bread crusts would suit me better…” Maeve waves this off, though.
 
@@ -2730,10 +2899,10 @@ As the ‘beggar’ melts to ash, the two of you share a long, wordless gaze of 
 
 “I feel like we have a lot to discuss, dear.” She nods in agreement, and the two of you head back inside.
 
-[[(Return Home?)|30Days]] &lt;&lt;set $Finished_4 to true&gt;&gt;</tw-passagedata><tw-passagedata pid="58" name="4CW" tags="OOC" position="975,725" size="100,100">&lt;h3 style=&quot;margin-bottom: -20px&quot;&gt;CONTENT WARNINGS:&lt;/h3&gt;
+[[(Return Home?)|30Days]] &lt;&lt;set $Finished_4 to true&gt;&gt;</tw-passagedata><tw-passagedata pid="61" name="4CW" tags="OOC" position="100,850" size="100,100">&lt;h3 style=&quot;margin-bottom: -20px&quot;&gt;CONTENT WARNINGS:&lt;/h3&gt;
 * This passage is here for parity, but this one is actually about as &#39;wholesome&#39; as it gets.
 [[I consent.|4Start]]
-[[Take me back.|30Days]]</tw-passagedata><tw-passagedata pid="59" name="5Start" tags="BloodlikeEarth" position="800,375" size="100,100">“Hello?”
+[[Take me back.|30Days]]</tw-passagedata><tw-passagedata pid="62" name="5Start" tags="BloodlikeEarth" position="800,375" size="100,100">“Hello?”
 
 “Ah, Auntie. Yes, I’m well. Yeah, I’m out with Nicoletta again. We should be home soon. Got it, love you too. Bye.” You answer in the same way you always have, then hang up. The menu on your phone flashes for a second before you snap it shut, showing 15:35, February 7th, 1996.
 
@@ -2759,7 +2928,7 @@ Nicoletta finally walks back out, with a look of what you interpret to be distre
 
 “You’ve got nothing to worry about, Ami. I’ll protect you, okay?” You try to stammer out some complaint, but she starts pulling you towards an alleyway.
 
-[[...|5Alley]]</tw-passagedata><tw-passagedata pid="60" name="5Alley" tags="BloodlikeEarth" position="800,475" size="100,100">The cutthrough is barren most of the way, but, when you pass a pair of foreigners, they call out to you.
+[[...|5Alley]]</tw-passagedata><tw-passagedata pid="63" name="5Alley" tags="BloodlikeEarth" position="800,475" size="100,100">The cutthrough is barren most of the way, but, when you pass a pair of foreigners, they call out to you.
 
 “Hey, you. You’re de Lupo’s girl, aren’t you?” Nicoletta moves to pull you right past them, but the gruffer one stands past you, chiding her.
 
@@ -2813,10 +2982,10 @@ You hear the dialtone, and then…
 
 “Hello?”
 
-[[(Return Home?)|30Days]] &lt;&lt;set $Finished_5 to true&gt;&gt;</tw-passagedata><tw-passagedata pid="61" name="5CW" tags="OOC" position="100,850" size="100,100">&lt;h3 style=&quot;margin-bottom: -20px&quot;&gt;CONTENT WARNINGS:&lt;/h3&gt;
+[[(Return Home?)|30Days]] &lt;&lt;set $Finished_5 to true&gt;&gt;</tw-passagedata><tw-passagedata pid="64" name="5CW" tags="OOC" position="475,850" size="100,100">&lt;h3 style=&quot;margin-bottom: -20px&quot;&gt;CONTENT WARNINGS:&lt;/h3&gt;
 * Violent onscreen death
 [[I consent.|5Start]]
-[[Take me back.|30Days]]</tw-passagedata><tw-passagedata pid="62" name="7Start" tags="Blood" position="1025,275" size="100,100">A maid passes you on the way back to your rooms, whispering as she does: “She awaits you in your chambers, Lady Eir.” You color and respond with only a short nod. The walk to your room is long and quiet, and you spend the whole time thinking about her. When you reach the door, you freeze up.
+[[Take me back.|30Days]]</tw-passagedata><tw-passagedata pid="65" name="7Start" tags="Blood" position="1025,275" size="100,100">A maid passes you on the way back to your rooms, whispering as she does: “She awaits you in your chambers, Lady Eir.” You color and respond with only a short nod. The walk to your room is long and quiet, and you spend the whole time thinking about her. When you reach the door, you freeze up.
 
 Is it proper to knock at your own door? This is nothing like your other… conquests. You settle for something in the middle, calling out through the doorway.
 
@@ -2895,10 +3064,10 @@ The two of you laugh, and you hold her face in your hand. She leans into it, pla
 “Why bother? Is anyone in this court brave enough to reproach you, my lady?” And to that, she has no answer.
 
 [[(Return Home?)|30Days]] &lt;&lt;set $Finished_7 to true&gt;&gt;
-&lt;&lt;/linkreplace&gt;&gt;</tw-passagedata><tw-passagedata pid="63" name="7CW" tags="OOC" position="350,850" size="100,100">&lt;h3 style=&quot;margin-bottom: -20px&quot;&gt;CONTENT WARNINGS:&lt;/h3&gt;
+&lt;&lt;/linkreplace&gt;&gt;</tw-passagedata><tw-passagedata pid="66" name="7CW" tags="OOC" position="725,850" size="100,100">&lt;h3 style=&quot;margin-bottom: -20px&quot;&gt;CONTENT WARNINGS:&lt;/h3&gt;
 * Sexual Content.
 [[I consent.|7Start]]
-[[Take me back.|30Days]]</tw-passagedata><tw-passagedata pid="64" name="8Start" tags="BloodlikeEarth" position="375,475" size="100,100">You groan and lay your head on your desk. It’s currently eleven, and you’ve yet to add anything to what’s shaping up to be your final project at this job. The standards at this company are brutal, and you’re struggling to find a single unturned stone in all of Eugene.
+[[Take me back.|30Days]]</tw-passagedata><tw-passagedata pid="67" name="8Start" tags="BloodlikeEarth" position="375,475" size="100,100">You groan and lay your head on your desk. It’s currently eleven, and you’ve yet to add anything to what’s shaping up to be your final project at this job. The standards at this company are brutal, and you’re struggling to find a single unturned stone in all of Eugene.
 
 Normally, you’d find a way to slip by, but you pulled an all-nighter festering about your breakup. You’re not particularly sad about missing out on him, but you wasted a lot of time on your two dates with him, and it eats you up a little. Even after all that, it took an entire extra week for it to become clear he was ghosting you! You groan again remembering that much.
 
@@ -2920,7 +3089,7 @@ The process leaves you on edge, but your outcome is a relatively popular local c
 
 As if on cue, the clock strikes noon and your coworkers start shuffling out of the office for lunch. You typically meal prep for work to save money, but in your stupor this morning you forgot to pack anything. Your emotional brain is still hung up on the creepy questionnaire, but you figure a little industry research couldn’t hurt.
 
-[[...|8Fab]]</tw-passagedata><tw-passagedata pid="65" name="8Fab" tags="BloodlikeEarth" position="200,475" size="100,100">When you first step foot into ‘Fabricación’, you’re shocked by a few things:
+[[...|8Fab]]</tw-passagedata><tw-passagedata pid="68" name="8Fab" tags="BloodlikeEarth" position="200,475" size="100,100">When you first step foot into ‘Fabricación’, you’re shocked by a few things:
 
 	First, the entire cafe is made up in metallic facades, high-traction rubber floors, and proper caution signage, with ambient industrial sound completing the picture of a real factory floor.
 	Second, several waitresses are buzzing around the floor at all times, wearing hi-visibility vests, goggles, and hard hats over full-length maid dresses.
@@ -2954,11 +3123,11 @@ You shiver, and that strange feeling returns.
 
 You’ve never even mentioned egg salad in front of Katja.
 
-[[(Return Home?)|30Days]] &lt;&lt;set $Finished_8 to true&gt;&gt;</tw-passagedata><tw-passagedata pid="66" name="8CW" tags="OOC" position="725,850" size="100,100">&lt;h3 style=&quot;margin-bottom: -20px&quot;&gt;CONTENT WARNINGS:&lt;/h3&gt;
+[[(Return Home?)|30Days]] &lt;&lt;set $Finished_8 to true&gt;&gt;</tw-passagedata><tw-passagedata pid="69" name="8CW" tags="OOC" position="1100,850" size="100,100">&lt;h3 style=&quot;margin-bottom: -20px&quot;&gt;CONTENT WARNINGS:&lt;/h3&gt;
 * Stalking
 * Maid cafes
 [[I consent.|8Start]]
-[[Take me back.|30Days]]</tw-passagedata><tw-passagedata pid="67" name="9Start" tags="BloodlikeEarth" position="925,325" size="100,100">Today, you’ve succeeded at a strategic play that will be written in history books across the planet. Your rival, Aniceta Viteri, has walked straight into your trap without a clue. She paces around the entryway to your apartment, seeming to remark only on total banalities.
+[[Take me back.|30Days]]</tw-passagedata><tw-passagedata pid="70" name="9Start" tags="BloodlikeEarth" position="925,325" size="100,100">Today, you’ve succeeded at a strategic play that will be written in history books across the planet. Your rival, Aniceta Viteri, has walked straight into your trap without a clue. She paces around the entryway to your apartment, seeming to remark only on total banalities.
 
 “This place has gotten way neater since I was here, Haoran. I’m a little envious” You shrug, rather than give her more information. Instead, she’s drawn over to a shelf covered in awards and honors. “And our challenge cup! I’m honored you’d keep it somewhere so prominent…” She laughs, and you have no choice but to defuse the slight.
 
@@ -3008,12 +3177,404 @@ She inches even closer, sipping and resting her head on your shoulder. When you 
 
 By the time Aniceta’s energy runs out, the two of you finish the entire box in this position, and you end the night on a deeply humiliating note, cradling your rival in your arms.
 
-[[(Return Home?)|30Days]] &lt;&lt;set $Finished_9 to true&gt;&gt;</tw-passagedata><tw-passagedata pid="68" name="9CW" tags="OOC" position="975,850" size="100,100">&lt;h3 style=&quot;margin-bottom: -20px&quot;&gt;CONTENT WARNINGS:&lt;/h3&gt;
+[[(Return Home?)|30Days]] &lt;&lt;set $Finished_9 to true&gt;&gt;</tw-passagedata><tw-passagedata pid="71" name="9CW" tags="OOC" position="100,975" size="100,100">&lt;h3 style=&quot;margin-bottom: -20px&quot;&gt;CONTENT WARNINGS:&lt;/h3&gt;
 * POV drugs someone in an act of sexual coercion
 * Intoxicated Intimacy (Alcohol and the aforementioned)
 [[I consent.|9Start]]
-[[Take me back.|30Days]]</tw-passagedata><tw-passagedata pid="69" name="StoryDisplayTitle" tags="" position="1100,850" size="100,100">The Unity
-(30 X 30 X30)</tw-passagedata><tw-passagedata pid="70" name="30Days" tags="" position="500,200" size="100,100">&lt;!--&lt;h2&gt;June 2025&lt;/h2&gt;--&gt;
+[[Take me back.|30Days]]</tw-passagedata><tw-passagedata pid="72" name="B1Start" tags="OOC" position="225,975" size="100,100">&lt;h3 style = &quot;margin-bottom: -20px&quot;&gt;Secret Bonus 1: Explain Your Reasoning&lt;/h3&gt;
+
+I&#39;ve read a couple of those &#39;Fill-In-The-Blank&#39; yuri anthologies, and I always find the blanks for explaining your entry very compelling. So, consider this the blank below each entry within The Unity. Hopefully, you&#39;ll find something in here enlightening.
+
+And, because this section will likely be littered with shoutouts and references, so they&#39;ll be pooled under the relevant entries as a pseudo-bibliography. Think of it as required reading, if you&#39;re into that.
+
+&lt;&lt;if $Finished_1&gt;&gt;\
+&lt;&lt;linkappend &quot;1. Repairs&quot;&gt;&gt;
+
+This is a little embarrassing to say as a formally trained roboticist, but I&#39;m really into robots, especially of the inexplicably lesbian kind. We were supposed to have the year of robot sex in 2025, but it seems that instead we just got a bunch of people &#39;dating&#39; chatbots. Both as a person who cares about the future, AND as someone who finds robotic arms erotic, this is depressing.
+
+If we were to have ethical, sentient robots, I really think the dynamic between the (unnamed) protagonists here is the best. I love the sort of relationship where it&#39;s impossible to tell who&#39;s really in charge, and I think the disparity between a mechanic, with the power to shape and control a robot, and their robot, capable of incredible apocalyptic violence but bound by rules, is... inadvisable... but VERY fun to toy with.
+
+Bibl.: //Portal Series (2007-2011)//, for corrupting me into liking mean, lesbian robots from a young age. 
+&lt;&lt;/linkappend&gt;&gt;\
+&lt;&lt;/if&gt;&gt;\
+&lt;&lt;if $Finished_2&gt;&gt;\
+&lt;&lt;linkappend &quot;2. Feeding&quot;&gt;&gt;
+
+Vampires, obsessive partners, maids, size differences, reversal, intox, these are the most important tools to a lesbian. I&#39;m also obsessed with the strange relationship between immortals and mortals, where someone can adopt you a vaguely maternal role, take care of you in a vaguely older-sister role, then be the object of your affection in a lovey-dovey relationship. It&#39;s a little gross, a little uncomfortable, and I think that&#39;s important.
+
+Vampirism-as-alcoholism is also quite nice. It&#39;s fun to see someone corrupt their partner into doing something ultimately bad for them out of selfish desire. The concept that Eleanor becomes a totally different person when she&#39;s feeding, that this strange maternalistic relationship becomes totally flipped on its head, is the pinnacle to me.
+
+Bibl.: //Malcatra&#39;s Maiden by Nadia Nova//, any context would be a spoiler; //The Hundred Line: Last Defense Academy//, for putting &#39;bloodfeeding as breastfeeding&#39; into my head and making me unable to ever be normal again.
+&lt;&lt;/linkappend&gt;&gt;\
+&lt;&lt;/if&gt;&gt;\
+&lt;&lt;if $Finished_3&gt;&gt;\
+&lt;&lt;linkappend &quot;3. Brutale&quot;&gt;&gt;
+
+For a story as absurd as a Killing Game, I thought it&#39;d be best to ground it in a believable location, so this one ended up being set in a (fictional) abandoned military ourpost in the (real) forests near Medzev in modern Czechia. All the military ranks and jargon are from the modern Czech armed forces, so the only overtly-fictional element is the presence of some extra secret military bases, which would probably make sense in a setting where the fall of the USSR didn&#39;t happen. (Although, that addition comes a few weeks later and isn&#39;t directly mentioned here.)
+
+There&#39;s a lot of background work into this situation with &#39;Emil&#39; and the barracks unifying together, and I thought this was an instance where just missing the money shot makes things much more interesting. The important part isn&#39;t the mechanics of the game, nor the masterminds, nor the brave sacrifice of a leader figure. All that matters is the peace created between the barracks member, specifically so Kalina can shatter it to demonstrate her perverse dedication to her own survival. The knock-on effect of Noemi being implicated with her and likely being alienated from the rest of the group is only a bonus. There&#39;s something delightful about the conflict between a fake emotionally numb killer and a REAL murder-enjoyer.
+
+I think the future for these two is very ambiguous. Is it romantic? Don&#39;t ask me. Erotic? Unbelievably. Will they win? Probably. Will they make it back out to their normal life? The very concept is impossible. If anything, this is the sort of relationship with the vibe that things would be better if they died together in the scenario and didn&#39;t have to cope with the consequences of their actions. This does mean, inevitably, that I wouldn&#39;t allow them something so simple and peaceful. My apologies to the not-so-happy couple. &lt;3
+
+Bibl.: Really hate that I&#39;m citing //The Hundred Line: Last Defense Academy// twice in a row, but I was never sold on &#39;Killing Game&#39; as a genre before it.
+&lt;&lt;/linkappend&gt;&gt;\
+&lt;&lt;/if&gt;&gt;\
+&lt;&lt;if $Finished_4&gt;&gt;\
+&lt;&lt;linkappend &quot;4. Same Secret&quot;&gt;&gt;
+
+It&#39;s very rare that I go for soft, fluffy cottagecore these days, but the relationship between Clara and Maeve is just weird enough to keep my interest. I love relationships with secret lives, so why not go for secret life X secret life? I also really like the idea who do similar work, but whose different methods make them totally inscrutable to one another. This stealthily comes up again in 8, but it&#39;s the forefront here.
+
+It was also quite fun researching period-accurate things for this. Specifically, Maeve is making a period-accurate (yknow, to the period where demons are real) honey and date cake. The presence of kneaded dough was originally a stealthed red-herring so I could catch someone out on misunderstanding the history of baking pre–baking powder. Obviously, that&#39;s delusional.
+
+Bibl.: Yes, I really have to cite //Hildegard von Bingen&#39;s Causae et Curae (Tr. 2016)// from the 12th century, because Maeve&#39;s anti-demon stew uses ingredients based on curatives from the book. The assumption is that things that help people must hurt demons, which is a fun shorthand.
+&lt;&lt;/linkappend&gt;&gt;\
+&lt;&lt;/if&gt;&gt;\
+&lt;&lt;if $Finished_5&gt;&gt;\
+&lt;&lt;linkappend &quot;5. Redo&quot;&gt;&gt;
+
+This one was about 90% research by mass, and a huge chunk of it never got used. Still, I think over-researching really helps set the tone for a historical narrative like this. On the surface, this is the story of two girls growing up in Manila. The full truth, however, ties into the political struggles of a 1970s Italy still grappling with the downfall of overt fascism... as well as the People Power Revolution in The Philipines of the 1980s... as well as a little bit of the Vietnam War and the global effects of American fascism.
+
+Also, Amihan watches her girlfriend die for like twenty years straight before we even get to the sequel... AND I didn&#39;t even get to use RIPITI that much despite how cute I&#39;ve pictured him in my head... this one&#39;s a real downer, huh? (For those of you math-heads, that means Amihan watched Nicoletta die around 7300 times between here and Story 21.)
+
+Bibl.: You probably shouldn&#39;t play //Stein&#39;s Gate//, but I can&#39;t pretend that this 90s–00s technology based timeloop story didn&#39;t get the idea from there.
+&lt;&lt;/linkappend&gt;&gt;\
+&lt;&lt;/if&gt;&gt;\
+&lt;&lt;if $Finished_7&gt;&gt;\
+&lt;&lt;linkappend &quot;6. Holding Back&quot;&gt;&gt;
+
+The first of many Mandatory Fucking Fridays... Three, there were three of them before things got too changed up.
+
+For this one, I really wanted to capture that wolf-sheep dynamic I love so much. The doglike womanizer varangian bodyguard type of Eir really grew on me, to the point that this one had to get a sequel (See Story 24.), but I&#39;m also into Itxaro. Her &#39;deal&#39; is mostly offscreen baggage, but I really delight in the idea of a young, disempowered princess who countercultures //into// a more chivalrous, lovey-dovey marriage. There&#39;s also an intriguing offscreen dynamic at play between Itxaro, her sister, and Eir that becomes a core focus in the sequel.
+
+I had planned for a lot more sex, then I had to cut back a bit to stay on track. In the end, I think the level of that we ended up with is perfect. My original notes say &quot;Itxaro learns she can cum entirely from her nipples&quot;, and it happens, big checkbox for me.
+&lt;&lt;/linkappend&gt;&gt;\
+&lt;&lt;/if&gt;&gt;\
+&lt;&lt;if $Finished_8&gt;&gt;\
+&lt;&lt;linkappend &quot;7. &#39;Coincidence&#39;&quot;&gt;&gt;
+
+Content
+&lt;&lt;/linkappend&gt;&gt;\
+&lt;&lt;/if&gt;&gt;\
+&lt;&lt;if $Finished_9&gt;&gt;\
+&lt;&lt;linkappend &quot;8. Buried Feelings&quot;&gt;&gt;
+
+Content
+&lt;&lt;/linkappend&gt;&gt;\
+&lt;&lt;/if&gt;&gt;\
+&lt;&lt;if $Finished_10&gt;&gt;\
+&lt;&lt;linkappend &quot;9. Lady of Faith&quot;&gt;&gt;
+
+Content
+&lt;&lt;/linkappend&gt;&gt;\
+&lt;&lt;/if&gt;&gt;\
+&lt;&lt;if $Finished_11&gt;&gt;\
+&lt;&lt;linkappend &quot;10. Brave Disciple&quot;&gt;&gt;
+
+Content
+&lt;&lt;/linkappend&gt;&gt;\
+&lt;&lt;/if&gt;&gt;\
+&lt;&lt;if $Finished_12&gt;&gt;\
+&lt;&lt;linkappend &quot;11. Rivalry&quot;&gt;&gt;
+
+Content
+&lt;&lt;/linkappend&gt;&gt;\
+&lt;&lt;/if&gt;&gt;\
+&lt;&lt;if $Finished_13&gt;&gt;\
+&lt;&lt;linkappend &quot;12. Reasons to Fight&quot;&gt;&gt;
+
+Content
+&lt;&lt;/linkappend&gt;&gt;\
+&lt;&lt;/if&gt;&gt;\
+&lt;&lt;if $Finished_15&gt;&gt;\
+&lt;&lt;linkappend &quot;13. Infestation&quot;&gt;&gt;
+
+Content
+&lt;&lt;/linkappend&gt;&gt;\
+&lt;&lt;/if&gt;&gt;\
+&lt;&lt;if $Finished_16&gt;&gt;\
+&lt;&lt;linkappend &quot;14. Authority&quot;&gt;&gt;
+
+Content
+&lt;&lt;/linkappend&gt;&gt;\
+&lt;&lt;/if&gt;&gt;\
+&lt;&lt;if $Finished_17&gt;&gt;\
+&lt;&lt;linkappend &quot;15. Quiet Life&quot;&gt;&gt;
+
+Content
+&lt;&lt;/linkappend&gt;&gt;\
+&lt;&lt;/if&gt;&gt;\
+&lt;&lt;if $Finished_18&gt;&gt;\
+&lt;&lt;linkappend &quot;16. Betrothal&quot;&gt;&gt;
+
+Content
+&lt;&lt;/linkappend&gt;&gt;\
+&lt;&lt;/if&gt;&gt;\
+&lt;&lt;if $Finished_20&gt;&gt;\
+&lt;&lt;linkappend &quot;17. Legion&quot;&gt;&gt;
+
+Content
+&lt;&lt;/linkappend&gt;&gt;\
+&lt;&lt;/if&gt;&gt;\
+&lt;&lt;if $Finished_19&gt;&gt;\
+&lt;&lt;linkappend &quot;18. By Blood&quot;&gt;&gt;
+
+Content
+&lt;&lt;/linkappend&gt;&gt;\
+&lt;&lt;/if&gt;&gt;\
+&lt;&lt;if $Finished_21&gt;&gt;\
+&lt;&lt;linkappend &quot;19. Envoy&quot;&gt;&gt;
+
+Content
+&lt;&lt;/linkappend&gt;&gt;\
+&lt;&lt;/if&gt;&gt;\
+&lt;&lt;if $Finished_14&gt;&gt;\
+&lt;&lt;linkappend &quot;20. Sunrise&quot;&gt;&gt;
+
+Content
+&lt;&lt;/linkappend&gt;&gt;\
+&lt;&lt;/if&gt;&gt;\
+&lt;&lt;if $Finished_6&gt;&gt;\
+&lt;&lt;linkappend &quot;21. Plasticity&quot;&gt;&gt;
+
+Content
+&lt;&lt;/linkappend&gt;&gt;\
+&lt;&lt;/if&gt;&gt;\
+&lt;&lt;if $Finished_22&gt;&gt;\
+&lt;&lt;linkappend &quot;22. Fair Trade&quot;&gt;&gt;
+
+Content
+&lt;&lt;/linkappend&gt;&gt;\
+&lt;&lt;/if&gt;&gt;\
+&lt;&lt;if $Finished_23&gt;&gt;\
+&lt;&lt;linkappend &quot;23. Reliance&quot;&gt;&gt;
+
+Content
+&lt;&lt;/linkappend&gt;&gt;\
+&lt;&lt;/if&gt;&gt;\
+&lt;&lt;if $Finished_24&gt;&gt;\
+&lt;&lt;linkappend &quot;24. Shield&quot;&gt;&gt;
+
+Content
+&lt;&lt;/linkappend&gt;&gt;\
+&lt;&lt;/if&gt;&gt;\
+&lt;&lt;if $Finished_25&gt;&gt;\
+&lt;&lt;linkappend &quot;25. ...&quot;&gt;&gt;
+
+Content
+&lt;&lt;/linkappend&gt;&gt;\
+&lt;&lt;/if&gt;&gt;\
+&lt;&lt;if $Finished_26&gt;&gt;\
+&lt;&lt;linkappend &quot;26. ...&quot;&gt;&gt;
+
+Content
+&lt;&lt;/linkappend&gt;&gt;\
+&lt;&lt;/if&gt;&gt;\
+&lt;&lt;if $Finished_27&gt;&gt;\
+&lt;&lt;linkappend &quot;27. ...&quot;&gt;&gt;
+
+Content
+&lt;&lt;/linkappend&gt;&gt;\
+&lt;&lt;/if&gt;&gt;\
+&lt;&lt;if $Finished_28&gt;&gt;\
+&lt;&lt;linkappend &quot;28. ...&quot;&gt;&gt;
+
+Content
+&lt;&lt;/linkappend&gt;&gt;\
+&lt;&lt;/if&gt;&gt;\
+&lt;&lt;if $Finished_29&gt;&gt;\
+&lt;&lt;linkappend &quot;29. ...&quot;&gt;&gt;
+
+Content
+&lt;&lt;/linkappend&gt;&gt;\
+&lt;&lt;/if&gt;&gt;\
+&lt;&lt;if $Finished_30&gt;&gt;\
+&lt;&lt;linkappend &quot;30. The Unity&quot;&gt;&gt;
+
+Content
+&lt;&lt;/linkappend&gt;&gt;\
+&lt;&lt;/if&gt;&gt;\</tw-passagedata><tw-passagedata pid="73" name="BBlueprint" tags="" position="350,975" size="100,100">Blurb
+
+&lt;&lt;if $Finished_1&gt;&gt;\
+&lt;&lt;linkappend &quot;1. Repairs&quot;&gt;&gt;
+
+Content
+&lt;&lt;/linkappend&gt;&gt;\
+&lt;&lt;/if&gt;&gt;\
+&lt;&lt;if $Finished_2&gt;&gt;\
+&lt;&lt;linkappend &quot;2. Feeding&quot;&gt;&gt;
+
+Content
+&lt;&lt;/linkappend&gt;&gt;\
+&lt;&lt;/if&gt;&gt;\
+&lt;&lt;if $Finished_3&gt;&gt;\
+&lt;&lt;linkappend &quot;3. Brutale&quot;&gt;&gt;
+
+Content
+&lt;&lt;/linkappend&gt;&gt;\
+&lt;&lt;/if&gt;&gt;\
+&lt;&lt;if $Finished_4&gt;&gt;\
+&lt;&lt;linkappend &quot;4. Same Secret&quot;&gt;&gt;
+
+Content
+&lt;&lt;/linkappend&gt;&gt;\
+&lt;&lt;/if&gt;&gt;\
+&lt;&lt;if $Finished_5&gt;&gt;\
+&lt;&lt;linkappend &quot;5. Redo&quot;&gt;&gt;
+
+Content
+&lt;&lt;/linkappend&gt;&gt;\
+&lt;&lt;/if&gt;&gt;\
+&lt;&lt;if $Finished_7&gt;&gt;\
+&lt;&lt;linkappend &quot;6. Holding Back&quot;&gt;&gt;
+
+Content
+&lt;&lt;/linkappend&gt;&gt;\
+&lt;&lt;/if&gt;&gt;\
+&lt;&lt;if $Finished_8&gt;&gt;\
+&lt;&lt;linkappend &quot;7. &#39;Coincidence&#39;&quot;&gt;&gt;
+
+Content
+&lt;&lt;/linkappend&gt;&gt;\
+&lt;&lt;/if&gt;&gt;\
+&lt;&lt;if $Finished_9&gt;&gt;\
+&lt;&lt;linkappend &quot;8. Buried Feelings&quot;&gt;&gt;
+
+Content
+&lt;&lt;/linkappend&gt;&gt;\
+&lt;&lt;/if&gt;&gt;\
+&lt;&lt;if $Finished_10&gt;&gt;\
+&lt;&lt;linkappend &quot;9. Lady of Faith&quot;&gt;&gt;
+
+Content
+&lt;&lt;/linkappend&gt;&gt;\
+&lt;&lt;/if&gt;&gt;\
+&lt;&lt;if $Finished_11&gt;&gt;\
+&lt;&lt;linkappend &quot;10. Brave Disciple&quot;&gt;&gt;
+
+Content
+&lt;&lt;/linkappend&gt;&gt;\
+&lt;&lt;/if&gt;&gt;\
+&lt;&lt;if $Finished_12&gt;&gt;\
+&lt;&lt;linkappend &quot;11. Rivalry&quot;&gt;&gt;
+
+Content
+&lt;&lt;/linkappend&gt;&gt;\
+&lt;&lt;/if&gt;&gt;\
+&lt;&lt;if $Finished_13&gt;&gt;\
+&lt;&lt;linkappend &quot;12. Reasons to Fight&quot;&gt;&gt;
+
+Content
+&lt;&lt;/linkappend&gt;&gt;\
+&lt;&lt;/if&gt;&gt;\
+&lt;&lt;if $Finished_15&gt;&gt;\
+&lt;&lt;linkappend &quot;13. Infestation&quot;&gt;&gt;
+
+Content
+&lt;&lt;/linkappend&gt;&gt;\
+&lt;&lt;/if&gt;&gt;\
+&lt;&lt;if $Finished_16&gt;&gt;\
+&lt;&lt;linkappend &quot;14. Authority&quot;&gt;&gt;
+
+Content
+&lt;&lt;/linkappend&gt;&gt;\
+&lt;&lt;/if&gt;&gt;\
+&lt;&lt;if $Finished_17&gt;&gt;\
+&lt;&lt;linkappend &quot;15. Quiet Life&quot;&gt;&gt;
+
+Content
+&lt;&lt;/linkappend&gt;&gt;\
+&lt;&lt;/if&gt;&gt;\
+&lt;&lt;if $Finished_18&gt;&gt;\
+&lt;&lt;linkappend &quot;16. Betrothal&quot;&gt;&gt;
+
+Content
+&lt;&lt;/linkappend&gt;&gt;\
+&lt;&lt;/if&gt;&gt;\
+&lt;&lt;if $Finished_20&gt;&gt;\
+&lt;&lt;linkappend &quot;17. Legion&quot;&gt;&gt;
+
+Content
+&lt;&lt;/linkappend&gt;&gt;\
+&lt;&lt;/if&gt;&gt;\
+&lt;&lt;if $Finished_19&gt;&gt;\
+&lt;&lt;linkappend &quot;18. By Blood&quot;&gt;&gt;
+
+Content
+&lt;&lt;/linkappend&gt;&gt;\
+&lt;&lt;/if&gt;&gt;\
+&lt;&lt;if $Finished_21&gt;&gt;\
+&lt;&lt;linkappend &quot;19. Envoy&quot;&gt;&gt;
+
+Content
+&lt;&lt;/linkappend&gt;&gt;\
+&lt;&lt;/if&gt;&gt;\
+&lt;&lt;if $Finished_14&gt;&gt;\
+&lt;&lt;linkappend &quot;20. Sunrise&quot;&gt;&gt;
+
+Content
+&lt;&lt;/linkappend&gt;&gt;\
+&lt;&lt;/if&gt;&gt;\
+&lt;&lt;if $Finished_6&gt;&gt;\
+&lt;&lt;linkappend &quot;21. Plasticity&quot;&gt;&gt;
+
+Content
+&lt;&lt;/linkappend&gt;&gt;\
+&lt;&lt;/if&gt;&gt;\
+&lt;&lt;if $Finished_22&gt;&gt;\
+&lt;&lt;linkappend &quot;22. Fair Trade&quot;&gt;&gt;
+
+Content
+&lt;&lt;/linkappend&gt;&gt;\
+&lt;&lt;/if&gt;&gt;\
+&lt;&lt;if $Finished_23&gt;&gt;\
+&lt;&lt;linkappend &quot;23. Reliance&quot;&gt;&gt;
+
+Content
+&lt;&lt;/linkappend&gt;&gt;\
+&lt;&lt;/if&gt;&gt;\
+&lt;&lt;if $Finished_24&gt;&gt;\
+&lt;&lt;linkappend &quot;24. Shield&quot;&gt;&gt;
+
+Content
+&lt;&lt;/linkappend&gt;&gt;\
+&lt;&lt;/if&gt;&gt;\
+&lt;&lt;if $Finished_25&gt;&gt;\
+&lt;&lt;linkappend &quot;25. ...&quot;&gt;&gt;
+
+Content
+&lt;&lt;/linkappend&gt;&gt;\
+&lt;&lt;/if&gt;&gt;\
+&lt;&lt;if $Finished_26&gt;&gt;\
+&lt;&lt;linkappend &quot;26. ...&quot;&gt;&gt;
+
+Content
+&lt;&lt;/linkappend&gt;&gt;\
+&lt;&lt;/if&gt;&gt;\
+&lt;&lt;if $Finished_27&gt;&gt;\
+&lt;&lt;linkappend &quot;27. ...&quot;&gt;&gt;
+
+Content
+&lt;&lt;/linkappend&gt;&gt;\
+&lt;&lt;/if&gt;&gt;\
+&lt;&lt;if $Finished_28&gt;&gt;\
+&lt;&lt;linkappend &quot;28. ...&quot;&gt;&gt;
+
+Content
+&lt;&lt;/linkappend&gt;&gt;\
+&lt;&lt;/if&gt;&gt;\
+&lt;&lt;if $Finished_29&gt;&gt;\
+&lt;&lt;linkappend &quot;29. ...&quot;&gt;&gt;
+
+Content
+&lt;&lt;/linkappend&gt;&gt;\
+&lt;&lt;/if&gt;&gt;\
+&lt;&lt;if $Finished_30&gt;&gt;\
+&lt;&lt;linkappend &quot;30. The Unity&quot;&gt;&gt;
+
+Content
+&lt;&lt;/linkappend&gt;&gt;\
+&lt;&lt;/if&gt;&gt;\</tw-passagedata><tw-passagedata pid="74" name="StoryDisplayTitle" tags="" position="475,975" size="100,100">The Unity
+(30 X 30 X30)</tw-passagedata><tw-passagedata pid="75" name="30Days" tags="autosave" position="500,200" size="100,100">&lt;!--&lt;h2&gt;June 2025&lt;/h2&gt;--&gt;
 \ &lt;&lt;set $checks to 0&gt;&gt;
 \ &lt;!--  SEX PINK: #ff75fa;  VIOLENCE ORANGE: #ffbf75;  BOTH GREEN: #75ff7a --&gt;
 &lt;table id=&quot;calendar&quot; style = &quot;width:100%;text-align:left;vertical-align:top&quot;&gt;
@@ -3077,11 +3638,11 @@ By the time Aniceta’s energy runs out, the two of you finish the entire box in
         [[Sunrise|14CW]]&lt;/td&gt;
         &lt;td&gt;@@color:#ff75fa;21: &lt;&lt;if $Finished_6 == 4&gt;&gt;✓&lt;&lt;elseif $Finished_6 &gt; 0&gt;&gt;&lt;&lt;print $Finished_6&gt;&gt;/4&lt;&lt;/if&gt;&gt;@@
         [[Plasticity|6CW]]&lt;/td&gt;
-        &lt;td&gt;22: &lt;&lt;if $Finished_26&gt;&gt;✓&lt;&lt;set $checks += 1&gt;&gt;&lt;&lt;/if&gt;&gt;
+        &lt;td&gt;22: &lt;&lt;if $Finished_22&gt;&gt;✓&lt;&lt;set $checks += 1&gt;&gt;&lt;&lt;/if&gt;&gt;
         [[Fair Trade|26CW]]&lt;/td&gt;
-        &lt;td&gt;23: &lt;&lt;if $Finished_24&gt;&gt;✓&lt;&lt;set $checks += 1&gt;&gt;&lt;&lt;/if&gt;&gt;
+        &lt;td&gt;23: &lt;&lt;if $Finished_23&gt;&gt;✓&lt;&lt;set $checks += 1&gt;&gt;&lt;&lt;/if&gt;&gt;
         [[Reliance|24CW]]&lt;/td&gt;
-        &lt;td&gt;@@color:#ffbf75;24: &lt;&lt;if $Finished_25&gt;&gt;✓&lt;&lt;set $checks += 1&gt;&gt;&lt;&lt;/if&gt;&gt;@@
+        &lt;td&gt;@@color:#ffbf75;24: &lt;&lt;if $Finished_24&gt;&gt;✓&lt;&lt;set $checks += 1&gt;&gt;&lt;&lt;/if&gt;&gt;@@
         [[Shield|25CW]]&lt;/td&gt;
     &lt;/tr&gt;
     &lt;tr&gt;

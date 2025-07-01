@@ -110,7 +110,7 @@ You sigh and nestle yourself into her embrace. Then, a memory floods back into y
 "Then... that must be why she..." Itxaro perks up.
 
 "Hmm...? Why she did what?" You gulp.
-<<set $Finished_25 to true>>\
+<<set $Finished_24 to true>>\
 <span id = "choices">\
 
 <<link "\"When she stopped by earlier... Dekane kissed me.\"">><<replace "#choices">><<ctpAdvance "truth">><</replace>><</link>>

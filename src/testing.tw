@@ -225,7 +225,7 @@ body[data-tags~="DarkFuture"] #menu a:hover {color: #9576ae;}
 
 
 
-:: 30Days {"position":"500,200"}
+:: 30Days [autosave] {"position":"500,200"}
 <!--<h2>June 2025</h2>-->
 \ <<set $checks to 0>>
 \ <!--  SEX PINK: #ff75fa;  VIOLENCE ORANGE: #ffbf75;  BOTH GREEN: #75ff7a -->
@@ -290,11 +290,11 @@ body[data-tags~="DarkFuture"] #menu a:hover {color: #9576ae;}
         [[Sunrise|14CW]]</td>
         <td>@@color:#ff75fa;21: <<if $Finished_6 == 4>>✓<<elseif $Finished_6 > 0>><<print $Finished_6>>/4<</if>>@@
         [[Plasticity|6CW]]</td>
-        <td>22: <<if $Finished_26>>✓<<set $checks += 1>><</if>>
+        <td>22: <<if $Finished_22>>✓<<set $checks += 1>><</if>>
         [[Fair Trade|26CW]]</td>
-        <td>23: <<if $Finished_24>>✓<<set $checks += 1>><</if>>
+        <td>23: <<if $Finished_23>>✓<<set $checks += 1>><</if>>
         [[Reliance|24CW]]</td>
-        <td>@@color:#ffbf75;24: <<if $Finished_25>>✓<<set $checks += 1>><</if>>@@
+        <td>@@color:#ffbf75;24: <<if $Finished_24>>✓<<set $checks += 1>><</if>>@@
         [[Shield|25CW]]</td>
     </tr>
     <tr>
@@ -312,3 +312,14 @@ body[data-tags~="DarkFuture"] #menu a:hover {color: #9576ae;}
 @@color:#ff75fa;Graphic Sexual Content@@
 @@color:#ffbf75;Graphic Violence@@
 @@color:#75ff7a;Both@@
+
+
+:: autosave [script]
+Config.saves.maxAutoSaves = 1;
+Config.saves.isAllowed = function (saveType) {
+	if (saveType === Save.Type.Auto) {
+		return tags().includes("autosave");
+	}
+
+	return true;
+};
