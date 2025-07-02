@@ -298,8 +298,8 @@ body[data-tags~="DarkFuture"] #menu a:hover {color: #9576ae;}
         [[Shield|25CW]]</td>
     </tr>
     <tr>
-        <td></td>
-        <td></td>
+        <td>25: <<if $Finished_25>>✓<<set $checks += 1>><</if>>
+        [[Competition|27CW]]</td>
         <td></td>
         <td></td>
         <td></td>
