@@ -5,6 +5,8 @@ I've read a couple of those 'Fill-In-The-Blank' yuri anthologies, and I always f
 
 And, because this section will likely be littered with shoutouts and references, so they'll be pooled under the relevant entries as a pseudo-bibliography. Think of it as required reading, if you're into that.
 
+(Stories will appear below as you finish them.)
+
 <<if $Finished_1>>\
 <<linkappend "1. Repairs">>
 
@@ -176,15 +178,15 @@ Content
 <</linkappend>>\
 <</if>>\
 <<if $Finished_25>>\
-<<linkappend "25. ...">>
+<<linkappend "25. Competition">>
 
 Content
 <</linkappend>>\
 <</if>>\
 <<if $Finished_26>>\
-<<linkappend "26. ...">>
+<<linkappend "26. Service">>
 
-Content
+(Note: This prompt WAS part of poly week, but in its procession, it managed to LOSE an entire love interest. They still exist, in fact, they're literally downstairs while these two are going about their hijinks. If you learned how often things like this simply disappeared, you would be horrified.)
 <</linkappend>>\
 <</if>>\
 <<if $Finished_27>>\

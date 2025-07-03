@@ -1,0 +1,110 @@
+:: 30Days [autosave] {"position":"500,200"}
+<!--<h2>June 2025</h2>-->
+\ <<set $checks to 0>>
+\ <!--  SEX PINK: #ff75fa;  VIOLENCE ORANGE: #ffbf75;  BOTH GREEN: #75ff7a -->
+<table id="calendar" style = "width:100%;text-align:left;vertical-align:top">
+    <!-- 
+    <tr>
+        <td>Sunday</td>
+        <td>Monday</td>
+        <td>Tuesday</td>
+        <td>Wednesday</td>
+        <td>Thursday</td>
+        <td>Friday</td>
+        <td>Saturday</td>
+    </tr>-->
+    <tr> <!-- Week of the 1st -->
+        <td>1: <<if $Finished_1>>✓<<set $checks += 1>><</if>>
+        [[Repairs|1CW]]</td>
+        <td>2: <<if $Finished_2>>✓<<set $checks += 1>><</if>>
+        [[Feeding|2CW]]</td>
+        <td>@@color:#ffbf75;3: <<if $Finished_3>>✓<<set $checks += 1>><</if>>@@
+        [[Brutale|3CW]]</td>
+        <td>4: <<if $Finished_4>>✓<<set $checks += 1>><</if>>
+        [[Same Secret|4CW]]</td>
+        <td>@@color:#ffbf75;5: <<if $Finished_5>>✓<<set $checks += 1>><</if>>@@
+        [[Redo|5CW]]</td>
+        <td>@@color:#ff75fa;6: <<if $Finished_7>>✓<<set $checks += 1>><</if>>@@
+        [[Holding Back|7CW]]</td>
+    </tr>
+    <tr> <!-- Week of the 8th -->
+        <td>7: <<if $Finished_8>>✓<<set $checks += 1>><</if>>
+        [['Coincidence' |8CW]]</td>
+        <td>8: <<if $Finished_9>>✓<<set $checks += 1>><</if>>
+        [[Buried Feelings|9CW]]</td>
+        <td>@@color:#ff75fa;9: <<if $Finished_10>>✓<<set $checks += 1>><</if>>@@
+        [[Lady of Faith|10CW]]</td>
+        <td>@@color:#ffbf75;10: <<if $Finished_11>>✓<<set $checks += 1>><</if>>@@
+        [[Brave Disciple|11CW]]</td>
+        <td>11: <<if $Finished_12>>✓<<set $checks += 1>><</if>>
+        [[ 'Rivalry' |12CW]]</td>
+        <td>@@color:#75ff7a;12: <<if $Finished_13>>✓<<set $checks += 1>><</if>>@@
+        [[Reasons to Fight|13CW]]</td>
+
+    </tr>
+    <tr>
+        <td>13: <<if $Finished_15>>✓<<set $checks += 1>><</if>>
+        [[Infestation|15CW]]</td>
+        <td>@@color:#75ff7a;14: <<if $Finished_16_A and $Finished_16_B>>✓<<set $checks += 1>><<elseif $Finished_16_A or $Finished_16_B>>1/2<</if>>@@
+        [[Authority|16CW]]</td>
+        <td>@@color:#ffbf75;15: <<if $Finished_17>>✓<<set $checks += 1>><</if>>@@
+        [[Quiet Life|17CW]]</td>
+        <td>16: <<if $Finished_18>>✓<<set $checks += 1>><</if>>
+        [[Betrothal|18CW]]</td>
+        <td>@@color:#ffbf75;17: <<if $Finished_20>>✓<<set $checks += 1>><</if>>@@
+        [[Legion|20CW]]</td>
+        <td>@@color:#ff75fa;18: <<if $Finished_19>>✓<<set $checks += 1>><</if>>@@
+        [[By Blood|19CW]]</td>
+    </tr>
+    <tr>
+        <td>19: <<if $Finished_21>>✓<<set $checks += 1>><</if>>
+        [[Envoy|21CW]]</td>
+        <td>@@color:#ffbf75;20: <<if $Finished_14>>✓<<set $checks += 1>><</if>>@@
+        [[Sunrise|14CW]]</td>
+        <td>@@color:#ff75fa;21: <<if $Finished_6 == 4>>✓<<elseif $Finished_6 > 0>><<print $Finished_6>>/4<</if>>@@
+        [[Plasticity|6CW]]</td>
+        <td>22: <<if $Finished_22>>✓<<set $checks += 1>><</if>>
+        [[Fair Trade|26CW]]</td>
+        <td>23: <<if $Finished_23>>✓<<set $checks += 1>><</if>>
+        [[Reliance|24CW]]</td>
+        <td>@@color:#ffbf75;24: <<if $Finished_24>>✓<<set $checks += 1>><</if>>@@
+        [[Shield|25CW]]</td>
+    </tr>
+    <tr>
+        <td>25: <<if $Finished_25>>✓<<set $checks += 1>><</if>>
+        [[Competition|27CW]]</td>
+        <td>@@color:#ff75fa;26: <<if $Finished_26>>✓<<set $checks += 1>><</if>>@@
+        [[Service|28CW]]</td>
+        <td>27: <<if $Finished_27>>✓<<set $checks += 1>><</if>>
+        [[Obsession|29CW]]</td>
+        <td>28: <<if $Finished_28>>✓<<set $checks += 1>><</if>>
+        [[Reflection|30CW]]</td>
+        <td>29: <<if $Finished_29>>✓<<set $checks += 1>><</if>>
+        [[Corruption|31CW]]</td>
+        <td>30: <<if $Finished_30>>✓<<set $checks += 1>><</if>>
+        [[The Unity|32CW]]</td>
+    </tr>
+</table>
+
+<h3 style="margin-bottom: -20px">Tag Legend:</h3>
+@@color:#ff75fa;Graphic Sexual Content@@
+@@color:#ffbf75;Graphic Violence@@
+@@color:#75ff7a;Both@@
+
+<h3 style="margin-bottom: -20px">DEBUG: Super Secret Bonus Content</h3>
+[[Bonus 1: Explain Your Reasoning|B1Start]]
+
+<h3 style="margin-bottom: -20px">DEBUG: Bonus Stories</h3>
+
+
+
+
+:: autosave [script]
+Config.saves.maxAutoSaves = 1;
+Config.saves.isAllowed = function (saveType) {
+	if (saveType === Save.Type.Auto) {
+		return tags().includes("autosave");
+	}
+
+	return true;
+};
