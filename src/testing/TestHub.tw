@@ -76,7 +76,7 @@
         <td>@@color:#ff75fa;26: <<if $Finished_26>>✓<<set $checks += 1>><</if>>@@
         [[Service|28CW]]</td>
         <td>27: <<if $Finished_27>>✓<<set $checks += 1>><</if>>
-        [[Obsession|29CW]]</td>
+        [[Regicide|29CW]]</td>
         <td>28: <<if $Finished_28>>✓<<set $checks += 1>><</if>>
         [[Reflection|30CW]]</td>
         <td>29: <<if $Finished_29>>✓<<set $checks += 1>><</if>>
