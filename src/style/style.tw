@@ -56,13 +56,13 @@ body[data-tags~="DarkFuture"] #menu a:hover {color: #9576ae;}
 /* Untagged Link Styling */
 .passage .link-internal {color: #75b5ff;}
 .passage .link-internal:hover {color: #75ffe4;}
+html {font-family: hyperlegible}
 
 
 /* Glitchy Text - Start (Credit to HiEv Heavy Industries ) */
 .glitchy {
   color: white;
-  position: relative;
-}
+  position: relative;}
 .glitchy::before {
   content: attr(data-text);
   width: calc(100% + 0.5em);
@@ -75,8 +75,7 @@ body[data-tags~="DarkFuture"] #menu a:hover {color: #9576ae;}
   overflow: hidden;
   clip-path: polygon(0 0);
   animation: noise-animY-2 3s infinite linear alternate-reverse;
-  -webkit-animation: noise-animY-2 3s infinite linear alternate-reverse;
-}
+  -webkit-animation: noise-animY-2 3s infinite linear alternate-reverse;}
 .glitchy::after {
   content: attr(data-text);
   width: calc(100% + 0.5em);
@@ -89,8 +88,7 @@ body[data-tags~="DarkFuture"] #menu a:hover {color: #9576ae;}
   overflow: hidden;
   clip-path: polygon(0 0);
   animation: noise-animY 2s infinite linear alternate-reverse;
-  -webkit-animation: noise-animY 2s infinite linear alternate-reverse;
-}
+  -webkit-animation: noise-animY 2s infinite linear alternate-reverse;}
 @keyframes noise-animY {
   0% {
     clip-path: polygon(0 80px, 100% 80px, 100% 16px, 0 16px);
@@ -154,8 +152,7 @@ body[data-tags~="DarkFuture"] #menu a:hover {color: #9576ae;}
   }
   100% {
     clip-path: polygon(0 10px, 100% 10px, 100% 30px, 0 30px);
-  }
-}
+  }}
 @keyframes noise-animY-2 {
   0% {
     clip-path: polygon(0 84px, 100% 84px, 100% 3px, 0 3px);
@@ -219,7 +216,31 @@ body[data-tags~="DarkFuture"] #menu a:hover {color: #9576ae;}
   }
   100% {
     clip-path: polygon(0 23px, 100% 23px, 100% 75px, 0 75px);
-  }
-}
+  }}
 /* Glitchy Text - End */
+
+@font-face{
+  font-family: "hyperlegible";
+  font-weight: normal;
+  font-style: normal;
+  src: url("media/fonts/AHLN_Regular.otf");
+}
+@font-face{
+  font-family: "hyperlegible";
+  font-weight: normal;
+  font-style: italic;
+  src: url("media/fonts/AHLN_RegularItalic.otf");
+} 
+@font-face{
+  font-family: "hyperlegible";
+  font-weight: bold;
+  font-style: normal;
+  src: url("media/fonts/AHLN_Bold.otf");
+}
+@font-face{
+  font-family: "hyperlegible";
+  font-weight: bold;
+  font-style: italic;
+  src: url("media/fonts/AHLN_BoldItalic.otf");
+} 
 

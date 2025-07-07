@@ -104,7 +104,7 @@ var LZString=function(){var r=String.fromCharCode,o="ABCDEFGHIJKLMNOPQRSTUVWXYZa
 		<div id="init-lacking"><p>Browser lacks capabilities required to play.</p><p>Upgrade or switch to another browser.</p></div>
 		<div id="init-loading"><div>Loading&hellip;</div></div>
 	</div>
-	<!-- UUID://CF3227DE-0448-44C3-9B78-EBCAFD5F2AC0// --><tw-storydata name="The Unity" startnode="86" creator="Tweego" creator-version="2.1.1+81d1d71" ifid="CF3227DE-0448-44C3-9B78-EBCAFD5F2AC0" zoom="1" format="SugarCube" format-version="2.37.3" options="" hidden><style role="stylesheet" id="twine-user-stylesheet" type="text/twine-css">/* twine-user-stylesheet #1: "StyleSheet" */
+	<!-- UUID://CF3227DE-0448-44C3-9B78-EBCAFD5F2AC0// --><tw-storydata name="The Unity" startnode="88" creator="Tweego" creator-version="2.1.1+81d1d71" ifid="CF3227DE-0448-44C3-9B78-EBCAFD5F2AC0" zoom="1" format="SugarCube" format-version="2.37.3" options="" hidden><style role="stylesheet" id="twine-user-stylesheet" type="text/twine-css">/* twine-user-stylesheet #1: "StyleSheet" */
 .hide{display : none;}
 .macrotypesim textarea {background-color: #222831; color: #EEEEEE; height: 2em}
 
@@ -147,13 +147,13 @@ body[data-tags~="DarkFuture"] #menu a:hover {color: #9576ae;}
 /* Untagged Link Styling */
 .passage .link-internal {color: #75b5ff;}
 .passage .link-internal:hover {color: #75ffe4;}
+html {font-family: hyperlegible}
 
 
 /* Glitchy Text - Start (Credit to HiEv Heavy Industries ) */
 .glitchy {
   color: white;
-  position: relative;
-}
+  position: relative;}
 .glitchy::before {
   content: attr(data-text);
   width: calc(100% + 0.5em);
@@ -166,8 +166,7 @@ body[data-tags~="DarkFuture"] #menu a:hover {color: #9576ae;}
   overflow: hidden;
   clip-path: polygon(0 0);
   animation: noise-animY-2 3s infinite linear alternate-reverse;
-  -webkit-animation: noise-animY-2 3s infinite linear alternate-reverse;
-}
+  -webkit-animation: noise-animY-2 3s infinite linear alternate-reverse;}
 .glitchy::after {
   content: attr(data-text);
   width: calc(100% + 0.5em);
@@ -180,8 +179,7 @@ body[data-tags~="DarkFuture"] #menu a:hover {color: #9576ae;}
   overflow: hidden;
   clip-path: polygon(0 0);
   animation: noise-animY 2s infinite linear alternate-reverse;
-  -webkit-animation: noise-animY 2s infinite linear alternate-reverse;
-}
+  -webkit-animation: noise-animY 2s infinite linear alternate-reverse;}
 @keyframes noise-animY {
   0% {
     clip-path: polygon(0 80px, 100% 80px, 100% 16px, 0 16px);
@@ -245,8 +243,7 @@ body[data-tags~="DarkFuture"] #menu a:hover {color: #9576ae;}
   }
   100% {
     clip-path: polygon(0 10px, 100% 10px, 100% 30px, 0 30px);
-  }
-}
+  }}
 @keyframes noise-animY-2 {
   0% {
     clip-path: polygon(0 84px, 100% 84px, 100% 3px, 0 3px);
@@ -310,9 +307,33 @@ body[data-tags~="DarkFuture"] #menu a:hover {color: #9576ae;}
   }
   100% {
     clip-path: polygon(0 23px, 100% 23px, 100% 75px, 0 75px);
-  }
-}
+  }}
 /* Glitchy Text - End */
+
+@font-face{
+  font-family: "hyperlegible";
+  font-weight: normal;
+  font-style: normal;
+  src: url("media/fonts/AHLN_Regular.otf");
+}
+@font-face{
+  font-family: "hyperlegible";
+  font-weight: normal;
+  font-style: italic;
+  src: url("media/fonts/AHLN_RegularItalic.otf");
+} 
+@font-face{
+  font-family: "hyperlegible";
+  font-weight: bold;
+  font-style: normal;
+  src: url("media/fonts/AHLN_Bold.otf");
+}
+@font-face{
+  font-family: "hyperlegible";
+  font-weight: bold;
+  font-style: italic;
+  src: url("media/fonts/AHLN_BoldItalic.otf");
+}
 /* twine-user-stylesheet #2: "click-to-proceed.css" */
 .--macro-ctp-hidden {
 	display: none;
@@ -3083,7 +3104,7 @@ You gulp. Rosana turns and watches you silently... then sighs.
 
 The partisan slides out and lands softly in the dirt, still drenched in your own dark blood. At the same time, your wound seals itself, leaving only the massive gash in your cuirass as proof it ever happened. Then, Rosana kisses the back of your hand and smiles up at you.
 
-&quot;Now... We have plenty of ground to cover before //this one// wakes up, my dear &#39;Black Knight&#39;... Shall we?&quot; You refasten your gauntlet to take Rosana&#39;s hand, and you hoist her knight over your shoulder with the other. [[Then, the three of you follow the north road out of town.|30Days]] &lt;&lt;set $Finished_26&gt;&gt;</tw-passagedata><tw-passagedata pid="65" name="29CW" tags="OOC" position="600,850" size="100,100">&lt;h3 style=&quot;margin-bottom: -20px&quot;&gt;CONTENT WARNINGS:&lt;/h3&gt;
+&quot;Now... We have plenty of ground to cover before //this one// wakes up, my dear &#39;Black Knight&#39;... Shall we?&quot; You refasten your gauntlet to take Rosana&#39;s hand, and you hoist her knight over your shoulder with the other. [[Then, the three of you follow the north road out of town.|30Days]] &lt;&lt;set $Finished_27 to true&gt;&gt;</tw-passagedata><tw-passagedata pid="65" name="29CW" tags="OOC" position="600,850" size="100,100">&lt;h3 style=&quot;margin-bottom: -20px&quot;&gt;CONTENT WARNINGS:&lt;/h3&gt;
 * Graphic Violence
 * Blood
 [[I consent.|29Start]]
@@ -3145,7 +3166,75 @@ When you look up towards Kalina, she’s in a daze, with Cyryl’s blood coating
 * Suggestions of sexual coercion
 * POV is party to onscreen killing
 [[I consent.|3Start]]
-[[Take me back.|30Days]]</tw-passagedata><tw-passagedata pid="69" name="4Start" tags="Blood" position="700,0" size="100,100">You flip idly through a homebound book of poems. It’s been a few weeks since you’ve had to scare any invaders away from your lover’s cabin, and you’re on edge. An old Moraxite rival of yours, Atarakis had been the last to come after rumors of The Huntress, hoping to claim the legendary bounty on her head for mass daemocide.
+[[Take me back.|30Days]]</tw-passagedata><tw-passagedata pid="69" name="30Start" tags="BloodlikeEarth" position="1100,850" size="100,100">Safa pulls you into an unused backroom, giggling.
+
+&quot;C&#39;mon, it&#39;s not much further!&quot; When she stops, you keep going and trip over her feet, only staying upright because she catches you by the waist.
+
+&quot;Alright... Open your eyes, now. You&#39;ll love it.&quot; You do as she says... and you&#39;re met with a strange sight.
+
+...
+
+There&#39;s a chair in the center of the room... and you&#39;re sitting on it. More specifically, you //see yourself// sitting on it. Instinctively, you look yourself over from your hands to your feet. Once you&#39;re sure nothing&#39;s happened to you... or &#39;yourself&#39;... or... &#39;the body you inhabit&#39;... you look over to Safa.
+
+&quot;W-what is this? Why does it look so much like me?&quot; She snickers, which you roll your eyes at.
+
+&quot;Well, y&#39;know how I was getting samples of your hair and the like?&quot; You grimace. &quot;That was all to make //this//.&quot; When you only look more horrified, she continues.
+
+&quot;You told me you get lonely when I work overtime, didn&#39;t you? So... I snatched some prototypes from the biopolymers division and grew you a little Yawen who could keep you company...&quot;
+
+You don&#39;t respond, which seems to worry Safa. Without thinking, you&#39;ve inched closer to //it//, and she steps forward to follow you with her tail between her legs.
+
+&quot;Is it no good...?&quot; You whirl around to bite back at her.
+
+&quot;Are you serious?! In what world would anyone want something creepy like this?&quot; She shrinks. You feel a bit of pity for her... but you can&#39;t keep back the disgust rising into your throat. &quot;This is unethical on so many levels! You didn&#39;t even ask me how I felt before thrusting something like this on me! I hate it!!&quot; But, rather than looking at you, Safa is looking at the room&#39;s center in horror. You follow her gaze and see...
+
+//It// is moving. When it looks your way, your heart starts beating like crazy. Then, //it// speaks, perfectly matching your voice.
+
+&quot;@@font-variant:small-caps;I&#39;m sorry, ma&#39;am... If that&#39;s how you truly feel, Miss Safa can dissasemble me.@@&quot; Something in your chest plummets into the earth. When you look at Safa, she only shrugs, and before you notice it, you&#39;re at //its// side.
+
+&quot;N-no! That wouldn&#39;t make anything better.&quot; //It// looks up at you, and you&#39;re struck by an angle of yourself that you&#39;ve never seen before...
+
+//She// looks so cute and helpless like this... Without thinking, you clutch her to your chest and glare back at Safa.
+
+&quot;Don&#39;t put ideas like that in her head!&quot; She cocks her head at you.
+
+&quot;So &#39;//it//&#39; is a &#39;//she//&#39; now...?&quot; You gulp, and she continues. &quot;If you like it, that&#39;s fine, but it &#39;&#39;is&#39;&#39; just a doll. You don&#39;t have to pretend to like it for anyone&#39;s sake.&quot;
+
+Unbidden hot tears start to roll down your cheeks. At the same moment you notice yourself trembling, the doll wraps her cold hands around your own and smiles up at you.
+
+&quot;@@font-variant:small-caps;It&#39;s okay... Just let it out. There&#39;s nothing wrong with you for feeling this way, Big Sister...@@&quot; You smile... then blush. When you look to Safa, she stammers.
+
+&quot;R-right... about that... I might have made a few tweaks in testing. If you want me to change anything, I could—&quot; You glower and squeeze the doll tighter.
+
+&quot;Don&#39;t touch her!&quot; Safa gulps, but the doll just laughs and brushes her cheek against yours. Her synthetic skin is just as soft as the real thing... You shiver.
+
+&quot;@@font-variant:small-caps;It&#39;s alright, Big Sis! Miss Safa just wants you to be comfortable, same as me.@@&quot; She stands and offers you her seat. When you take it, she sits across your lap and leans against you. Her hair smells faintly of your shampoo. No matter what&#39;s in your brain, your body can&#39;t accept her as anything but another human being.
+
+She leans in, stroking your cheek as she goes, and whispers to you.
+
+&quot;@@font-variant:small-caps;But... to be honest... it feels good to hear that you like me as I am...@@&quot; The doll shifts around in your lap, and you&#39;re suddenly aware of the warmth radiating out from her and into you. Your arms wrap instinctively around her waist. &quot;@@font-variant:small-caps;I want to become a sister you can rely on, Yawen...@@&quot; She leans in closer, and her soft breath brushes against your neck. Your heart starts to race... 
+
+Safa steps to your side and sighs.
+
+&quot;M-maybe we should call it a night, now...&quot; You tense up and squeeze the doll closer to you, causing her to whimper. Safa raises her hands in a sign of surrender, and you settle back down. &quot;I didn&#39;t expect this to affect you so much...&quot;
+
+You sigh and cast your eyes to the floor.
+
+&quot;Sorry... but I can&#39;t let you hurt her. We&#39;re the only ones who can protect her...&quot; Safa watches you... then sighs.
+
+&quot;I wasn&#39;t planning on it!&quot; You look up towards her, and she&#39;s pouting. &quot;Geez, Yawen... I don&#39;t know where this sudden change of heart is coming from, but it&#39;s not like I wanted to scrap her. Have &#39;&#39;some&#39;&#39; faith in me...&quot; You smile... but you&#39;re still a bit reticent to let the doll go. Then, she whispers to you.
+
+&quot;@@font-variant:small-caps;It&#39;s okay, sis... I trust Miss Safa. Nothing is going to happen to me.@@&quot; Then, she stands. You try to hold on for a second longer, but she insists. &quot;@@font-variant:small-caps;You have work tomorrow, don&#39;t you? If you power me on when you get up, we can chat until you have to go!@@&quot; The doll turns towards Safa.
+
+&quot;@@font-variant:small-caps;You&#39;ll show her how, won&#39;t you?@@&quot; She nods, and the doll smiles down at you. When you stand, you realize that the doll actually comes out a few inches shorter than you, rather than a perfect match.
+
+Then, she leans up, and she kisses you.
+
+&quot;@@font-variant:small-caps;I&#39;ll see you both in the morning!@@&quot; And the doll steps off, bowing her head to Safa as she goes. You blush. [[When Safa steps forward and takes your hand, you cling to her all the way into bed.|30Days]] &lt;&lt;set $Finished_30 to true&gt;&gt;</tw-passagedata><tw-passagedata pid="70" name="30CW" tags="OOC" position="1225,850" size="100,100">&lt;h3 style=&quot;margin-bottom: -20px&quot;&gt;CONTENT WARNINGS:&lt;/h3&gt;
+* Incest (It&#39;s complicated)
+
+[[I consent.|30Start]]
+[[Take me back.|30Days]]</tw-passagedata><tw-passagedata pid="71" name="4Start" tags="Blood" position="700,0" size="100,100">You flip idly through a homebound book of poems. It’s been a few weeks since you’ve had to scare any invaders away from your lover’s cabin, and you’re on edge. An old Moraxite rival of yours, Atarakis had been the last to come after rumors of The Huntress, hoping to claim the legendary bounty on her head for mass daemocide.
 
 That moniker has followed you around for some time. You’d delight in it, if it didn’t bring threats to all those around you. Not least of all your sweetheart Maeve, who you can hear humming to herself as she works. The two of you have only lived together for a few weeks, so you’ve yet to find a time to explain your sordid second life to her. Each night you make the trip back to her abode, she insists on treating your wounds, always chiding with the same forlorn look, “You let those city men work you too hard, Clara.” Sometimes, she’ll massage your bruised, calloused hands with hers, pouting the whole time. There was a time when you’d try to sneak in after a particularly brutal fight, but it’s hard to explain more than two or three stitched up füresinos bites.
 
@@ -3161,7 +3250,7 @@ The two of you share a quick look of apprehension, before you step off to invest
 
 “Oh don’t pout, little dove. He at least needs a warm meal if you’re sending him out on that road.” The man smiles at that. Against your better judgement, you step aside, and the posessed stranger enters your home.
 
-[[...|4Dinner]]</tw-passagedata><tw-passagedata pid="70" name="4Dinner" tags="Blood" position="800,0" size="100,100">You spend the entire wait staring daggers into your ‘guest’, before Maeve comes to set the table. When she slides a bowl your way, you take one of her hands in yours and lay a gentle kiss on it, all without looking away from him. Maeve sits with the two of you and recites a prayer. If it torments him as you’d hoped, he hides it well. Smelling the feast laid out before him, the beggar appears to grow anxious, bowing his head before his hostess with faux-modesty.
+[[...|4Dinner]]</tw-passagedata><tw-passagedata pid="72" name="4Dinner" tags="Blood" position="800,0" size="100,100">You spend the entire wait staring daggers into your ‘guest’, before Maeve comes to set the table. When she slides a bowl your way, you take one of her hands in yours and lay a gentle kiss on it, all without looking away from him. Maeve sits with the two of you and recites a prayer. If it torments him as you’d hoped, he hides it well. Smelling the feast laid out before him, the beggar appears to grow anxious, bowing his head before his hostess with faux-modesty.
 
 “This is all to generous, sister. I cannot possible accept all this from you. Perhaps some bread crusts would suit me better…” Maeve waves this off, though.
 
@@ -3193,10 +3282,10 @@ As the ‘beggar’ melts to ash, the two of you share a long, wordless gaze of 
 
 “I feel like we have a lot to discuss, dear.” She nods in agreement, and the two of you head back inside.
 
-[[(Return Home?)|30Days]] &lt;&lt;set $Finished_4 to true&gt;&gt;</tw-passagedata><tw-passagedata pid="71" name="4CW" tags="OOC" position="100,975" size="100,100">&lt;h3 style=&quot;margin-bottom: -20px&quot;&gt;CONTENT WARNINGS:&lt;/h3&gt;
+[[(Return Home?)|30Days]] &lt;&lt;set $Finished_4 to true&gt;&gt;</tw-passagedata><tw-passagedata pid="73" name="4CW" tags="OOC" position="350,975" size="100,100">&lt;h3 style=&quot;margin-bottom: -20px&quot;&gt;CONTENT WARNINGS:&lt;/h3&gt;
 * This passage is here for parity, but this one is actually about as &#39;wholesome&#39; as it gets.
 [[I consent.|4Start]]
-[[Take me back.|30Days]]</tw-passagedata><tw-passagedata pid="72" name="5Start" tags="BloodlikeEarth" position="800,375" size="100,100">“Hello?”
+[[Take me back.|30Days]]</tw-passagedata><tw-passagedata pid="74" name="5Start" tags="BloodlikeEarth" position="800,375" size="100,100">“Hello?”
 
 “Ah, Auntie. Yes, I’m well. Yeah, I’m out with Nicoletta again. We should be home soon. Got it, love you too. Bye.” You answer in the same way you always have, then hang up. The menu on your phone flashes for a second before you snap it shut, showing 15:35, February 7th, 1996.
 
@@ -3222,7 +3311,7 @@ Nicoletta finally walks back out, with a look of what you interpret to be distre
 
 “You’ve got nothing to worry about, Ami. I’ll protect you, okay?” You try to stammer out some complaint, but she starts pulling you towards an alleyway.
 
-[[...|5Alley]]</tw-passagedata><tw-passagedata pid="73" name="5Alley" tags="BloodlikeEarth" position="800,475" size="100,100">The cutthrough is barren most of the way, but, when you pass a pair of foreigners, they call out to you.
+[[...|5Alley]]</tw-passagedata><tw-passagedata pid="75" name="5Alley" tags="BloodlikeEarth" position="800,475" size="100,100">The cutthrough is barren most of the way, but, when you pass a pair of foreigners, they call out to you.
 
 “Hey, you. You’re de Lupo’s girl, aren’t you?” Nicoletta moves to pull you right past them, but the gruffer one stands past you, chiding her.
 
@@ -3276,10 +3365,10 @@ You hear the dialtone, and then…
 
 “Hello?”
 
-[[(Return Home?)|30Days]] &lt;&lt;set $Finished_5 to true&gt;&gt;</tw-passagedata><tw-passagedata pid="74" name="5CW" tags="OOC" position="475,975" size="100,100">&lt;h3 style=&quot;margin-bottom: -20px&quot;&gt;CONTENT WARNINGS:&lt;/h3&gt;
+[[(Return Home?)|30Days]] &lt;&lt;set $Finished_5 to true&gt;&gt;</tw-passagedata><tw-passagedata pid="76" name="5CW" tags="OOC" position="725,975" size="100,100">&lt;h3 style=&quot;margin-bottom: -20px&quot;&gt;CONTENT WARNINGS:&lt;/h3&gt;
 * Violent onscreen death
 [[I consent.|5Start]]
-[[Take me back.|30Days]]</tw-passagedata><tw-passagedata pid="75" name="7Start" tags="Blood" position="1025,275" size="100,100">A maid passes you on the way back to your rooms, whispering as she does: “She awaits you in your chambers, Lady Eir.” You color and respond with only a short nod. The walk to your room is long and quiet, and you spend the whole time thinking about her. When you reach the door, you freeze up.
+[[Take me back.|30Days]]</tw-passagedata><tw-passagedata pid="77" name="7Start" tags="Blood" position="1025,275" size="100,100">A maid passes you on the way back to your rooms, whispering as she does: “She awaits you in your chambers, Lady Eir.” You color and respond with only a short nod. The walk to your room is long and quiet, and you spend the whole time thinking about her. When you reach the door, you freeze up.
 
 Is it proper to knock at your own door? This is nothing like your other… conquests. You settle for something in the middle, calling out through the doorway.
 
@@ -3358,10 +3447,10 @@ The two of you laugh, and you hold her face in your hand. She leans into it, pla
 “Why bother? Is anyone in this court brave enough to reproach you, my lady?” And to that, she has no answer.
 
 [[(Return Home?)|30Days]] &lt;&lt;set $Finished_7 to true&gt;&gt;
-&lt;&lt;/linkreplace&gt;&gt;</tw-passagedata><tw-passagedata pid="76" name="7CW" tags="OOC" position="725,975" size="100,100">&lt;h3 style=&quot;margin-bottom: -20px&quot;&gt;CONTENT WARNINGS:&lt;/h3&gt;
+&lt;&lt;/linkreplace&gt;&gt;</tw-passagedata><tw-passagedata pid="78" name="7CW" tags="OOC" position="975,975" size="100,100">&lt;h3 style=&quot;margin-bottom: -20px&quot;&gt;CONTENT WARNINGS:&lt;/h3&gt;
 * Sexual Content.
 [[I consent.|7Start]]
-[[Take me back.|30Days]]</tw-passagedata><tw-passagedata pid="77" name="8Start" tags="BloodlikeEarth" position="375,475" size="100,100">You groan and lay your head on your desk. It’s currently eleven, and you’ve yet to add anything to what’s shaping up to be your final project at this job. The standards at this company are brutal, and you’re struggling to find a single unturned stone in all of Eugene.
+[[Take me back.|30Days]]</tw-passagedata><tw-passagedata pid="79" name="8Start" tags="BloodlikeEarth" position="375,475" size="100,100">You groan and lay your head on your desk. It’s currently eleven, and you’ve yet to add anything to what’s shaping up to be your final project at this job. The standards at this company are brutal, and you’re struggling to find a single unturned stone in all of Eugene.
 
 Normally, you’d find a way to slip by, but you pulled an all-nighter festering about your breakup. You’re not particularly sad about missing out on him, but you wasted a lot of time on your two dates with him, and it eats you up a little. Even after all that, it took an entire extra week for it to become clear he was ghosting you! You groan again remembering that much.
 
@@ -3383,7 +3472,7 @@ The process leaves you on edge, but your outcome is a relatively popular local c
 
 As if on cue, the clock strikes noon and your coworkers start shuffling out of the office for lunch. You typically meal prep for work to save money, but in your stupor this morning you forgot to pack anything. Your emotional brain is still hung up on the creepy questionnaire, but you figure a little industry research couldn’t hurt.
 
-[[...|8Fab]]</tw-passagedata><tw-passagedata pid="78" name="8Fab" tags="BloodlikeEarth" position="200,475" size="100,100">When you first step foot into ‘Fabricación’, you’re shocked by a few things:
+[[...|8Fab]]</tw-passagedata><tw-passagedata pid="80" name="8Fab" tags="BloodlikeEarth" position="200,475" size="100,100">When you first step foot into ‘Fabricación’, you’re shocked by a few things:
 
 	First, the entire cafe is made up in metallic facades, high-traction rubber floors, and proper caution signage, with ambient industrial sound completing the picture of a real factory floor.
 	Second, several waitresses are buzzing around the floor at all times, wearing hi-visibility vests, goggles, and hard hats over full-length maid dresses.
@@ -3417,11 +3506,11 @@ You shiver, and that strange feeling returns.
 
 You’ve never even mentioned egg salad in front of Katja.
 
-[[(Return Home?)|30Days]] &lt;&lt;set $Finished_8 to true&gt;&gt;</tw-passagedata><tw-passagedata pid="79" name="8CW" tags="OOC" position="1100,975" size="100,100">&lt;h3 style=&quot;margin-bottom: -20px&quot;&gt;CONTENT WARNINGS:&lt;/h3&gt;
+[[(Return Home?)|30Days]] &lt;&lt;set $Finished_8 to true&gt;&gt;</tw-passagedata><tw-passagedata pid="81" name="8CW" tags="OOC" position="100,1100" size="100,100">&lt;h3 style=&quot;margin-bottom: -20px&quot;&gt;CONTENT WARNINGS:&lt;/h3&gt;
 * Stalking
 * Maid cafes
 [[I consent.|8Start]]
-[[Take me back.|30Days]]</tw-passagedata><tw-passagedata pid="80" name="9Start" tags="BloodlikeEarth" position="925,325" size="100,100">Today, you’ve succeeded at a strategic play that will be written in history books across the planet. Your rival, Aniceta Viteri, has walked straight into your trap without a clue. She paces around the entryway to your apartment, seeming to remark only on total banalities.
+[[Take me back.|30Days]]</tw-passagedata><tw-passagedata pid="82" name="9Start" tags="BloodlikeEarth" position="925,325" size="100,100">Today, you’ve succeeded at a strategic play that will be written in history books across the planet. Your rival, Aniceta Viteri, has walked straight into your trap without a clue. She paces around the entryway to your apartment, seeming to remark only on total banalities.
 
 “This place has gotten way neater since I was here, Haoran. I’m a little envious” You shrug, rather than give her more information. Instead, she’s drawn over to a shelf covered in awards and honors. “And our challenge cup! I’m honored you’d keep it somewhere so prominent…” She laughs, and you have no choice but to defuse the slight.
 
@@ -3471,11 +3560,11 @@ She inches even closer, sipping and resting her head on your shoulder. When you 
 
 By the time Aniceta’s energy runs out, the two of you finish the entire box in this position, and you end the night on a deeply humiliating note, cradling your rival in your arms.
 
-[[(Return Home?)|30Days]] &lt;&lt;set $Finished_9 to true&gt;&gt;</tw-passagedata><tw-passagedata pid="81" name="9CW" tags="OOC" position="100,1100" size="100,100">&lt;h3 style=&quot;margin-bottom: -20px&quot;&gt;CONTENT WARNINGS:&lt;/h3&gt;
+[[(Return Home?)|30Days]] &lt;&lt;set $Finished_9 to true&gt;&gt;</tw-passagedata><tw-passagedata pid="83" name="9CW" tags="OOC" position="350,1100" size="100,100">&lt;h3 style=&quot;margin-bottom: -20px&quot;&gt;CONTENT WARNINGS:&lt;/h3&gt;
 * POV drugs someone in an act of sexual coercion
 * Intoxicated Intimacy (Alcohol and the aforementioned)
 [[I consent.|9Start]]
-[[Take me back.|30Days]]</tw-passagedata><tw-passagedata pid="82" name="B1Start" tags="OOC" position="225,1100" size="100,100">&lt;h3 style = &quot;margin-bottom: -20px&quot;&gt;Secret Bonus 1: Explain Your Reasoning&lt;/h3&gt;
+[[Take me back.|30Days]]</tw-passagedata><tw-passagedata pid="84" name="B1Start" tags="OOC" position="475,1100" size="100,100">&lt;h3 style = &quot;margin-bottom: -20px&quot;&gt;Secret Bonus 1: Explain Your Reasoning&lt;/h3&gt;
 
 I&#39;ve read a couple of those &#39;Fill-In-The-Blank&#39; yuri anthologies, and I always find the blanks for explaining your entry very compelling. So, consider this the blank below each entry within The Unity. Hopefully, you&#39;ll find something in here enlightening.
 
@@ -3672,9 +3761,19 @@ Content
 &lt;&lt;/linkappend&gt;&gt;\
 &lt;&lt;/if&gt;&gt;\
 &lt;&lt;if $Finished_28&gt;&gt;\
-&lt;&lt;linkappend &quot;28. ...&quot;&gt;&gt;
+&lt;&lt;linkappend &quot;28. Reflection&quot;&gt;&gt;
 
-Content
+Short question: When will we invent the first robot with Borderline Personality Disorder?
+
+Long discussion: I think &#39;selfcest&#39; is looked on as a very tropey, absurdist concept, but I find the idea kind of rich. If we were to live in a world with synthetic or biological cloning (of the sci-fi kind), how much would it fuck someone up to be in a romantic relationship with their clone? Personally, I think it&#39;s almost doomed to be toxic, in a way. That sort of echo-chamber environment seems like it would ruin a lot of people&#39;s brains, which is where I got the idea to do it to someone already incredibly emotionally volatile in Yawen Lu.
+
+There&#39;s a strange disjoint between Yawen&#39;s initial view of the doll and where it ends up, and I based a lot of that in studies I&#39;ve read about robotic personification. Movement and the ability to communicate are a big part of what makes humans packbond with inanimate objects. The only one of the key personifiers missing from the doll is a name. It&#39;s probably obvious from the title, but I think Yawen&#39;s emotional reaction to the doll comes from a displaced relationship she has with another version of herself. Humans personify things because we feel they reflect parts of ourselves, and I think exposure to such an accurate reflection of yourself is a sort of cognitohazard.
+
+I also think the sickening dynamic between Yawen and her doll is a two-way street, which I love. It all came relatively naturally from the setup, but once I landed on the idea that she would immediately &#39;trauma anchor&#39; onto the doll, I knew I&#39;d struck psychological yuri gold. The idea that a doll, freshly born and fearing for her life, would immediately fawn over this stranger and manipulate her into forming an emotional attachment gives me lesbian goosebumps, I love it. I want them to ruin each other...
+
+Where&#39;d the sister thing come from? Easy. I&#39;m a vile, vile woman with incest constantly on the brain. I&#39;ve had younger-sister types floating around my head this week, so I had to project the same onto my fellow robo-pervert Safa. 
+
+Emotionally manipulative little sister robot in a polycule in Shenzhen? That&#39;s a Hypatia Nil bingo.
 &lt;&lt;/linkappend&gt;&gt;\
 &lt;&lt;/if&gt;&gt;\
 &lt;&lt;if $Finished_29&gt;&gt;\
@@ -3688,7 +3787,7 @@ Content
 
 Content
 &lt;&lt;/linkappend&gt;&gt;\
-&lt;&lt;/if&gt;&gt;\</tw-passagedata><tw-passagedata pid="83" name="BBlueprint" tags="" position="350,1100" size="100,100">Blurb
+&lt;&lt;/if&gt;&gt;\</tw-passagedata><tw-passagedata pid="85" name="BBlueprint" tags="" position="600,1100" size="100,100">Blurb
 
 &lt;&lt;if $Finished_1&gt;&gt;\
 &lt;&lt;linkappend &quot;1. Repairs&quot;&gt;&gt;
@@ -3869,9 +3968,9 @@ Content
 
 Content
 &lt;&lt;/linkappend&gt;&gt;\
-&lt;&lt;/if&gt;&gt;\</tw-passagedata><tw-passagedata pid="84" name="B2Start" tags="" position="475,1100" size="100,100">&lt;h3 style = &quot;margin-bottom: -20px&quot;&gt;Secret Bonus 2: Cutting Room Floor&lt;/h3&gt;
+&lt;&lt;/if&gt;&gt;\</tw-passagedata><tw-passagedata pid="86" name="B2Start" tags="" position="725,1100" size="100,100">&lt;h3 style = &quot;margin-bottom: -20px&quot;&gt;Secret Bonus 2: Cutting Room Floor&lt;/h3&gt;
 
-A huge chunk of time spent writing any one of these stories was into research and setting specifics, with the exact balance changing across genres. So, just to get some of these things out there, I&#39;ve bundled them up here. If you&#39;ve done enough reading to unlock this bonus, there&#39;ll hopefully be something in here you find at least neat.
+A huge chunk of time spent writing any one of these stories was into research and setting specifics, with the exact balance changing across genres. So, just to get some of these things out there, I&#39;ve bundled them up here. If I&#39;ve done my job properly, you&#39;ll have been able to intuit a lot of these ideas from context, but I&#39;ve laid them out here in hopes everyone will find something &#39;neat&#39;.
 
 (Stories will appear below as you finish them.)
 
@@ -4024,11 +4123,11 @@ Content
 
 Most of this one made it in, but mostly in one, specific, randomized section. A shocking amount of these details come from the specifics of Carina&#39;s stupid gacha game, Goldstar Rising. 
 
-One response mentions her &quot;Revolution of the Heavenly Bodies&quot; tier subscription. This is actually a premium second tier to the game&#39;s mandatory Battle Pass Progression. The lower tier, &quot;Exalted Rebirth&quot; is much more affordable, and Carina originally joked that Ruby&#39;s kid brother must be an ER player based on how she described him. She&#39;s the worst.
+One response mentions her &quot;Revolution of the Heavenly Bodies&quot; tier subscription. This is actually a premium second tier to the game&#39;s obligatory Battle Pass Progression. The lower tier, &quot;Exalted Rebirth&quot; is much more affordable, and Carina originally joked that Ruby&#39;s kid brother must be an ER player based on how she described him. She&#39;s the worst.
 
 Two currencies also get shouted out, which are &#39;Avaricious Fragments&#39; and &#39;Twisted Genesis&#39;, of which the prior are used to buy the former to make pulls. If this sounds convoluted, please know I modeled this after my actual gacha addiction of ~5 years ago.
 
-Also, Ruby&#39;s real name is Marike, and (there is no serious-sounding way to put this) the &#39;mayor&#39; that Sema meets with is, in fact, NYC mayor (at time of writing) Eric Adams. Whether this comes before or after his other alleged backroom dealings with Turkish moguls, I leave as an exercise to the reader. As the preeminent scholar said, all my haters become my waiters at the table of success.
+Also, Ruby&#39;s real name is Marike, and (there is no serious-sounding way to put this) the &#39;mayor&#39; that Sema meets with is, in fact, NYC mayor (at time of writing) Eric Adams. Whether this comes before or after his other alleged backroom dealings with other Turkish moguls, I leave as an exercise to the reader. As the preeminent scholar said, all my haters become my waiters at the table of success.
 &lt;&lt;/linkappend&gt;&gt;\
 &lt;&lt;/if&gt;&gt;\
 &lt;&lt;if $Finished_26&gt;&gt;\
@@ -4046,9 +4145,13 @@ Radia is another blueblood, as the second in lines to the WINGS media corp, but 
 &lt;&lt;/linkappend&gt;&gt;\
 &lt;&lt;/if&gt;&gt;\
 &lt;&lt;if $Finished_27&gt;&gt;\
-&lt;&lt;linkappend &quot;27. ...&quot;&gt;&gt;
+&lt;&lt;linkappend &quot;27. Regicide&quot;&gt;&gt;
 
-Content
+There&#39;s so much excess background here that the two main character&#39;s &#39;&#39;names&#39;&#39; are cut content.
+
+&#39;The Black Knight&#39; is one Eranuhi of Leloxiti, an orcish paladin of Gemyemos, The Eternal Tyrant. She doesn&#39;t get to use most of her fire-tricks in this one, partially because she&#39;s holding herself back and partially because she&#39;s put herself into a bit of an Attunement hole, so she&#39;s rationing her magic use. As for her connections with the princess, she and Rosana met as kids, where the two of them plotted a very romantic hostile takeover of the kingdom together.
+
+Rosana&#39;s knight, of course, is Vaso, a Lizardfolk paladin of Velpharin, The Liberator (Much more on the nose than originally intended...). She was taken in by the royal family from a flotilla on the northern sea. She was one of the few people raised in the Eastern Palace, where Rosana was kept for most of her life. The two had a close, sisterly relationship when they were young (Rosana being the elder), but from childhood to Eranuhi&#39;s return, they ended up being each other&#39;s only real love prospects. Their relationship is strained by Vaso being a true believer in the king, but they remain close through the kingdom&#39;s collapse. All of this leads, of course, to Eranuhi and Rosana ambushing and kidnapping Vaso to spirit her away. 
 &lt;&lt;/linkappend&gt;&gt;\
 &lt;&lt;/if&gt;&gt;\
 &lt;&lt;if $Finished_28&gt;&gt;\
@@ -4068,8 +4171,8 @@ Content
 
 Content
 &lt;&lt;/linkappend&gt;&gt;\
-&lt;&lt;/if&gt;&gt;\</tw-passagedata><tw-passagedata pid="85" name="StoryDisplayTitle" tags="" position="600,1100" size="100,100">The Unity
-(30 X 30 X30)</tw-passagedata><tw-passagedata pid="86" name="30Days" tags="autosave" position="500,200" size="100,100">&lt;!--&lt;h2&gt;June 2025&lt;/h2&gt;--&gt;
+&lt;&lt;/if&gt;&gt;\</tw-passagedata><tw-passagedata pid="87" name="StoryDisplayTitle" tags="" position="850,1100" size="100,100">The Unity
+(30 X 30 X30)</tw-passagedata><tw-passagedata pid="88" name="30Days" tags="autosave" position="500,200" size="100,100">&lt;!--&lt;h2&gt;June 2025&lt;/h2&gt;--&gt;
 \ &lt;&lt;set $checks to 0&gt;&gt;
 \ &lt;!--  SEX PINK: #ff75fa;  VIOLENCE ORANGE: #ffbf75;  BOTH GREEN: #75ff7a --&gt;
 &lt;table id=&quot;calendar&quot; style = &quot;width:100%;text-align:left;vertical-align:top&quot;&gt;
@@ -4145,7 +4248,7 @@ Content
         [[Competition|27CW]]&lt;/td&gt;
         &lt;td&gt;@@color:#ff75fa;26: &lt;&lt;if $Finished_26&gt;&gt;✓&lt;&lt;set $checks += 1&gt;&gt;&lt;&lt;/if&gt;&gt;@@
         [[Service|28CW]]&lt;/td&gt;
-        &lt;td&gt;27: &lt;&lt;if $Finished_27&gt;&gt;✓&lt;&lt;set $checks += 1&gt;&gt;&lt;&lt;/if&gt;&gt;
+        &lt;td&gt;@@color:#ffbf75;27: &lt;&lt;if $Finished_27&gt;&gt;✓&lt;&lt;set $checks += 1&gt;&gt;&lt;&lt;/if&gt;&gt;@@
         [[Regicide|29CW]]&lt;/td&gt;
         &lt;td&gt;28: &lt;&lt;if $Finished_28&gt;&gt;✓&lt;&lt;set $checks += 1&gt;&gt;&lt;&lt;/if&gt;&gt;
         [[Reflection|30CW]]&lt;/td&gt;
@@ -4163,6 +4266,7 @@ Content
 
 &lt;h3 style=&quot;margin-bottom: -20px&quot;&gt;DEBUG: Super Secret Bonus Content&lt;/h3&gt;
 [[Bonus 1: Explain Your Reasoning|B1Start]]
+[[Bonus 2: Cutting Room Floor|B2Start]]
 
 &lt;h3 style=&quot;margin-bottom: -20px&quot;&gt;DEBUG: Bonus Stories&lt;/h3&gt;</tw-passagedata></tw-storydata>
 	<script id="script-sugarcube" type="text/javascript">
