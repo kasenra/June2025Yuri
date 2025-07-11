@@ -1,0 +1,557 @@
+:: 31Start [Blood]
+\ <<set $v31_Day to -1>> <<set $v31_Attune to 0>> <<set $v31_LastSession to "">>
+\ <<set $v31_didLust to false>> <<set $v31_didGlut to false>> <<set $v31_didGree to false>> <<set $v31_didSlot to false>>
+\ <<set $v31_didWrat to false>> <<set $v31_didEnvy to false>> <<set $v31_didPrid to false>> <!-- Curse you, thorough rereadability standards -->
+\ <<if ndef $Finished_31>> <<set $Finished_31 to 0>> <</if>>
+
+[[DebugHub|31Hub]]
+
+
+:: 31Hub [Blood]
+<<set $v31_Day += 1>><<if $v31_Day % 2 == 1>><<set $v31_today to "today">><<set $v31_yesterday to "last night">><<else>><<set $v31_today to "tonight">><<set $v31_today to "this morning">><</if>><<if $v31_Attune>75>><<set $v31_Name to "Seire">><<else>><<set $v31_Name to "Lily">><</if>>\
+<<ctp "times" persist>><<ctpNext clear>>
+It's the first morning of your new life here, locked in this filthy cage. 'Agares' says she has a plan for you. Even if you don't believe a word of it, you'll need to make it through her games if you want a chance at saving Lily from whatever has come over her. For the first time in a long time, your head is clear, and you feel a sense of purpose.
+
+The witch approaches, and she slides a sheet of yellowed paper just beyond your cage's bars. On it are neat, academic notes, terminating in a chart with seven steps. She starts.
+
+"Good morning, my pet. Are you excited to start testing?" You roll your eyes, and she titters. "Well, it's the only way you'll be getting supper, so I think you'll come to like it soon." Your stomach rumbles in response. The thought of a hunger strike has come to you, but you'll need your full fighting strength to stand a chance at escape. You peruse the options laid out before you, more to soothe yourself than to glean any deeper understanding.
+
+Without giving it too much thought, you make your first choice and slide the paper back to Agares.
+\<<ctpNext clear>>\
+It's your first evening in the cage. Lily comes around to bring you some bread crusts and warm soup. The two of you are able to chat for a bit through the bars of your cage, but she's insistent that all of this is what she wanted and that she thinks you should want it too. You can't bear to hear her like that...
+
+When she leaves, Lily smiles back at you, and Agares enters sneering in her wake.
+
+"Looks like you enjoyed the food. Well, hardly a better time to keep training, is there?" You groan and kick your bowl against the cage's wall.
+
+"I'm already sick of this. Whatever spell you put on Lily, she'll break it soon, and we'll cut your throat before we leave this place."
+
+The witch laughs.
+
+"Oh please, it hardly takes magic to turn a girl like my //Seire//. Hells, I didn't even have to put her through my program." You turn away, but she steps in closer to gloat.
+
+"All it took was one whisper, and she was ready to renounce it all. I'd tell you what I told her, but... I think you already know, don't you?" She pulls in close and grins at you, then she jumps back and curses when you kick at the bars of your cage. A dull ache spreads up from your foot, and you grit your teeth to deny her the satisfaction of your pain.
+
+"I swear, I've never seen such a disobedient mutt in my life. It'll be so satisfying to finally break you..."
+
+With that, she slips you the same notes from this morning and watches in perverse excitement as you weigh your options.
+\<<ctpNext clear>>\
+You hardly believe it without sight of the sun, but you've reached your second morning in the cage.
+
+Lily comes by again, this time with a thin, diluted salt pork stew to hold you over. You're tempted to throw the food back in her face, strike her, anything to provoke a reaction that might bring her back to her senses... instead, you quietly eat, and she holds your hand through your meal slot. She rubs small circles into your palm and watches you eat.
+
+"This would all be over if you just listened to Miss Agares, you know...?" Her gaze is soft, genuine, and it makes you shudder. When you were kids, you always got into fights over the dumbest things, and she'd give you that exact look. Sweet... consoling... pure... you can't believe that girl could ever be tainted like this.
+
+You shake your head.
+
+"I'll kill her. I could never forgive what she's done to you..." Lily groans and pulls her hand away.
+
+"Am I not allowed to change? Or are you more invested in some stupid, dead dragon than what I want?!" She turns away from your cage and pouts. You try reaching to her through the bars, but she ignores you.
+
+The two of you sit in silence. You wolf down what's left of your food, then you sigh.
+
+"I'm sorry... but I can't forgive her." Lily hugs her legs, and you continue.
+
+"Even if Agares hasn't brainwashed you, she's manipulating you to her ends! She only //wants// the version of you that obeys her!" She stands then turns to you, glowering and teary-eyed. You fall silent.
+
+Then, she whispers to you, her voice weak but full of vitriol.
+
+"I know." She takes in a deep breath, clearly holding back a sob... then she sighs. "She's not that different from you, in that regard..."
+
+Then, Lily walks out of view. 
+
+Agares comes in soon after, but she stays quiet. For a witch, she has a strange sense of social propriety. She doesn't have to remind you of your options at this point, so she waits quietly while you decide.
+
+The bitter silence gives you too much space to think about Lily's words, so you spit at Agares and throw barbs her way until she goes back to her normal, cocky self. You feel much more at ease making your choice with her sneering your way.
+\<<ctpNext clear>>\
+Lily doesn't come this evening, instead Agares has a stout, skeletal minion bring you your supper. It's not very talkative, which gives you some time to think.
+
+If what the witch told you was right, this evening is the halfway point between your arrival and your total transformation. You steel yourself and take stock of your surroundings. Not much has changed in the sleek stone room, but... you spot ''one'' thing.
+
+Atop a hanging scroll on a nearby table, you can make out the weathered edges of an arcane focus, presumably left there by the witch. If you reach out with your cuffed hands, you should be able to yank the scroll down and drop the focus within reach of your cage. Still... it could be a trap.
+
+You'll have to decide for yourself when the right time for an escape is. You could go right to it and risk getting caught... but playing along with Agares's games could provide you with a better opportunity...
+
+When the witch comes by to hear your choice, you do what you think is right.
+\<<ctpNext clear>>\
+As soon as you hear her footsteps, you shoot up. <<addclass "#tortOptions" "hide">>
+
+There, in the room's center, is $v31_Name. When your eyes meet, she gives you a shy smile, before sliding a meal into your cage. You ignore it to watch her as she crouches down and sits across from you.
+
+"It'll be a while before Agares comes. Shall we talk?" You nod, and she settles in. "You probably have a lot of questions... go ahead and ask."
+
+Without a second of thought, you go straight to your main concern.
+
+"Why? Why do all of this?" $v31_Name shuffles around where she sits. Rather than wait for an answer you know will be evasive, you shift tactics.
+
+"Is Agares threatening you?" She shakes her head. "Is she offering you something in exchange for this?" Another no. "Then, did I do something to hurt you?" She sits still for a moment... then she whispers.
+
+"No. Never. Or... nothing I could blame you for, at least..." $v31_Name meets your gaze... then she sighs.
+
+"I'm sorry... Osmodai says we're supposed to be honest about our wants, but..." She reaches through the bars and takes your cuffed hand in hers. Then she squeezes it softly, almost imperceptibly so. "I'm having a hard time unlearning what they taught me in seminary."
+
+You massage $v31_Name's hand between yours. Once the initial frustration washes over you... it leaves something else behind... and you realize you can accept this part of her. Something sets in place within your heart... and you smile at her.
+
+"Alright. I can live with that." $v31_Name's eyes widen... then she leans against your cage and grins. While she's off-guard, you pull in and kiss her on the cheek. You both giggle... and a thought comes into your head.
+
+"Then... if we understand one another... What are we going to do about Agares?"
+
+She sighs.
+
+"I'm conflicted. She's helped me break away from Nekheziel's dogma, but... Well, it's not my place to judge her for what she's done to you." $v31_Name grinds her teeth, and you get a feeling how she //would// judge Agares given the chance.
+
+"If you wanted to stay for some reason, I'd stay beside you. If you choose to leave, I'll fight at your side as well as I can in this state." She rests on her hands and watches you.
+
+"What do you think? What is it that you want, Iris?"
+
+You swallow. Even with all the alone time in your cell between tests and meals, you haven't put much thought into it. You've been working under the assumption your only option is to grab $v31_Name and run. Still... it might be worth some consideration.
+<span id="5_fakechoice">
+<<linkappend "\"None of her tests have been too harsh. Maybe she'll let us go if they all fail?\"">> $v31_Name laughs.
+<<if $v31_Attune < 100>>"Sorry... but I don't think we should rely on that. Agares has a terrifying dedication to this project. If you disprove her hypothesis, that'll only make her want to test you more." You groan.<<else>>"Sorry... but I think they've already done their job. The second she realizes that, she'll never let you go."<</if>>
+
+"Then..." <<set $v31_5_faked to true>>
+
+<</linkappend>></span>\
+<span id = "5_realchoices">\
+<<link "\"Maybe there's something to her whole dogma... If it did so much for you, maybe I need to hear her out.\"">> <<replace "#5_realchoices">>\
+"Maybe there's something to her whole dogma... If it did so much for you, maybe I need to hear her out." $v31_Name smiles. <<if not $v31_5_faked>><<replace "#5_fakechoice">><</replace>><</if>>
+
+"You don't have to go through all that for me, but if you really want to..." She coughs. "Just... signal for me if you change your mind, and I'll come running. Understood?" You nod, and not long after, Agares steps in to see the two of you chatting idly. <<removeclass "#tortOptions" "hide">>
+<</replace>><</link>>
+<<link "\"She's dangerous. We need to plot out the right time and escape.\"">> <<replace "#5_realchoices">>\
+"She's dangerous. We need to plot out the right time and escape." $v31_Name nods. <<if not $v31_5_faked>><<replace "#5_fakechoice">><</replace>><</if>>
+
+"Understood. I doubt we'll get out without a fight, so I'll do what I can to prepare. Whenever you're ready, give me our old signal."
+
+You snicker.
+
+"You still remember that?" She blushes... then nods again. And... not long after, Agares enters the room. <<removeclass "#tortOptions" "hide">>
+<</replace>><</link>>
+<<if $v31_Attune < 100>><<link "\"Our chances will only get worse over time. We need to get moving now.\"">> <<replace "#5_realchoices">>\
+"Our chances will only get worse over time. We need to get moving now." $v31_Name jumps to her feet and nods as she pulls the cage's key from her dress and throws open the door. Right as she does, the door swings open, and the witch barges in.
+
+You take one look towards the Arcane Focus you spotted, and you lunge towards it.
+
+[[And...|31Escape]]
+<</replace>><</link>><</if>></span>
+\<<ctpNext clear>>\
+EVENING THREE
+\<<ctpNext clear>>\
+FINAL MORNING
+\<<ctpNext clear>>\
+FINAL EVENING
+\<</ctp>><<ctpAdvance "times">>
+<span id = "tortOptions">
+Your attunement is <<if $v31_Attune >= 100 >>awakened<<elseif $v31_Attune > 75 >>potent<<elseif $v31_Attune > 50>>viable<<elseif $v31_Attune > 0>>stirring<<else>>nonexistant<</if>>...
+<div id="hzhealthbarbkg" class="hzbarbkg"><div id="hzhealthbar" class="hzbar"></div></div>
+\<<script>>$(document).one(':passageend', function (ev) {
+	Health2(State.variables.v31_Attune, 100, "hzhealthbar", true, ev.content);
+});<</script>>\
+<<if not $v31_didLust>>
+<<if $v31_Attune >= 25 and $v31_Day >= 4>><<link "Lust">><<replace "#tortOptions">>"Fine. A trial of L..." You cough. "A trial of Lust... Let's do that."<</replace>> <<removeclass "#proceed" "hide">><<removeclass "#resignLust" "hide">><</link>><<else>>@@color:#bf3144;==Lust==@@ (Not happening.)<</if>><</if>><<if not $v31_didGlut>>
+<<link "Gluttony">><<replace "#tortOptions">>"Gluttony. I at least get to eat something nice, right?"<</replace>> <<removeclass "#proceed" "hide">><<removeclass "#resignGlut" "hide">><</link>><</if>><<if (not $v31_didGree) and false>>
+<<link "Greed">><<replace "#tortOptions">>"Do your worst with Greed. If you think you can bribe me into your cult, prepare to be shocked."<</replace>> <<removeclass "#proceed" "hide">><<removeclass "#resignGree" "hide">><</link>><<else>>
+@@color:#bf3144;==Greed==@@ (Crossed out... seems the witch's method isn't perfect.)<</if>><<if not $v31_didSlot>><<if $v31_Day % 2 == 1>><<link "Sloth">><<replace "#tortOptions">>"If I pick Sloth, can I stop thinking about this?" Agares watches you for a moment... then nods slowly. "Fine. Do that."<</replace>><<removeclass "#proceed" "hide">><<removeclass "#resignSlot" "hide">><</link>><<else>>
+@@color:#bf3144;==Sloth==@@ (Too early in the day for that...)<</if>><</if>><<if not $v31_didWrat>>
+<<link "Wrath">><<replace "#tortOptions">>"Does a trial of wrath mean I get to take out my anger on you?" Agares rolls her eyes. "Actually... don't answer. I want it to be a surprise."<</replace>> <<removeclass "#proceed" "hide">><<removeclass "#resignWrat" "hide">><</link>><</if>><<if not $v31_didEnvy>>
+<<if $v31_Day < 4 >><<link "Envy">><<replace "#tortOptions">>"Can't say I've ever Envied anyone before." You shrug. "Let's see what that one entails."<</replace>><<removeclass "#proceed" "hide">><<removeclass "#resignEnvy" "hide">><</link>><<elseif $v31_Day >= 5>>
+@@color:#bf3144;==Envy==@@ ($v31_Name has advised against this one...)<<else>>
+@@color:#bf3144;==Envy==@@ (Not in the mood...)<</if>><</if>><<if not $v31_didPrid>>
+<<link "Pride">><<replace "#tortOptions">>"A trial of Pride." You smirk at Agares. "If you'll be bowing before me and grovelling, I'm excited to see it."<</replace>> <<removeclass "#proceed" "hide">><<removeclass "#resignPrid" "hide">><</link>><</if>>
+<<if $v31_Day >= 4>>
+An arcane focus sits on a table just within reach of your cage, if you play your cards right... <<if $v31_Attune >= 100>>
+
+[[Grab it and offer your services to Agares and her cause...|31Submit]]
+<<elseif $v31_Day >= 5>>
+
+<<if $v31_Attune>75>>[[Grab it and signal to Seire.|31Escape]]<<else>>[[Grab it and signal to Lily.|31Escape]]<</if>>
+<<else>> But you're not sure you could get $v31_Name to come with you right now. You can't leave without her.
+\<</if>>
+\<</if>></span><span id="proceed" class = "hide">
+
+She <<print ["cackles", "titters", "grins", "smirks", "laughs", "smiles down at you", "licks her lips", "bites her lip", "murmurs to herself", "convulses in ecstasy", "reaches through the bars and pets your head", "sighs", "seems unsure until you repeat yourself several times, leaving you red in the face", "pretends not to hear you until you bow your head", "dresses you down with her eyes and seems satisfied"].pluck()>>...
+
+<<print ["\"If that is your wish, my pet.\"", "\"Do you even hear yourself right now? Sooooo pathetic...\"", "\"Sweet Seire was so wise to recommend you. I really should reward her.\"", "\"You sound so defeated, pet. Don't worry, I'm sure someone is coming to save you... some day.\"", "\"In Her Name... it's such a shame we couldn't bring your friends along to watch you change like this...\"", "\"I can't believe my Seire resisted you for so long when your begging is ''this'' cute...\"", "\"You're going to do beautifully, my pet.\"", "\"You want it that bad, do you? Are you sure you can't beg for me a little longer?\" You pout. \"No...? Very well.\"", "\"Oh, it won't be long until you're singing for me, little pet. My method has succeeded against stronger wills than yours...\""].pluck()>> Then, Agares steps off to prepare.</span>
+
+<span id = "resignLust" class = "hide">[[...|31Lust]]</span><span id = "resignGlut" class = "hide">[[...|31Gluttony]]</span><span id = "resignGree" class = "hide">[[...|31Greed]]</span><span id = "resignSlot" class = "hide">[[...|31Sloth]]</span><span id = "resignWrat" class = "hide">[[...|31Wrath]]</span><span id = "resignEnvy" class = "hide">[[...|31Envy]]</span><span id = "resignPrid" class = "hide">[[...|31Pride]]</span>
+
+:: 31Lust [Blood]
+<<set $v31_didLust to true>>\
+$v31_Name steps into the room, face flushed and wearing a new, quite short, dress. 
+
+You avert your eyes, trying desperately to avoid leering at her. <<if $v31_Day == 3>> But... something more important weighs on your mind.
+
+<<include [[31IncludePart3]]>> Agares watches from the edge of the room, and she nods.\
+<<elseif $v31_Day == 4>> But... she pushes back her embarrassment and addresses you dead-on.
+
+<<include [[31IncludePart4]]>> Agares insists that it must.\
+<<else>>Agares arrives behind her, and you grit your teeth in hopes she won't sense your embarrassment. From the way she smirks at you, you're sure she knows.<</if>>
+
+Then, the witch steps up to the bars of your cage and begins.
+
+"For $v31_today's research, you'll be undertaking a trial of Lust, my pet." She smirks. "I could explain it... but something tells me you chose this because you already knew what it entailed..." You want to snarl back and deny her right now... but you can't bear to look her in the eye. When you don't respond, $v31_Name shifts around where she stands.
+
+The witch sneers <<if not $v31_TrueEnvy>>in faux-adoration.
+
+"How cute... Two sweethearts from childhood finally progressing their relationship, all under Osmodai's guiding light? I might have to stay and watch..." You blush and look to $v31_Name, who seems just as embarrassed as you. Agares looks intent to follow through, until $v31_Name huffs and pushes her out the door, slamming it shuts as she goes.
+\<<else>>.
+
+"What a shame, though... I thought this could be a nice, romantic first time for you both." You grind your teeth, and another burst of awful, selfish envy comes over you. Agares delights in it. <<set $v31_Attune += 10>>
+
+"Well, I'd love to stick around and give you some pointers, puppy... but I have work to do." With that, she steps out and shuts the door.<</if>>
+
+Once it's just the two of you, the room goes quiet. A flustered $v31_Name inches across the room before kneeling your cage door. She swiftly unlocks your cage and slips inside, only to freeze up and stare at her feet. You can't move to her side while you're restrained like this, so you just whisper her way.
+
+"$v31_Name... We don't have to do anything, if you're worried about that. Agares isn't here to pressure you into anything." She looks your way, then blushes. You're immediately tempted to tease her, but... even you're not that cruel. You open your arms at the elbows, and she leaps straight into your embrace, hiding her cute, embarrassed face in your neck.
+
+$v31_Name is still perfectly soft, and she melts where your bound hands touch her waist. There's a scent of pine around her, masked by several layers of flowery perfume. Logically, it means Agares is letting her move around outside... but instead your mind goes to the woods around your hometown, where the two of you would sneak into one another's tents as kids.
+
+Then, she drops down and leans against your chest. You blush and sit perfectly still... even the rising and falling of your chest with your breathing feels lewd under these circumstances. When $v31_Name looks up at you with a shy smile... you shudder. She laughs at that.
+
+"Somehow... I was worried I wouldn't get your heart racing, Iris..." She nestles into the curve of your shoulder with the biggest, dumbest grin. "We're really the same, aren't we?" You try to hide your blushing face, to no avail. Backed into a corner, you stammer out.
+
+"W-well how couldn't I be?!" This seems to shock her, but you can only continue. "I've been holding back for so many years, and now Agares wants us to—" You stop. $v31_Name's eyes light up, and she levels out with you, inches from your face. You try to walk it back, or defend yourself, but it all comes out as useless blubbering. Then, she leans in and presses a gentle, giggling kiss to your lips.
+
+She steals another and a third, then she looks at you with a gutwrenching, desperate expression, and <<if $v31_LastSession == "Greed">>you're not sure if it's $v31_yesterday's wine at work, but <<set $v31_Attune += 5>><</if>>you know you'll do something unforgivable if she doesn't stop you. $v31_Name only manages a tiny, gasping whisper your way.
+
+"I need you, Iris... Please don't deny me that..."
+
+<span id="options">\
+<<link "\"I feel the same... but I can't help you throw away your oath like that...\"">><<replace "#options">><<set $v31_Attune += 5>>\
+"I feel the same... but I can't help you throw away your oath like that..." She leans in to kiss you anyway, and it takes everything in you to pull back. She freezes up... then seems to realize herself, falling back and slipping out from your arms.
+
+The two of you sit in strained silence, until $v31_Name looks back your way with tears in her eyes. Her voice is broken and weak.
+
+"Why...?" You sigh, and she advances towards you, on shaky hands and knees. "You have no loyalty to anyone in that cult, you claim to want me, but still..."
+
+Hot tears run down her cheeks. In the moment, you're sure it would kill you to hide anything from her. So... you tell her the truth.
+
+"I've been waiting for you since our reunion. Secretly, I always hoped you'd give up on the faith, and I'd be able to hold you, honestly and openly..."
+
+"But now... that moment is finally here, and I can't trust it..." $v31_Name reaches you. She holds your face in her hands and rubs at your tears. "What am I supposed to do?!"
+
+You sob into $v31_Name's neck, and she holds you tight. She gently kisses the top of your head while you let it all out... Then, when you fall quiet, she kisses you and sighs against you.
+
+"Fine." You blink up to her, and she blushes as she continues. "I'll convince you. Whatever it takes, I'll show you I'm serious." You relax into her embrace and grin.
+
+"I'd like that... Please do that." Then, as she watches over you and smiles, you feel yourself blushing just like her. You take refuge, hiding your face in her shoulder. "I'm not sure when you got so cool, anyway..."
+
+"Not that I hate it, or anything..."
+
+$v31_Name laughs, and she kisses you. The two of you get quite comfortable in the minimal furnishings of your cage. [[She clutches you tight against her chest until long after you fall asleep|31Hub]]. 
+\<</replace>><</link>>
+<<link "\"I'm afraid the depth of what I want will be too much... Can you swear you'll tell me if it is?\"">><<replace "#options">><<set $v31_Attune += 25>>\
+"I'm afraid the depth of what I want will be too much... Can you swear you'll tell me if it is?" She presses more frantic kisses, trailing from your lips to your cheek as she grins and nods. When she needs a breather, $v31_Name leans against you and whispers.
+
+"I got some coaching from Agares on that one..." You sulk at the idea, but she appeases you with a quick smooch. "If it's truly too much for me... I'll tell you... 'cardamom'."
+
+You look her over for a moment... Then you snicker. This time she pouts, and you're all too happy to appease her.
+
+"That woman has put some strange things in your head... but it'll work."
+
+Then, you lean forwards and topple $v31_Name to the floor beneath you. She shudders and leans in when you kiss her neck, but with your wrists still bound, you have to ask her so-sweetly to pull her gown over her head. When you see what's underneath, you laugh.
+
+"How in the hells did you source such frilly, precious underwear out of a hole in the middle of the forest?" She blushes and evades your gaze.
+
+You tease her lower in response, creeping down, kissing her chest and stomach before biting down around a tiny, satin ribbon on her bra and pulling gently. $v31_Name whimpers your name and squirms under you. When you curl your fingers to stroke the small of her back, she whines and blurts out.
+
+"I-I brought it with me!" Even she seems shocked that she's said it. You nestle yourself into her chest. Any time she clams up, you scrape your teeth along the curve of her breast and make her shiver beneath you.
+
+"I always do!" You cinch your arms around her hips and squeeze. She cries out, and you can't stop yourself from laughing. Without any prompting, she starts pathetically thrusting her hip against nothing, and she blubbers out more.
+
+"Every time we leave town, I pack some of this stuff, just in case you might see it..." Her arms flail around needing purpose, so you bring your face back up to hers. She plays with your cheeks, runs her fingers through your hair, then clutches desperately at your shoulders. Between bouts of slow, messy kisses, you goad her on.
+
+"Wow... so if I ever turned around when we were changing together, I'd have seen you just like this?" $v31_Name shudders, then nods furiously, pulling a hand over her eyes. You lean in and give her ring finger a sharp bite, forcing her to jerk the hand away and look you in the eyes. "I was worried that witch had changed you, but... you've been this slutty all along, haven't you?"
+
+Tears form in $v31_Name's eyes, and she nods and whimpers and unconsolably apologizes as her whole body shudders. You can't give her a hand, so you wedge your knee between her legs. She wastes no time grinding against you, finding the perfect angle to strike her clit against it. All you do then is sit back and enjoy the adorable moans she makes into your mouth as she rubs herself silly on you.
+
+It doesn't take long before her breath hitches and the full length of her body trembles underneath you. Her arms and legs both spasm, and she wraps them tight around your back. With what little motion you can control, you grind your knee into her, giving her a slow, gentle comedown from that high.
+
+Her cries taper off slowly... then stop, leaving her panting and weak beneath you. $v31_Name pulls you tight against her, and you roll to her side, so she can lean against you. The two of you embrace there, on the floor of your cage. She gazes up into your eyes and mouths some hoarse and breathless words your way.
+
+You think you hear $v31_Name whispering: "Do you understand me now... Iris?"
+
+Her breathing goes slow and rhythmic. You brush her hair from her forehead and lean down to kiss her sleeping face.
+
+"Gods, I hope I do..." [[And you hold her tight to you, joining her in sleep soon after.|31Hub]]
+\<</replace>><</link>>
+\</span>
+
+<<set $v31_LastSession to "Lust">>
+:: 31Gluttony [Blood]
+<<set $v31_didGlut to true>>\
+You're woken from your boredom by  
+<<if $v31_Day == 3>>
+<<elseif $v31_Day == 4>>
+<<else>>
+<</if>>
+
+Opening
+
+<span id="options">\
+<<link "\"It seems like a waste to make all of this just for us. I'm not really that hungry...\"">><<replace "#options">><<set $v31_Attune += 5>>\
+Softcore Blurb [Trying to feed some to the slime minions or agares]
+
+[[...|31Hub]]
+\<</replace>><</link>>
+<<link "\"If you just wanted to have a proper meal together again... you didn't have to imprison me, yknow?\"">><<replace "#options">><<set $v31_Attune += 25>>\
+Hardcore Blurb [Drinking, being merry, maybe getting a little handsy] [woooow your armor is hiding so much underneath iris how lewd ><]
+
+[[...|31Hub]]
+\<</replace>><</link>>
+\</span>
+
+<<set $v31_LastSession to "Gluttony">>
+:: 31Greed [Blood]
+<<set $v31_didGree to true>>\ <!-- Deprecated to Save a little work, very similar to another anyway -->
+
+Opening
+
+<<if $v31_Day == 3>>
+<<elseif $v31_Day == 4>>
+<<else>>
+<</if>>
+[reaction to double up on drinking (fancy wine vs local beer)]
+<span id="options">\
+<<link "\"Whether it's swill or ''this''... I don't really mind. Getting to enjoy it with you is the fun part.\"">><<replace "#options">><<set $v31_Attune += 5>>\
+Softcore Blurb [You could stand to be a LITTLE greedy, iris...]
+
+[[...|31Hub]]
+\<</replace>><</link>>
+<<link "\"It's nice to share a taste of how the other side lives. We didn't get much of this back home...\"">><<replace "#options">><<set $v31_Attune += 25>>\
+Hardcore Blurb [Sampling a bunch of the stuff agares has stolen from rich women she seduced]
+
+[[...|31Hub]]
+\<</replace>><</link>>
+\</span>
+
+<<set $v31_LastSession to "Greed">>
+:: 31Sloth [Blood]
+<<set $v31_didSlot to true>>\
+
+Opening
+
+<<if $v31_Day == 3>>
+<<elseif $v31_Day == 4>>
+<<else>>
+<</if>>
+
+<span id="options">\
+<<link "\"Are you going to spend all night like that? You need your rest too.\"">><<replace "#options">><<set $v31_Attune += 5>>\
+Softcore Blurb [Pull her down and use her as a body pillow to sleep]
+
+[[...|31Hub]]
+\<</replace>><</link>>
+<<link "It feels wrong, but... having you spoil me like this... it's nice.">><<replace "#options">><<set $v31_Attune += 25>>\
+Hardcore Blurb [Death by permanent lap pillow]
+
+[[...|31Hub]]
+\<</replace>><</link>>
+\</span>
+
+<<set $v31_LastSession to "Sloth">>
+:: 31Wrath [Blood]
+<<set $v31_didWrat to true>>\
+
+Opening
+
+<<if $v31_Day == 3>>
+<<elseif $v31_Day == 4>>
+<<else>>
+<</if>>
+
+<span id="options">\
+<<link "\"Just... slap her across the face for now. I can do the rest when I get out.\"">><<replace "#options">><<set $v31_Attune += 5>>\
+Softcore Blurb [Lily backhands her WAY too hard to put some of her own aggression into it, feels bad to use her like that]
+
+[[...|31Hub]]
+\<</replace>><</link>>
+<<link "\"If ''anything goes''... How partial is she to non-vital organs?\"">><<replace "#options">><<set $v31_Attune += 25>>\
+Hardcore Blurb [Marking out the safe spots for Lily to gut her without her being unable to heal it, lily is too conflicted to even consider actually killing her there and now]
+
+[[...|31Hub]]
+\<</replace>><</link>>
+\</span>
+
+<<set $v31_LastSession to "Wrath">>
+:: 31Envy [Blood]
+<<set $v31_didEnvy to true>>\
+
+Opening
+
+<<if $v31_Day == 3>>
+<<elseif $v31_Day == 4>>
+<<else>>
+<</if>>
+
+<span id="options">\
+<<link "\"I can't watch this... Please, just stop...!\"">><<replace "#options">><<set $v31_Attune += 5>>\
+Softcore Blurb [Covering your eyes as agares gets bored and fakes fucking lily because its no fun]
+
+[[...|31Hub]]
+\<</replace>><</link>>
+<<link "\"This is awful, but... why do I feel so... hot...?\"">><<replace "#options">><<set $v31_Attune += 25>>\
+Hardcore Blurb [Get bricked up at the performance and start going at it, causing them to also get turned on and go at it for real]<<set $v31_TrueEnvy to true>>
+[[...|31Hub]]
+\<</replace>><</link>>
+\</span>
+
+<<set $v31_LastSession to "Envy">>
+:: 31Pride [Blood]
+<<set $v31_didPrid to true>>\
+
+Opening
+
+<<if $v31_Day == 3>>
+<<elseif $v31_Day == 4>>
+<<else>>
+<</if>>
+
+[Why are you crying?]
+<span id="options">\
+<<link "\"Hearing you remember those times so fondly... it's like nothing's really changed.\"">><<replace "#options">><<set $v31_Attune += 5>>\
+Softcore Blurb [Getting tosses onto lily while Agares watches the two cutely reminiscing to their youth together]
+
+[[...|31Hub]]
+\<</replace>><</link>>
+<<link "\"Having both of you praise me at the same time... it's a little overwhelming.\"">><<replace "#options">><<set $v31_Attune += 25>>\
+Hardcore Blurb [Iris getting passed around like a joint at the puppy petting party, actually touching agares for once]
+
+[[...|31Hub]]
+\<</replace>><</link>>
+\</span>
+
+<<set $v31_LastSession to "Pride">>
+
+:: 31Escape [Blood]
+<<if ndef $v31_Escape>> <<set $v31_Escape to true>> <<set $Finished_31 += 1>> <</if>>
+With a flash of light and an incantation, you shatter your restraints and face Agares head on. She scoffs.
+
+"It seems no matter how willing the pet, they always misbehave eventually... What a shame." And she charges towards you.
+
+$v31_Name intercepts, clotheslining the witch and coming down after her. There's a glint in the dim light as $v31_Name brings down a ritual dagger, stashed underneath her dress. It connects to Agares's abdomen, leaving a horrible gash where she pulls it out.
+
+"You won't lay a finger on her." She raises the blade again. "Do what you like to me, but I won't let you harm..." She freezes up for a moment, then her expression hardens. "I won't let you hold the one I hold most dear!" She thrusts down, but her moment of hesitation costs her everything.
+
+Agares dissolves into a swarm of moths, causing $v31_Name to tumble to the floor and drop her knife. When the witch reappears, she's at your side, with a clawed hand around your throat. Between sputters and gasps for air, she laughs.
+
+"Seriously? 'The one you hold dear'? In Her name..." She incessantly giggles as she hoists you into the air, pressing down hard on your windpipe. You try to force out the words, but even the simple incantations you'd need to free yourself are beyond you like this. "At least now I can see why Her teachings failed on you, //Seire//."
+
+$v31_Name coughs and pulls herself to her feet, leaning on the wall for support. The witch continues berating her.
+
+"This is what I get for taking a charity case. Honestly..." She eyes you, and you writhe and kick at her, to no avail. "This one... she's not much of a looker, but she makes a perfectly suitable mutt. What does she see in a frigid robot like you?"
+
+The edges of your vision are going dark, but you see her, see $v31_Name launching at Agares and being beat down over and over again. Now that the witch is setting the tempo, she's powerless, and you don't have long until you lose consciousness.
+
+You can't cast anything, your abuse here has left you too frail to fight back, and $v31_Name won't last much longer. Then... when she wipes a streak of blood from her cut forehead... you remember a technique you learned long ago, and you're struck by an incredibly cruel plan, the only type you can count on in the moment.
+
+$v31_Name stands and brandishes her knife, and you turn to face her. You mouth three words you've never been able to say to her, and you can tell the instant she reads them properly.
+
+<svg width="25%" viewBox="0 0 160 28"><text x=0 y=20 font-size=12pt fill=none stroke="#071952" stroke-width=0.50>I... love... you.</text></svg>
+
+She wails and charges forward with an awful expression. In this moment, $v31_Name is totally blinded by rage, so you extend your hand... and she slashes it wide open...
+
+The spraying blood speckles Agares's face. In the next instant, she blinks it away while you pour every drop of power you can muster into your focus. Then, you pass it into your wounded hand, and you weakly thrust it into the witch's face. She flinches for a moment, but when nothing happens, she settles down and smirks at you.
+
+"Nice try, mutt, but—" Then, the crystal at the center of your focus lets of a faint glow. That light refracts through your sorcerous blood, and it amplifies thousands and thousands of times over. Blinding, multicolored light fills every corner of the room. 
+
+Agares drops you, clutching at her face, and you land hard with your focus clattering to the floor inches away. You sweep your arm until you can find it and raise it aloft. By the time you can fill your lungs again, the witch has realized your trick. She spots you in an instant and leaps towards you, and...
+
+You incant.
+
+Darts of lightning manifest behind your head, and they rain down upon Agares. After the first volley stuns her, you go again. Then again. Then again. Then again until long after she stops moving, when your voice goes hoarse and you sink back to the floor.
+
+A dazed $v31_Name pushes herself up and crawls to your side, where she cradles your head in her hands and whimpers.
+
+"Iris!" Her tears run freely now, and they drip down onto your cheeks.
+
+With significant effort, you're able to croak out a "Sorry..." as you fumble around to take her hand.
+
+She bends down and weeps into your neck, and you wrap an arm around her. Once you've finally regained your voice, you whisper up to her.
+
+"Are you okay?" $v31_Name pulls back and nods, with her eyes already swollen and red. You pull her down against your chest, where she happily hides her face, and you stroke the back of her head with a sigh. <<if $v31_Attune < 75>>"Thank the gods. Thank the gods..."<<else>>"In Her name. In Her name..."<</if>> She glances up at you.
+
+"B-but... this is all my fault... I brought you here, and..." She tries to push herself off of you, but you cling on tighter. "Iris, I'm serious!"
+
+You lean down and kiss the crown of her head.
+
+"So am I. I told you I forgave you for that, didn't I...?" She gives in and sulks, resting on your chest. "Besides... even if it was your fault, I'd still want to be with you. I meant what I told you..."
+
+"I love you, $v31_Name..." She blushes and tries to hide her troubled face, which you don't allow. You wait while she stammers and blushes, trying to get out a response... Then you lean in and kiss her. She responds to //that// easily, relaxing into you and sighing.
+
+When you pull back, she's got a shaky, blissed-out grin across her flushed face. You can't help but snicker to yourself.
+
+"You know, $v31_Name... You're really honest, in your own ways..."
+
+And she lets you kiss her again. And a few times after that. Eventually, though, you realize you have better places to flirt than the muddy dungeon floor of a dead witch, so you lean against her, [[and she leads you out into the woods|30Days]].
+
+:: 31Submit [Blood]
+<<if ndef $v31_Submit>> <<set $v31_Submit to true>> <<set $Finished_31 += 1>> <</if>>
+
+:: 31CW [OOC]
+<h3 style="margin-bottom: -20px">CONTENT WARNINGS:</h3>
+
+[[I consent.|31Start]]
+[[Take me back.|30Days]]
+
+:: 31IncludePart3
+"Listen, Lily, about earlier..." She stares you down as you struggle with your words... Then she shakes her head.
+
+"It's Seire... but... That's not important right now." Lily crouches down to level with you. "I think it'd be best if we took some time to clear our heads, okay?" You gulp. She tries a 'reassuring' smile, but it doesn't help your nerves.
+
+"I know you don't harbor any ill will towards me, Iris. All I want is for you to understand that I'm doing this of my own volition."
+
+You sigh.
+
+"That doesn't make sense to me. All these years, you've told me the church gave you peace, a purpose, everything... and I'm supposed to believe that all of that changed because of some witch?"
+
+She takes a few moments to pace the room. While she does, Agares enters behind her, and you flinch. You expect her to lash out at you, punish you, or, worse, punish Lily... but she doesn't. The witch just walks around the edge of the room, gathering her implements. 
+
+Lily sighs.
+
+"I get that it sounds strange. Please, just take some time to think about what I'm going through, okay?" You nod, and Lily draws in close. She whispers to you, just low enough that the witch might not hear.
+
+"Agares and I may not agree on everything... but, if her methods can really bring those feelings out from within you... maybe then you'll understand." You shiver... and Lily steps back.
+
+"Now... I believe it's about time we get started."
+
+:: 31IncludePart4
+"Sorry... You probably don't want to see me right now..." She eyes you tentatively then sighs and adds, "Or maybe you'd be mad if I didn't show..."
+
+$v31_Name crosses to the room's center, but she doesn't step any closer nor look at you after that.
+
+"The distance between us used to be so clear... but now I don't know how to act around you. I'm trying to stay upset with you, but this morning... <<if $v31_LastSession == "Lust">>You kissed me, like it was nothing.<<elseif $v31_LastSession == "Gluttony">>You were so excited to eat my cooking again.<<elseif $v31_LastSession == "Greed">>We drank together... and it all felt so normal.<<elseif $v31_LastSession == "Sloth">>You laid beside me, just like we used to.<<elseif $v31_LastSession == "Wrath">>You went along with my wishes, just because I was the one asking.<<elseif $v31_LastSession == "Envy">>You tied my ribbon back on and calmed me down, as if I hadn't just done something awful to you.<<elseif $v31_LastSession == "Pride">>We reminisced on the old days, like nothing had changed at all.<</if>>" You stare up to watch her conflicted face, and you feel yourself sighing as well.
+
+"I understand." Her shoulders droop. "That's a normal reaction, I think..." $v31_Name groans and crouches to the floor, perching with her elbows atop her knees.
+
+"Don't console me from within that cage. It feels wrong." You laugh, and she finally shoots you a brief, pouty look.
+
+"Sorry, I wasn't trying to do that. I just meant that I feel the same." She sighs. Her cute, thoughtful expression draws your eye without trying. From it alone, you're sure some of the old Lily is still within her. You continue. "I was ''furious'' then, when I thought the witch was controlling you. But now... I'm not sure what I believe." $v31_Name frowns.
+
+Then, without either of you noticing her arrival, Agares steps forward and gives $v31_Name a light slap on the back, which sends her toppling forward in shock. Agares looks down at her and laughs.
+
+"Honestly, Seire... Weren't you supposed to be moving past all these dreadful feelings?" She rights herself but doesn't meet the witch's gaze. "The All-Mother tells us to enjoy the fruits of life she gave us. She'll get mad if you waste all your time sulking."
+
+$v31_Name sits up straight and bows her head towards Agares, who scoffs.
+
+"I'm not the one you should be talking to." She looks your way, and you instinctively turn away. She sighs. "Go. Kiss and make up so we can get to our work" 
+
+Your eyes meet $v31_Name's, and you look away. While you do, she stands and crosses the room to sit in front of you. She reaches through the bars of your cage to take your hand in hers.
+
+"She's right." $v31_Name sighs... then squeezes your hand. "I'm sorry, Iris."
+
+"You were worried for me, and I just projected my struggles onto you instead of genuinely hearing you out." She smiles softly your way.
+
+"I know things can't be the same again... but I don't want to lose you. Can we settle this?"
+
+$v31_Name has a determined look about her, more than you've ever seen from her in your thirty-some years at her side. She really has changed.
+
+There's no need to give it any more thought than that. You squeeze her hand and nod.
+
+"I think I've already forgiven you... but... I'd still like to talk." At the corner of the room, Agares taps her foot and waits with all her tools.
+
+"But... maybe we'll have to save that for the morning." $v31_Name whirls around, spots Agares, and sighs. She turns back your way and nods.
+
+"Guess so... You're sure you're still up for this?" You nod, and her expression towards you softens. She leans down, hovering her face near your cage, and you mirror her without a thought. Then, she darts forward into a quick, shy kiss, before quickly fleeing back across the room..
+
+While you're in shock, she bows in a brief apology to Agares, and not long after, the experiment proceeds as planned.

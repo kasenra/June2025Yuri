@@ -1,4 +1,4 @@
-:: 30Days [autosave] {"position":"500,200"}
+:: 30Days [autosave, Blood] {"position":"500,200"}
 <!--<h2>June 2025</h2>-->
 \ <<set $checks to 0>>
 \ <!--  SEX PINK: #ff75fa;  VIOLENCE ORANGE: #ffbf75;  BOTH GREEN: #75ff7a -->
@@ -79,7 +79,7 @@
         [[Regicide|29CW]]</td>
         <td>28: <<if $Finished_28>>✓<<set $checks += 1>><</if>>
         [[Reflection|30CW]]</td>
-        <td>29: <<if $Finished_29>>✓<<set $checks += 1>><</if>>
+        <td>@@color:#75ff7a;29: <<if $Finished_31 == 2>>✓<<elseif $Finished_31 > 0>><<print $Finished_31>>/2<</if>>@@
         [[Corruption|31CW]]</td>
         <td>30: <<if $Finished_30>>✓<<set $checks += 1>><</if>>
         [[The Unity|32CW]]</td>
@@ -97,15 +97,5 @@
 
 <h3 style="margin-bottom: -20px">DEBUG: Bonus Stories</h3>
 
-
-
-
-:: autosave [script]
-Config.saves.maxAutoSaves = 1;
-Config.saves.isAllowed = function (saveType) {
-	if (saveType === Save.Type.Auto) {
-		return tags().includes("autosave");
-	}
-
-	return true;
-};
+<svg width="25%" viewBox="0 0 160 28"><text x=0 y=20 font-size=12pt fill=none stroke="#071952" stroke-width=0.50>I... love... you.</text></svg>
+I... love... you.

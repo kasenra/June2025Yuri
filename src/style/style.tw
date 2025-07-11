@@ -11,7 +11,7 @@ The Unity
 
 :: StoryDisplayTitle
 The Unity
-(30 X 30 X30)
+(30 X 30 X 30)
 
 :: StyleSheet [stylesheet] {"position":"0,375"}
 .hide{display : none;}
@@ -52,6 +52,14 @@ body[data-tags~="DarkFuture"] {background-color: #222831; color: #EEEEEE;}
 body[data-tags~="DarkFuture"] #ui-bar {background-color: #222831; color: #a9cacc;}
 body[data-tags~="DarkFuture"] #menu a {color: #76ABAE;}
 body[data-tags~="DarkFuture"] #menu a:hover {color: #9576ae;}
+
+body[data-tags~="Unity"] {background-color: #000000; color: #e0abe0;}
+.passage[data-tags~="Unity"] .link-internal {color: #c036c0;}
+.passage[data-tags~="Unity"] .link-internal:hover {color: #FFFFFF;}
+body[data-tags~="Unity"] #ui-bar {background-color: #000000; color: #953495;}
+body[data-tags~="Unity"] #menu a {color: #c036c0;}
+body[data-tags~="Unity"] #menu a:hover {color: #FFFFFF;}
+
 
 /* Untagged Link Styling */
 .passage .link-internal {color: #75b5ff;}
@@ -242,5 +250,61 @@ html {font-family: hyperlegible}
   font-weight: bold;
   font-style: italic;
   src: url("media/fonts/AHLN_BoldItalic.otf");
-} 
+}
 
+/* Horizontal Health Bar - Start (Credit to HiEv Heavy Industries)*/
+.hzbarbkg {  /* default class for all horizontal bar backgrounds */
+	position: relative;
+	height: 15px;
+	width: 25%;
+	background-color: #111;
+	background-image: linear-gradient(to right, rgba(68, 68, 68, 0.5), rgba(34, 34, 34, 0.5) 5px), linear-gradient(to bottom, rgba(68, 68, 68, 0.5), rgba(0, 0, 0, 0) 5px), linear-gradient(to left, rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0) 5px), linear-gradient(to top, rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0) 5px);
+	border-radius: 10px;
+	z-index: 10;
+	visibility: visible;
+}
+.hzbar {  /* default class for all horizontal bars */
+	position: absolute;
+	bottom: 0px;
+	left: 0px;
+	height: 15px;
+	background-color: transparent;
+	background-image: linear-gradient(to left, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0) 5px), linear-gradient(to top, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0) 5px), linear-gradient(to right, rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0) 5px), linear-gradient(to bottom, rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0) 5px);
+	border-radius: 10px;
+	z-index: 20;
+	transition: width ease 1s, background-color ease 1s;
+}
+/* Horizontal Health Bar - End */
+
+
+:: autosave [script]
+Config.saves.maxAutoSaves = 1;
+Config.saves.isAllowed = function (saveType) {
+	if (saveType === Save.Type.Auto) {
+		return tags().includes("autosave");
+	}
+
+	return true;
+};
+
+:: healthbar [script]
+
+/* Health Bar code - Start (Credit to HiEv Heavy Industries) */
+window.Health2 = function (CurHP, MaxHP, BarID, Horizontal, Container) {
+	if (Container == undefined) {
+		Container = document;
+	}
+	var HP = parseInt((CurHP / MaxHP) * 100).clamp(0, 100);
+	var BarElement = $(Container).find("#" + BarID);
+	if (Horizontal) {
+		BarElement.css({ width: HP + "%" });
+	} else {
+		BarElement.css({ height: HP + "%" });
+	}
+	// Hue goes from -20 to 240 = red (hue = 0) -> green -> blue (hue = 240)
+	var col = "hsl(" + (Math.floor(HP * 2.6) - 20) + ", 50%, 60%)";
+	BarElement.css("background-color", col);
+	BarElement.attr("title", CurHP + "/" + MaxHP + " HP");
+	$(Container).find("#" + BarID + "bkg").attr("title", CurHP + "/" + MaxHP + " HP");
+};
+/* Health Bar code - End */
