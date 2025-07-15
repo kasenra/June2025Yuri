@@ -1,4 +1,4 @@
-:: 30Days [autosave, Blood] {"position":"500,200"}
+:: 30Days [autosave] {"position":"500,200"}
 <!--<h2>June 2025</h2>-->
 \ <<set $checks to 0>>
 \ <!--  SEX PINK: #ff75fa;  VIOLENCE ORANGE: #ffbf75;  BOTH GREEN: #75ff7a -->
@@ -96,6 +96,3 @@
 [[Bonus 2: Cutting Room Floor|B2Start]]
 
 <h3 style="margin-bottom: -20px">DEBUG: Bonus Stories</h3>
-
-<svg width="25%" viewBox="0 0 160 28"><text x=0 y=20 font-size=12pt fill=none stroke="#071952" stroke-width=0.50>I... love... you.</text></svg>
-I... love... you.
