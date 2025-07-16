@@ -95,7 +95,7 @@ You turn away and sigh. Lily inches closer, and your instincts scream for you to
 (She accepts that iris is having trouble and leaves her with her dress)
 
 :: 31Hub [Blood]
-<<set $v31_Day += 1>><<if $v31_Day % 2 == 1>><<set $v31_today to "today">><<set $v31_yesterday to "last night">><<else>><<set $v31_today to "tonight">><<set $v31_yesterday to "this morning">><</if>><<if $v31_Attune>75>><<set $v31_Name to "Seire">><<else>><<set $v31_Name to "Lily">><</if>>\
+<<set $v31_Day += 1>><<if $v31_Day % 2 == 1>><<set $v31_today to "today">><<set $v31_yesterday to "last night">><<else>><<set $v31_today to "tonight">><<set $v31_yesterday to "this morning">><</if>><<if $v31_Attune>75 and $v31_Day >= 3>><<set $v31_Name to "Seire">><<else>><<set $v31_Name to "Lily">><</if>>\
 <<ctp "times" persist>><<ctpNext clear>>
 It's the first morning of your new life here, locked in this filthy cage. 'Agares' says she has a plan for you. Even if you don't believe a word of it, you'll need to make it through her games if you want a chance at saving Lily from whatever has come over her. For the first time in a long time, your head is clear, and you feel a sense of purpose.
 
@@ -580,28 +580,53 @@ Hardcore Blurb [Get bricked up at the performance and start going at it, causing
 :: 31Pride [Blood]
 <<set $v31_didPrid to true>>\
 
-Opening
+$v31_Name enters, hiding her face when her eyes meet yours.
 
-<<if $v31_Day == 3>>
-<<elseif $v31_Day == 4>>
+You watch her<<if $v31_Day == 3>>... and, when she doesn’t seem to notice your gaze, you clear your throat and make her jump.
+
+<<include [[31IncludePart3]]>><<elseif $v31_Day == 4>>
 <<else>>
 <</if>>
 
-[Why are you crying?]
-<span id="options">\
-<<link "\"Hearing you remember those times so fondly... it's like nothing's really changed.\"">><<replace "#options">><<set $v31_Attune += 5>>\
-Softcore Blurb [Getting tosses onto lily while Agares watches the two cutely reminiscing to their youth together]
+$v31_Name steels herself with a slap to her cheek. Then, without another word, the two of them open your cage door and step inside with you. They draw in close, and your heart starts to race, anticipating something terrible. Then… they come to a stop, with Agares at your back and $v31_Name sitting in front of you. Right before you speak up, $v31_Name gets in first and shouts.
 
-[[...|31Hub]]
-\<</replace>><</link>>
-<<link "\"Having both of you praise me at the same time... it's a little overwhelming.\"">><<replace "#options">><<set $v31_Attune += 25>>\
-Hardcore Blurb [Iris getting passed around like a joint at the puppy petting party, actually touching agares for once]
+“YOU’RE REALLY CUTE!” On instinct, you stare at the floor and inch backwards, but Agares blocks your way. $v31_Name continues. “A-and I really like the soft way you speak when it’s just the two of us…” You blush, but she doesn’t let up, even as she wilt and hides her face in her hands.
 
-[[...|31Hub]]
-\<</replace>><</link>>
-\</span>
+“You give really great hugs, too! I always feel calm when you’re holding me, Iris…” $v31_Name pauses… then her face goes red and she starts blubbering. “N-not to imply anything about your chest — or… that’s to say… I-I hardly even notice them— I mean…! S-Sorry!”
 
+Before you can even question her, $v31_Name melts into a puddle on the floor. You pet her head instinctively, which seems to cool her down, then you turn to Agares, who sighs.
+
+“This girl… She was originally supposed to come here solo to amp up your ego, but every test run we did, she could hardly make it through five lines without collapsing.” She sneers down towards $v31_Name. “And even with me to support her on the real thing, she loses control after three.”
+
+The witch pulls a long scroll free from $v31_Name’s hands with her boot, then she plops down beside you.
+
+“Let’s see…” Her eyes flit down the scroll, widening at points before she stops and snorts. “Poor little Seire… If only you knew.” You do try to peer over, but she smacks you on the forehead and pulls the scroll away.
+
+“She liked when you cooked for her any time she got sick. She likes how serious you get about silly competitions. She thinks it was ‘~really cute~’ that you didn’t know dragons were real until you were fourteen.” You blush, and Agares cackles at that. As she starts reading off more, you roll your eyes.
+
+“What’s the point of this trial, anyway? Are you gonna embarrass me nonstop until I swear to convert?” At that, the witch sighs.
+
+“Typically, this one’s easy. Most people get very selfish if you puff up their ego enough… but YOU.” She brandishes an accusing finger your way, nearly poking you in the tight space. “Your singleminded devotion has totally redirected your ego response! Any time the girl you like clings to you and whispers sweet nothings, you get more attached to her instead of feeling proud… It pisses me off.”
+
+You blush and stammer out your usual token denials, but, once they’re done, you can’t help but laugh. That only seems to irritate Agares further.
+
+“It’s just that… You say that like it’s so strange, but I can’t imagine it any other way. Is there anyone out there who can take those sorts of feelings and only think about themself?” Without any delay, the witch nods.
+
+“Absolutely one hundred percent, yes.” Then she looks to the ceiling for a moment and comes back down with more. “To be more precise… eighty-seven percent yes for men, sixty-four percent yes for women. For everyone else, and specifically elves… I’ll need more test subjects.”
+
+Despite yourself, you snicker.
+
+“Y’know, I originally thought you were ‘evil-weird’, and I still mostly stand by that, maybe leaning a bit towards ‘weird’ more than ‘evil’. That being said… I can’t say I’ve ever met anyone quite like you, Agares.”
+
+The witch huffs. For the slightest moment, you swear you see her blushing, then she buries her face in the scroll, angrily searching for the perfect passage.
+
+“Yeah? Well at least I don’t have a girl telling me I…” She unrolls further and seems more exasperated as she goes. “Sweet Unity beyond, Seire…” And she quickly snaps the scroll shut.
+
+“WAY too many of these mention your tits… You need to put that girl on a leash, pet.”
+
+[[You roll your eyes.|31Hub]] <<set $v31_Affinity += 15>>
 <<set $v31_LastSession to "Pride">>
+
 
 :: 31Escape [Blood]
 <<if ndef $v31_Escape>> <<set $v31_Escape to true>> <<set $Finished_31 += 1>> <</if>>
