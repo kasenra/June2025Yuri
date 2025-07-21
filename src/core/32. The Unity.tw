@@ -1,0 +1,139 @@
+:: 32Start [DarkFuture]
+# Osmodai was wounded in the most recent conflict and can barely walk
+# also, she's a bit of a crybaby, with inistrae being the forceful one
+# the flowering was originally supposed to devour all of Lachrymis to psychically create new dimensional territory for expansion. The idea of feeding it a god is osmodai's specific plan
+
+When you throw open your door, Osmodai is sprawled out in front of it, with a pathetic expression and tears in her eyes. She whimpers up to you.
+
+"Inistrae... you actually came." You take her hand and pull her up to your side, groaning.
+
+"Of course I did, idiot! It's not safe for you to be here right now..." She just giggles and leans against your shoulder. You scan up and down the hall, but none of your neighbors seem to have noticed the commotion. Osmodai wraps her one good arm around your waist and sways.
+
+"It's fine, it's fine. By the time the ceasefire lifts, I'll be gone anyway." You scoff.
+
+"Even if you keep saying that, I still have no idea what you mean." And you pout. "I busted my ass protecting you today, for all the thanks it got me. You're not seriously planning on giving up, are you?"
+
+She snickers.
+
+"Never. I've just... realized a new path forward." When you don't respond, she pushes slightly on your back and hobbles forward. "Walk with me?"
+
+...
+
+You sigh.
+
+"If this is a trick, I'm going back to my realm and locking the door." Osmodai laughs, and the two of you start a slow, quiet procession around the orbital station.
+
+The two of you are the only souls out and about at this hour. With each door you pass, you imagine its master behind it, slavering for the impending return of hostilities. Your stroll is silent, until Osmodai pulls you over to a window and sighs.
+
+"Lachrymis looks so small from up here, doesn't it? The fruits of all our labours, and yet..." You watch with her. Watching from this vantage point with your normal, mortal eyes, the planet seems tiny. If you squint, you can easily make out larger structures like The Stake and the Old Pharyngean Palace, but they're dwarfed by the scars you and your kin have left on the landscape.
+
+Osmodai circles her finger around a scorched forest, still smouldering after the full length of the ceasefire.
+
+"I think we embraced there, once. Maybe in the Second Conflict?" You search your memories... then sigh.
+
+"They all blur together, I guess." Looking at her soft, wilted expression hurts your heart, so you add on. "Maybe once this is all over, we can restore it and see it again. That'd be nice, wouldn't it?"
+
+Osmodai groans.
+
+"It'll never end, Inistrae. Even you know that." You sink. Then, after a moment of quiet, she speaks up again.
+
+"Do you think they're happy, down there?" She watches you, and, when you try to answer offhand, horrific memories crawl up your throat. You remember zealots slitting their throats for your approval, families scrambling through their shelled homes looking for lost relatives, and entire cities reduced to watery graveyards in an instant.
+
+You choke.
+
+<span id = "nukingcivillians">\
+<<link "\"They must be... This is all any of them have ever known.\"">> <<replace "#nukingcivillians">>"They must be... This is all any of them have ever known."<<ctpAdvance "core">><</replace>><</link>>
+<<link "\"Maybe in little moments, but those seem rarer each day.\"">> <<replace "#nukingcivillians">>"Maybe in little moments, but those seem rarer each day."<<ctpAdvance "core">><</replace>><</link>>
+<<link "\"Never. We've left them nothing but blood and dust...\"">> <<replace "#nukingcivillians">>"Never. We've left them nothing but blood and dust..."<<ctpAdvance "core">><</replace>><</link>>
+<<link "\"I don't know, and I don't think I have the right to speculate...\"">> <<replace "#nukingcivillians">>"I don't know, and I don't think I have the right to speculate..."<<ctpAdvance "core">><</replace>><</link>>
+</span><<ctp "core">><<ctpNext>>
+
+"I think they might have some moments of happiness, but I think even that has been tainted." She pulses the muscles in her shattered arm.
+
+"Our people, our soldiers... they've become exactly what we made them to be. This cycle of predation and destruction is normal to them, now."
+
+You shudder at the thought, not that your experience has been far from the same. Then, Osmodai quickly shifts topics.
+
+"What about The Flowering, then? You were one of the deciding votes against it, after all." When you tense up, she adds on with a small smile, "I still agree with you. I'm just curious how you square that position with what's going on planetside."
+
+Your mind goes back to the summit. The factions there shifted and split more times than you could track. Even after a few under-the-table offers, you stayed insistently on the 'Against' side from beginning to end, attracting the ire of a few of your contemporaries in the process. The decision was far from easy, but there was one factor that weighed on your mind above all others.
+
+<span id = "councilvote">\
+<<link "\"We might have ''made'' the people of Lachrymis, but we don't ''own'' them. We have no right to treat them like cattle.\"">><<replace "#councilvote">>"We might have ''made'' the people of Lachrymis, but we don't ''own'' them. We have no right to treat them like cattle."<<ctpAdvance "core">><</replace>><</link>>
+<<link "The last time I trusted one of those backstabbers at their word, I lost an eye. I can't go through that again.">><<replace "#councilvote">>"The last time I trusted one of those backstabbers at their word, I lost an eye. I can't go through that again."<<ctpAdvance "core">><</replace>><</link>>
+<<link "\"I'm not confident it would work. Even after reading Nekheziel's notes, I think the Projected Reality Hypothesis is pseudoscientific fantasy.\"">><<replace "#councilvote">>"I'm not confident it would work. Even after reading Nekheziel's notes, I think the Projected Reality Hypothesis is pseudoscientific fantasy." She smirks.
+
+"Really? What do you think happens if someone enters The Unity, then?" And you bite back instantly.
+
+"You die. Painfully." Osmodai titters, then her expression softens towards you.
+
+"Perhaps... but my research has turned up something different. See..."<<ctpAdvance "core">><</replace>><</link>>
+<<link "\"Our kin are monsters. Even if we gave them a fresh start, they'd keep squabbling over this place until the end of time.\"">><<replace "#councilvote">>"Our kin are monsters. Even if we gave them a fresh start, they'd keep squabbling over this place until the end of time."<<ctpAdvance "core">><</replace>><</link>>
+<<link "To be honest... I knew you were against it, and I couldn't go forward with it if you didn't agree.">><<replace "#councilvote">>"To be honest... I knew you were against it, and I couldn't go forward with it if you didn't agree." Her eyes go wide for a moment... then she laughs.
+
+"Honestly... how naughty of you, Divine One..." She squeezes your hand. "You judged me right, at least."
+<<ctpAdvance "core">><</replace>><</link>>
+</span><<ctpNext>>
+
+"I could never accept the summit's version of The Flowering. The people down on Lachrymis are fighting and dying every day because they believe we're guiding them to something better." Osmodai leans against the window and grimaces... then turns to you with a determined look on her face. 
+
+"I won't allow anyone to betray that trust, even if it's founded on a lie."
+
+She locks her arm into yours.
+
+"Walk with me?" And you do, quietly rounding half the station before coming to a stop in front of an emergency bay. She rests against an escape pod frame and watches you.
+
+The orbital station lurches and chimes out. Morning is coming planetside, as is the end of the ceasefire. Even now, Osmodai doesn't seem bothered by it. Instead, she asks another question.
+
+"What if there was another way?" You scoff, but she continues. "What if didn't take everyone on the planet?"
+
+You wait for the reveal that she's teasing you... but it doesn't come.
+
+"Then... who?"
+
+Osmodai droops. You squeeze her hand, and she sighs.
+
+"Just two subjects..." Then, she meets your gaze with the beginnings of tears in her eyes.
+
+"Us."
+
+Your heart drops. You try to wrench your arm from hers, but she grips it with surprising strength and stammers towards you.
+
+"I-I've done the calculations! Our combined void potential is enough to create a weak but stable //one-way// gate into The Unity!" You finally pull free from her and rub at your arm. she topples over and breaks into a coughing fit.
+
+You turn away.
+
+"Go back to your realm. It's late."
+
+Then, when you start to walk away, something wraps around your ankle. You whirl around to look, and Osmodai has extended a long hand of realized void energy from her shattered arm, desperately grasping at you. Beads of starlight fall from your fingertips, shredding the hand, and you crouch down to level with her.
+
+"Let me make one thing clear: Whatever happens to me, I can take it, but I'll fight in a thousand Great Wars before I let you sacrifice yourself for those beasts' sake." She flounders trying to pull herself to her feet, and you offer an apologetic hand, which she takes. As Osmodai dusts herself off, you whisper to her.
+
+"We promised we'd find a way through this and build a world just for the two of us. Please... I just need more time..."
+
+She sighs... then shakes her head.
+
+"I'm sorry... That's the one thing I can't give you." Your eyes go wide, and Osmodai sheepishly pulls down the neckline on her robe.
+
+There, just above her sternum, sits a crack in her pristine flesh, snaking out and coiling across her breast. Sickly green light oozes from it, as well as the horrible stench of brimstone and the void. On instinct, you reach out to touch it, but she takes your hand in hers and whispers.
+
+"A foul piece of work from Gemyemos in the Fourth Conflict. It's sat dormant for a long time, but now..."
+
+She traces both of your fingers across it and trembles.
+
+"I'm rotting from the inside."
+<</ctp>>
+
+
+"They want new territory to conquer? They want land, gold, worshippers? Everything they want, we'll offer in abundance. We'll finally create a world all our own... a gilded cage for the gods of Lachrymis."
+
+
+#  a small Moraxite daemon manifests at her side. When it reads the names on the lock, it looks back to Osmodai with wide eyes. She leans down, kisses it, then nods. The creature gets to work, weaving Void fibers around the bolt as you watch.
+
+Then, it pulls the fibers taut, and the lock atrophies, clattering to the ground and screaming. Osmodai smiles, and the daemon turns back to her, charging up and hugging her. She squeezes it tight... then brushes its cheek, vanishing it back to her realm.
+
+:: 32Flowering [Unity]
+
+:: 32CW
+<h3 style="margin-bottom: -20px">CONTENT WARNINGS:</h3>
+* Suicide Depiction (Up to scholarly debate)

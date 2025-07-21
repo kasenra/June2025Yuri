@@ -896,6 +896,8 @@ For the first time, you feel... [[fulfilled.|30Days]] <<if ndef $v31_Submit>> <<
 * Self Harm (It's complicatead)
 * Vomiting
 * Cuckolding
+* Religious Trauma
+* Implied Child Abuse
 
 [[I consent.|31Start]]
 [[Take me back.|30Days]]
