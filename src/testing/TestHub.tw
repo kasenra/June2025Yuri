@@ -14,10 +14,10 @@
         <td>Saturday</td>
     </tr>-->
     <tr> <!-- Week of the 1st -->
-        <td>1: <<if $Finished_1>>✓<<set $checks += 1>><</if>>
-        [[Repairs|1CW]]</td>
-        <td>2: <<if $Finished_2>>✓<<set $checks += 1>><</if>>
+        <td>1: <<if $Finished_2>>✓<<set $checks += 1>><</if>>
         [[Feeding|2CW]]</td>
+        <td>2: <<if $Finished_1>>✓<<set $checks += 1>><</if>>
+        [[Repairs|1CW]]</td>
         <td>@@color:#ffbf75;3: <<if $Finished_3>>✓<<set $checks += 1>><</if>>@@
         [[Brutale|3CW]]</td>
         <td>4: <<if $Finished_4>>✓<<set $checks += 1>><</if>>
@@ -91,8 +91,12 @@
 @@color:#ffbf75;Graphic Violence@@
 @@color:#75ff7a;Both@@
 
+<<if $Finished_30>>[[Afterword|32ThanksForBeingBorn]]<</if>>
+
 <h3 style="margin-bottom: -20px">DEBUG: Super Secret Bonus Content (For Pack 2)</h3>
 [[Bonus 1: Explain Your Reasoning|B1Start]]
 [[Bonus 2: Cutting Room Floor|B2Start]]
 
 <h3 style="margin-bottom: -20px">DEBUG: Bonus Stories</h3>
+[[Bonus 1: Brave Disciple+|B1_1CW]]
+[[Bonus 2: Reflection+|B1_2CW]]

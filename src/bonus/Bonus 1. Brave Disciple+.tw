@@ -1,0 +1,55 @@
+:: B1_1Start [BloodlikeEarth]
+
+After a brief period of excitement, your life at the compound has mostly returned to normal. You wake up, eat, pray, work, and repeat as you always have... with one change. Everywhere you go on the compound, the ALLMOTHER follows along.
+
+When it started, watching her every day was pure bliss. She'd sit across from you and take small pecks at the food off your plate (not that she needs mortal food), and you'd delight in watching her reactions to different dishes. She rarely speaks to you when she's like this, only shrugging when you try to interrogate her motives.
+
+You can't help but be embarrassed, picking okra in a puddle of your own sweat while God herself smirks at you from the shade. Worst of all, the others have started taking notice. Most of them are simply envious, sighing and imagining themselves in your place, but the sisters who already disliked you have been emboldened even further. You can feel their scornful gazes everywhere you go.
+
+One time, the ALLMOTHER held your hand as the two of you walked down the main hall. When you didn't dare snub her, one girl tripped you, nearly taking out your goddess at the same time. You've had stones tossed your way, dead spiders slipped into your feijoada, and plenty of strange notes appearing at your bedside, sometimes multiple a night.
+
+"Stay away from her!" "However you've seduced ALLMOTHER, I will reveal it." "I'm her true favorite, you pig!" "You're a blasphemer." "I hope you DIE, sister!" "The ALLMOTHER should exile you for what you've done."
+
+Several times, you consider broaching the matter to the ALLMOTHER directly, but you can never string the words together when you're basking in her divine radiance. A sister pours a greywater bucket out on your head, you try to tell ALLMOTHER the truth, and, when you fail, she just smiles and towels you off. This cycle repeats, all until one day, when the ALLMOTHER is in seclusion, meditating on the name of the new year, and a trio of sisters approach you in the fields.
+
+"Wow. Look who's alone for once..." You slink backwards on instinct, only to run into one of the sisters, who pushes you back towards their leader. "I'm glad we got the chance to talk face to face, sister." You grit your teeth and stammer out.
+
+"Whatever you think I've done, I—" A sudden jab from the biggest of the girls spins you and knocks you flat on your ass. The circle around you pulls tighter and one, then all three of the sisters begin kicking at you. After a sharp blow to your stomach, you retch, which gets a laugh out of your attackers and the gathering bystanders.
+
+Once the tempo of their abuse dies down, the pack's leader lifts you up by your hair and snears at your battered face.
+
+"If you know what's good for you, we won't have to tell you again." She pulls out a folding knife and braces it against your cheek, where the slightest sliver of resistance keeps it from breaking your skin. Then, before she can push it any harder, there's an uproar across the field, and she drops you, clattering the knife to the floor at your side.
+
+The crowd parts... and the ALLMOTHER steps through to the center. Your sisters all bow their heads, including your assailants, and she... she stares straight at you. Then, your goddess bends down, takes you by the arm, and lifts you up, supporting you on her shoulder. There's a buzz around the crowd, but the ALLMOTHER silences them with a quick glare.
+
+"Can you walk, child?" You force a nod, but you cannot.
+
+Instead, she wraps an arm around your waist, guiding you back down into the compound while all your sisters watch. [[You limp along and try not to look.|B1_1Resting]]
+
+:: B1_1Resting [BloodlikeEarth]
+
+When you reach the ALLMOTHER's chambers, she lays you out on a cot, fetching a towel and some precious blocks of ice. She returns to your side and parts your robe, pushing past your pleas, and she lays the cool cloth over your most severe bruises. You whimper, and she pets your cheek. Her touch is gentle, sweet, and divine.
+
+Your goddess dilligently washes mud out of your braids, and even as you delight in her presence, it feels wrong. You can't help but whisper to her.
+
+"Why are you being so kind to me...?" She freezes, watches your movements... then shrugs. When she does, you add on. "It's making the other sisters resent me..."
+
+At that, she circles around, kneeling to level with you and taking your hand between hers. You're unprepared for such a bold gesture, and your face goes hot. The ALLMOTHER smirks.
+
+"Then... would you prefer I stop, my child?"
+
+You consider it, but just feeling her eyes watching you, watching the light dance off her skin, you already know your answer. You shake your head. She smiles, and, in the tiniest fraction of a second, you swear you see a shudder go up the ALLMOTHER's spine.
+
+"Good girl." She leans down and presses a kiss into your cheek, making you sigh. Then, she adds on. "But... perhaps you should spend the night in my room, just to be safe." She looks at you expectantly, [[but you already know what you'll say.|30Days]] <<set $Finished_B1_1 to true>>
+
+:: B1_1CW [OOC]
+<h3 style="margin-bottom: -20px">WARNING:</h3>
+* This passage relies on context from Passage 10: Brave Disciple. Be sure you've read that first.
+<h3 style="margin-bottom: -20px">CONTENT WARNINGS:</h3>
+* Graphic Violence
+* Domestic Abuse (It's complicated)
+* Bullying
+* Vomiting
+
+[[I consent.|B1_1Start]]
+[[Take me back.|30Days]]

@@ -174,7 +174,7 @@ Your pod floats closer and closer to that point, passing far beyond where Lachry
 
 With the ritual primed within your escape pod, there's only one step left. You pool all your psychic energy, condensing it down into a single point. She follows suit... and then the two of you relax. Your interwoven fingers keep the two of you together as you drift towards The Unity. The closer you get, the more distorted and noisy your vision gets, until you touch it...
 
-[[And 'Inistrae' is no more...|32ThanksForBeingBorn]]
+[[And 'Inistrae' is no more...|32ThanksForBeingBorn]] <<set $Finished_30 to true>>
 
 :: 32ThanksForBeingBorn
 
@@ -182,3 +182,10 @@ With the ritual primed within your escape pod, there's only one step left. You p
 :: 32CW
 <h3 style="margin-bottom: -20px">CONTENT WARNINGS:</h3>
 * Suicide Depiction (Up to scholarly debate)
+* Horrific Imagery of:
+    * Cults
+    * Suicide
+    * War
+    * Natural Disasters
+[[I consent.|32Start]]
+[[Take me back.|30Days]]
